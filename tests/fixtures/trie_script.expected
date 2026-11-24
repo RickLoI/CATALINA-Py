@@ -1,0 +1,400 @@
+PLAN t0 -> false
+PLAN t1 -> false
+PLAN t2 -> false
+PLAN t3 -> false
+PLAN t4 -> false
+PLAN t5 -> false
+GET -> [t3_a0]
+GET -> [t4_a0,t4_a1,t4_a2]
+PLAN t8 -> false
+GET -> []
+PLAN t10 -> false
+GET -> [t4_a0,t4_a1,t4_a2]
+PLAN t12 -> false
+GET -> []
+GET -> [t3_a0]
+GET -> []
+PLAN t16 -> false
+PLAN t17 -> false
+PLAN t18 -> false
+GET -> []
+PLAN t20 -> false
+PLAN t21 -> false
+GET -> []
+GET -> []
+GET -> [t4_a0,t4_a1,t4_a2]
+PLAN t25 -> false
+GET -> []
+PLAN t27 -> false
+PLAN t28 -> false
+GET -> []
+PLAN t30 -> false
+PLAN t31 -> false
+GET -> [t28_a0]
+PLAN t33 -> false
+PLAN t34 -> false
+PLAN t35 -> false
+PLAN t36 -> false
+PLAN t37 -> false
+PLAN t38 -> false
+GET -> []
+PLAN t40 -> false
+PLAN t41 -> false
+GET -> [t30_a0]
+PLAN -> EXC
+GET -> []
+PLAN t45 -> false
+GET -> [t27_a0,t27_a1,t27_a2]
+GET -> []
+PLAN t48 -> false
+GET -> [t20_a0]
+GET -> []
+GET -> [t41_a0,t41_a1,t41_a2]
+GET -> [t20_a0]
+PLAN t53 -> false
+PLAN t54 -> false
+PLAN t55 -> false
+GET -> [t17_a0,t17_a1,t17_a2]
+PLAN t57 -> false
+GET -> [t57_a0,t57_a1]
+PLAN -> EXC
+GET -> []
+PLAN t61 -> false
+PLAN t62 -> false
+GET -> []
+GET -> []
+PLAN t65 -> false
+GET -> []
+GET -> [t33_a0,t33_a1,t33_a2]
+GET -> EXC
+GET -> [t17_a0,t17_a1,t17_a2]
+PLAN t70 -> false
+PLAN t71 -> false
+PLAN t72 -> false
+PLAN t73 -> false
+GET -> [t61_a0,t61_a1,t61_a2]
+PLAN -> EXC
+PLAN -> EXC
+PLAN t77 -> false
+PLAN t78 -> false
+GET -> []
+PLAN t80 -> false
+GET -> []
+GET -> []
+GET -> [t20_a0]
+GET -> [t78_a0]
+GET -> [t12_a0]
+PLAN t86 -> false
+PLAN t87 -> false
+GET -> []
+GET -> [t40_a0]
+GET -> [t41_a0,t41_a1,t41_a2]
+PLAN t91 -> false
+PLAN t92 -> false
+PLAN -> EXC
+PLAN t94 -> false
+GET -> []
+PLAN t96 -> false
+PLAN -> EXC
+GET -> []
+PLAN t99 -> false
+PLAN t100 -> false
+PLAN t101 -> false
+GET -> [t57_a0,t57_a1]
+PLAN t103 -> false
+GET -> [t96_a0]
+PLAN t105 -> false
+PLAN t106 -> false
+GET -> [t31_a0]
+PLAN t108 -> false
+GET -> [t38_a0]
+GET -> []
+GET -> [t35_a0]
+PLAN t112 -> false
+PLAN t113 -> false
+GET -> []
+GET -> []
+GET -> []
+PLAN t117 -> false
+GET -> [t12_a0]
+GET -> []
+GET -> []
+GET -> [t72_a0,t72_a1]
+PLAN t122 -> false
+GET -> [t87_a0]
+PLAN t124 -> false
+PLAN t125 -> false
+GET -> []
+GET -> [t4_a0,t4_a1,t4_a2]
+GET -> []
+GET -> [t35_a0]
+GET -> [t108_a0,t108_a1,t108_a2]
+PLAN t131 -> false
+GET -> [t122_a0,t122_a1,t122_a2]
+GET -> [t31_a0]
+GET -> [t106_a0]
+GET -> []
+GET -> []
+PLAN -> EXC
+GET -> []
+GET -> []
+PLAN t140 -> false
+PLAN t141 -> false
+GET -> [t1_a0]
+PLAN t143 -> false
+GET -> [t87_a0]
+GET -> [t31_a0]
+GET -> []
+PLAN t147 -> false
+PLAN t148 -> false
+GET -> []
+GET -> [t87_a0]
+GET -> []
+GET -> []
+GET -> [t33_a0,t33_a1,t33_a2]
+PLAN t154 -> false
+PLAN t155 -> false
+PLAN t156 -> false
+PLAN t157 -> false
+GET -> []
+GET -> []
+PLAN t160 -> false
+GET -> []
+GET -> [t20_a0]
+PLAN t163 -> false
+PLAN t164 -> false
+GET -> [t65_a0]
+GET -> []
+PLAN -> EXC
+PLAN t168 -> false
+PLAN t169 -> false
+GET -> [t125_a0]
+PLAN -> EXC
+GET -> []
+PLAN t173 -> false
+PLAN t174 -> false
+PLAN t175 -> false
+GET -> []
+GET -> []
+PLAN t178 -> false
+GET -> []
+PLAN t180 -> false
+PLAN t181 -> false
+PLAN t182 -> false
+GET -> EXC
+GET -> []
+PLAN -> EXC
+GET -> [t112_a0]
+PLAN -> EXC
+GET -> []
+GET -> []
+GET -> []
+PLAN t191 -> false
+PLAN t192 -> false
+PLAN -> EXC
+PLAN t194 -> false
+PLAN t195 -> false
+GET -> [t100_a0]
+GET -> []
+GET -> []
+PLAN t199 -> false
+PLAN t200 -> false
+GET -> []
+GET -> []
+GET -> []
+GET -> []
+GET -> []
+GET -> []
+PLAN t207 -> false
+GET -> []
+PLAN t209 -> false
+PLAN t210 -> false
+GET -> [t124_a0]
+GET -> []
+GET -> []
+PLAN t214 -> false
+PLAN t215 -> false
+GET -> []
+PLAN t217 -> false
+PLAN t218 -> false
+PLAN t219 -> false
+PLAN t220 -> false
+PLAN -> EXC
+GET -> []
+GET -> EXC
+GET -> [t124_a0]
+GET -> []
+GET -> []
+PLAN -> EXC
+GET -> []
+GET -> []
+GET -> []
+GET -> [t61_a0,t61_a1,t61_a2]
+GET -> []
+PLAN t233 -> false
+GET -> []
+PLAN t235 -> false
+GET -> [t124_a0]
+GET -> []
+PLAN -> EXC
+PLAN t239 -> false
+GET -> []
+PLAN t241 -> false
+PLAN t242 -> false
+PLAN t243 -> false
+PLAN t244 -> false
+PLAN t245 -> false
+PLAN t246 -> false
+PLAN t247 -> false
+GET -> [t235_a0]
+PLAN t249 -> false
+GET -> []
+GET -> []
+GET -> []
+GET -> []
+PLAN t254 -> false
+GET -> []
+GET -> EXC
+PLAN t257 -> false
+GET -> []
+PLAN t259 -> false
+PLAN t260 -> false
+PLAN t261 -> false
+PLAN -> EXC
+PLAN t263 -> false
+PLAN t264 -> false
+PLAN t265 -> false
+PLAN t266 -> false
+PLAN -> EXC
+GET -> []
+GET -> []
+PLAN t270 -> false
+PLAN t271 -> false
+PLAN t272 -> false
+GET -> []
+PLAN t274 -> false
+PLAN -> EXC
+GET -> []
+GET -> []
+PLAN -> EXC
+PLAN -> EXC
+PLAN t280 -> false
+PLAN t281 -> false
+GET -> []
+PLAN t283 -> false
+PLAN -> EXC
+PLAN t285 -> false
+PLAN t286 -> false
+PLAN t287 -> false
+PLAN t288 -> false
+GET -> []
+GET -> []
+PLAN -> EXC
+GET -> []
+GET -> []
+PLAN t294 -> false
+GET -> []
+GET -> [t286_a0]
+GET -> [t147_a0,t147_a1]
+PLAN t298 -> false
+PLAN t299 -> false
+GET -> []
+PLAN t301 -> false
+PLAN t302 -> false
+GET -> [t92_a0]
+GET -> []
+GET -> []
+GET -> [t35_a0]
+PLAN t307 -> false
+GET -> [t247_a0]
+PLAN t309 -> false
+PLAN t310 -> false
+PLAN -> EXC
+GET -> []
+GET -> []
+GET -> []
+PLAN -> EXC
+PLAN t316 -> false
+GET -> []
+GET -> []
+PLAN t319 -> false
+PLAN -> EXC
+PLAN t321 -> false
+GET -> []
+PLAN t323 -> false
+GET -> [t242_a0,t242_a1]
+PLAN t325 -> false
+PLAN -> EXC
+PLAN t327 -> false
+GET -> []
+GET -> []
+GET -> EXC
+GET -> [t1_a0]
+GET -> [t61_a0,t61_a1,t61_a2]
+PLAN t333 -> false
+PLAN -> EXC
+GET -> []
+PLAN t336 -> false
+GET -> []
+PLAN t338 -> false
+PLAN t339 -> false
+GET -> []
+PLAN t341 -> false
+GET -> []
+PLAN t343 -> false
+GET -> []
+PLAN t345 -> false
+GET -> []
+PLAN t347 -> false
+PLAN -> EXC
+PLAN t349 -> false
+GET -> []
+GET -> []
+PLAN -> EXC
+GET -> []
+PLAN t354 -> false
+PLAN t355 -> false
+PLAN t356 -> false
+GET -> []
+PLAN -> EXC
+GET -> []
+GET -> []
+PLAN t361 -> false
+GET -> [t148_a0,t148_a1,t148_a2]
+GET -> [t175_a0,t175_a1,t175_a2]
+GET -> [t257_a0]
+PLAN t365 -> false
+GET -> []
+GET -> [t148_a0,t148_a1,t148_a2]
+GET -> []
+GET -> []
+PLAN t370 -> false
+GET -> []
+GET -> []
+GET -> []
+PLAN t374 -> false
+GET -> []
+PLAN t376 -> false
+GET -> [t38_a0]
+GET -> [t38_a0]
+GET -> []
+GET -> []
+PLAN t381 -> false
+GET -> [t175_a0,t175_a1,t175_a2]
+PLAN -> EXC
+PLAN t384 -> false
+GET -> []
+PLAN t386 -> false
+GET -> EXC
+PLAN t388 -> false
+PLAN t389 -> false
+PLAN -> EXC
+GET -> [t333_a0]
+GET -> []
+PLAN -> EXC
+PLAN t394 -> false
+PLAN t395 -> false
+GET -> [t92_a0]
+GET -> []
+GET -> []
+PLAN t399 -> false

@@ -1,0 +1,6070 @@
+B||0
+S||0
+B||0
+S||1|
+B||0
+S|+|1|+
+B||0
+S|++|1|++
+B|A|1|A
+S|A+|1|A+
+B| + A|2||A
+S|+A|1|+A
+B|A|1|A
+S|A|1|A
+B|A & B|1|A & B
+S|A & B|1|A & B
+B|A & B|1|A & B
+S|A & B|1|A & B
+B|!(A & B) + C|2|!(A & B)|C
+S|!(A & B)+C|1|!(A & B)+C
+B|!(A & C) + D|2|!(A & C)|D
+S|!(C & A) + D|1|!(C & A) + D
+B|!A & A|1|!A & A
+S|A & !A|1|A & !A
+B|!A & A|1|!A & A
+S|A & !A|1|A & !A
+B|(A)\p(B)|1|(A)\p(B)
+S|A \p B|2|A|B
+B|((A))|1|((A))
+S|(A)|1|(A)
+B|(|1|(
+S||1|
+B|)|1|)
+S||1|
+B|()|1|()
+S||1|
+B|!()|1|!()
+S|!(|1|!(
+B|!(|1|!(
+S|!(|1|!(
+B|A \p B & C|1|A \p B & C
+S|A \p B & C|2|A|B & C
+B|!Alfa \p Beta & Delta & Gamma \p !Alfa & Zebra|1|!Alfa \p Beta & Delta & Gamma \p !Alfa & Zebra
+S|!Alfa & Delta \p !Alfa & Zebra \p Beta & Gamma|3|!Alfa & Delta|!Alfa & Zebra|Beta & Gamma
+B|!A & B & C + !(A & B & D) + A & !C + X & Z|4|!A & B & C|!(A & B & D)|A & !C|X & Z
+S|!A & A)+Z & B & B+!(D & C & !C & X+A|1|!A & A)+Z & B & B+!(D & C & !C & X+A
+B|A + a|2|A|a
+S|a+A|1|a+A
+B|A + a|2|A|a
+S|A+a|1|A+a
+B|B + B1|2|B|B1
+S|B1+B|1|B1+B
+B|B + b|2|B|b
+S|b + B|1|b + B
+B|X_1 & x_1|1|X_1 & x_1
+S|X_1 & x_1|1|X_1 & x_1
+B|!!A|1|!!A
+S|!!A|1|!!A
+B| & A & B|1| & A & B
+S| & A & B|1| & A & B
+B|A\p\pB|1|A\p\pB
+S| \p A \p B|3||A|B
+B|A + B|2|A|B
+S|A\t+\tB|1|A\t+\tB
+B|A + A|2|A|A
+S|A+A|1|A+A
+B|A\pA|1|A\pA
+S|A|1|A
+B|!(a & b) + c|2|!(a & b)|c
+S|!(  b & a )  +  c|1|!(  b & a )  +  c
+B|Zed|1|Zed
+S|Zed|1|Zed
+B|B|1|B
+S|B|1|B
+B|A \p c_d|1|A \p c_d
+S|A \p c_d|2|A|c_d
+B| & Zedax1|1| & Zedax1
+S| & Zedax1|1| & Zedax1
+B|(!(A!|1|(!(A!
+S|!(A!|1|!(A!
+B|Zed BL_Position   Zed|1|Zed BL_Position   Zed
+S|Zed BL_Position   Zed|1|Zed BL_Position   Zed
+B|a b x1 )|1|a b x1 )
+S|a b x1|1|a b x1
+B| & !( !(|1| & !( !(
+S| & !( !(|1| & !( !(
+B|A|1|A
+S|A|1|A
+B||0
+S||1|
+B|B   C c_d !( & x1 A|1|B   C c_d !( & x1 A
+S|B   C c_d !( & x1 A|1|B   C c_d !( & x1 A
+B|) + c_d + ) Q1|3|)|c_d|) Q1
+S|) + ) Q1 + c_d|1|) + ) Q1 + c_d
+B|Zed)AQ1|1|Zed)AQ1
+S|Zed)AQ1|1|Zed)AQ1
+B|!(BL_PositionBL_PositionBL_PositionQ1c_dx1x1|1|!(BL_PositionBL_PositionBL_PositionQ1c_dx1x1
+S|!(BL_PositionBL_PositionBL_PositionQ1c_dx1x1|1|!(BL_PositionBL_PositionBL_PositionQ1c_dx1x1
+B| +  & Zed|2|| & Zed
+S|+ & Zed|1|+ & Zed
+B|ba|1|ba
+S|ba\t+|1|ba\t+
+B|ax1A( x1x1|1|ax1A( x1x1
+S|ax1A( x1x1|1|ax1A( x1x1
+B|a))|1|a))
+S|a)|1|a)
+B|b\t ( + c_dc_d|2|b\t (|c_dc_d
+S|c_dc_d+b\t (|1|c_dc_d+b\t (
+B|!( & BL_Position|1|!( & BL_Position
+S|!( & BL_Position|1|!( & BL_Position
+B|!( \t Zed a|1|!( \t Zed a
+S|!( \t Zed a|1|!( \t Zed a
+B||0
+S||1|
+B|(|1|(
+S||1|
+B|!( a ( A A|1|!( a ( A A
+S|!( a ( A A|1|!( a ( A A
+B|c_d B c_d c_d|1|c_d B c_d c_d
+S|c_d B c_d c_d|1|c_d B c_d c_d
+B|!|1|!
+S|!|1|!
+B|( + )|2|(|)
+S|) + (|1|) + (
+B|Zed A ) Zed Zed BL_Position ( b ) Q1|1|Zed A ) Zed Zed BL_Position ( b ) Q1
+S|Zed A ) Zed Zed BL_Position ( b ) Q1|1|Zed A ) Zed Zed BL_Position ( b ) Q1
+B|Zed b Zed|1|Zed b Zed
+S|Zed b Zed|1|Zed b Zed
+B|C\t\pB\tc_dB|1|C\t\pB\tc_dB
+S|B\tc_dB \p C|2|B\tc_dB|C
+B|!()ZedAx1b|1|!()ZedAx1b
+S|!()ZedAx1b|1|!()ZedAx1b
+B|Q1    \p BL_Position Zed|1|Q1    \p BL_Position Zed
+S|BL_Position Zed \p Q1|2|BL_Position Zed|Q1
+B|Q1 \t  C BL_Position \p C BL_Position Q1|1|Q1 \t  C BL_Position \p C BL_Position Q1
+S|C BL_Position Q1 \p Q1 \t  C BL_Position|2|C BL_Position Q1|Q1 \t  C BL_Position
+B|a ! x1   ) \p B|1|a ! x1   ) \p B
+S|B \p a ! x1|2|B|a ! x1
+B|C & C A !   Zed BL_Position b|1|C & C A !   Zed BL_Position b
+S|C & C A !   Zed BL_Position b|1|C & C A !   Zed BL_Position b
+B|Zedb|1|Zedb
+S|Zedb|1|Zedb
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B| & ax1Zed\p|1| & ax1Zed\p
+S| & ax1Zed \p +|2| & ax1Zed|+
+B|\p|1|\p
+S||1|
+B|c_dc_d x1\t)ZedZed|1|c_dc_d x1\t)ZedZed
+S|c_dc_d x1\t)ZedZed|1|c_dc_d x1\t)ZedZed
+B|x1|1|x1
+S|x1|1|x1
+B|BL_Position ( + Q1 ) BL_Position|2|BL_Position (|Q1 ) BL_Position
+S|Q1 ) BL_Position + BL_Position (|1|Q1 ) BL_Position + BL_Position (
+B|a Q1 C   Q1|1|a Q1 C   Q1
+S|a Q1 C   Q1|1|a Q1 C   Q1
+B|b & BL_Position & Zed c_d|1|b & BL_Position & Zed c_d
+S|BL_Position & Zed c_d & b|1|BL_Position & Zed c_d & b
+B|Q1 a & \p x1  b|1|Q1 a & \p x1  b
+S| \p Q1 a & x1  b|2||Q1 a & x1  b
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|A(AQ1b|1|A(AQ1b
+S|A(AQ1b|1|A(AQ1b
+B|(!() +  & Cbx1|2|(!()| & Cbx1
+S| & Cbx1+(!(|1| & Cbx1+(!(
+B| + Q1AC|2||Q1AC
+S|+Q1AC|1|+Q1AC
+B|Q1bBL_Position!((BAA|1|Q1bBL_Position!((BAA
+S|Q1bBL_Position!((BAA|1|Q1bBL_Position!((BAA
+B|a!b(BL_Position|1|a!b(BL_Position
+S|a!b(BL_Position|1|a!b(BL_Position
+B|a + x1 !( b|2|a|x1 !( b
+S|+ x1 !( b & a|1|+ x1 !( b & a
+B|( + ) ! b|2|(|) ! b
+S|+  ) ! b|1|+  ) ! b
+B|A ( A  \t Zed|1|A ( A  \t Zed
+S|A ( A  \t Zed|1|A ( A  \t Zed
+B|\pAB(Q1c_d!(|1|\pAB(Q1c_d!(
+S| \p AB(Q1c_d!(|2||AB(Q1c_d!(
+B|a x1|1|a x1
+S|a x1|1|a x1
+B|b|1|b
+S|b|1|b
+B|!|1|!
+S|!|1|!
+B|BL_Position \p ! \t ( \p|1|BL_Position \p ! \t ( \p
+S|! \t ( \p BL_Position|2|! \t (|BL_Position
+B|!(!(c_dA!(bbB!|1|!(!(c_dA!(bbB!
+S|!(!(c_dA!(bbB!|1|!(!(c_dA!(bbB!
+B|) x1 b C|1|) x1 b C
+S|) x1 b C|1|) x1 b C
+B|ac_d|1|ac_d
+S|ac_d|1|ac_d
+B|!C)x1c_d|1|!C)x1c_d
+S|!C)x1c_d|1|!C)x1c_d
+B|b\tb|1|b\tb
+S|b\tb|1|b\tb
+B|B Q1AA|1|B Q1AA
+S|B Q1AA|1|B Q1AA
+B|( + x1(|2|(|x1(
+S|x1(+(|1|x1(+(
+B|b  C \t \p  c_d BL_Position|1|b  C \t \p  c_d BL_Position
+S|b  C \p c_d BL_Position|2|b  C|c_d BL_Position
+B|B ! + Q1 !|2|B !|Q1 !
+S|Q1 ! + B !|1|Q1 ! + B !
+B|(!(! + a!Q1|2|(!(!|a!Q1
+S|a!Q1+(!(!|1|a!Q1+(!(!
+B|Cc_daZed|1|Cc_daZed
+S|Cc_daZed|1|Cc_daZed
+B|c_d C|1|c_d C
+S|c_d C|1|c_d C
+B|bbABL_Position + Q1(Q1\pBL_Position|2|bbABL_Position|Q1(Q1\pBL_Position
+S|BL_Position \p bbABL_Position+Q1(Q1|2|BL_Position|bbABL_Position+Q1(Q1
+B|BL_Position + B\pZed|2|BL_Position|B\pZed
+S|BL_Position+B \p Zed|2|BL_Position+B|Zed
+B|A!(BL_Positionc_dc_d|1|A!(BL_Positionc_dc_d
+S|A!(BL_Positionc_dc_d+|1|A!(BL_Positionc_dc_d+
+B|\p !( Q1 \t Q1 A BL_Position|1|\p !( Q1 \t Q1 A BL_Position
+S| \p !( Q1 \t Q1 A BL_Position|2||!( Q1 \t Q1 A BL_Position
+B| + ( b + Q1|3||( b|Q1
+S|+ ( b + Q1|1|+ ( b + Q1
+B|A(Cx1AA\tc_d(|1|A(Cx1AA\tc_d(
+S|A(Cx1AA\tc_d(|1|A(Cx1AA\tc_d(
+B|Q1 BL_Position Zed|1|Q1 BL_Position Zed
+S|Q1 BL_Position Zed|1|Q1 BL_Position Zed
+B|b A + x1 )  x1 a|2|b A|x1 )  x1 a
+S|x1 )  x1 a + b A|1|x1 )  x1 a + b A
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|a + a A ) & b|2|a|a A ) & b
+S|a A ) + a + & b|1|a A ) + a + & b
+B| + AA\pCc_dZedZed|2||AA\pCc_dZedZed
+S|+AA \p Cc_dZedZed|2|+AA|Cc_dZedZed
+B|Q1)b + !(Q1Zed|2|Q1)b|!(Q1Zed
+S|!(Q1Zed+Q1)b|1|!(Q1Zed+Q1)b
+B|A|1|A
+S|A|1|A
+B|(\t(x1BL_Position|1|(\t(x1BL_Position
+S|(x1BL_Position|1|(x1BL_Position
+B|c_dC|1|c_dC
+S|c_dC|1|c_dC
+B|c_d  x1 A|1|c_d  x1 A
+S|c_d  x1 A|1|c_d  x1 A
+B|A \t a \p A Q1 C C|1|A \t a \p A Q1 C C
+S|A \t a \p A Q1 C C|2|A \t a|A Q1 C C
+B|C Zed C ! + x1|2|C Zed C !|x1
+S|C Zed C ! + x1 +|1|C Zed C ! + x1 +
+B|BL_Position Zed !( a x1 + C Q1 \t (|2|BL_Position Zed !( a x1|C Q1 \t (
+S|C Q1 \t ( + BL_Position Zed !( a x1|1|C Q1 \t ( + BL_Position Zed !( a x1
+B|\pc_dZedBL_PositionCx1|1|\pc_dZedBL_PositionCx1
+S| \p c_dZedBL_PositionCx1|2||c_dZedBL_PositionCx1
+B| & \p B ) ( \t \p BL_Position ! B|1| & \p B ) ( \t \p BL_Position ! B
+S| \p B ) ( \p BL_Position ! B|3||B ) (|BL_Position ! B
+B|CCZed|1|CCZed
+S|CCZed|1|CCZed
+B| +  +  & !( & ) ( )|3||| & !( & ) ( )
+S| & !( & + + ) ( )|1| & !( & + + ) ( )
+B|BL_Position!|1|BL_Position!
+S|BL_Position!|1|BL_Position!
+B|A A ! c_d & B ! C|1|A A ! c_d & B ! C
+S|A A ! c_d & B ! C|1|A A ! c_d & B ! C
+B|a\pBBL_Positionx1a|1|a\pBBL_Positionx1a
+S|BBL_Positionx1a \p a|2|BBL_Positionx1a|a
+B|Q1 Zed ( A|1|Q1 Zed ( A
+S|Q1 Zed ( A|1|Q1 Zed ( A
+B|Zed b x1 BL_Position|1|Zed b x1 BL_Position
+S|Zed b x1 BL_Position|1|Zed b x1 BL_Position
+B|Q1 & Zed Zed c_d  ( a|1|Q1 & Zed Zed c_d  ( a
+S|Q1 & Zed Zed c_d  ( a|1|Q1 & Zed Zed c_d  ( a
+B|\p b BL_Position x1 + ! Q1|2|\p b BL_Position x1|! Q1
+S|! Q1 + \p b BL_Position x1|2|! Q1 +|b BL_Position x1
+B|c_d x1 \t ( & Q1|1|c_d x1 \t ( & Q1
+S|Q1 & c_d x1 \t (|1|Q1 & c_d x1 \t (
+B|BL_Positionx1|1|BL_Positionx1
+S|BL_Positionx1|1|BL_Positionx1
+B|Zed ( ) BL_Position|1|Zed ( ) BL_Position
+S|Zed ( ) BL_Position|1|Zed ( ) BL_Position
+B| + \p + ZedbAc_db|3||\p|ZedbAc_db
+S|ZedbAc_db++|1|ZedbAc_db++
+B|AbbAQ1B|1|AbbAQ1B
+S|AbbAQ1B|1|AbbAQ1B
+B|!!c_dc_db!c_dbc_dBL_Position|1|!!c_dc_db!c_dbc_dBL_Position
+S|!!c_dc_db!c_dbc_dBL_Position|1|!!c_dc_db!c_dbc_dBL_Position
+B|) a !( + b|2|) a !(|b
+S|b + ) a !(|1|b + ) a !(
+B| + BL_PositionQ1\pc_d)Cb|2||BL_PositionQ1\pc_d)Cb
+S|+BL_PositionQ1 \p c_d)Cb|2|+BL_PositionQ1|c_d)Cb
+B|b \pZed\tAb|1|b \pZed\tAb
+S|Zed\tAb \p b|2|Zed\tAb|b
+B|B)Zed!(\t (CA|1|B)Zed!(\t (CA
+S|B)Zed!(\t (CA|1|B)Zed!(\t (CA
+B|x1\pC)|1|x1\pC)
+S|C) \p x1|2|C)|x1
+B|a\px1|1|a\px1
+S|a \p x1|2|a|x1
+B|!()(! !(! & B\p|1|!()(! !(! & B\p
+S|!()(! !(! & B|1|!()(! !(! & B
+B|a!(! & Q1B\paZed|1|a!(! & Q1B\paZed
+S|Q1B & a!(! \p aZed|2|Q1B & a!(!|aZed
+B|x1|1|x1
+S|x1|1|x1
+B|! + ! ) \t Q1 A c_d c_d|2|!|! ) \t Q1 A c_d c_d
+S|! + ! ) \t Q1 A c_d c_d|1|! + ! ) \t Q1 A c_d c_d
+B|!!( + C|2|!!(|C
+S|C+!!(|1|C+!!(
+B|!( ( Q1 B x1 \p|1|!( ( Q1 B x1 \p
+S|!( ( Q1 B x1|1|!( ( Q1 B x1
+B|B   B  c_d BL_Position c_d   \p|1|B   B  c_d BL_Position c_d   \p
+S|+ \p B   B  c_d BL_Position c_d|2|+|B   B  c_d BL_Position c_d
+B|C ! A|1|C ! A
+S|C ! A|1|C ! A
+B|CQ1(!(|1|CQ1(!(
+S|CQ1(!(|1|CQ1(!(
+B|x1|1|x1
+S|x1|1|x1
+B|B c_d \p !|1|B c_d \p !
+S|! \p B c_d|2|!|B c_d
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|B x1     Zed a|1|B x1     Zed a
+S|B x1     Zed a|1|B x1     Zed a
+B||1|
+S||1|
+B|B \p B & c_d \p + c_d Q1|2|B \p B & c_d \p|c_d Q1
+S| & B \p B + c_d Q1 \p c_d|3| & B|B + c_d Q1|c_d
+B|x1Q1bc_dc_d|1|x1Q1bc_dc_d
+S|x1Q1bc_dc_d|1|x1Q1bc_dc_d
+B|(\tBL_Positionc_dBL_Position\t\tA(|1|(\tBL_Positionc_dBL_Position\t\tA(
+S|BL_Positionc_dBL_Position\t\tA(|1|BL_Positionc_dBL_Position\t\tA(
+B|C x1  x1 c_d ( Zed b b|1|C x1  x1 c_d ( Zed b b
+S|C x1  x1 c_d ( Zed b b|1|C x1  x1 c_d ( Zed b b
+B|c_d!(\p!c_d|1|c_d!(\p!c_d
+S|!c_d \p c_d!(|2|!c_d|c_d!(
+B|b + bBL_Position)CBQ1|2|b|bBL_Position)CBQ1
+S|bBL_Position)CBQ1+b|1|bBL_Position)CBQ1+b
+B|!(Ax1 + x1|2|!(Ax1|x1
+S|x1+!(Ax1|1|x1+!(Ax1
+B|A|1|A
+S|A|1|A
+B| & ( BL_Position x1 \p BL_Position|1| & ( BL_Position x1 \p BL_Position
+S| & ( BL_Position x1 \p BL_Position|2| & ( BL_Position x1|BL_Position
+B|b\p|1|b\p
+S|b|1|b
+B|x1Cx1|1|x1Cx1
+S|x1Cx1|1|x1Cx1
+B|B BL_Position !( Zed BL_Position x1 ) x1 x1|1|B BL_Position !( Zed BL_Position x1 ) x1 x1
+S|B BL_Position !( Zed BL_Position x1 ) x1 x1|1|B BL_Position !( Zed BL_Position x1 ) x1 x1
+B|b + !(BL_Position\p!( & C\p|2|b|!(BL_Position\p!( & C\p
+S| & !(BL_Position \p !( \p b+C|3| & !(BL_Position|!(|b+C
+B|b) B!|1|b) B!
+S|b) B!|1|b) B!
+B|\p Zed a BL_Position B !( Zed B|1|\p Zed a BL_Position B !( Zed B
+S| \p Zed a BL_Position B !( Zed B|2||Zed a BL_Position B !( Zed B
+B|A!(a!(|1|A!(a!(
+S|A!(a!(|1|A!(a!(
+B|!( x1  ( B Zed c_d|1|!( x1  ( B Zed c_d
+S|!( x1  ( B Zed c_d|1|!( x1  ( B Zed c_d
+B|Q1A!|1|Q1A!
+S|Q1A!|1|Q1A!
+B|!(x1 & Zedx1!(|1|!(x1 & Zedx1!(
+S|!(x1 & Zedx1!(|1|!(x1 & Zedx1!(
+B|b !( & Q1 Q1 ) x1 c_d + c_d|2|b !( & Q1 Q1 ) x1 c_d|c_d
+S|Q1 Q1 ) x1 c_d & b !( + c_d|1|Q1 Q1 ) x1 c_d & b !( + c_d
+B|Q1 a Q1 !|1|Q1 a Q1 !
+S|Q1 a Q1 !|1|Q1 a Q1 !
+B|A|1|A
+S|A|1|A
+B|ac_d!(B & B|1|ac_d!(B & B
+S|B & ac_d!(B|1|B & ac_d!(B
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|Q1 C|1|Q1 C
+S|Q1 C|1|Q1 C
+B|) B !( BL_Position   !(|1|) B !( BL_Position   !(
+S|) B !( BL_Position   !(|1|) B !( BL_Position   !(
+B|Q1 B b B )   C|1|Q1 B b B )   C
+S|Q1 B b B )   C|1|Q1 B b B )   C
+B|x1 x1 !( \t Q1 \p !( a x1|1|x1 x1 !( \t Q1 \p !( a x1
+S|!( a x1 \p x1 x1 !( \t Q1|2|!( a x1|x1 x1 !( \t Q1
+B|aZedB|1|aZedB
+S|aZedB|1|aZedB
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|c_db!|1|c_db!
+S|c_db!|1|c_db!
+B|b BL_Position )|1|b BL_Position )
+S|b BL_Position|1|b BL_Position
+B|ZedaBL_PositionB Zed|1|ZedaBL_PositionB Zed
+S|ZedaBL_PositionB Zed|1|ZedaBL_PositionB Zed
+B|Zedx1)x1x1|1|Zedx1)x1x1
+S|Zedx1)x1x1|1|Zedx1)x1x1
+B|a (|1|a (
+S|a (|1|a (
+B|!(Zed\tQ1\pBAc_dQ1|1|!(Zed\tQ1\pBAc_dQ1
+S|!(Zed\tQ1 \p BAc_dQ1|2|!(Zed\tQ1|BAc_dQ1
+B|\p b|1|\p b
+S| \p b|2||b
+B|BL_PositionbQ1Cb!(|1|BL_PositionbQ1Cb!(
+S|BL_PositionbQ1Cb!(|1|BL_PositionbQ1Cb!(
+B|c_d C   Q1 Zed B b \p ! Q1|1|c_d C   Q1 Zed B b \p ! Q1
+S|! Q1 \p c_d C   Q1 Zed B b|2|! Q1|c_d C   Q1 Zed B b
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|!A!(B + c_d|2|!A!(B|c_d
+S|!A!(B+c_d|1|!A!(B+c_d
+B|!(  c_d C \t b BL_Position|1|!(  c_d C \t b BL_Position
+S|!(  c_d C \t b BL_Position|1|!(  c_d C \t b BL_Position
+B| + ( & B B|2||( & B B
+S|+ ( & B B|1|+ ( & B B
+B|A + x1Ax1c_d(B|2|A|x1Ax1c_d(B
+S|A+x1Ax1c_d(B|1|A+x1Ax1c_d(B
+B|\p!Zed|1|\p!Zed
+S| \p !Zed|2||!Zed
+B|\p ) B ( ) b A B \p|1|\p ) B ( ) b A B \p
+S| \p ) B ( ) b A B|2||) B ( ) b A B
+B|Q1 Zed B b a|1|Q1 Zed B b a
+S|Q1 Zed B b a|1|Q1 Zed B b a
+B|(|1|(
+S||1|
+B| & !|1| & !
+S| & !|1| & !
+B|)ZedA()Q1|1|)ZedA()Q1
+S|)ZedA()Q1|1|)ZedA()Q1
+B|c_da!(ZedZeda|1|c_da!(ZedZeda
+S|c_da!(ZedZeda|1|c_da!(ZedZeda
+B||0
+S|+|1|+
+B|( & B ) ( B A|1|( & B ) ( B A
+S|( & B ) ( B A|1|( & B ) ( B A
+B| + aBL_PositionC|2||aBL_PositionC
+S|+aBL_PositionC|1|+aBL_PositionC
+B|B|1|B
+S|B|1|B
+B|( \t x1 c_d ) c_d b ) !(|1|( \t x1 c_d ) c_d b ) !(
+S|x1 c_d ) c_d b ) !(|1|x1 c_d ) c_d b ) !(
+B| + b|2||b
+S|+ b|1|+ b
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|b \p a   C|1|b \p a   C
+S|a   C \p b|2|a   C|b
+B|Zed(x1BL_Position)|1|Zed(x1BL_Position)
+S|Zed(x1BL_Position|1|Zed(x1BL_Position
+B|x1Zed\tZed|1|x1Zed\tZed
+S|x1Zed\tZed|1|x1Zed\tZed
+B|x1Zed!ax1|1|x1Zed!ax1
+S|x1Zed!ax1|1|x1Zed!ax1
+B|Q1|1|Q1
+S|Q1|1|Q1
+B| + \p|2||\p
+S|+|1|+
+B|Q1\tx1BL_Positionx1c_dCZed)a|1|Q1\tx1BL_Positionx1c_dCZed)a
+S|Q1\tx1BL_Positionx1c_dCZed)a|1|Q1\tx1BL_Positionx1c_dCZed)a
+B|! BL_Position )|1|! BL_Position )
+S|! BL_Position|1|! BL_Position
+B| &  & (Q1!Zed|1| &  & (Q1!Zed
+S| &  & (Q1!Zed|1| &  & (Q1!Zed
+B|!(x1|1|!(x1
+S|!(x1|1|!(x1
+B|( + BL_Position   !|2|(|BL_Position   !
+S|+ BL_Position   !|1|+ BL_Position   !
+B|A  )   !|1|A  )   !
+S|A  )   !|1|A  )   !
+B|Zed )BaCBA|1|Zed )BaCBA
+S|Zed )BaCBA|1|Zed )BaCBA
+B|c_d \p|1|c_d \p
+S|c_d|1|c_d
+B|!c_d)|1|!c_d)
+S|!c_d|1|!c_d
+B|! & a|1|! & a
+S|! & a|1|! & a
+B|B\ta + )b(b|2|B\ta|)b(b
+S|B\ta+)b(b|1|B\ta+)b(b
+B|Q1 \p Q1    C a BL_Position b|1|Q1 \p Q1    C a BL_Position b
+S|Q1 \p Q1    C a BL_Position b|2|Q1|Q1    C a BL_Position b
+B|a|1|a
+S|a|1|a
+B|!(C\p!ba & ZedB(|1|!(C\p!ba & ZedB(
+S|!(C \p ZedB( & !ba|2|!(C|ZedB( & !ba
+B| & bx1|1| & bx1
+S| & bx1|1| & bx1
+B|!(Zed))|1|!(Zed))
+S|!( Zed)|1|!( Zed)
+B|B + BAbQ1 & C|2|B|BAbQ1 & C
+S|+C & B & BAbQ1|1|+C & B & BAbQ1
+B|A + Q1)A\pZeda|2|A|Q1)A\pZeda
+S|A+Q1)A \p Zeda|2|A+Q1)A|Zeda
+B|Zed|1|Zed
+S|Zed|1|Zed
+B|) x1 x1|1|) x1 x1
+S|) x1 x1|1|) x1 x1
+B|(|1|(
+S||1|
+B|BL_Position x1 B ( c_d|1|BL_Position x1 B ( c_d
+S|BL_Position x1 B ( c_d|1|BL_Position x1 B ( c_d
+B|\p b a b ( Q1 (|1|\p b a b ( Q1 (
+S| \p b a b ( Q1 (|2||b a b ( Q1 (
+B|a C \p|1|a C \p
+S| \p a C|2||a C
+B|Q1BL_Position(\t)|1|Q1BL_Position(\t)
+S|Q1BL_Position(|1|Q1BL_Position(
+B|x1A\pBL_Positionx1a|1|x1A\pBL_Positionx1a
+S|BL_Positionx1a \p x1A|2|BL_Positionx1a|x1A
+B|C!(!|1|C!(!
+S|C!(!|1|C!(!
+B|a +  & BL_Position B Zed B Zed c_d|2|a| & BL_Position B Zed B Zed c_d
+S| & BL_Position B Zed B Zed c_d  + a|1| & BL_Position B Zed B Zed c_d  + a
+B| + |2||
+S|+|1|+
+B|BL_Position A A|1|BL_Position A A
+S|BL_Position A A|1|BL_Position A A
+B|! + )|2|!|)
+S|!+|1|!+
+B|Zed !( Q1 BL_Position|1|Zed !( Q1 BL_Position
+S|Zed !( Q1 BL_Position|1|Zed !( Q1 BL_Position
+B|)bCx1|1|)bCx1
+S|)bCx1|1|)bCx1
+B|( & aBL_Positiona\p|1|( & aBL_Positiona\p
+S| \p  & aBL_Positiona|2|| & aBL_Positiona
+B|) +  & b ! Zed|2|)| & b ! Zed
+S| & b ! Zed +|1| & b ! Zed +
+B|) \t c_d \p !(|1|) \t c_d \p !(
+S|!( \p ) \t c_d|2|!(|) \t c_d
+B|c_d C ) \t b ) a|1|c_d C ) \t b ) a
+S|c_d C ) \t b ) a|1|c_d C ) \t b ) a
+B|Q1 C Q1 C !( B   b BL_Position|1|Q1 C Q1 C !( B   b BL_Position
+S|Q1 C Q1 C !( B   b BL_Position|1|Q1 C Q1 C !( B   b BL_Position
+B|B & x1A|1|B & x1A
+S|B & x1A|1|B & x1A
+B|B B C A   A|1|B B C A   A
+S|B B C A   A|1|B B C A   A
+B|(\p\tx1Zed!)|1|(\p\tx1Zed!)
+S| \p x1Zed!|2||x1Zed!
+B| & )|1| & )
+S| & |1| & 
+B||0
+S|+|1|+
+B|) C x1 c_d Q1|1|) C x1 c_d Q1
+S|) C x1 c_d Q1|1|) C x1 c_d Q1
+B||0
+S||1|
+B|) Zed Q1   !|1|) Zed Q1   !
+S|) Zed Q1   !|1|) Zed Q1   !
+B|\p|1|\p
+S||0
+B|Q1A!(!Ax1Q1aC!(|1|Q1A!(!Ax1Q1aC!(
+S|Q1A!(!Ax1Q1aC!(|1|Q1A!(!Ax1Q1aC!(
+B|bA ABL_Position!a!|1|bA ABL_Position!a!
+S|bA ABL_Position!a!|1|bA ABL_Position!a!
+B|baBL_PositionC!(x1|1|baBL_PositionC!(x1
+S|baBL_PositionC!(x1|1|baBL_PositionC!(x1
+B|a|1|a
+S|a|1|a
+B|\pc_d|1|\pc_d
+S| \p c_d|2||c_d
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|c_dA(|1|c_dA(
+S|c_dA(|1|c_dA(
+B|( & \pZedQ1BQ1|1|( & \pZedQ1BQ1
+S| \p ( & ZedQ1BQ1|2||( & ZedQ1BQ1
+B|Ba(|1|Ba(
+S|Ba(|1|Ba(
+B| + x1 B Zed c_d A|2||x1 B Zed c_d A
+S|x1 B Zed c_d A + \t +|1|x1 B Zed c_d A + \t +
+B|BCc_dx1|1|BCc_dx1
+S|BCc_dx1|1|BCc_dx1
+B|( B C c_d|1|( B C c_d
+S|B C c_d|1|B C c_d
+B|)b!a!(C|1|)b!a!(C
+S|)b!a!(C|1|)b!a!(C
+B|c_d Q1  Zed Zed ) A )|1|c_d Q1  Zed Zed ) A )
+S|c_d Q1  Zed Zed ) A|1|c_d Q1  Zed Zed ) A
+B|Q1aaBL_Position & !x1|1|Q1aaBL_Position & !x1
+S|Q1aaBL_Position & !x1|1|Q1aaBL_Position & !x1
+B|! \t Zed A x1 A c_d x1 B|1|! \t Zed A x1 A c_d x1 B
+S|! \t Zed A x1 A c_d x1 B|1|! \t Zed A x1 A c_d x1 B
+B|) + x1! b + x1Q1|3|)|x1! b|x1Q1
+S|)+x1! b+x1Q1|1|)+x1! b+x1Q1
+B|C a Q1 ) \p x1 Zed C C Zed|1|C a Q1 ) \p x1 Zed C C Zed
+S|C a Q1 \p x1 Zed C C Zed|2|C a Q1|x1 Zed C C Zed
+B|\p(Q1|1|\p(Q1
+S| \p Q1|2||Q1
+B|B ) + Zed x1|2|B )|Zed x1
+S|B ) + Zed x1|1|B ) + Zed x1
+B|\p(\p! & a|1|\p(\p! & a
+S| \p ! & a|2||! & a
+B|A c_d & c_d !( Zed \p  x1 a|1|A c_d & c_d !( Zed \p  x1 a
+S|A c_d & x1 a \p c_d !( Zed|2|A c_d & x1 a|c_d !( Zed
+B|ACb|1|ACb
+S|ACb|1|ACb
+B|A\tBx1BL_Positionb|1|A\tBx1BL_Positionb
+S|A\tBx1BL_Positionb|1|A\tBx1BL_Positionb
+B|(Q1!(Zed\p|1|(Q1!(Zed\p
+S|Q1!(Zed|1|Q1!(Zed
+B|(bx1|1|(bx1
+S|bx1|1|bx1
+B|!|1|!
+S|!|1|!
+B|C|1|C
+S|C|1|C
+B|BL_Position (|1|BL_Position (
+S|BL_Position (|1|BL_Position (
+B|B|1|B
+S|B|1|B
+B|Bx1 + Zed\pA|2|Bx1|Zed\pA
+S|A \p Bx1+Zed|2|A|Bx1+Zed
+B|BL_Position + BL_Position \p Zed \t )|2|BL_Position|BL_Position \p Zed \t )
+S|BL_Position \p Zed \t ) + BL_Position|2|BL_Position|Zed \t ) + BL_Position
+B|b a x1 C   b BL_Position Q1 c_d|1|b a x1 C   b BL_Position Q1 c_d
+S|b a x1 C   b BL_Position Q1 c_d|1|b a x1 C   b BL_Position Q1 c_d
+B|\p ! & B|1|\p ! & B
+S| \p ! & B|2||! & B
+B|B|1|B
+S|B|1|B
+B|Zed x1 ) x1 x1|1|Zed x1 ) x1 x1
+S|Zed x1 ) x1 x1|1|Zed x1 ) x1 x1
+B|a A|1|a A
+S|a A|1|a A
+B|! + C|2|!|C
+S|C+!|1|C+!
+B|A|1|A
+S|A|1|A
+B| + BL_Position b B x1|2||BL_Position b B x1
+S|+ \t BL_Position b B x1|1|+ \t BL_Position b B x1
+B| + Q1 Q1 + Zed A !( B Zed|3||Q1 Q1|Zed A !( B Zed
+S|+ Q1 Q1 +  Zed A !( B Zed|1|+ Q1 Q1 +  Zed A !( B Zed
+B|a Q1 \p ) + ( ) x1|2|a Q1 \p )|( ) x1
+S|) + ( ) x1 \p a Q1|2|) + ( ) x1|a Q1
+B|B + Q1 ( b A ) A )|2|B|Q1 ( b A ) A )
+S|B + Q1 ( b A ) A|1|B + Q1 ( b A ) A
+B|\p b|1|\p b
+S| \p b +|2||b +
+B|BQ1|1|BQ1
+S|BQ1|1|BQ1
+B|c_d \p x1  ! \t c_d|1|c_d \p x1  ! \t c_d
+S|c_d \p x1  ! \t c_d|2|c_d|x1  ! \t c_d
+B| + B)AB|2||B)AB
+S|+B)AB|1|+B)AB
+B|x1 Zed a a !  C x1 A|1|x1 Zed a a !  C x1 A
+S|x1 Zed a a !  C x1 A|1|x1 Zed a a !  C x1 A
+B|BL_Position  !(|1|BL_Position  !(
+S|BL_Position  !(|1|BL_Position  !(
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|BL_PositionZed\tba + Zed|2|BL_PositionZed\tba|Zed
+S|BL_PositionZed\tba+Zed|1|BL_PositionZed\tba+Zed
+B|Q1Q1b!(|1|Q1Q1b!(
+S|Q1Q1b!(|1|Q1Q1b!(
+B|!|1|!
+S|!|1|!
+B|Q1 Q1 Zed x1|1|Q1 Q1 Zed x1
+S|Q1 Q1 Zed x1|1|Q1 Q1 Zed x1
+B| + BL_Position C BL_Position A a|2||BL_Position C BL_Position A a
+S|+ \t + & BL_Position C BL_Position A a|1|+ \t + & BL_Position C BL_Position A a
+B| & (|1| & (
+S| & (|1| & (
+B|b \t \t Zed Zed + x1|2|b \t \t Zed Zed|x1
+S|x1 + b \t \t Zed Zed|1|x1 + b \t \t Zed Zed
+B|!C(|1|!C(
+S|!C(|1|!C(
+B|!(a\tA !BL_Position)BL_Position|1|!(a\tA !BL_Position)BL_Position
+S|!(a\tA !BL_Position)BL_Position|1|!(a\tA !BL_Position)BL_Position
+B|Q1c_d(\pb\p!(|1|Q1c_d(\pb\p!(
+S|!( \p Q1c_d( \p b|3|!(|Q1c_d(|b
+B|AB)(!|1|AB)(!
+S|AB)(!|1|AB)(!
+B|)!Q1bc_d\tC|1|)!Q1bc_d\tC
+S|)!Q1bc_d\tC|1|)!Q1bc_d\tC
+B|BL_Position!(CC|1|BL_Position!(CC
+S|BL_Position!(CC|1|BL_Position!(CC
+B|A Zed  A A x1|1|A Zed  A A x1
+S|A Zed  A A x1 +|1|A Zed  A A x1 +
+B|Zed(Q1!(c_db!a|1|Zed(Q1!(c_db!a
+S|Zed(Q1!(c_db!a|1|Zed(Q1!(c_db!a
+B|B C BL_Position   b Zed|1|B C BL_Position   b Zed
+S|B C BL_Position   b Zed|1|B C BL_Position   b Zed
+B|BL_Position Q1 BL_Position & Zed|1|BL_Position Q1 BL_Position & Zed
+S|BL_Position Q1 BL_Position & Zed|1|BL_Position Q1 BL_Position & Zed
+B|)Q1)|1|)Q1)
+S|)Q1|1|)Q1
+B|C|1|C
+S|C|1|C
+B|BL_Position & Cac_dC|1|BL_Position & Cac_dC
+S|BL_Position & Cac_dC|1|BL_Position & Cac_dC
+B|( & AQ1 & x1CBL_Position|1|( & AQ1 & x1CBL_Position
+S|( & AQ1 & x1CBL_Position|1|( & AQ1 & x1CBL_Position
+B| + Cb Q1ax1|2||Cb Q1ax1
+S|+\tCb Q1ax1|1|+\tCb Q1ax1
+B|b\p\p!|1|b\p\p!
+S| \p ! \p b|3||!|b
+B|c_d BL_Position C    BL_Position !( B|1|c_d BL_Position C    BL_Position !( B
+S|c_d BL_Position C    BL_Position !( B|1|c_d BL_Position C    BL_Position !( B
+B|!!( + aQ1B|2|!!(|aQ1B
+S|!!(+aQ1B|1|!!(+aQ1B
+B|bZedCC & CBL_Position|1|bZedCC & CBL_Position
+S|CBL_Position & bZedCC|1|CBL_Position & bZedCC
+B|\p|1|\p
+S||1|
+B|A B C BL_Position|1|A B C BL_Position
+S|A B C BL_Position|1|A B C BL_Position
+B|Cc_d)a + c_db\tZedc_d|2|Cc_d)a|c_db\tZedc_d
+S|c_db\tZedc_d+Cc_d)a|1|c_db\tZedc_d+Cc_d)a
+B|) + b !( BL_Position|2|)|b !( BL_Position
+S|) + b !( BL_Position|1|) + b !( BL_Position
+B|B & c_d!(a\pba|1|B & c_d!(a\pba
+S|B & ba \p c_d!(a|2|B & ba|c_d!(a
+B|a!aQ1!A !\p|1|a!aQ1!A !\p
+S|a!aQ1!A !|1|a!aQ1!A !
+B|BL_Positionax1aBL_Position\pCZedCx1|1|BL_Positionax1aBL_Position\pCZedCx1
+S|BL_Positionax1aBL_Position \p CZedCx1|2|BL_Positionax1aBL_Position|CZedCx1
+B|B a (|1|B a (
+S|B a (|1|B a (
+B|C Q1 !|1|C Q1 !
+S|C Q1 !|1|C Q1 !
+B|!(aQ1Q1!(|1|!(aQ1Q1!(
+S|!(aQ1Q1!(|1|!(aQ1Q1!(
+B|!( & BL_Position & x1|1|!( & BL_Position & x1
+S|!( & BL_Position & x1|1|!( & BL_Position & x1
+B|(|1|(
+S||1|
+B|( A a|1|( A a
+S|A a|1|A a
+B|BL_Positionb\p)|1|BL_Positionb\p)
+S|) \p BL_Positionb|2|)|BL_Positionb
+B|A BL_Position A|1|A BL_Position A
+S|A BL_Position A|1|A BL_Position A
+B|!|1|!
+S|!|1|!
+B|B BL_Positionx1 & c_dBL_Positionc_d|1|B BL_Positionx1 & c_dBL_Positionc_d
+S|B BL_Positionx1 & c_dBL_Positionc_d|1|B BL_Positionx1 & c_dBL_Positionc_d
+B|B B   C   Q1   !(|1|B B   C   Q1   !(
+S|B B   C   Q1   !(|1|B B   C   Q1   !(
+B|x1 Zed !( b BL_Position|1|x1 Zed !( b BL_Position
+S|x1 Zed !( b BL_Position|1|x1 Zed !( b BL_Position
+B|c_d ) c_d B b ( c_d a (|1|c_d ) c_d B b ( c_d a (
+S|c_d ) c_d B b ( c_d a (|1|c_d ) c_d B b ( c_d a (
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|c_d BL_Position \t !|1|c_d BL_Position \t !
+S|c_d BL_Position \t !|1|c_d BL_Position \t !
+B|A)Zedx1\p|1|A)Zedx1\p
+S|A)Zedx1|1|A)Zedx1
+B|c_d b C|1|c_d b C
+S|c_d b C|1|c_d b C
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|a A   BL_Position x1|1|a A   BL_Position x1
+S|a A   BL_Position x1|1|a A   BL_Position x1
+B|ZedBL_PositionBL_PositionA|1|ZedBL_PositionBL_PositionA
+S|ZedBL_PositionBL_PositionA|1|ZedBL_PositionBL_PositionA
+B|x1 a  BL_Position b B|1|x1 a  BL_Position b B
+S|x1 a  BL_Position b B|1|x1 a  BL_Position b B
+B|BL_Position Zed C !( c_d Zed|1|BL_Position Zed C !( c_d Zed
+S|BL_Position Zed C !( c_d Zed|1|BL_Position Zed C !( c_d Zed
+B|c_d BL_Position a B A ) B|1|c_d BL_Position a B A ) B
+S|c_d BL_Position a B A ) B|1|c_d BL_Position a B A ) B
+B|b|1|b
+S|b|1|b
+B|CCQ1 aa!|1|CCQ1 aa!
+S|CCQ1 aa!|1|CCQ1 aa!
+B|B c_d   \p & Zed x1 a Zed|1|B c_d   \p & Zed x1 a Zed
+S|B c_d & Zed x1 a Zed|1|B c_d & Zed x1 a Zed
+B|BL_Position)|1|BL_Position)
+S|BL_Position|1|BL_Position
+B|) ( Zed c_d Zed ! B Zed|1|) ( Zed c_d Zed ! B Zed
+S|) ( Zed c_d Zed ! B Zed|1|) ( Zed c_d Zed ! B Zed
+B| & A c_d BL_Position a B C & b|1| & A c_d BL_Position a B C & b
+S| & A c_d BL_Position a B C & b|1| & A c_d BL_Position a B C & b
+B|! c_d \t C A  BL_Position|1|! c_d \t C A  BL_Position
+S|! c_d \t C A  BL_Position|1|! c_d \t C A  BL_Position
+B|( a BL_Position ! b ( & C b|1|( a BL_Position ! b ( & C b
+S|C b & a BL_Position ! b (|1|C b & a BL_Position ! b (
+B|!( + c_d !( A ) ) + Q1|3|!(|c_d !( A ) )|Q1
+S|c_d !( A ) )   + !( + Q1|1|c_d !( A ) )   + !( + Q1
+B|)A( + c_d|2|)A(|c_d
+S|c_d+)A(|1|c_d+)A(
+B|Zed !( Q1   a b|1|Zed !( Q1   a b
+S|Zed !( Q1   a b|1|Zed !( Q1   a b
+B|a! + x1!x1c_d|2|a!|x1!x1c_d
+S|x1!x1c_d+ a!|1|x1!x1c_d+ a!
+B|b|1|b
+S|b|1|b
+B| + ( )x1|2||( )x1
+S|+( )x1|1|+( )x1
+B|bx1!|1|bx1!
+S|bx1!|1|bx1!
+B|BBL_Position!|1|BBL_Position!
+S|BBL_Position!|1|BBL_Position!
+B|\p  B a|1|\p  B a
+S| \p B a +|2||B a +
+B|a a|1|a a
+S|a a|1|a a
+B|! x1 \p \t B a x1 B \p|1|! x1 \p \t B a x1 B \p
+S|! x1 \p B a x1 B|2|! x1|B a x1 B
+B|b)b|1|b)b
+S|b)b|1|b)b
+B|aZedBL_PositionC|1|aZedBL_PositionC
+S|aZedBL_PositionC|1|aZedBL_PositionC
+B| + BL_Position & C + Zeda\pB|3||BL_Position & C|Zeda\pB
+S|B++C & BL_Position \p Zeda|2|B++C & BL_Position|Zeda
+B||1|
+S||1|
+B|BL_Position\p(C + c_d|2|BL_Position\p(C|c_d
+S|C \p c_d+BL_Position|2|C|c_d+BL_Position
+B||0
+S|+|1|+
+B|Q1|1|Q1
+S|Q1|1|Q1
+B| & !   A|1| & !   A
+S| & !   A|1| & !   A
+B|BA|1|BA
+S|BA|1|BA
+B|x1 Zed A  )|1|x1 Zed A  )
+S|x1 Zed A|1|x1 Zed A
+B||1|
+S||1|
+B|Q1 !( b Zed ( ! Q1|1|Q1 !( b Zed ( ! Q1
+S|Q1 !( b Zed ( ! Q1|1|Q1 !( b Zed ( ! Q1
+B| + Zed C|2||Zed C
+S|+ Zed C|1|+ Zed C
+B|)|1|)
+S||1|
+B|BL_Position(BL_Positionb & Q1|1|BL_Position(BL_Positionb & Q1
+S|BL_Position(BL_Positionb & Q1|1|BL_Position(BL_Positionb & Q1
+B|B  C|1|B  C
+S|B  C|1|B  C
+B|( (   )|1|( (   )
+S|(|1|(
+B||0
+S||1|
+B|Cc_d\p|1|Cc_d\p
+S|Cc_d|1|Cc_d
+B| + BL_Position \t x1 ( BL_Position Q1 !( !|2||BL_Position \t x1 ( BL_Position Q1 !( !
+S| & + BL_Position \t x1 ( BL_Position Q1 !( !|1| & + BL_Position \t x1 ( BL_Position Q1 !( !
+B|a Q1 \p \t )|1|a Q1 \p \t )
+S|) \p a Q1|2|)|a Q1
+B| + !(|2||!(
+S|+   !(|1|+   !(
+B|a c_d Q1 x1 x1 !( b Q1 B|1|a c_d Q1 x1 x1 !( b Q1 B
+S|a c_d Q1 x1 x1 !( b Q1 B|1|a c_d Q1 x1 x1 !( b Q1 B
+B|B b Q1 C c_d B x1 ) b|1|B b Q1 C c_d B x1 ) b
+S|B b Q1 C c_d B x1 ) b|1|B b Q1 C c_d B x1 ) b
+B| & b & Zed ( a b BL_Position|1| & b & Zed ( a b BL_Position
+S| & Zed ( a b BL_Position & b|1| & Zed ( a b BL_Position & b
+B|C ) Q1|1|C ) Q1
+S|C ) Q1|1|C ) Q1
+B|( & x1Q1Aaab!(|1|( & x1Q1Aaab!(
+S|( & x1Q1Aaab!(|1|( & x1Q1Aaab!(
+B| & Q1 )C|1| & Q1 )C
+S| & Q1 )C+|1| & Q1 )C+
+B|a\pBL_PositionB))x1|1|a\pBL_PositionB))x1
+S|BL_PositionB))x1 \p a|2|BL_PositionB))x1|a
+B|(|1|(
+S||1|
+B||0
+S||0
+B|Q1 + x1 B B BL_Position Zed A|2|Q1|x1 B B BL_Position Zed A
+S|Q1 + x1 B B BL_Position Zed A|1|Q1 + x1 B B BL_Position Zed A
+B|BL_Position)|1|BL_Position)
+S|BL_Position|1|BL_Position
+B|ZedbAc_dA|1|ZedbAc_dA
+S|ZedbAc_dA|1|ZedbAc_dA
+B|B x1|1|B x1
+S|B x1|1|B x1
+B| + (bQ1!(|2||(bQ1!(
+S|+(bQ1!(|1|+(bQ1!(
+B|BL_Positionc_d|1|BL_Positionc_d
+S|BL_Positionc_d|1|BL_Positionc_d
+B|(   A A a !|1|(   A A a !
+S|A A a !|1|A A a !
+B|BL_Position ( C Q1 & Zed x1|1|BL_Position ( C Q1 & Zed x1
+S|BL_Position ( C Q1 & Zed x1|1|BL_Position ( C Q1 & Zed x1
+B|Aa\tac_d|1|Aa\tac_d
+S|Aa\tac_d|1|Aa\tac_d
+B|BL_Position\p!BL_Position C)a!(|1|BL_Position\p!BL_Position C)a!(
+S|!BL_Position C)a!( \p BL_Position|2|!BL_Position C)a!(|BL_Position
+B|(|1|(
+S||1|
+B|B C \p B ( \p|1|B C \p B ( \p
+S|B ( \p B C|2|B (|B C
+B|b B c_d C|1|b B c_d C
+S|b B c_d C|1|b B c_d C
+B|CBL_Position|1|CBL_Position
+S|CBL_Position|1|CBL_Position
+B|Zed|1|Zed
+S|Zed|1|Zed
+B|Q1|1|Q1
+S|Q1+|1|Q1+
+B|A C Q1 & C c_d|1|A C Q1 & C c_d
+S|A C Q1 & C c_d|1|A C Q1 & C c_d
+B|\p + BL_Position Zed ! Q1 b|2|\p|BL_Position Zed ! Q1 b
+S|BL_Position Zed ! Q1 b +|1|BL_Position Zed ! Q1 b +
+B| + b!(B\p + C|3||b!(B\p|C
+S|++C \p b!(B|2|++C|b!(B
+B|A|1|A
+S|A|1|A
+B|bB + Zed\p)Q1|2|bB|Zed\p)Q1
+S|)Q1+ bB \p Zed|2|)Q1+ bB|Zed
+B|) ( ! a C|1|) ( ! a C
+S|) ( ! a C|1|) ( ! a C
+B|!Q1BL_PositionCc_dA|1|!Q1BL_PositionCc_dA
+S|!Q1BL_PositionCc_dA|1|!Q1BL_PositionCc_dA
+B|C x1 x1 ! Zed !|1|C x1 x1 ! Zed !
+S|C x1 x1 ! Zed !|1|C x1 x1 ! Zed !
+B|AZed\t))Q1|1|AZed\t))Q1
+S|AZed\t))Q1|1|AZed\t))Q1
+B|x1 A|1|x1 A
+S|x1 A +|1|x1 A +
+B|Zed|1|Zed
+S|Zed|1|Zed
+B|Zed c_d ! a !( A|1|Zed c_d ! a !( A
+S|Zed c_d ! a !( A|1|Zed c_d ! a !( A
+B||0
+S||1|
+B|B|1|B
+S|B|1|B
+B|C)|1|C)
+S|C|1|C
+B|( A   B B Zed|1|( A   B B Zed
+S|A   B B Zed|1|A   B B Zed
+B|a C !( x1   )|1|a C !( x1   )
+S|a C !( x1|1|a C !( x1
+B|\p B A A Zed|1|\p B A A Zed
+S| \p B A A Zed|2||B A A Zed
+B|b   !( B & Zed Q1 c_d x1|1|b   !( B & Zed Q1 c_d x1
+S|Zed Q1 c_d x1 & b   !( B|1|Zed Q1 c_d x1 & b   !( B
+B|ab\t) + (Q1|2|ab\t)|(Q1
+S|+(Q1 & ab\t)|1|+(Q1 & ab\t)
+B| +  & ( \t BL_Position \p Q1 Zed|2|| & ( \t BL_Position \p Q1 Zed
+S| & ( \t BL_Position \p Q1 Zed +|2| & ( \t BL_Position|Q1 Zed +
+B|BL_Position + BL_Position|2|BL_Position|BL_Position
+S|BL_Position + BL_Position|1|BL_Position + BL_Position
+B|!A & A|1|!A & A
+S|A & !A|1|A & !A
+B|BL_PositionAA|1|BL_PositionAA
+S|BL_PositionAA|1|BL_PositionAA
+B|a & bB + B|2|a & bB|B
+S|B+bB & a|1|B+bB & a
+B|A + (C\t(!(|2|A|(C\t(!(
+S|C\t(!(+A|1|C\t(!(+A
+B|Q1 \t B|1|Q1 \t B
+S|Q1 \t B|1|Q1 \t B
+B|!(|1|!(
+S|!(|1|!(
+B|aaAC|1|aaAC
+S|aaAC|1|aaAC
+B|) x1|1|) x1
+S|) x1|1|) x1
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|!|1|!
+S|!|1|!
+B|! C|1|! C
+S|! C|1|! C
+B|c_d\t(|1|c_d\t(
+S|c_d\t(+|1|c_d\t(+
+B|\p + B C  Q1 )|2|\p|B C  Q1 )
+S| \p + B C  Q1|2||+ B C  Q1
+B|BB|1|BB
+S|BB|1|BB
+B|b C ! !(|1|b C ! !(
+S|b C ! !(|1|b C ! !(
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|A|1|A
+S|A|1|A
+B|Q1\tb|1|Q1\tb
+S|Q1\tb|1|Q1\tb
+B|a +  & a Zed|2|a| & a Zed
+S| & a Zed + a|1| & a Zed + a
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|A ( )|1|A ( )
+S|A (|1|A (
+B|BL_Position ! c_d C|1|BL_Position ! c_d C
+S|BL_Position ! c_d C|1|BL_Position ! c_d C
+B|(|1|(
+S||1|
+B|\p \p Q1 Q1 BL_Position Zed|1|\p \p Q1 Q1 BL_Position Zed
+S| \p Q1 Q1 BL_Position Zed|2||Q1 Q1 BL_Position Zed
+B|bC\p!(AB|1|bC\p!(AB
+S|!(AB \p bC|2|!(AB|bC
+B| & Q1\tB(a|1| & Q1\tB(a
+S| & Q1\tB(a|1| & Q1\tB(a
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|ac_d & B|1|ac_d & B
+S|B & ac_d|1|B & ac_d
+B|B A ( ) B !|1|B A ( ) B !
+S|B A ( ) B !|1|B A ( ) B !
+B|BL_Position & B \p x1 !(|1|BL_Position & B \p x1 !(
+S|B \p BL_Position & x1 !(|2|B|BL_Position & x1 !(
+B|c_d !( B c_d & \p ! x1 A )|1|c_d !( B c_d & \p ! x1 A )
+S| \p ! x1 A ) & c_d !( B c_d|2||! x1 A ) & c_d !( B c_d
+B|b Q1 & x1|1|b Q1 & x1
+S|b Q1 & x1|1|b Q1 & x1
+B|b|1|b
+S|b|1|b
+B|aQ1A + Q1BL_Positionb)Q1|2|aQ1A|Q1BL_Positionb)Q1
+S|Q1BL_Positionb)Q1+aQ1A|1|Q1BL_Positionb)Q1+aQ1A
+B|( A B Zed|1|( A B Zed
+S|A B Zed|1|A B Zed
+B|!() + b|2|!()|b
+S|b+!(|1|b+!(
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|( ) !( b Zed !(|1|( ) !( b Zed !(
+S|) !( b Zed !(|1|) !( b Zed !(
+B|bc_dZed(|1|bc_dZed(
+S|bc_dZed(|1|bc_dZed(
+B|a A + c_d|2|a A|c_d
+S|a A +   c_d|1|a A +   c_d
+B|Q1 a B !( ! C|1|Q1 a B !( ! C
+S|Q1 a B !( ! C|1|Q1 a B !( ! C
+B|Zed BL_Position|1|Zed BL_Position
+S|Zed BL_Position +|1|Zed BL_Position +
+B|Q1!(Q1!A\tB|1|Q1!(Q1!A\tB
+S|Q1!(Q1!A\tB|1|Q1!(Q1!A\tB
+B| & baAx1Q1|1| & baAx1Q1
+S| & baAx1Q1|1| & baAx1Q1
+B| + Q1CBL_Position (\t\p)|2||Q1CBL_Position (\t\p)
+S|)+ \p Q1CBL_Position (|2|)+|Q1CBL_Position (
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B||1|
+S||1|
+B|b!((A!(|1|b!((A!(
+S|b!((A!(|1|b!((A!(
+B|( a Q1 ! b|1|( a Q1 ! b
+S|a Q1 ! b|1|a Q1 ! b
+B|B|1|B
+S|B|1|B
+B|BL_Position) \tQ1|1|BL_Position) \tQ1
+S|BL_Position) \tQ1|1|BL_Position) \tQ1
+B|C  Zed|1|C  Zed
+S|C  Zed|1|C  Zed
+B|x1b!(x1\pQ1|1|x1b!(x1\pQ1
+S|Q1 \p x1b!(x1|2|Q1|x1b!(x1
+B|!(|1|!(
+S|!(|1|!(
+B|A ) A & ( c_d !(|1|A ) A & ( c_d !(
+S|A ) A & c_d !(|1|A ) A & c_d !(
+B|Ca\tBL_PositionZed|1|Ca\tBL_PositionZed
+S|Ca\tBL_PositionZed|1|Ca\tBL_PositionZed
+B||0
+S||1|
+B|(|1|(
+S||1|
+B|x1   A   Q1 \p c_d|1|x1   A   Q1 \p c_d
+S|c_d \p x1   A   Q1|2|c_d|x1   A   Q1
+B|BL_Position b c_d !(  B C ! )|1|BL_Position b c_d !(  B C ! )
+S|BL_Position b c_d !(  B C !|1|BL_Position b c_d !(  B C !
+B|bCaB|1|bCaB
+S|bCaB|1|bCaB
+B|!( A & Q1 B BL_Position c_d C a|1|!( A & Q1 B BL_Position c_d C a
+S|!( A & Q1 B BL_Position c_d C a|1|!( A & Q1 B BL_Position c_d C a
+B|!( BL_Position BL_Position B ) c_d B !( (|1|!( BL_Position BL_Position B ) c_d B !( (
+S|!( BL_Position BL_Position B ) c_d B !( (|1|!( BL_Position BL_Position B ) c_d B !( (
+B| & Q1 x1  )|1| & Q1 x1  )
+S| & Q1 x1|1| & Q1 x1
+B| + Q1 B|2||Q1 B
+S|+ Q1 B|1|+ Q1 B
+B|bQ1Zed|1|bQ1Zed
+S|bQ1Zed|1|bQ1Zed
+B|a ! c_d Zed  Q1   !( B !|1|a ! c_d Zed  Q1   !( B !
+S|a ! c_d Zed  Q1   !( B !|1|a ! c_d Zed  Q1   !( B !
+B|B x1 A c_d A )|1|B x1 A c_d A )
+S|B x1 A c_d A|1|B x1 A c_d A
+B|a ) C ) ) ! \t Zed BL_Position !|1|a ) C ) ) ! \t Zed BL_Position !
+S|a ) C ) ) ! \t Zed BL_Position !|1|a ) C ) ) ! \t Zed BL_Position !
+B|Zed\p|1|Zed\p
+S| \p Zed|2||Zed
+B||1|
+S||1|
+B|A|1|A
+S|A|1|A
+B|Q1  Q1|1|Q1  Q1
+S|Q1  Q1|1|Q1  Q1
+B|!(x1)|1|!(x1)
+S|!(  x1|1|!(  x1
+B|b Zed C b a A )|1|b Zed C b a A )
+S|b Zed C b a A|1|b Zed C b a A
+B|a Zed|1|a Zed
+S|a Zed|1|a Zed
+B| & Bc_dbc_d & Zed|1| & Bc_dbc_d & Zed
+S| & Bc_dbc_d & Zed|1| & Bc_dbc_d & Zed
+B|b \p|1|b \p
+S|b|1|b
+B|c_d x1 !(|1|c_d x1 !(
+S|c_d x1 !(|1|c_d x1 !(
+B|!( A a A & Zed B x1 Q1|1|!( A a A & Zed B x1 Q1
+S|!( A a A & Zed B x1 Q1|1|!( A a A & Zed B x1 Q1
+B|!( c_d Q1|1|!( c_d Q1
+S|!( c_d Q1|1|!( c_d Q1
+B||0
+S||0
+B|)|1|)
+S||1|
+B|) ) b x1|1|) ) b x1
+S|) ) b x1|1|) ) b x1
+B|CBaZedBbBL_PositionQ1x1c_d|1|CBaZedBbBL_PositionQ1x1c_d
+S|CBaZedBbBL_PositionQ1x1c_d|1|CBaZedBbBL_PositionQ1x1c_d
+B|!( a + !( ) A Q1 b A x1|2|!( a|!( ) A Q1 b A x1
+S|!( ) A Q1 b A x1 + !( a|1|!( ) A Q1 b A x1 + !( a
+B|a A C   c_d ( !(|1|a A C   c_d ( !(
+S|a A C   c_d ( !(|1|a A C   c_d ( !(
+B|)) + c_d(|2|))|c_d(
+S|))+c_d(|1|))+c_d(
+B|\p!(\p!)|1|\p!(\p!)
+S| \p ! \p !(|3||!|!(
+B|Cc_d!aBCc_dC|1|Cc_d!aBCc_dC
+S|Cc_d!aBCc_dC|1|Cc_d!aBCc_dC
+B|b\tx1! & x1|1|b\tx1! & x1
+S|b\tx1! & x1|1|b\tx1! & x1
+B| + )Cc_d!|2||)Cc_d!
+S| & + )Cc_d!+|1| & + )Cc_d!+
+B|! Zed a ) & Zed ) BL_Position|1|! Zed a ) & Zed ) BL_Position
+S|! Zed a & Zed ) BL_Position|1|! Zed a & Zed ) BL_Position
+B|) a + A !( A|2|) a|A !( A
+S|) a & + A !( A|1|) a & + A !( A
+B|b A Q1  \p|1|b A Q1  \p
+S|b A Q1|1|b A Q1
+B|Ax1 aZed\p|1|Ax1 aZed\p
+S|Ax1 aZed|1|Ax1 aZed
+B|)a + bCAbx1BL_Position|2|)a|bCAbx1BL_Position
+S|bCAbx1BL_Position+)a|1|bCAbx1BL_Position+)a
+B| & )a & BL_Position|1| & )a & BL_Position
+S| & )a & BL_Position|1| & )a & BL_Position
+B|Zed x1|1|Zed x1
+S|Zed x1|1|Zed x1
+B|\p BL_Position ( ! + ) & Q1 x1|2|\p BL_Position ( !|) & Q1 x1
+S|) + & Q1 x1 \p BL_Position ( ! +|2|) + & Q1 x1|BL_Position ( ! +
+B|\p|1|\p
+S||0
+B|)\pa|1|)\pa
+S| \p a|2||a
+B|b\t\ta|1|b\t\ta
+S|b\t\ta|1|b\t\ta
+B|a c_d|1|a c_d
+S|a c_d|1|a c_d
+B|b|1|b
+S|b|1|b
+B|C x1|1|C x1
+S|C x1|1|C x1
+B|Zed|1|Zed
+S|Zed|1|Zed
+B|) +  & B C BL_Position|2|)| & B C BL_Position
+S|) + & B C BL_Position|1|) + & B C BL_Position
+B|A|1|A
+S|A|1|A
+B|BBL_Position  c_d\p|1|BBL_Position  c_d\p
+S|BBL_Position  c_d|1|BBL_Position  c_d
+B|Zed A B & Zed B c_d !( a|1|Zed A B & Zed B c_d !( a
+S|Zed A B & Zed B c_d !( a|1|Zed A B & Zed B c_d !( a
+B|!c_daabc_d|1|!c_daabc_d
+S|!c_daabc_d|1|!c_daabc_d
+B|BL_Position|1|BL_Position
+S|BL_Position+|1|BL_Position+
+B|)\tbZedBb!(a|1|)\tbZedBb!(a
+S|)\tbZedBb!(a|1|)\tbZedBb!(a
+B|Q1)c_dABL_Positionx1aZed\ta|1|Q1)c_dABL_Positionx1aZed\ta
+S|Q1)c_dABL_Positionx1aZed\ta|1|Q1)c_dABL_Positionx1aZed\ta
+B|A A )   ) \p A a|1|A A )   ) \p A a
+S|A A ) \p A a|2|A A )|A a
+B|) & C a b & x1|1|) & C a b & x1
+S|) & C a b & x1|1|) & C a b & x1
+B|!( + ! C \p|2|!(|! C \p
+S|! C \p + !(|2|! C|+ !(
+B|Zedc_d(BL_PositionAZedbx1)|1|Zedc_d(BL_PositionAZedbx1)
+S|Zedc_d(BL_PositionAZedbx1|1|Zedc_d(BL_PositionAZedbx1
+B|C & x1 C x1 BL_Position|1|C & x1 C x1 BL_Position
+S|C & x1 C x1 BL_Position|1|C & x1 C x1 BL_Position
+B|ABL_Position & Q1)bc_d!(|1|ABL_Position & Q1)bc_d!(
+S|ABL_Position & Q1)bc_d!(|1|ABL_Position & Q1)bc_d!(
+B|BL_Position \tB!BL_PositionA|1|BL_Position \tB!BL_PositionA
+S|BL_Position \tB!BL_PositionA|1|BL_Position \tB!BL_PositionA
+B|\pZed!A)|1|\pZed!A)
+S| \p Zed!A|2||Zed!A
+B|a Zed + x1  Q1|2|a Zed|x1  Q1
+S|x1  Q1 + a Zed|1|x1  Q1 + a Zed
+B|B + x1c_d!C\paa|2|B|x1c_d!C\paa
+S|B+x1c_d!C \p aa|2|B+x1c_d!C|aa
+B|Ac_dx1|1|Ac_dx1
+S|Ac_dx1|1|Ac_dx1
+B|c_d BL_Position   Q1 & x1|1|c_d BL_Position   Q1 & x1
+S|c_d BL_Position   Q1 & x1|1|c_d BL_Position   Q1 & x1
+B| + c_dQ1()BL_PositionB (|2||c_dQ1()BL_PositionB (
+S|+c_dQ1()BL_PositionB (|1|+c_dQ1()BL_PositionB (
+B|( A A A c_d a|1|( A A A c_d a
+S|A A A c_d a|1|A A A c_d a
+B|!!(b|1|!!(b
+S|!!(b|1|!!(b
+B|Zed!x1BB\pc_dB|1|Zed!x1BB\pc_dB
+S|Zed!x1BB \p c_dB|2|Zed!x1BB|c_dB
+B|! \t \p )|1|! \t \p )
+S| \p !|2||!
+B|BBx1!ZedaACZedBL_Position|1|BBx1!ZedaACZedBL_Position
+S|BBx1!ZedaACZedBL_Position|1|BBx1!ZedaACZedBL_Position
+B|x1 !( b Zed BL_Position|1|x1 !( b Zed BL_Position
+S|x1 !( b Zed BL_Position|1|x1 !( b Zed BL_Position
+B|b\t!(!(|1|b\t!(!(
+S|b\t!(!(|1|b\t!(!(
+B|b B BL_Position A|1|b B BL_Position A
+S|b B BL_Position A|1|b B BL_Position A
+B|a + Zed \p Q1 c_d|2|a|Zed \p Q1 c_d
+S|Q1 c_d + a \p Zed|2|Q1 c_d + a|Zed
+B|Q1  \t ! b  A|1|Q1  \t ! b  A
+S|Q1  \t ! b  A|1|Q1  \t ! b  A
+B|AaCAC|1|AaCAC
+S|AaCAC|1|AaCAC
+B|) x1   ( Q1 b b x1 c_d|1|) x1   ( Q1 b b x1 c_d
+S|) x1   ( Q1 b b x1 c_d|1|) x1   ( Q1 b b x1 c_d
+B|BL_Position  a c_d Q1 c_d \p a|1|BL_Position  a c_d Q1 c_d \p a
+S|BL_Position  a c_d Q1 c_d \p a|2|BL_Position  a c_d Q1 c_d|a
+B|!!(x1|1|!!(x1
+S|!!(x1\t+|1|!!(x1\t+
+B|\p   B  C   b|1|\p   B  C   b
+S| \p B  C   b|2||B  C   b
+B|Zedc_d|1|Zedc_d
+S|Zedc_d|1|Zedc_d
+B|! + \p & \pb|2|!|\p & \pb
+S|!+ \p b|2|!+|b
+B|bx1 & (Q1BL_Position!|1|bx1 & (Q1BL_Position!
+S|Q1BL_Position! & bx1|1|Q1BL_Position! & bx1
+B|\p b + b A a BL_Position Zed|2|\p b|b A a BL_Position Zed
+S|b \p b A a BL_Position Zed  +|2|b|b A a BL_Position Zed  +
+B|B x1 & ) Q1 \p a   (|1|B x1 & ) Q1 \p a   (
+S|) Q1 \p B x1 & a   (|2|) Q1|B x1 & a   (
+B|C C \t BL_Position x1|1|C C \t BL_Position x1
+S|C C \t BL_Position x1|1|C C \t BL_Position x1
+B|c_d C  A BL_Position|1|c_d C  A BL_Position
+S|c_d C  A BL_Position|1|c_d C  A BL_Position
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|\p C C x1 Zed !(|1|\p C C x1 Zed !(
+S| \p C C x1 Zed !(|2||C C x1 Zed !(
+B| + a|2||a
+S|+ a|1|+ a
+B|CQ1bQ1BL_Position)|1|CQ1bQ1BL_Position)
+S|CQ1bQ1BL_Position|1|CQ1bQ1BL_Position
+B|! BL_Position a|1|! BL_Position a
+S|! BL_Position a|1|! BL_Position a
+B|BL_Position B x1   !(|1|BL_Position B x1   !(
+S|BL_Position B x1   !(|1|BL_Position B x1   !(
+B|B !( C B + Q1 c_d|2|B !( C B|Q1 c_d
+S|Q1 c_d + B !( C B|1|Q1 c_d + B !( C B
+B|b & ) C  BL_Position x1 BL_Position \p|1|b & ) C  BL_Position x1 BL_Position \p
+S|) C  BL_Position x1 BL_Position & b|1|) C  BL_Position x1 BL_Position & b
+B|!( b ( + C|2|!( b (|C
+S|!( b ( & + C|1|!( b ( & + C
+B| + BL_Position Q1 A C c_d|2||BL_Position Q1 A C c_d
+S|BL_Position Q1 A C c_d + +|1|BL_Position Q1 A C c_d + +
+B|BL_Position\pBL_PositionCBc_d(|1|BL_Position\pBL_PositionCBc_d(
+S|BL_Position \p BL_PositionCBc_d(|2|BL_Position|BL_PositionCBc_d(
+B|a \t c_d a Zed Zed|1|a \t c_d a Zed Zed
+S|a \t c_d a Zed Zed|1|a \t c_d a Zed Zed
+B| + c_d + !Zedb!!(!(|3||c_d|!Zedb!!(!(
+S|+c_d+!Zedb!!(!(|1|+c_d+!Zedb!!(!(
+B| +  & ! Zed A B   )|2|| & ! Zed A B   )
+S|! Zed A B & +|1|! Zed A B & +
+B|x1|1|x1
+S|x1|1|x1
+B|!( A \t a|1|!( A \t a
+S|!( A \t a|1|!( A \t a
+B| & B\p|1| & B\p
+S| & B|1| & B
+B|a A !(|1|a A !(
+S|a A !(|1|a A !(
+B|)! + CZed|2|)!|CZed
+S|)!+CZed|1|)!+CZed
+B|c_dc_dQ1|1|c_dc_dQ1
+S|c_dc_dQ1|1|c_dc_dQ1
+B|) & b C b|1|) & b C b
+S| & b C b|1| & b C b
+B|B B C C \p|1|B B C C \p
+S|B B C C|1|B B C C
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|c_d + ( Zed|2|c_d|( Zed
+S|c_d + ( Zed|1|c_d + ( Zed
+B|Q1 ) b A x1 ! BL_Position x1 \p|1|Q1 ) b A x1 ! BL_Position x1 \p
+S|Q1 ) b A x1 ! BL_Position x1|1|Q1 ) b A x1 ! BL_Position x1
+B|C\tZed \pa|1|C\tZed \pa
+S|C\tZed \p a|2|C\tZed|a
+B| & bc_dABL_PositionBL_PositionQ1(Q1|1| & bc_dABL_PositionBL_PositionQ1(Q1
+S| & bc_dABL_PositionBL_PositionQ1(Q1+|1| & bc_dABL_PositionBL_PositionQ1(Q1+
+B|x1x1\p|1|x1x1\p
+S|x1x1|1|x1x1
+B|a|1|a
+S|a|1|a
+B|b(c_d|1|b(c_d
+S|b(c_d|1|b(c_d
+B|Cx1Zeda\tB a|1|Cx1Zeda\tB a
+S|Cx1Zeda\tB a|1|Cx1Zeda\tB a
+B| + ! C c_d A Zed & Zed c_d C|2||! C c_d A Zed & Zed c_d C
+S|+ ! C c_d A Zed & Zed c_d C|1|+ ! C c_d A Zed & Zed c_d C
+B|A!Cx1AaBL_Positiona(a|1|A!Cx1AaBL_Positiona(a
+S|A!Cx1AaBL_Positiona(a|1|A!Cx1AaBL_Positiona(a
+B| + b Q1 ) ( )|2||b Q1 ) ( )
+S|+ b Q1 ) (|1|+ b Q1 ) (
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|A & ) ! ) B  Zed|1|A & ) ! ) B  Zed
+S|) ! ) B  Zed & A|1|) ! ) B  Zed & A
+B|A + )c_dZedZed|2|A|)c_dZedZed
+S|)c_dZedZed+A|1|)c_dZedZed+A
+B|bA & C|1|bA & C
+S|C & bA|1|C & bA
+B|c_d A a|1|c_d A a
+S|c_d A a|1|c_d A a
+B|Q1B\px1)!|1|Q1B\px1)!
+S|Q1B \p x1)!|2|Q1B|x1)!
+B|c_d B|1|c_d B
+S|c_d B|1|c_d B
+B|a|1|a
+S|a|1|a
+B|) c_d Zed x1|1|) c_d Zed x1
+S|) c_d Zed x1|1|) c_d Zed x1
+B|Q1  A x1   BL_Position|1|Q1  A x1   BL_Position
+S|Q1  A x1   BL_Position|1|Q1  A x1   BL_Position
+B|aB\tB!(\tB(|1|aB\tB!(\tB(
+S|aB\tB!(\tB(|1|aB\tB!(\tB(
+B|b   Q1 \t Zed|1|b   Q1 \t Zed
+S|b   Q1 \t Zed|1|b   Q1 \t Zed
+B|a Q1|1|a Q1
+S|a Q1|1|a Q1
+B|a ) ) ! C Q1 c_d|1|a ) ) ! C Q1 c_d
+S|a ) ) ! C Q1 c_d +|1|a ) ) ! C Q1 c_d +
+B| + C   a \p ! )|2||C   a \p ! )
+S|! \p +   C   a|2|!|+   C   a
+B|!)|1|!)
+S|!|1|!
+B|b \t)Q1BB|1|b \t)Q1BB
+S|b \t)Q1BB|1|b \t)Q1BB
+B|!( + ) BL_Position a|2|!(|) BL_Position a
+S|) BL_Position a + !( +|1|) BL_Position a + !( +
+B|c_d\px1\t\pbZedC|1|c_d\px1\t\pbZedC
+S|bZedC \p c_d \p x1|3|bZedC|c_d|x1
+B|B BL_Position C   Q1 BL_Position|1|B BL_Position C   Q1 BL_Position
+S|B BL_Position C   Q1 BL_Position|1|B BL_Position C   Q1 BL_Position
+B|x1|1|x1
+S|x1|1|x1
+B|) & BZedZed|1|) & BZedZed
+S|BZedZed|1|BZedZed
+B| + c_d C Zed B c_d|2||c_d C Zed B c_d
+S|+ c_d C Zed B c_d|1|+ c_d C Zed B c_d
+B|a A ! !( a BL_Position|1|a A ! !( a BL_Position
+S|a A ! !( a BL_Position|1|a A ! !( a BL_Position
+B|x1x1|1|x1x1
+S|x1x1|1|x1x1
+B|B ) x1 a B !(  Q1|1|B ) x1 a B !(  Q1
+S|B ) x1 a B !(  Q1|1|B ) x1 a B !(  Q1
+B|( + A   B|2|(|A   B
+S|+ A   B|1|+ A   B
+B|) + a C !( Q1 b Q1 BL_Position \p|2|)|a C !( Q1 b Q1 BL_Position \p
+S|) + a C !( Q1 b Q1 BL_Position|1|) + a C !( Q1 b Q1 BL_Position
+B| + Q1 x1|2||Q1 x1
+S|+ Q1 x1|1|+ Q1 x1
+B|BBL_Positiona|1|BBL_Positiona
+S|BBL_Positiona|1|BBL_Positiona
+B|aB + x1|2|aB|x1
+S|aB+x1|1|aB+x1
+B|(|1|(
+S||1|
+B|!( b c_d !(|1|!( b c_d !(
+S|!( b c_d !(|1|!( b c_d !(
+B|)\pB!( + Zed|2|)\pB!(|Zed
+S|B!( \p Zed+|2|B!(|Zed+
+B|b|1|b
+S|b|1|b
+B|Q1 + x1 b a b|2|Q1|x1 b a b
+S|+  x1 b a b & Q1|1|+  x1 b a b & Q1
+B||0
+S||0
+B|C !( c_d ) Q1 b BL_Position|1|C !( c_d ) Q1 b BL_Position
+S|C !( c_d ) Q1 b BL_Position|1|C !( c_d ) Q1 b BL_Position
+B|C((!(Bc_d)!Aa|1|C((!(Bc_d)!Aa
+S|C((!(Bc_d)!Aa|1|C((!(Bc_d)!Aa
+B|c_dA!A|1|c_dA!A
+S|c_dA!A|1|c_dA!A
+B| & a B  (|1| & a B  (
+S| & a B  (|1| & a B  (
+B|ZedC!|1|ZedC!
+S|ZedC!|1|ZedC!
+B|Q1 )|1|Q1 )
+S|Q1|1|Q1
+B| + BL_Position!(B|2||BL_Position!(B
+S|+BL_Position!(B|1|+BL_Position!(B
+B|(   Zed \t BL_Position B|1|(   Zed \t BL_Position B
+S|Zed \t BL_Position B|1|Zed \t BL_Position B
+B|! \p c_d !(   a|1|! \p c_d !(   a
+S|! \p c_d !(   a|2|!|c_d !(   a
+B|! ! c_d \p c_d C|1|! ! c_d \p c_d C
+S|! ! c_d \p c_d C|2|! ! c_d|c_d C
+B|( + !( b ! \p|2|(|!( b ! \p
+S|+ !( b !|1|+ !( b !
+B|!( a ! C b b|1|!( a ! C b b
+S|!( a ! C b b|1|!( a ! C b b
+B|a   C ) c_d ) Zed|1|a   C ) c_d ) Zed
+S|a   C ) c_d ) Zed|1|a   C ) c_d ) Zed
+B|B \p !( + ! Zed Zed|2|B \p !(|! Zed Zed
+S|!(  + ! Zed Zed \p B|2|!(  + ! Zed Zed|B
+B|B)x1 + \pc_d|2|B)x1|\pc_d
+S|B)x1+ \p c_d|2|B)x1+|c_d
+B|\p b C|1|\p b C
+S| \p b C|2||b C
+B|b B + ( C + x1|3|b B|( C|x1
+S|x1 + b B + ( C|1|x1 + b B + ( C
+B|Q1bc_dA|1|Q1bc_dA
+S|Q1bc_dA|1|Q1bc_dA
+B|! + \p!(!!(Zed(|2|!|\p!(!!(Zed(
+S| \p !(!!(Zed(+!|2||!(!!(Zed(+!
+B|aCb !(bx1b)|1|aCb !(bx1b)
+S|aCb !(bx1b|1|aCb !(bx1b
+B|!( \t B & b|1|!( \t B & b
+S|!( \t B & b|1|!( \t B & b
+B|( c_d \p Q1 & ! ) x1 \p|1|( c_d \p Q1 & ! ) x1 \p
+S| & ( c_d \p ! ) x1 \p Q1|3| & ( c_d|! ) x1|Q1
+B|AbbBL_PositionCBL_Position|1|AbbBL_PositionCBL_Position
+S|AbbBL_PositionCBL_Position|1|AbbBL_PositionCBL_Position
+B|Aa + Zed baA|2|Aa|Zed baA
+S|Zed baA+Aa|1|Zed baA+Aa
+B|a!( + BB!(|2|a!(|BB!(
+S|a!(+BB!(|1|a!(+BB!(
+B|aAaa|1|aAaa
+S|aAaa|1|aAaa
+B|\pABL_PositionC)Zed|1|\pABL_PositionC)Zed
+S| \p ABL_PositionC)Zed|2||ABL_PositionC)Zed
+B| & !( BL_Position|1| & !( BL_Position
+S| & !( BL_Position|1| & !( BL_Position
+B|(|1|(
+S||1|
+B||0
+S||1|
+B|!(bA|1|!(bA
+S|!(bA|1|!(bA
+B|CBBc_d(|1|CBBc_d(
+S|CBBc_d(|1|CBBc_d(
+B|Zed  Ca\tBBBC|1|Zed  Ca\tBBBC
+S|Zed  Ca\tBBBC|1|Zed  Ca\tBBBC
+B|!( & )A(!(Bc_d|1|!( & )A(!(Bc_d
+S|!( & )A(!(Bc_d|1|!( & )A(!(Bc_d
+B|BL_Position a A C !( \t c_d|1|BL_Position a A C !( \t c_d
+S|BL_Position a A C !( \t c_d|1|BL_Position a A C !( \t c_d
+B|BBL_PositionBZed Zed|1|BBL_PositionBZed Zed
+S|BBL_PositionBZed Zed|1|BBL_PositionBZed Zed
+B|x1 b|1|x1 b
+S|x1 b|1|x1 b
+B|)|1|)
+S||1|
+B|Zed Zedc_d|1|Zed Zedc_d
+S|Zed Zedc_d|1|Zed Zedc_d
+B|aB|1|aB
+S|aB|1|aB
+B|C()(|1|C()(
+S|C()(|1|C()(
+B|A BL_Position C \t b|1|A BL_Position C \t b
+S|A BL_Position C \t b|1|A BL_Position C \t b
+B|ba\tAb|1|ba\tAb
+S|ba\tAb|1|ba\tAb
+B|( ( b|1|( ( b
+S|( b|1|( b
+B|B x1|1|B x1
+S|B x1|1|B x1
+B|Q1 ) A A c_d + Zed A !|2|Q1 ) A A c_d|Zed A !
+S|Q1 ) A A c_d \t + Zed A !|1|Q1 ) A A c_d \t + Zed A !
+B|BL_Position Zedc_d|1|BL_Position Zedc_d
+S|BL_Position Zedc_d|1|BL_Position Zedc_d
+B|(C()x1CBL_PositionBL_Position|1|(C()x1CBL_PositionBL_Position
+S|C()x1CBL_PositionBL_Position|1|C()x1CBL_PositionBL_Position
+B|!!(Zed|1|!!(Zed
+S|!!(Zed|1|!!(Zed
+B|BL_Position + C C BL_Position|2|BL_Position|C C BL_Position
+S|C C BL_Position + BL_Position|1|C C BL_Position + BL_Position
+B||0
+S||1|
+B|! \p )  Zed|1|! \p )  Zed
+S|! \p )  Zed|2|!|)  Zed
+B|) + Zed\p !!BL_Position|2|)|Zed\p !!BL_Position
+S|!!BL_Position+ \p Zed|2|!!BL_Position+|Zed
+B|Q1|1|Q1
+S|Q1|1|Q1
+B| + C|2||C
+S|+ C|1|+ C
+B|A\pc_d\tc_dB|1|A\pc_d\tc_dB
+S|A \p c_d\tc_dB|2|A|c_d\tc_dB
+B| & Q1|1| & Q1
+S| & Q1|1| & Q1
+B|bCCBL_PositionC)|1|bCCBL_PositionC)
+S|bCCBL_PositionC|1|bCCBL_PositionC
+B|(B|1|(B
+S|B|1|B
+B|CABL_Position\p! + Q1x1c_d|2|CABL_Position\p!|Q1x1c_d
+S|!+Q1x1c_d \p CABL_Position|2|!+Q1x1c_d|CABL_Position
+B||0
+S||1|
+B|( A + ) c_d|2|( A|) c_d
+S|) c_d + ( A|1|) c_d + ( A
+B|A|1|A
+S|A|1|A
+B|!Zed!Zed|1|!Zed!Zed
+S|!Zed!Zed|1|!Zed!Zed
+B|AA!|1|AA!
+S|AA!+|1|AA!+
+B|a \p ) BL_Position ( Zed|1|a \p ) BL_Position ( Zed
+S|) BL_Position ( Zed \p a|2|) BL_Position ( Zed|a
+B|!( B Q1 C|1|!( B Q1 C
+S|!( B Q1 C|1|!( B Q1 C
+B|c_d & )x1c_dQ1ZedA!|1|c_d & )x1c_dQ1ZedA!
+S|)x1c_dQ1ZedA! & c_d|1|)x1c_dQ1ZedA! & c_d
+B|!( + !bA c_dB|2|!(|!bA c_dB
+S|!bA c_dB +!(|1|!bA c_dB +!(
+B|\p ) BL_Position  C|1|\p ) BL_Position  C
+S| \p ) BL_Position  C|2||) BL_Position  C
+B|x1)|1|x1)
+S|x1|1|x1
+B|C c_d b b|1|C c_d b b
+S|C c_d b b|1|C c_d b b
+B|!( b   C \t ( BL_Position Q1|1|!( b   C \t ( BL_Position Q1
+S|!( b   C \t ( BL_Position Q1|1|!( b   C \t ( BL_Position Q1
+B|) ! A BL_Position & Q1 A|1|) ! A BL_Position & Q1 A
+S|) ! A BL_Position & Q1 A|1|) ! A BL_Position & Q1 A
+B|Q1 BL_Position BL_Position|1|Q1 BL_Position BL_Position
+S|Q1 BL_Position BL_Position|1|Q1 BL_Position BL_Position
+B|x1x1|1|x1x1
+S|x1x1|1|x1x1
+B||0
+S|+|1|+
+B|(() & BL_Positionx1A + Q1|2|(() & BL_Positionx1A|Q1
+S|BL_Positionx1A & Q1+(()|1|BL_Positionx1A & Q1+(()
+B|A!(!(aB|1|A!(!(aB
+S|A!(!(aB|1|A!(!(aB
+B|C\tZedBL_PositionABL_Position)b\p|1|C\tZedBL_PositionABL_Position)b\p
+S|C\tZedBL_PositionABL_Position)b|1|C\tZedBL_PositionABL_Position)b
+B|\p + a|2|\p|a
+S|a +|1|a +
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|x1 (     x1 C Q1|1|x1 (     x1 C Q1
+S|x1 (     x1 C Q1|1|x1 (     x1 C Q1
+B|c_daZed|1|c_daZed
+S|c_daZed|1|c_daZed
+B|c_d(!(A!|1|c_d(!(A!
+S|c_d(!(A!|1|c_d(!(A!
+B|( \t \p|1|( \t \p
+S||1|
+B| & c_d Q1 B ( x1|1| & c_d Q1 B ( x1
+S| & c_d Q1 B ( x1|1| & c_d Q1 B ( x1
+B|Q1 c_d ! A x1  (|1|Q1 c_d ! A x1  (
+S|Q1 c_d ! A x1  (|1|Q1 c_d ! A x1  (
+B| + BL_Position A & Q1 Q1 Q1|2||BL_Position A & Q1 Q1 Q1
+S|+ Q1 Q1 Q1 & BL_Position A|1|+ Q1 Q1 Q1 & BL_Position A
+B|! + bZed + c_d!\p|3|!|bZed|c_d!\p
+S|+bZed+! \p c_d!|2|+bZed+!|c_d!
+B|BBL_Position & Cc_d!!|1|BBL_Position & Cc_d!!
+S|BBL_Position & Cc_d!!|1|BBL_Position & Cc_d!!
+B|A & x1(c_d|1|A & x1(c_d
+S|A & x1(c_d|1|A & x1(c_d
+B|Q1 x1aAZedbc_d|1|Q1 x1aAZedbc_d
+S|Q1 x1aAZedbc_d|1|Q1 x1aAZedbc_d
+B|ZedBL_Position!(BL_PositionB\tC(|1|ZedBL_Position!(BL_PositionB\tC(
+S|ZedBL_Position!(BL_PositionB\tC(|1|ZedBL_Position!(BL_PositionB\tC(
+B|A B Zed \t x1 Zed x1 Zed \t A|1|A B Zed \t x1 Zed x1 Zed \t A
+S|A B Zed \t x1 Zed x1 Zed \t A|1|A B Zed \t x1 Zed x1 Zed \t A
+B| + (a|2||(a
+S|+(a|1|+(a
+B|c_d \t ! c_d|1|c_d \t ! c_d
+S|c_d \t ! c_d \t +|1|c_d \t ! c_d \t +
+B| + B|2||B
+S|+B|1|+B
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|Cb|1|Cb
+S|Cb+|1|Cb+
+B|b !( & b ! ) Q1|1|b !( & b ! ) Q1
+S|b ! ) Q1 & b !(|1|b ! ) Q1 & b !(
+B|B + BL_Position + Zed|3|B|BL_Position|Zed
+S|B+BL_Position+Zed|1|B+BL_Position+Zed
+B|A x1 x1 BL_Position  c_d b A x1 b|1|A x1 x1 BL_Position  c_d b A x1 b
+S|A x1 x1 BL_Position  c_d b A x1 b|1|A x1 x1 BL_Position  c_d b A x1 b
+B||0
+S||0
+B|Q1|1|Q1
+S|Q1+|1|Q1+
+B|(Q1|1|(Q1
+S|Q1|1|Q1
+B|) b x1   a|1|) b x1   a
+S|) b x1   a|1|) b x1   a
+B|C\pa)!c_d|1|C\pa)!c_d
+S|C \p a)!c_d|2|C|a)!c_d
+B|!(ZedCQ1c_db)x1!!|1|!(ZedCQ1c_db)x1!!
+S|!(ZedCQ1c_db)x1!!|1|!(ZedCQ1c_db)x1!!
+B|! \t ( + ) C|2|! \t (|) C
+S|) C + ! \t (|1|) C + ! \t (
+B| + Q1!(|2||Q1!(
+S|+Q1!(|1|+Q1!(
+B|c_d & Q1 a|1|c_d & Q1 a
+S|Q1 a & c_d|1|Q1 a & c_d
+B|) ! b & ) BL_Position a B BL_Position|1|) ! b & ) BL_Position a B BL_Position
+S|) ! b & ) BL_Position a B BL_Position|1|) ! b & ) BL_Position a B BL_Position
+B|Q1 A + ) x1 !|2|Q1 A|) x1 !
+S|) x1 !   + Q1 A|1|) x1 !   + Q1 A
+B| & a|1| & a
+S| & a|1| & a
+B|!( ( ) a b|1|!( ( ) a b
+S|!( ( ) a b|1|!( ( ) a b
+B|B|1|B
+S|B|1|B
+B| + (b|2||(b
+S|+(b|1|+(b
+B|A + !( b + Q1 A  C|3|A|!( b|Q1 A  C
+S|Q1 A  C + A + !( b|1|Q1 A  C + A + !( b
+B| + A|2||A
+S|+ A|1|+ A
+B|b )|1|b )
+S|b|1|b
+B|)x1! & Zedc_d(BL_Position\p|1|)x1! & Zedc_d(BL_Position\p
+S|)x1! & Zedc_d(BL_Position|1|)x1! & Zedc_d(BL_Position
+B|a B Zed b BL_Position b + B ) c_d|2|a B Zed b BL_Position b|B ) c_d
+S|a B Zed b BL_Position b + B ) c_d|1|a B Zed b BL_Position b + B ) c_d
+B|b|1|b
+S|b|1|b
+B|Cb|1|Cb
+S|Cb|1|Cb
+B|a C \t ) \t (|1|a C \t ) \t (
+S|a C \t ) \t (|1|a C \t ) \t (
+B|x1 !(|1|x1 !(
+S|x1 !(|1|x1 !(
+B|!(ba & x1bBA!|1|!(ba & x1bBA!
+S|!(ba & x1bBA!|1|!(ba & x1bBA!
+B|\p & BL_Position Zed \p !(|1|\p & BL_Position Zed \p !(
+S| \p  & BL_Position Zed \p !(|3|| & BL_Position Zed|!(
+B|a c_d + BL_Position b x1 ! a|2|a c_d|BL_Position b x1 ! a
+S|a c_d + BL_Position b x1 ! a|1|a c_d + BL_Position b x1 ! a
+B| + b|2||b
+S|b +|1|b +
+B|a A !( x1 Zed +  & ) c_d|2|a A !( x1 Zed| & ) c_d
+S|) c_d & a A !( x1 Zed +|1|) c_d & a A !( x1 Zed +
+B|BL_PositionB)c_dB|1|BL_PositionB)c_dB
+S|BL_PositionB)c_dB|1|BL_PositionB)c_dB
+B|AZedx1Q1A!( & x1x1|1|AZedx1Q1A!( & x1x1
+S|AZedx1Q1A!( & x1x1|1|AZedx1Q1A!( & x1x1
+B|A|1|A
+S|A|1|A
+B|baBL_PositionBL_PositionBA !(|1|baBL_PositionBL_PositionBA !(
+S|baBL_PositionBL_PositionBA !(|1|baBL_PositionBL_PositionBA !(
+B|BL_Position b|1|BL_Position b
+S|BL_Position b|1|BL_Position b
+B|A\p|1|A\p
+S|A|1|A
+B|ZedC|1|ZedC
+S|ZedC|1|ZedC
+B|Ax1)aAc_d!()|1|Ax1)aAc_d!()
+S|Ax1)aAc_d!(|1|Ax1)aAc_d!(
+B|\pc_dCZedBa|1|\pc_dCZedBa
+S| \p c_dCZedBa|2||c_dCZedBa
+B|\pA & AAb!\p|1|\pA & AAb!\p
+S| \p A & AAb!|2||A & AAb!
+B| + CB + \pZedc_dc_d|3||CB|\pZedc_dc_d
+S| \p Zedc_dc_d+CB+|2||Zedc_dc_d+CB+
+B|\pZedA x1BC|1|\pZedA x1BC
+S| \p ZedA x1BC|2||ZedA x1BC
+B|(!(a + )\p\p B)|2|(!(a|)\p\p B)
+S| \p B)+(!(a|2||B)+(!(a
+B||1|
+S||1|
+B|BZedb|1|BZedb
+S|BZedb|1|BZedb
+B| & x1|1| & x1
+S| & x1|1| & x1
+B|( B b ) !( ! A & x1 A|1|( B b ) !( ! A & x1 A
+S|( B b ) !( ! A & x1 A|1|( B b ) !( ! A & x1 A
+B|\p !|1|\p !
+S| \p !|2||!
+B|Q1b\p(Zed|1|Q1b\p(Zed
+S|Q1b \p Zed|2|Q1b|Zed
+B|b BL_Position x1 b|1|b BL_Position x1 b
+S|b BL_Position x1 b  \t +|1|b BL_Position x1 b  \t +
+B|a BL_Position !(  Zed Zed x1 A|1|a BL_Position !(  Zed Zed x1 A
+S|a BL_Position !(  Zed Zed x1 A|1|a BL_Position !(  Zed Zed x1 A
+B| +  & B c_d )   a )|2|| & B c_d )   a )
+S|+ & B c_d )   a|1|+ & B c_d )   a
+B|b B ) B b !   B Q1 A|1|b B ) B b !   B Q1 A
+S|b B ) B b !   B Q1 A|1|b B ) B b !   B Q1 A
+B|) ( b + B + \p b !(|3|) ( b|B|\p b !(
+S|B  + \p b !( + ) ( b|2|B  +|b !( + ) ( b
+B|( + Bx1 & CC & ZedQ1|2|(|Bx1 & CC & ZedQ1
+S|Bx1+( & CC & ZedQ1|1|Bx1+( & CC & ZedQ1
+B| & B|1| & B
+S| & B|1| & B
+B|B|1|B
+S|B|1|B
+B|!(|1|!(
+S|!(|1|!(
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|( + C (|2|(|C (
+S|+ C (|1|+ C (
+B|( + B x1 x1|2|(|B x1 x1
+S|+ B x1 x1|1|+ B x1 x1
+B|Q1 Zed BL_Position \t \p c_d + x1|2|Q1 Zed BL_Position \t \p c_d|x1
+S|c_d \p x1 + Q1 Zed BL_Position|2|c_d|x1 + Q1 Zed BL_Position
+B|!( b & ) \t BL_Position C  A|1|!( b & ) \t BL_Position C  A
+S|!( b & ) \t BL_Position C  A|1|!( b & ) \t BL_Position C  A
+B|x1|1|x1
+S|x1|1|x1
+B|!( & ( & Zedc_da|1|!( & ( & Zedc_da
+S| & !( & Zedc_da|1| & !( & Zedc_da
+B|!(C  !(|1|!(C  !(
+S|!(C  !(|1|!(C  !(
+B|B)|1|B)
+S|B|1|B
+B|\px1|1|\px1
+S| \p x1|2||x1
+B|ZedBL_Positionc_d!x1 A|1|ZedBL_Positionc_d!x1 A
+S|ZedBL_Positionc_d!x1 A|1|ZedBL_Positionc_d!x1 A
+B|!( c_d|1|!( c_d
+S|!( c_d|1|!( c_d
+B|)CQ1Bbab|1|)CQ1Bbab
+S|)CQ1Bbab|1|)CQ1Bbab
+B|( ! a b ! & x1 (|1|( ! a b ! & x1 (
+S|( ! a b ! & x1 (|1|( ! a b ! & x1 (
+B|b c_d BL_Position b   BL_Position|1|b c_d BL_Position b   BL_Position
+S|b c_d BL_Position b   BL_Position|1|b c_d BL_Position b   BL_Position
+B|x1 A|1|x1 A
+S|x1 A|1|x1 A
+B| + B (|2||B (
+S|+ B (|1|+ B (
+B|A x1 \p + C|2|A x1 \p|C
+S|+ C \p A x1|2|+ C|A x1
+B|Bx1x1b\p|1|Bx1x1b\p
+S|Bx1x1b|1|Bx1x1b
+B| + x1|2||x1
+S|+x1|1|+x1
+B|)!\pbA & )c_d|1|)!\pbA & )c_d
+S|)! & )c_d \p bA|2|)! & )c_d|bA
+B|a !( A a c_d|1|a !( A a c_d
+S|a !( A a c_d|1|a !( A a c_d
+B|bA!(b\tZed!|1|bA!(b\tZed!
+S|bA!(b\tZed!|1|bA!(b\tZed!
+B|( & B x1|1|( & B x1
+S|( & B x1|1|( & B x1
+B|Zed c_d A c_d BL_Position B|1|Zed c_d A c_d BL_Position B
+S|Zed c_d A c_d BL_Position B|1|Zed c_d A c_d BL_Position B
+B|BA & c_db|1|BA & c_db
+S|BA & c_db|1|BA & c_db
+B|c_dA|1|c_dA
+S|c_dA|1|c_dA
+B|\pCx1|1|\pCx1
+S| \p Cx1|2||Cx1
+B| + x1|2||x1
+S|+ x1|1|+ x1
+B|) + BL_Position A|2|)|BL_Position A
+S|BL_Position A +|1|BL_Position A +
+B|c_d BL_PositionZedA|1|c_d BL_PositionZedA
+S|c_d BL_PositionZedA|1|c_d BL_PositionZedA
+B|( x1 Q1 a A BL_Position BL_Position Q1|1|( x1 Q1 a A BL_Position BL_Position Q1
+S|x1 Q1 a A BL_Position BL_Position Q1|1|x1 Q1 a A BL_Position BL_Position Q1
+B|!( Zed|1|!( Zed
+S|!( Zed|1|!( Zed
+B|Q1BL_Positionx1|1|Q1BL_Positionx1
+S|Q1BL_Positionx1|1|Q1BL_Positionx1
+B|)C  Q1C|1|)C  Q1C
+S|)C  Q1C|1|)C  Q1C
+B|A ! !( \p Q1 Q1 c_d ! x1 !|1|A ! !( \p Q1 Q1 c_d ! x1 !
+S|A ! !( \p Q1 Q1 c_d ! x1 !|2|A ! !(|Q1 Q1 c_d ! x1 !
+B|)Q1A|1|)Q1A
+S|)Q1A|1|)Q1A
+B|c_da(c_dQ1BL_PositionB!|1|c_da(c_dQ1BL_PositionB!
+S|c_da(c_dQ1BL_PositionB!|1|c_da(c_dQ1BL_PositionB!
+B|! & c_d)AA(|1|! & c_d)AA(
+S|! & c_d)AA(|1|! & c_d)AA(
+B|Q1 c_d a B !( C a \p B \p|1|Q1 c_d a B !( C a \p B \p
+S|B \p Q1 c_d a B !( C a|2|B|Q1 c_d a B !( C a
+B|aQ1 + x1BL_Position|2|aQ1|x1BL_Position
+S|aQ1+x1BL_Position|1|aQ1+x1BL_Position
+B|c_d!(Q1|1|c_d!(Q1
+S|c_d!(Q1|1|c_d!(Q1
+B| + \p ) c_d B|2||\p ) c_d B
+S|) c_d B \p +|2|) c_d B|+
+B|! ) Q1 !( x1 A B|1|! ) Q1 !( x1 A B
+S|! ) Q1 !( x1 A B|1|! ) Q1 !( x1 A B
+B|c_d|1|c_d
+S|c_d|1|c_d
+B| & !(x1x1|1| & !(x1x1
+S| & !(x1x1|1| & !(x1x1
+B|! c_d BL_Position A (|1|! c_d BL_Position A (
+S|! c_d BL_Position A ( +|1|! c_d BL_Position A ( +
+B|aQ1|1|aQ1
+S|aQ1|1|aQ1
+B|B!x1c_dQ1BL_Positionb|1|B!x1c_dQ1BL_Positionb
+S|B!x1c_dQ1BL_Positionb|1|B!x1c_dQ1BL_Positionb
+B|!(!(BL_Position|1|!(!(BL_Position
+S|!(!(BL_Position+|1|!(!(BL_Position+
+B|BL_Position ! C b    Q1 + Zed|2|BL_Position ! C b    Q1|Zed
+S|Zed \t + BL_Position ! C b    Q1|1|Zed \t + BL_Position ! C b    Q1
+B|(CZedCC +  & Zed|2|(CZedCC| & Zed
+S| & Zed+(CZedCC|1| & Zed+(CZedCC
+B|BL_PositionZed|1|BL_PositionZed
+S|BL_PositionZed|1|BL_PositionZed
+B| + x1 B BL_Position \p A b C|2||x1 B BL_Position \p A b C
+S|+ x1 B BL_Position \p A b C|2|+ x1 B BL_Position|A b C
+B|A\p!( & BL_Position|1|A\p!( & BL_Position
+S|!( & BL_Position \p A|2|!( & BL_Position|A
+B|A c_d + BL_Position BL_Position x1|2|A c_d|BL_Position BL_Position x1
+S|A c_d + BL_Position BL_Position x1|1|A c_d + BL_Position BL_Position x1
+B|a Zed !|1|a Zed !
+S|a Zed !|1|a Zed !
+B|a a|1|a a
+S|a a|1|a a
+B|a x1 c_d Zed|1|a x1 c_d Zed
+S|a x1 c_d Zed|1|a x1 c_d Zed
+B|\p  BL_Position BL_Position|1|\p  BL_Position BL_Position
+S| \p BL_Position BL_Position|2||BL_Position BL_Position
+B|x1c_dx1A|1|x1c_dx1A
+S|x1c_dx1A|1|x1c_dx1A
+B|b  ! A Q1 B & x1 a|1|b  ! A Q1 B & x1 a
+S|b  ! A Q1 B & x1 a|1|b  ! A Q1 B & x1 a
+B|bZed(|1|bZed(
+S|bZed(|1|bZed(
+B| & BL_PositionQ1BZedA!(|1| & BL_PositionQ1BZedA!(
+S| & BL_PositionQ1BZedA!(|1| & BL_PositionQ1BZedA!(
+B|) & Zedb|1|) & Zedb
+S|) & Zedb|1|) & Zedb
+B|BL_Position a a C B   C|1|BL_Position a a C B   C
+S|BL_Position a a C B   C|1|BL_Position a a C B   C
+B|x1 \t ( a|1|x1 \t ( a
+S|x1 \t ( a|1|x1 \t ( a
+B|) ( B B BL_Position|1|) ( B B BL_Position
+S|) ( B B BL_Position|1|) ( B B BL_Position
+B|BL_Position c_d|1|BL_Position c_d
+S|BL_Position c_d|1|BL_Position c_d
+B| & ! + )C|2| & !|)C
+S| & !+)C|1| & !+)C
+B|CAZed\paBL_Position\p|1|CAZed\paBL_Position\p
+S| \p CAZed \p aBL_Position|3||CAZed|aBL_Position
+B|B C b b|1|B C b b
+S|B C b b|1|B C b b
+B||0
+S|+|1|+
+B|B !( x1 Q1 A|1|B !( x1 Q1 A
+S|B !( x1 Q1 A|1|B !( x1 Q1 A
+B|(BL_Positiona Q1CB|1|(BL_Positiona Q1CB
+S|BL_Positiona Q1CB|1|BL_Positiona Q1CB
+B|A!A !x1|1|A!A !x1
+S|A!A !x1|1|A!A !x1
+B|\p A \p C|1|\p A \p C
+S| \p A \p C|3||A|C
+B|Q1 \pc_dAA|1|Q1 \pc_dAA
+S|Q1 \p c_dAA|2|Q1|c_dAA
+B|) + BL_Position ! Q1|2|)|BL_Position ! Q1
+S|) + BL_Position ! Q1 \t +|1|) + BL_Position ! Q1 \t +
+B|)|1|)
+S||1|
+B| + Q1|2||Q1
+S|+ Q1|1|+ Q1
+B|x1x1bQ1Q1a (|1|x1x1bQ1Q1a (
+S|x1x1bQ1Q1a (|1|x1x1bQ1Q1a (
+B|c_d!x1Q1|1|c_d!x1Q1
+S|c_d!x1Q1|1|c_d!x1Q1
+B|Zed  \p C Zed|1|Zed  \p C Zed
+S|C Zed \p Zed|2|C Zed|Zed
+B| & \p BL_Position a BL_Position Zed|1| & \p BL_Position a BL_Position Zed
+S| \p BL_Position a BL_Position Zed|2||BL_Position a BL_Position Zed
+B|B & c_d|1|B & c_d
+S|B & c_d|1|B & c_d
+B|a C (|1|a C (
+S|a C (|1|a C (
+B|B !  B|1|B !  B
+S|B !  B|1|B !  B
+B|x1 !(|1|x1 !(
+S|x1 !(|1|x1 !(
+B|!( + b \p|2|!(|b \p
+S|+ !( \p b|2|+ !(|b
+B|CBL_Position(|1|CBL_Position(
+S|CBL_Position(|1|CBL_Position(
+B|CZedb!Q1Zed)BL_Position|1|CZedb!Q1Zed)BL_Position
+S|CZedb!Q1Zed)BL_Position|1|CZedb!Q1Zed)BL_Position
+B|B c_d|1|B c_d
+S|B c_d|1|B c_d
+B|BL_Positionb & c_d|1|BL_Positionb & c_d
+S|BL_Positionb & c_d|1|BL_Positionb & c_d
+B|A ( BL_Position C A & a C A|1|A ( BL_Position C A & a C A
+S|A ( BL_Position C A & a C A|1|A ( BL_Position C A & a C A
+B|C \p A b|1|C \p A b
+S|A b \p C|2|A b|C
+B|!A & B|1|!A & B
+S|!A & B|1|!A & B
+B|c_d & ( Zed c_d C|1|c_d & ( Zed c_d C
+S|Zed c_d C & c_d|1|Zed c_d C & c_d
+B|) + BL_Position|2|)|BL_Position
+S|) & + BL_Position|1|) & + BL_Position
+B|bc_dc_daA + ) CB|2|bc_dc_daA|) CB
+S|bc_dc_daA+) CB|1|bc_dc_daA+) CB
+B|!|1|!
+S|!|1|!
+B||0
+S||1|
+B|A B c_d A Zed|1|A B c_d A Zed
+S|A B c_d A Zed|1|A B c_d A Zed
+B|x1 Zed b B \t x1 A Zed|1|x1 Zed b B \t x1 A Zed
+S|x1 Zed b B \t x1 A Zed|1|x1 Zed b B \t x1 A Zed
+B|C   x1   ( c_d|1|C   x1   ( c_d
+S|C   x1   ( c_d|1|C   x1   ( c_d
+B|c_d + Q1|2|c_d|Q1
+S|c_d + Q1|1|c_d + Q1
+B|b|1|b
+S|b|1|b
+B|a|1|a
+S|a|1|a
+B|!!|1|!!
+S|!!|1|!!
+B|BbQ1Q1a(\tx1|1|BbQ1Q1a(\tx1
+S|BbQ1Q1a(\tx1|1|BbQ1Q1a(\tx1
+B|x1\pB|1|x1\pB
+S|B \p x1|2|B|x1
+B|BL_Position C|1|BL_Position C
+S|BL_Position C|1|BL_Position C
+B|A ( x1 \p + \p !( Zed BL_Position|2|A ( x1 \p|\p !( Zed BL_Position
+S|!( Zed BL_Position \p + \p A ( x1|3|!( Zed BL_Position|+|A ( x1
+B|C ( BL_Position & x1 x1 BL_Position|1|C ( BL_Position & x1 x1 BL_Position
+S|C ( BL_Position & x1 x1 BL_Position|1|C ( BL_Position & x1 x1 BL_Position
+B|x1\tc_dQ1|1|x1\tc_dQ1
+S|x1\tc_dQ1|1|x1\tc_dQ1
+B||1|
+S||1|
+B| + A \p Q1|2||A \p Q1
+S|+ A \p Q1|2|+ A|Q1
+B|ab|1|ab
+S|ab|1|ab
+B|(a(Zeda)|1|(a(Zeda)
+S|a(Zeda|1|a(Zeda
+B| + a\tB x1(|2||a\tB x1(
+S|+a\tB x1(|1|+a\tB x1(
+B| & A|1| & A
+S| & A|1| & A
+B||0
+S||1|
+B|!( c_d \p  b !|1|!( c_d \p  b !
+S|!( c_d \p b !|2|!( c_d|b !
+B| + x1 + Zed BL_Position)|3||x1|Zed BL_Position)
+S| & +Zed BL_Position)+x1|1| & +Zed BL_Position)+x1
+B|C|1|C
+S|C|1|C
+B|A C c_d a|1|A C c_d a
+S|A C c_d a|1|A C c_d a
+B| & B x1 C & Zed ( BL_Position Q1|1| & B x1 C & Zed ( BL_Position Q1
+S| & B x1 C & Zed ( BL_Position Q1|1| & B x1 C & Zed ( BL_Position Q1
+B|( B + BL_Position b B|2|( B|BL_Position b B
+S|BL_Position b B   + ( B|1|BL_Position b B   + ( B
+B|(\tBx1|1|(\tBx1
+S|Bx1+|1|Bx1+
+B|a B Zed  ! \p a !(|1|a B Zed  ! \p a !(
+S|a !( \p a B Zed  !|2|a !(|a B Zed  !
+B|) + x1A!B|2|)|x1A!B
+S|)+x1A!B|1|)+x1A!B
+B|BL_PositionC\p\tZed|1|BL_PositionC\p\tZed
+S|BL_PositionC \p Zed|2|BL_PositionC|Zed
+B|a A ( C C|1|a A ( C C
+S|a A ( C C|1|a A ( C C
+B|b)A & bZedBL_Position|1|b)A & bZedBL_Position
+S|b)A & bZedBL_Position|1|b)A & bZedBL_Position
+B|CBL_Position(|1|CBL_Position(
+S|CBL_Position(|1|CBL_Position(
+B|ab + b & BL_Position|2|ab|b & BL_Position
+S|BL_Position & b+ab|1|BL_Position & b+ab
+B|Q1 !(|1|Q1 !(
+S|Q1 !(|1|Q1 !(
+B|Q1a|1|Q1a
+S|Q1a|1|Q1a
+B|\p)aAAa|1|\p)aAAa
+S| \p )aAAa|2||)aAAa
+B|C b|1|C b
+S|C b|1|C b
+B|Q1B|1|Q1B
+S|Q1B|1|Q1B
+B|A + a|2|A|a
+S|a   + A   +|1|a   + A   +
+B|aBZedA!Zedc_d|1|aBZedA!Zedc_d
+S|aBZedA!Zedc_d|1|aBZedA!Zedc_d
+B|BL_PositionC( & )\tZedB|1|BL_PositionC( & )\tZedB
+S|)\tZedB & BL_PositionC(|1|)\tZedB & BL_PositionC(
+B|!(aA|1|!(aA
+S|!(aA|1|!(aA
+B|\p Q1 a Q1 a \p   Zed !(|1|\p Q1 a Q1 a \p   Zed !(
+S| \p Q1 a Q1 a \p Zed !(|3||Q1 a Q1 a|Zed !(
+B|B Q1 !( Zed A|1|B Q1 !( Zed A
+S|B Q1 !( Zed A|1|B Q1 !( Zed A
+B||0
+S|+|1|+
+B|Ac_dZed)bZedb!(|1|Ac_dZed)bZedb!(
+S|Ac_dZed)bZedb!(|1|Ac_dZed)bZedb!(
+B|( b A Zed Zed !( C C a|1|( b A Zed Zed !( C C a
+S|b A Zed Zed !( C C a|1|b A Zed Zed !( C C a
+B|\p +  & BBL_PositionBL_Position|2|\p| & BBL_PositionBL_Position
+S| \p + & BBL_PositionBL_Position|2||+ & BBL_PositionBL_Position
+B| & BL_Position!!( & BL_Positionx1 & C|1| & BL_Position!!( & BL_Positionx1 & C
+S| & BL_Position!!( & BL_Positionx1 & C|1| & BL_Position!!( & BL_Positionx1 & C
+B| & ) Q1 A b  Q1|1| & ) Q1 A b  Q1
+S| & ) Q1 A b  Q1|1| & ) Q1 A b  Q1
+B|Q1)CQ1Q1(!( (|1|Q1)CQ1Q1(!( (
+S|Q1)CQ1Q1(!( (|1|Q1)CQ1Q1(!( (
+B|CBb & !Zed|1|CBb & !Zed
+S|CBb & !Zed|1|CBb & !Zed
+B|a c_d c_d \p  \t A x1 C BL_Position|1|a c_d c_d \p  \t A x1 C BL_Position
+S|A x1 C BL_Position \p a c_d c_d|2|A x1 C BL_Position|a c_d c_d
+B|Zed|1|Zed
+S|Zed|1|Zed
+B|b ) B Zed C ) Q1 + Q1|2|b ) B Zed C ) Q1|Q1
+S|b ) B Zed C ) Q1 + Q1|1|b ) B Zed C ) Q1 + Q1
+B|) c_d ! ( ( ! \t  x1|1|) c_d ! ( ( ! \t  x1
+S|) c_d ! ( ( ! \t  x1|1|) c_d ! ( ( ! \t  x1
+B|a !(AQ1|1|a !(AQ1
+S|a !(AQ1|1|a !(AQ1
+B|c_d & c_d)BZed)(a)|1|c_d & c_d)BZed)(a)
+S|c_d & c_d)BZed)(a)|1|c_d & c_d)BZed)(a)
+B|C\pQ1x1c_d|1|C\pQ1x1c_d
+S|C \p Q1x1c_d|2|C|Q1x1c_d
+B|A )|1|A )
+S|A|1|A
+B|Zed a \t   b|1|Zed a \t   b
+S|Zed a \t   b|1|Zed a \t   b
+B|( C & x1 BL_Position Q1 b|1|( C & x1 BL_Position Q1 b
+S|C & x1 BL_Position Q1 b +|1|C & x1 BL_Position Q1 b +
+B|\p!(BL_PositionZed & !c_d|1|\p!(BL_PositionZed & !c_d
+S|!(BL_PositionZed \p !c_d|2|!(BL_PositionZed|!c_d
+B|!( c_d x1 BL_Position BL_Position A B|1|!( c_d x1 BL_Position BL_Position A B
+S|!( c_d x1 BL_Position BL_Position A B|1|!( c_d x1 BL_Position BL_Position A B
+B| & Zed !( A|1| & Zed !( A
+S| & Zed !( A|1| & Zed !( A
+B|) x1 ) ( \p|1|) x1 ) ( \p
+S|) x1 ) (|1|) x1 ) (
+B|B Zed|1|B Zed
+S|B Zed|1|B Zed
+B|Zed Zed|1|Zed Zed
+S|Zed Zed|1|Zed Zed
+B|ac_dCZedBb|1|ac_dCZedBb
+S|ac_dCZedBb|1|ac_dCZedBb
+B|A!BBL_Position!(|1|A!BBL_Position!(
+S|A!BBL_Position!(|1|A!BBL_Position!(
+B|)|1|)
+S||1|
+B|\p b Q1 c_d Q1   b !( a|1|\p b Q1 c_d Q1   b !( a
+S| \p b Q1 c_d Q1   b !( a|2||b Q1 c_d Q1   b !( a
+B|x1!(b\tBL_PositionZedc_d!|1|x1!(b\tBL_PositionZedc_d!
+S|x1!(b\tBL_PositionZedc_d!|1|x1!(b\tBL_PositionZedc_d!
+B||0
+S||1|
+B|B + Zed|2|B|Zed
+S|Zed+B|1|Zed+B
+B|!(C\tBL_Position!(B|1|!(C\tBL_Position!(B
+S|!(C\tBL_Position!(B|1|!(C\tBL_Position!(B
+B|! BL_Position ) !  BL_Position|1|! BL_Position ) !  BL_Position
+S|! BL_Position ) !  BL_Position|1|! BL_Position ) !  BL_Position
+B|b! & C\pQ1bA!(|1|b! & C\pQ1bA!(
+S|C \p Q1bA!( & b!|2|C|Q1bA!( & b!
+B|BL_Position x1 )|1|BL_Position x1 )
+S|BL_Position x1|1|BL_Position x1
+B||0
+S||1|
+B|A|1|A
+S|A|1|A
+B|(|1|(
+S||1|
+B|Zed|1|Zed
+S|Zed|1|Zed
+B|(b & Q1)|1|(b & Q1)
+S|Q1 & b|1|Q1 & b
+B|AAb\t\tc_d|1|AAb\t\tc_d
+S|AAb\t\tc_d|1|AAb\t\tc_d
+B|) !(|1|) !(
+S|) !(|1|) !(
+B|(ba!(!(|1|(ba!(!(
+S|ba!(!(|1|ba!(!(
+B|b) + Q1|2|b)|Q1
+S|Q1+b|1|Q1+b
+B|C c_d x1 c_d Zed B|1|C c_d x1 c_d Zed B
+S|C c_d x1 c_d Zed B|1|C c_d x1 c_d Zed B
+B|b|1|b
+S|b+|1|b+
+B|! Q1 Zed|1|! Q1 Zed
+S|! Q1 Zed|1|! Q1 Zed
+B|b ( Q1   c_d Q1 ( Q1   a|1|b ( Q1   c_d Q1 ( Q1   a
+S|b ( Q1   c_d Q1 ( Q1   a|1|b ( Q1   c_d Q1 ( Q1   a
+B|C\tBL_Position|1|C\tBL_Position
+S|C\tBL_Position|1|C\tBL_Position
+B|Zed c_d  x1 a A c_d (|1|Zed c_d  x1 a A c_d (
+S|Zed c_d  x1 a A c_d (|1|Zed c_d  x1 a A c_d (
+B|a BL_Position b !|1|a BL_Position b !
+S|a BL_Position b !|1|a BL_Position b !
+B|)Q1Zed(|1|)Q1Zed(
+S|)Q1Zed(|1|)Q1Zed(
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|BL_Position ! b (|1|BL_Position ! b (
+S|BL_Position ! b (|1|BL_Position ! b (
+B|c_d((b\pBL_PositionZed|1|c_d((b\pBL_PositionZed
+S|BL_PositionZed \p c_d((b|2|BL_PositionZed|c_d((b
+B|c_dQ1|1|c_dQ1
+S|c_dQ1|1|c_dQ1
+B|! \p  ) \t b|1|! \p  ) \t b
+S|! \p ) \t b|2|!|) \t b
+B|c_dbaQ1|1|c_dbaQ1
+S|c_dbaQ1|1|c_dbaQ1
+B|x1|1|x1
+S|x1|1|x1
+B| & a \p ( C c_d C|1| & a \p ( C c_d C
+S| & a \p C c_d C|2| & a|C c_d C
+B|BL_Position c_d b & C A|1|BL_Position c_d b & C A
+S|BL_Position c_d b & C A|1|BL_Position c_d b & C A
+B|a Q1 C Zed a Zed b x1|1|a Q1 C Zed a Zed b x1
+S|a Q1 C Zed a Zed b x1|1|a Q1 C Zed a Zed b x1
+B|b & BL_Position & c_d B Zed a !|1|b & BL_Position & c_d B Zed a !
+S|BL_Position + & b & c_d B Zed a !|1|BL_Position + & b & c_d B Zed a !
+B|c_dA|1|c_dA
+S|c_dA|1|c_dA
+B|B ( \p|1|B ( \p
+S|B (|1|B (
+B|Q1A((x1Q1)!BL_Position|1|Q1A((x1Q1)!BL_Position
+S|Q1A((x1Q1)!BL_Position|1|Q1A((x1Q1)!BL_Position
+B|x1|1|x1
+S|x1|1|x1
+B|c_d + x1)|2|c_d|x1)
+S|c_d+ x1|1|c_d+ x1
+B| + (c_db|2||(c_db
+S|+(c_db|1|+(c_db
+B|C|1|C
+S|C|1|C
+B|C\taA\t\ta|1|C\taA\t\ta
+S|C\taA\t\ta|1|C\taA\t\ta
+B|Zed b C a Zed A B b|1|Zed b C a Zed A B b
+S|Zed b C a Zed A B b|1|Zed b C a Zed A B b
+B|ZedBL_PositionQ1(x1Cc_d|1|ZedBL_PositionQ1(x1Cc_d
+S|ZedBL_PositionQ1(x1Cc_d|1|ZedBL_PositionQ1(x1Cc_d
+B|a (|1|a (
+S|a (|1|a (
+B|A BL_Position \p + Q1 a C A x1 b|2|A BL_Position \p|Q1 a C A x1 b
+S|Q1 a C A x1 b + A BL_Position|1|Q1 a C A x1 b + A BL_Position
+B|b\p|1|b\p
+S|b|1|b
+B|c_d \p Q1|1|c_d \p Q1
+S|Q1 \p c_d|2|Q1|c_d
+B|a + A x1 a !( \t b|2|a|A x1 a !( \t b
+S|A x1 a !( \t b + a|1|A x1 a !( \t b + a
+B|c_d|1|c_d
+S|c_d|1|c_d
+B| & ! x1|1| & ! x1
+S| & ! x1|1| & ! x1
+B|a b B|1|a b B
+S|a b B|1|a b B
+B|C|1|C
+S|C|1|C
+B|\p a \p \p|1|\p a \p \p
+S| \p a|2||a
+B| + Q1 + \p Zed Q1|3||Q1|\p Zed Q1
+S|+ \p Zed Q1 + Q1|2|+|Zed Q1 + Q1
+B|c_d \p b A BL_Position|1|c_d \p b A BL_Position
+S|b A BL_Position \p c_d|2|b A BL_Position|c_d
+B|!Bbc_d!Zedc_d)b|1|!Bbc_d!Zedc_d)b
+S|!Bbc_d!Zedc_d)b|1|!Bbc_d!Zedc_d)b
+B|CA!|1|CA!
+S|CA!+|1|CA!+
+B|c_d \t a|1|c_d \t a
+S|c_d \t a|1|c_d \t a
+B|\pB|1|\pB
+S| \p B|2||B
+B|b(B) BC|1|b(B) BC
+S|b(B) BC|1|b(B) BC
+B|ZedZedCc_d|1|ZedZedCc_d
+S|ZedZedCc_d|1|ZedZedCc_d
+B|)B(ABL_Positiona|1|)B(ABL_Positiona
+S|)B(ABL_Positiona|1|)B(ABL_Positiona
+B|\p & B & C|1|\p & B & C
+S| \p  & B & C|2|| & B & C
+B|c_d C A A|1|c_d C A A
+S|c_d C A A|1|c_d C A A
+B|BL_Position!(CA|1|BL_Position!(CA
+S|BL_Position!(CA|1|BL_Position!(CA
+B| + !( & b A x1 !(|2||!( & b A x1 !(
+S|+ !( & b A x1 !(|1|+ !( & b A x1 !(
+B|( ( BL_Position B & C|1|( ( BL_Position B & C
+S|( ( BL_Position B & C|1|( ( BL_Position B & C
+B|Q1c_dCc_d!(|1|Q1c_dCc_d!(
+S|Q1c_dCc_d!(|1|Q1c_dCc_d!(
+B|c_d(|1|c_d(
+S|c_d(|1|c_d(
+B| + !(a\t( + Q1b|3||!(a\t(|Q1b
+S|!(a\t(++Q1b|1|!(a\t(++Q1b
+B|\p \p ) !(|1|\p \p ) !(
+S| \p ) !(|2||) !(
+B|a C B C \t C a + ( Zed|2|a C B C \t C a|( Zed
+S|Zed + a C B C \t C a|1|Zed + a C B C \t C a
+B|C C \p|1|C C \p
+S|C C|1|C C
+B|Q1 !( & \p Q1|1|Q1 !( & \p Q1
+S| \p Q1 & Q1 !(|2||Q1 & Q1 !(
+B| & B!BL_Position! + Cx1B|2| & B!BL_Position!|Cx1B
+S| & B!BL_Position!+Cx1B|1| & B!BL_Position!+Cx1B
+B|!( ( b|1|!( ( b
+S|!( ( b|1|!( ( b
+B|b \p|1|b \p
+S|b|1|b
+B|b)B\p|1|b)B\p
+S|b)B|1|b)B
+B| + BL_Position a \p C \p ! \p !(|2||BL_Position a \p C \p ! \p !(
+S|! \p !( \p + BL_Position a \p C|4|!|!(|+ BL_Position a|C
+B| + x1\tBL_Position(B|2||x1\tBL_Position(B
+S|+x1\tBL_Position(B|1|+x1\tBL_Position(B
+B|b!BL_Position|1|b!BL_Position
+S|b!BL_Position|1|b!BL_Position
+B|Q1)AQ1(Zedb|1|Q1)AQ1(Zedb
+S|Q1)AQ1(Zedb|1|Q1)AQ1(Zedb
+B| & BL_PositionB)c_d|1| & BL_PositionB)c_d
+S| & BL_PositionB)c_d|1| & BL_PositionB)c_d
+B|!|1|!
+S|!|1|!
+B|A|1|A
+S|A|1|A
+B|!BL_PositionBa\tx1Cb|1|!BL_PositionBa\tx1Cb
+S|!BL_PositionBa\tx1Cb|1|!BL_PositionBa\tx1Cb
+B|Q1 C|1|Q1 C
+S|Q1 C|1|Q1 C
+B|B Zed c_d ! Zed|1|B Zed c_d ! Zed
+S|B Zed c_d ! Zed|1|B Zed c_d ! Zed
+B|a\pc_d|1|a\pc_d
+S|a \p c_d|2|a|c_d
+B|A\t!(|1|A\t!(
+S|A\t!(|1|A\t!(
+B|Q1 Q1 x1 b A x1 )|1|Q1 Q1 x1 b A x1 )
+S|Q1 Q1 x1 b A x1|1|Q1 Q1 x1 b A x1
+B|\p|1|\p
+S||0
+B|c_d\pc_d\tc_dx1BL_Position|1|c_d\pc_d\tc_dx1BL_Position
+S|c_d \p c_d\tc_dx1BL_Position|2|c_d|c_d\tc_dx1BL_Position
+B|A!|1|A!
+S|A!+|1|A!+
+B|a \p !( c_d|1|a \p !( c_d
+S|!( c_d \p a|2|!( c_d|a
+B|CBBL_PositionQ1|1|CBBL_PositionQ1
+S|CBBL_PositionQ1|1|CBBL_PositionQ1
+B| + x1BZed!(CC|2||x1BZed!(CC
+S|+x1BZed!(CC|1|+x1BZed!(CC
+B|( \p|1|( \p
+S||1|
+B|A ! BL_Position a BL_Position ! BL_Position !|1|A ! BL_Position a BL_Position ! BL_Position !
+S|A ! BL_Position a BL_Position ! BL_Position !|1|A ! BL_Position a BL_Position ! BL_Position !
+B|CQ1B(|1|CQ1B(
+S|CQ1B(|1|CQ1B(
+B|b ABL_Position + Q1!|2|b ABL_Position|Q1!
+S|Q1!+b ABL_Position|1|Q1!+b ABL_Position
+B| + c_d\tx1!(|2||c_d\tx1!(
+S|+c_d\tx1!(|1|+c_d\tx1!(
+B|C|1|C
+S|C|1|C
+B|C A BL_Position Zed|1|C A BL_Position Zed
+S|C A BL_Position Zed|1|C A BL_Position Zed
+B|x1!c_d + Zed\p(\p|2|x1!c_d|Zed\p(\p
+S| \p x1!c_d+Zed|2||x1!c_d+Zed
+B|B|1|B
+S|B|1|B
+B|BL_Position A A & c_d  b + x1|2|BL_Position A A & c_d  b|x1
+S|BL_Position A A + x1 & c_d  b|1|BL_Position A A + x1 & c_d  b
+B|Q1c_d|1|Q1c_d
+S|Q1c_d|1|Q1c_d
+B|ab|1|ab
+S|ab|1|ab
+B|B CZed|1|B CZed
+S|B CZed|1|B CZed
+B|) BL_Position  !( Q1 B C ) \p|1|) BL_Position  !( Q1 B C ) \p
+S|) BL_Position  !( Q1 B C|1|) BL_Position  !( Q1 B C
+B|CACbZed!(C|1|CACbZed!(C
+S|CACbZed!(C|1|CACbZed!(C
+B|C + c_d & x1a|2|C|c_d & x1a
+S|c_d & x1a+C+|1|c_d & x1a+C+
+B|A BL_Position Zed x1|1|A BL_Position Zed x1
+S|A BL_Position Zed x1|1|A BL_Position Zed x1
+B|B + CZedQ1|2|B|CZedQ1
+S|B+CZedQ1+|1|B+CZedQ1+
+B|c_d Q1 B Q1 ! x1 C !|1|c_d Q1 B Q1 ! x1 C !
+S|c_d Q1 B Q1 ! x1 C !|1|c_d Q1 B Q1 ! x1 C !
+B|) a|1|) a
+S|) a|1|) a
+B|\p & B b & C|1|\p & B b & C
+S| & B b \p C|2| & B b|C
+B|b (|1|b (
+S|b (|1|b (
+B|) \p ( a \t b \p b BL_Position|1|) \p ( a \t b \p b BL_Position
+S| \p a \t b \p b BL_Position|3||a \t b|b BL_Position
+B|c_dBL_PositionbAb\tx1BL_Position|1|c_dBL_PositionbAb\tx1BL_Position
+S|c_dBL_PositionbAb\tx1BL_Position|1|c_dBL_PositionbAb\tx1BL_Position
+B|a & Zed & Zed !( Zed|1|a & Zed & Zed !( Zed
+S|Zed & Zed !( Zed & a|1|Zed & Zed !( Zed & a
+B|ax1x1bBL_PositionAA|1|ax1x1bBL_PositionAA
+S|ax1x1bBL_PositionAA|1|ax1x1bBL_PositionAA
+B|)x1aB(ZedBL_Position|1|)x1aB(ZedBL_Position
+S|)x1aB(ZedBL_Position|1|)x1aB(ZedBL_Position
+B|( Zed|1|( Zed
+S|Zed|1|Zed
+B|\p + BL_Position & x1|2|\p|BL_Position & x1
+S|BL_Position & x1+|1|BL_Position & x1+
+B|BL_Position B BL_Position|1|BL_Position B BL_Position
+S|BL_Position B BL_Position|1|BL_Position B BL_Position
+B|! & BL_Position|1|! & BL_Position
+S|! & BL_Position|1|! & BL_Position
+B|Ab AC|1|Ab AC
+S|Ab AC|1|Ab AC
+B|)|1|)
+S||1|
+B| + a|2||a
+S|+ a|1|+ a
+B|BL_Position BL_Position \t  x1 C|1|BL_Position BL_Position \t  x1 C
+S|BL_Position BL_Position \t  x1 C|1|BL_Position BL_Position \t  x1 C
+B|\p|1|\p
+S||1|
+B|c_d Q1 \t Q1 !( !(|1|c_d Q1 \t Q1 !( !(
+S|c_d Q1 \t Q1 !( !(|1|c_d Q1 \t Q1 !( !(
+B|!( & ZedaBL_Position\ta|1|!( & ZedaBL_Position\ta
+S|!( & ZedaBL_Position\ta|1|!( & ZedaBL_Position\ta
+B|! & B)|1|! & B)
+S|! & B|1|! & B
+B|c_d !(|1|c_d !(
+S|c_d !(|1|c_d !(
+B|!( & a x1|1|!( & a x1
+S|!( & a x1|1|!( & a x1
+B|()|1|()
+S||1|
+B|b  ) B|1|b  ) B
+S|b  ) B|1|b  ) B
+B|! BL_Position ! + C Zed|2|! BL_Position !|C Zed
+S|C Zed +   ! BL_Position !|1|C Zed +   ! BL_Position !
+B|x1\p!(c_d\pZed|1|x1\p!(c_d\pZed
+S|!(c_d \p Zed \p x1|3|!(c_d|Zed|x1
+B|CC|1|CC
+S|CC|1|CC
+B|a ( & b C & !( ) ) Zed|1|a ( & b C & !( ) ) Zed
+S|!( ) ) Zed & a ( & b C|1|!( ) ) Zed & a ( & b C
+B|b BL_Position ! B x1|1|b BL_Position ! B x1
+S|b BL_Position ! B x1|1|b BL_Position ! B x1
+B|x1 A b A !(  ( \t \p b|1|x1 A b A !(  ( \t \p b
+S|b \p x1 A b A !(  (|2|b|x1 A b A !(  (
+B|bc_d!(\p + Zed|2|bc_d!(\p|Zed
+S|+Zed \p bc_d!(|2|+Zed|bc_d!(
+B|) A x1 Q1|1|) A x1 Q1
+S|) A x1 Q1|1|) A x1 Q1
+B|! b ) b b|1|! b ) b b
+S|! b ) b b|1|! b ) b b
+B|B \t BL_Position a + Q1 (|2|B \t BL_Position a|Q1 (
+S|Q1 ( + B \t BL_Position a|1|Q1 ( + B \t BL_Position a
+B|Cb|1|Cb
+S|Cb+|1|Cb+
+B|c_d Zed b a )|1|c_d Zed b a )
+S|c_d Zed b a|1|c_d Zed b a
+B|( )|1|( )
+S||1|
+B|)\t )|1|)\t )
+S|)|1|)
+B|) & x1 ) Zed|1|) & x1 ) Zed
+S| & x1 ) Zed|1| & x1 ) Zed
+B|Q1!)!x1b|1|Q1!)!x1b
+S|Q1!)!x1b|1|Q1!)!x1b
+B|x1 BL_Position a ! B A C \p Zed Zed|1|x1 BL_Position a ! B A C \p Zed Zed
+S|Zed Zed \p x1 BL_Position a ! B A C|2|Zed Zed|x1 BL_Position a ! B A C
+B|BBL_Position|1|BBL_Position
+S|BBL_Position|1|BBL_Position
+B|x1|1|x1
+S|x1|1|x1
+B|Q1 Q1 b B !( BL_Position|1|Q1 Q1 b B !( BL_Position
+S|Q1 Q1 b B !( BL_Position|1|Q1 Q1 b B !( BL_Position
+B|) c_d A )|1|) c_d A )
+S|) c_d A|1|) c_d A
+B|Q1 Ac_dc_d|1|Q1 Ac_dc_d
+S|Q1 Ac_dc_d|1|Q1 Ac_dc_d
+B|B C A|1|B C A
+S|B C A|1|B C A
+B|\p )|1|\p )
+S| \p ) +|2||) +
+B| + BL_Positionx1!(B|2||BL_Positionx1!(B
+S|+BL_Positionx1!(B|1|+BL_Positionx1!(B
+B|B c_d|1|B c_d
+S|B c_d|1|B c_d
+B|\p b & C \t B \p b|1|\p b & C \t B \p b
+S|C \t B \p b|2|C \t B|b
+B|C b c_d c_d BL_Position ) !( )|1|C b c_d c_d BL_Position ) !( )
+S|C b c_d c_d BL_Position ) !(|1|C b c_d c_d BL_Position ) !(
+B|\pBL_PositionB|1|\pBL_PositionB
+S| \p BL_PositionB|2||BL_PositionB
+B|A & A\tC\pQ1|1|A & A\tC\pQ1
+S|A & A\tC \p Q1|2|A & A\tC|Q1
+B|!|1|!
+S|!|1|!
+B|Zed|1|Zed
+S|Zed|1|Zed
+B||0
+S||0
+B|a  c_d Q1|1|a  c_d Q1
+S|a  c_d Q1|1|a  c_d Q1
+B|b & x1|1|b & x1
+S|b & x1|1|b & x1
+B|!( \t     A Zed Q1 & x1 c_d|1|!( \t     A Zed Q1 & x1 c_d
+S|!( \t     A Zed Q1 & x1 c_d|1|!( \t     A Zed Q1 & x1 c_d
+B|Ab|1|Ab
+S|Ab|1|Ab
+B|a ! ) Q1 Q1 Zed + C|2|a ! ) Q1 Q1 Zed|C
+S|a ! ) Q1 Q1 Zed + C|1|a ! ) Q1 Q1 Zed + C
+B|!( !   BL_Position   (   BL_Position b a|1|!( !   BL_Position   (   BL_Position b a
+S|!( !   BL_Position   (   BL_Position b a|1|!( !   BL_Position   (   BL_Position b a
+B|C|1|C
+S|C +|1|C +
+B||0
+S||1|
+B|x1|1|x1
+S|x1|1|x1
+B| & b B|1| & b B
+S| & b B|1| & b B
+B|ZedC!(|1|ZedC!(
+S|ZedC!(|1|ZedC!(
+B|A!!(((!Q1BL_Position|1|A!!(((!Q1BL_Position
+S|A!!(((!Q1BL_Position|1|A!!(((!Q1BL_Position
+B|C x1 c_d BL_Position B   x1 a !(|1|C x1 c_d BL_Position B   x1 a !(
+S|C x1 c_d BL_Position B   x1 a !(|1|C x1 c_d BL_Position B   x1 a !(
+B|A ! a b c_d B|1|A ! a b c_d B
+S|A ! a b c_d B|1|A ! a b c_d B
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|A!(!BL_Position +  & BL_Position +  & c_d|3|A!(!BL_Position| & BL_Position| & c_d
+S| & BL_Position+ & c_d+A!(!BL_Position|1| & BL_Position+ & c_d+A!(!BL_Position
+B| & \pBL_Position & C|1| & \pBL_Position & C
+S| \p  & BL_Position & C+|2|| & BL_Position & C+
+B|CA + Q1(!!(Zed!(|2|CA|Q1(!!(Zed!(
+S|Q1(!!(Zed!(+CA|1|Q1(!!(Zed!(+CA
+B|( + ( + ) + a (|4|(|(|)|a (
+S|a ( + ( + ( +|1|a ( + ( + ( +
+B|(!(x1 ax1|1|(!(x1 ax1
+S|!(x1 ax1|1|!(x1 ax1
+B|Q1 B BL_Position A|1|Q1 B BL_Position A
+S|Q1 B BL_Position A|1|Q1 B BL_Position A
+B|b|1|b
+S|b|1|b
+B|!  B b|1|!  B b
+S|!  B b|1|!  B b
+B|BL_Positionc_dc_da!(\pa\p|1|BL_Positionc_dc_da!(\pa\p
+S|BL_Positionc_dc_da!( \p a|2|BL_Positionc_dc_da!(|a
+B|(\p!C))C!!(|1|(\p!C))C!!(
+S| \p !C))C!!(|2||!C))C!!(
+B| + a ) BL_Position Q1  \t Q1 C|2||a ) BL_Position Q1  \t Q1 C
+S|+ a ) BL_Position Q1  \t Q1 C|1|+ a ) BL_Position Q1  \t Q1 C
+B|A & B b C A \p ( x1 (|1|A & B b C A \p ( x1 (
+S|A & x1 ( \p B b C A|2|A & x1 (|B b C A
+B| + \p BL_Position ( BL_Position \t BL_Position B|2||\p BL_Position ( BL_Position \t BL_Position B
+S|+ \p BL_Position ( BL_Position \t BL_Position B|2|+|BL_Position ( BL_Position \t BL_Position B
+B|()Q1A|1|()Q1A
+S|)Q1A|1|)Q1A
+B|)  ! \p C|1|)  ! \p C
+S|)  ! \p C|2|)  !|C
+B|Ax1Q1!bZedBL_Position|1|Ax1Q1!bZedBL_Position
+S|Ax1Q1!bZedBL_Position+|1|Ax1Q1!bZedBL_Position+
+B||0
+S||1|
+B|C   B ) ! \t Q1 A|1|C   B ) ! \t Q1 A
+S|C   B ) ! \t Q1 A|1|C   B ) ! \t Q1 A
+B|BL_Position \p + BL_Position  A B|2|BL_Position \p|BL_Position  A B
+S|+ BL_Position  A B \p BL_Position|2|+ BL_Position  A B|BL_Position
+B|a + A )   !( ! c_d|2|a|A )   !( ! c_d
+S|a   + A )   !( ! c_d|1|a   + A )   !( ! c_d
+B|b x1|1|b x1
+S|b x1|1|b x1
+B|aAa + CbaB|2|aAa|CbaB
+S|aAa+CbaB|1|aAa+CbaB
+B|b C|1|b C
+S|b C|1|b C
+B|( !(  (|1|( !(  (
+S|!(  (|1|!(  (
+B|C + c_d a x1|2|C|c_d a x1
+S|c_d a x1 + C|1|c_d a x1 + C
+B|C !( BL_Position|1|C !( BL_Position
+S|C !( BL_Position|1|C !( BL_Position
+B|BQ1Q1aZed|1|BQ1Q1aZed
+S|BQ1Q1aZed|1|BQ1Q1aZed
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|bC!(Cx1|1|bC!(Cx1
+S|bC!(Cx1|1|bC!(Cx1
+B|Q1!\pBL_PositionbCBL_PositionA|1|Q1!\pBL_PositionbCBL_PositionA
+S|BL_PositionbCBL_PositionA \p Q1!|2|BL_PositionbCBL_PositionA|Q1!
+B|((|1|((
+S|(|1|(
+B|)\t!)C!|1|)\t!)C!
+S|)\t!)C!|1|)\t!)C!
+B|B|1|B
+S|B|1|B
+B|CAZed|1|CAZed
+S|CAZed|1|CAZed
+B| + B + bCb|3||B|bCb
+S|B+bCb+|1|B+bCb+
+B|Q1 ) Q1 !( b  Zed Q1 a|1|Q1 ) Q1 !( b  Zed Q1 a
+S|Q1 ) Q1 !( b  Zed Q1 a|1|Q1 ) Q1 !( b  Zed Q1 a
+B|BL_Positionb\tCc_d|1|BL_Positionb\tCc_d
+S|BL_Positionb\tCc_d|1|BL_Positionb\tCc_d
+B|! c_d BL_Position Zed|1|! c_d BL_Position Zed
+S|! c_d BL_Position Zed|1|! c_d BL_Position Zed
+B|A \t !|1|A \t !
+S|A \t !|1|A \t !
+B|c_dc_d!(|1|c_dc_d!(
+S|c_dc_d!(|1|c_dc_d!(
+B|Zed!( Q1C|1|Zed!( Q1C
+S|Zed!( Q1C|1|Zed!( Q1C
+B|((|1|((
+S|(|1|(
+B|) \t BL_Position B C \p b \p ) b|1|) \t BL_Position B C \p b \p ) b
+S|) \t BL_Position B C \p ) b \p b|3|) \t BL_Position B C|) b|b
+B|b c_d!!(a|1|b c_d!!(a
+S|b c_d!!(a+|1|b c_d!!(a+
+B| & (B\tCaAQ1|1| & (B\tCaAQ1
+S| & (B\tCaAQ1|1| & (B\tCaAQ1
+B|BL_Position ) b ( a !|1|BL_Position ) b ( a !
+S|BL_Position ) b ( a !|1|BL_Position ) b ( a !
+B|c_d x1 Zed BL_Position a (|1|c_d x1 Zed BL_Position a (
+S|c_d x1 Zed BL_Position a (|1|c_d x1 Zed BL_Position a (
+B|a|1|a
+S|a|1|a
+B||0
+S||0
+B|!|1|!
+S|!|1|!
+B|! \t BL_Position C|1|! \t BL_Position C
+S|! \t BL_Position C|1|! \t BL_Position C
+B|BL_Positionx1 x1)BAbB|1|BL_Positionx1 x1)BAbB
+S|BL_Positionx1 x1)BAbB|1|BL_Positionx1 x1)BAbB
+B|x1Bb)BL_PositionZed!BL_Positionx1c_d|1|x1Bb)BL_PositionZed!BL_Positionx1c_d
+S|x1Bb)BL_PositionZed!BL_Positionx1c_d|1|x1Bb)BL_PositionZed!BL_Positionx1c_d
+B| + !Aa + !(!Ax1(|3||!Aa|!(!Ax1(
+S|+!Aa+!(!Ax1(|1|+!Aa+!(!Ax1(
+B|CZedBL_Position|1|CZedBL_Position
+S|CZedBL_Position|1|CZedBL_Position
+B| + a & x1 C ( (  (|2||a & x1 C ( (  (
+S|+ x1 C ( (  ( & a|1|+ x1 C ( (  ( & a
+B|BL_Position & C Q1 Zed Q1 C !(|1|BL_Position & C Q1 Zed Q1 C !(
+S|BL_Position & C Q1 Zed Q1 C !(|1|BL_Position & C Q1 Zed Q1 C !(
+B|!(B|1|!(B
+S|!(B|1|!(B
+B|( BL_Position BL_Position x1 Zed ( )|1|( BL_Position BL_Position x1 Zed ( )
+S|BL_Position BL_Position x1 Zed (|1|BL_Position BL_Position x1 Zed (
+B|Zed c_d B x1 b   B (|1|Zed c_d B x1 b   B (
+S|Zed c_d B x1 b   B (|1|Zed c_d B x1 b   B (
+B|a & Zed|1|a & Zed
+S|Zed & a|1|Zed & a
+B|A|1|A
+S|A|1|A
+B| +  + \p !( \p + c_d|4|||\p !( \p|c_d
+S|!( \p +   + \p + c_d|3|!(|+   +|+ c_d
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|!( BL_Position|1|!( BL_Position
+S|!( BL_Position|1|!( BL_Position
+B|c_d ! ! b C \t a|1|c_d ! ! b C \t a
+S|c_d ! ! b C \t a|1|c_d ! ! b C \t a
+B| & ! & bx1\p|1| & ! & bx1\p
+S| \p  & ! & bx1|2|| & ! & bx1
+B|BL_Positionx1))b)|1|BL_Positionx1))b)
+S|BL_Positionx1))b|1|BL_Positionx1))b
+B|b!(|1|b!(
+S|b!(|1|b!(
+B|( & )c_dBL_Position|1|( & )c_dBL_Position
+S| & )c_dBL_Position|1| & )c_dBL_Position
+B|)b|1|)b
+S|)b|1|)b
+B|\p|1|\p
+S||0
+B|BL_Position & Q1Q1Zed|1|BL_Position & Q1Q1Zed
+S|BL_Position & Q1Q1Zed|1|BL_Position & Q1Q1Zed
+B|\pb!( & CA|1|\pb!( & CA
+S|CA \p b!(|2|CA|b!(
+B|x1|1|x1
+S|x1|1|x1
+B|x1C!(bBL_Positionc_db|1|x1C!(bBL_Positionc_db
+S|x1C!(bBL_Positionc_db|1|x1C!(bBL_Positionc_db
+B|b BL_Position|1|b BL_Position
+S|b BL_Position|1|b BL_Position
+B|C Q1|1|C Q1
+S|C Q1|1|C Q1
+B|\p ! \p b Q1|1|\p ! \p b Q1
+S| \p ! \p b Q1|3||!|b Q1
+B| + b c_d A Q1 ) \t Q1 Zed|2||b c_d A Q1 ) \t Q1 Zed
+S|+ b c_d A Q1 ) \t Q1 Zed|1|+ b c_d A Q1 ) \t Q1 Zed
+B|)\p\tZedac_dC|1|)\p\tZedac_dC
+S| \p Zedac_dC|2||Zedac_dC
+B|\p|1|\p
+S||0
+B| +  + a|3|||a
+S|+ + a|1|+ + a
+B| + a|2||a
+S|+a|1|+a
+B|Cb|1|Cb
+S|Cb|1|Cb
+B|a C ! c_d A BL_Position Q1 & x1 \p|1|a C ! c_d A BL_Position Q1 & x1 \p
+S|a C ! c_d A BL_Position Q1 & x1|1|a C ! c_d A BL_Position Q1 & x1
+B|A x1 ( BL_Position A B A|1|A x1 ( BL_Position A B A
+S|A x1 ( BL_Position A B A|1|A x1 ( BL_Position A B A
+B|b Zed a|1|b Zed a
+S|b Zed a|1|b Zed a
+B|A C b a !(   ! x1 !(|1|A C b a !(   ! x1 !(
+S|A C b a !(   ! x1 !(|1|A C b a !(   ! x1 !(
+B| + ) !( ( & c_d B|2||) !( ( & c_d B
+S|+ ) !( ( & c_d B|1|+ ) !( ( & c_d B
+B|c_dc_dBL_Position(a & ZedCQ1|1|c_dc_dBL_Position(a & ZedCQ1
+S|ZedCQ1 & c_dc_dBL_Position(a|1|ZedCQ1 & c_dc_dBL_Position(a
+B| & BB + bBc_d|2| & BB|bBc_d
+S| & BB+bBc_d|1| & BB+bBc_d
+B|AZedbAQ1!(A|1|AZedbAQ1!(A
+S|AZedbAQ1!(A|1|AZedbAQ1!(A
+B|a & b ! & BL_Position & Zed )|1|a & b ! & BL_Position & Zed )
+S|BL_Position & Zed ) & a & b !|1|BL_Position & Zed ) & a & b !
+B|\p ac_daBL_PositionA!(|1|\p ac_daBL_PositionA!(
+S| \p ac_daBL_PositionA!(|2||ac_daBL_PositionA!(
+B|Zed B a a ! x1 x1|1|Zed B a a ! x1 x1
+S|Zed B a a ! x1 x1|1|Zed B a a ! x1 x1
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|B()\tCA!((|1|B()\tCA!((
+S|B()\tCA!((|1|B()\tCA!((
+B|C|1|C
+S|C|1|C
+B|Zed C Q1|1|Zed C Q1
+S|Zed C Q1|1|Zed C Q1
+B| & BL_Position|1| & BL_Position
+S| & BL_Position|1| & BL_Position
+B| + Zed \t C|2||Zed \t C
+S|+ Zed \t C|1|+ Zed \t C
+B|BL_Position x1 !( a BL_Position c_d|1|BL_Position x1 !( a BL_Position c_d
+S|BL_Position x1 !( a BL_Position c_d|1|BL_Position x1 !( a BL_Position c_d
+B|)|1|)
+S||1|
+B|!( & Bc_d|1|!( & Bc_d
+S|!( & Bc_d|1|!( & Bc_d
+B|\p & a Q1 ( a & C c_d|1|\p & a Q1 ( a & C c_d
+S| & a Q1 ( a \p C c_d|2| & a Q1 ( a|C c_d
+B|BZed!b()ax1|1|BZed!b()ax1
+S|BZed!b()ax1|1|BZed!b()ax1
+B|aC(|1|aC(
+S|aC(|1|aC(
+B||0
+S||1|
+B|b|1|b
+S|b|1|b
+B|\p + x1b|2|\p|x1b
+S|x1b+|1|x1b+
+B| + A + Zed)|3||A|Zed)
+S|Zed)++A|1|Zed)++A
+B|a c_d b  Zed !( BL_Position c_d Zed|1|a c_d b  Zed !( BL_Position c_d Zed
+S|a c_d b  Zed !( BL_Position c_d Zed +|1|a c_d b  Zed !( BL_Position c_d Zed +
+B|\p & BL_Position   A|1|\p & BL_Position   A
+S| \p  & BL_Position   A|2|| & BL_Position   A
+B|! \p !( \p Q1 C ! A \p Zed|1|! \p !( \p Q1 C ! A \p Zed
+S|! \p !( \p Q1 C ! A \p Zed|4|!|!(|Q1 C ! A|Zed
+B|!( \p B Q1 Q1 BL_Position|1|!( \p B Q1 Q1 BL_Position
+S|!( \p B Q1 Q1 BL_Position|2|!(|B Q1 Q1 BL_Position
+B|b   B + C !(  !(|2|b   B|C !(  !(
+S|C !(  !( +  b   B|1|C !(  !( +  b   B
+B| & ! x1   ( !( BL_Position|1| & ! x1   ( !( BL_Position
+S| & ! x1   ( !( BL_Position|1| & ! x1   ( !( BL_Position
+B|AA(|1|AA(
+S|AA(|1|AA(
+B|(\tC|1|(\tC
+S|C|1|C
+B|Q1\pBL_PositionC|1|Q1\pBL_PositionC
+S|BL_PositionC+ \p Q1|2|BL_PositionC+|Q1
+B|BAAQ1|1|BAAQ1
+S|BAAQ1|1|BAAQ1
+B|!BL_Position(( & CBL_Position|1|!BL_Position(( & CBL_Position
+S|!BL_Position(( & CBL_Position|1|!BL_Position(( & CBL_Position
+B|b !(|1|b !(
+S|b !(|1|b !(
+B| + !( !(|2||!( !(
+S|+ !( !(|1|+ !( !(
+B|a c_d & (Q1\px1|1|a c_d & (Q1\px1
+S|(Q1 & a c_d \p x1|2|(Q1 & a c_d|x1
+B|x1   ! C ! B B ) BL_Position|1|x1   ! C ! B B ) BL_Position
+S|x1   ! C ! B B ) BL_Position|1|x1   ! C ! B B ) BL_Position
+B|aa + C|2|aa|C
+S|C+aa|1|C+aa
+B|)Cx1BL_Position|1|)Cx1BL_Position
+S|)Cx1BL_Position|1|)Cx1BL_Position
+B|!( & x1 \t A b ) A b b|1|!( & x1 \t A b ) A b b
+S|!( & x1 \t A b ) A b b|1|!( & x1 \t A b ) A b b
+B|x1(A|1|x1(A
+S|x1(A|1|x1(A
+B|\p ! + \p Q1|2|\p !|\p Q1
+S| \p ! \p Q1 +|3||!|Q1 +
+B|b ! a \t Zed C a \t BL_Position|1|b ! a \t Zed C a \t BL_Position
+S|b ! a \t Zed C a \t BL_Position|1|b ! a \t Zed C a \t BL_Position
+B|c_d)|1|c_d)
+S|c_d|1|c_d
+B|Q1B c_dZed|1|Q1B c_dZed
+S|Q1B c_dZed|1|Q1B c_dZed
+B|BL_PositionZed\pBL_Position|1|BL_PositionZed\pBL_Position
+S|BL_Position \p BL_PositionZed|2|BL_Position|BL_PositionZed
+B|BL_Position  ( BL_Position ! B !(|1|BL_Position  ( BL_Position ! B !(
+S|BL_Position  ( BL_Position ! B !(|1|BL_Position  ( BL_Position ! B !(
+B|bZedZedbC|1|bZedZedbC
+S|bZedZedbC|1|bZedZedbC
+B|\p B|1|\p B
+S| \p B|2||B
+B|A ) Q1 b Q1 b b|1|A ) Q1 b Q1 b b
+S|A ) Q1 b Q1 b b|1|A ) Q1 b Q1 b b
+B|x1 C Zed A  C|1|x1 C Zed A  C
+S|x1 C Zed A  C +|1|x1 C Zed A  C +
+B|aQ1!(a & ZedB|1|aQ1!(a & ZedB
+S|ZedB & aQ1!(a|1|ZedB & aQ1!(a
+B|! + (x1C|2|!|(x1C
+S|x1C+!|1|x1C+!
+B|b +  & !x1!(\p|2|b| & !x1!(\p
+S| & !x1!( \p +b|2| & !x1!(|+b
+B| + A BL_Position Q1 c_d|2||A BL_Position Q1 c_d
+S|+ A BL_Position Q1 c_d|1|+ A BL_Position Q1 c_d
+B|B\pc_db|1|B\pc_db
+S|B \p c_db|2|B|c_db
+B|A + AZedQ1ABL_PositionA|2|A|AZedQ1ABL_PositionA
+S|AZedQ1ABL_PositionA+A|1|AZedQ1ABL_PositionA+A
+B|)x1|1|)x1
+S|)x1|1|)x1
+B|aQ1|1|aQ1
+S|aQ1|1|aQ1
+B|Ca!A|1|Ca!A
+S|Ca!A|1|Ca!A
+B|b( + (BL_Position|2|b(|(BL_Position
+S|BL_Position+ b(|1|BL_Position+ b(
+B|a ( ) )|1|a ( ) )
+S|a ( )|1|a ( )
+B| + B ( ) c_d !( Q1|2||B ( ) c_d !( Q1
+S|+ B ( ) c_d !( Q1|1|+ B ( ) c_d !( Q1
+B|C ! b (|1|C ! b (
+S|C ! b (|1|C ! b (
+B|A\p + x1\pQ1|2|A\p|x1\pQ1
+S|+x1 \p A \p Q1|3|+x1|A|Q1
+B|!(x1Q1\pQ1|1|!(x1Q1\pQ1
+S|!(x1Q1 \p Q1|2|!(x1Q1|Q1
+B|B b B b a a B c_d b|1|B b B b a a B c_d b
+S|B b B b a a B c_d b|1|B b B b a a B c_d b
+B||0
+S||1|
+B|C BL_Position B Zed + Zed ! Q1 BL_Position|2|C BL_Position B Zed|Zed ! Q1 BL_Position
+S|+ C BL_Position B Zed & Zed ! Q1 BL_Position|1|+ C BL_Position B Zed & Zed ! Q1 BL_Position
+B|C   A !(   b|1|C   A !(   b
+S|C   A !(   b|1|C   A !(   b
+B|Q1A|1|Q1A
+S|Q1A|1|Q1A
+B|c_dx1|1|c_dx1
+S|c_dx1|1|c_dx1
+B|C x1 & Q1 )|1|C x1 & Q1 )
+S|C x1 & Q1 )|1|C x1 & Q1 )
+B|Zed)c_d!(a BZed|1|Zed)c_d!(a BZed
+S|Zed)c_d!(a BZed|1|Zed)c_d!(a BZed
+B|)|1|)
+S||1|
+B|b + !b bZed!(c_d|2|b|!b bZed!(c_d
+S|b +!b bZed!(c_d|1|b +!b bZed!(c_d
+B|B|1|B
+S|B|1|B
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|bx1ac_d|1|bx1ac_d
+S|bx1ac_d|1|bx1ac_d
+B|b + !BL_PositionQ1bbCb|2|b|!BL_PositionQ1bbCb
+S|!BL_PositionQ1bbCb+b|1|!BL_PositionQ1bbCb+b
+B| + AC\tB!(Q1|2||AC\tB!(Q1
+S|+AC\tB!(Q1|1|+AC\tB!(Q1
+B|a ( A BL_Position A B ! A|1|a ( A BL_Position A B ! A
+S|a ( A BL_Position A B ! A|1|a ( A BL_Position A B ! A
+B|aZed!\tQ1CA|1|aZed!\tQ1CA
+S|aZed!\tQ1CA|1|aZed!\tQ1CA
+B| + BL_Position Zed c_d|2||BL_Position Zed c_d
+S|+ BL_Position Zed c_d|1|+ BL_Position Zed c_d
+B|bB|1|bB
+S|bB|1|bB
+B|C|1|C
+S|C|1|C
+B|c_d + ) Zed|2|c_d|) Zed
+S|) Zed + c_d|1|) Zed + c_d
+B|( \p !(|1|( \p !(
+S| \p !(|2||!(
+B|ZedB)Zed|1|ZedB)Zed
+S|ZedB)Zed|1|ZedB)Zed
+B|Q1 \p ! !( !( b c_d c_d|1|Q1 \p ! !( !( b c_d c_d
+S|! !( !( b c_d c_d \p Q1|2|! !( !( b c_d c_d|Q1
+B|( \t a A Zed ) BL_Position|1|( \t a A Zed ) BL_Position
+S|a A Zed ) BL_Position|1|a A Zed ) BL_Position
+B|!( BL_Position b (|1|!( BL_Position b (
+S|!( BL_Position b ( +|1|!( BL_Position b ( +
+B|Zed A Q1 C x1 B ) C|1|Zed A Q1 C x1 B ) C
+S|Zed A Q1 C x1 B ) C|1|Zed A Q1 C x1 B ) C
+B| +  + a (|3|||a (
+S|+ + \t a (|1|+ + \t a (
+B|!\tBaBL_Position!Q1|1|!\tBaBL_Position!Q1
+S|!\tBaBL_Position!Q1|1|!\tBaBL_Position!Q1
+B|BL_Position C & BL_Position c_d|1|BL_Position C & BL_Position c_d
+S|BL_Position C & BL_Position c_d|1|BL_Position C & BL_Position c_d
+B|!B!\pa)|1|!B!\pa)
+S|!B! \p a)|2|!B!|a)
+B| & !\tQ1Q1Q1BBL_Position|1| & !\tQ1Q1Q1BBL_Position
+S| & !\tQ1Q1Q1BBL_Position|1| & !\tQ1Q1Q1BBL_Position
+B|c_d\t(|1|c_d\t(
+S|c_d\t(|1|c_d\t(
+B|(|1|(
+S||1|
+B|(ABL_Position! & BBL_Position|1|(ABL_Position! & BBL_Position
+S|(ABL_Position! & BBL_Position|1|(ABL_Position! & BBL_Position
+B|B  \p & Zed BL_Position|1|B  \p & Zed BL_Position
+S|B & Zed BL_Position|1|B & Zed BL_Position
+B|B!x1a\pC|1|B!x1a\pC
+S|B!x1a \p C|2|B!x1a|C
+B|BL_Position \p|1|BL_Position \p
+S|BL_Position|1|BL_Position
+B|( x1 (|1|( x1 (
+S|x1 (|1|x1 (
+B|( C   C (  B A|1|( C   C (  B A
+S|C   C (  B A|1|C   C (  B A
+B|\p BL_PositionCZed(x1x1|1|\p BL_PositionCZed(x1x1
+S| \p BL_PositionCZed(x1x1|2||BL_PositionCZed(x1x1
+B|! b|1|! b
+S|! b|1|! b
+B|aQ1\tB\p Q1\tc_d!|1|aQ1\tB\p Q1\tc_d!
+S|Q1\tc_d! \p aQ1\tB|2|Q1\tc_d!|aQ1\tB
+B|C)Q1c_dZed|1|C)Q1c_dZed
+S|C)Q1c_dZed|1|C)Q1c_dZed
+B| + ba(B\p|2||ba(B\p
+S|+ba(B|1|+ba(B
+B|( + Zed!Zed|2|(|Zed!Zed
+S|+Zed!Zed|1|+Zed!Zed
+B|\p(Cb & x1A|1|\p(Cb & x1A
+S| \p Cb & x1A|2||Cb & x1A
+B|))A!|1|))A!
+S|))A!|1|))A!
+B|C\t!(C)Zed|1|C\t!(C)Zed
+S|C\t!(C)Zed|1|C\t!(C)Zed
+B|!((|1|!((
+S|!((|1|!((
+B|B A & c_d C ! !|1|B A & c_d C ! !
+S|B A & c_d C ! !|1|B A & c_d C ! !
+B| & A & B  ( B C|1| & A & B  ( B C
+S| & A & B  ( B C|1| & A & B  ( B C
+B|A!C C!(C|1|A!C C!(C
+S|A!C C!(C|1|A!C C!(C
+B|)|1|)
+S||1|
+B|Zed\t!(B|1|Zed\t!(B
+S|Zed\t!(B|1|Zed\t!(B
+B| & a \p c_d a C   a|1| & a \p c_d a C   a
+S| & a \p c_d a C   a|2| & a|c_d a C   a
+B|bC|1|bC
+S|bC|1|bC
+B|A A !   c_d BL_Position Zed BL_Position b|1|A A !   c_d BL_Position Zed BL_Position b
+S|A A !   c_d BL_Position Zed BL_Position b|1|A A !   c_d BL_Position Zed BL_Position b
+B|A\t\p!A|1|A\t\p!A
+S|!A+ \p A|2|!A+|A
+B|ab(!( !((|1|ab(!( !((
+S|ab(!( !((|1|ab(!( !((
+B|b!C|1|b!C
+S|b!C|1|b!C
+B|(\tZedQ1Zedx1|1|(\tZedQ1Zedx1
+S|ZedQ1Zedx1|1|ZedQ1Zedx1
+B||1|
+S||1|
+B|\p + C + ! c_d B|3|\p|C|! c_d B
+S| \p + ! c_d B & + C|2||+ ! c_d B & + C
+B|c_d Zed|1|c_d Zed
+S|c_d Zed|1|c_d Zed
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|a!) & BL_Position|1|a!) & BL_Position
+S|BL_Position & a!|1|BL_Position & a!
+B| + !( a ( ( Q1 ! + !( C|3||!( a ( ( Q1 !|!( C
+S|!( a ( ( Q1 ! + + !( C|1|!( a ( ( Q1 ! + + !( C
+B|! BL_Position BL_Position|1|! BL_Position BL_Position
+S|! BL_Position BL_Position|1|! BL_Position BL_Position
+B|) +  & x1 \p|2|)| & x1 \p
+S| & + \p  & x1|2| & +| & x1
+B|Bc_dbB!\tZedx1!|1|Bc_dbB!\tZedx1!
+S|Bc_dbB!\tZedx1!|1|Bc_dbB!\tZedx1!
+B|(|1|(
+S||1|
+B| + Q1 \p Q1|2||Q1 \p Q1
+S|Q1 \p Q1 \t +|2|Q1|Q1 \t +
+B|! Q1 )|1|! Q1 )
+S|! Q1|1|! Q1
+B|AbBL_PositionZed + !Q1|2|AbBL_PositionZed|!Q1
+S|!Q1+AbBL_PositionZed|1|!Q1+AbBL_PositionZed
+B|b ( + c_d A C|2|b (|c_d A C
+S|b ( + c_d A C|1|b ( + c_d A C
+B|a!(c_d|1|a!(c_d
+S|a!(c_d|1|a!(c_d
+B|ABZed\pb Q1c_d|1|ABZed\pb Q1c_d
+S|ABZed \p b Q1c_d|2|ABZed|b Q1c_d
+B|!(\p BL_Position \p b & B x1)|1|!(\p BL_Position \p b & B x1)
+S|!( \p B x1 & b \p BL_Position|3|!(|B x1 & b|BL_Position
+B|a\p & B(! & x1x1!|1|a\p & B(! & x1x1!
+S| & B(! & x1x1! \p a|2| & B(! & x1x1!|a
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|a BL_Position \p|1|a BL_Position \p
+S|a BL_Position|1|a BL_Position
+B|CZed|1|CZed
+S|CZed|1|CZed
+B|( + Q1 c_d ! BL_Position Q1 \t \p|2|(|Q1 c_d ! BL_Position Q1 \t \p
+S|+ ( \p Q1 c_d ! BL_Position Q1|2|+ (|Q1 c_d ! BL_Position Q1
+B|b \t ! B x1|1|b \t ! B x1
+S|b \t ! B x1|1|b \t ! B x1
+B|(x1 c_dC\tBL_Position|1|(x1 c_dC\tBL_Position
+S|x1 c_dC\tBL_Position|1|x1 c_dC\tBL_Position
+B| + Zed|2||Zed
+S|+ Zed|1|+ Zed
+B|\p )|1|\p )
+S||1|
+B|bc_d|1|bc_d
+S|bc_d|1|bc_d
+B|Cc_d|1|Cc_d
+S|Cc_d|1|Cc_d
+B|)|1|)
+S||1|
+B|Q1Q1b\t)x1A|1|Q1Q1b\t)x1A
+S|Q1Q1b\t)x1A|1|Q1Q1b\t)x1A
+B|A|1|A
+S|A|1|A
+B|!( + B|2|!(|B
+S|B+!(|1|B+!(
+B|c_dc_dbbb + Zed\t\p|2|c_dc_dbbb|Zed\t\p
+S|c_dc_dbbb+Zed|1|c_dc_dbbb+Zed
+B|c_d B|1|c_d B
+S|c_d B|1|c_d B
+B|b Zed !|1|b Zed !
+S|b Zed !|1|b Zed !
+B|A|1|A
+S|A|1|A
+B|BL_PositionA|1|BL_PositionA
+S|BL_PositionA|1|BL_PositionA
+B| & b\tc_dZedBL_Position)a|1| & b\tc_dZedBL_Position)a
+S| & b\tc_dZedBL_Position)a|1| & b\tc_dZedBL_Position)a
+B||1|
+S|+|1|+
+B| & Zed)|1| & Zed)
+S| & Zed|1| & Zed
+B|c_d ( a C ) BL_Position Zed b a A|1|c_d ( a C ) BL_Position Zed b a A
+S|c_d ( a C ) BL_Position Zed b a A|1|c_d ( a C ) BL_Position Zed b a A
+B|\pb & )Cx1ZedQ1ab|1|\pb & )Cx1ZedQ1ab
+S|)Cx1ZedQ1ab \p b|2|)Cx1ZedQ1ab|b
+B|!(CbZed + Q1b & x1|2|!(CbZed|Q1b & x1
+S|Q1b & x1+!(CbZed|1|Q1b & x1+!(CbZed
+B|B!)BL_Position!ABC|1|B!)BL_Position!ABC
+S|B!)BL_Position!ABC|1|B!)BL_Position!ABC
+B|Zed !( !( \t c_d a|1|Zed !( !( \t c_d a
+S|Zed !( !( \t c_d a +|1|Zed !( !( \t c_d a +
+B|aB\pZeda|1|aB\pZeda
+S|Zeda \p aB|2|Zeda|aB
+B|a(x1BL_PositionCc_d + (Q1|2|a(x1BL_PositionCc_d|(Q1
+S|Q1+\ta(x1BL_PositionCc_d|1|Q1+\ta(x1BL_PositionCc_d
+B|c_d x1|1|c_d x1
+S|c_d x1|1|c_d x1
+B|c_dBL_PositionA!CC|1|c_dBL_PositionA!CC
+S|c_dBL_PositionA!CC|1|c_dBL_PositionA!CC
+B|c_d Zed b C A ! a b|1|c_d Zed b C A ! a b
+S|c_d Zed b C A ! a b|1|c_d Zed b C A ! a b
+B|! + Zed \t a BL_Position|2|!|Zed \t a BL_Position
+S|! + Zed \t a BL_Position|1|! + Zed \t a BL_Position
+B|a)|1|a)
+S|a)|1|a)
+B| + B a x1 a B Q1 \t b|2||B a x1 a B Q1 \t b
+S|+ \t B a x1 a B Q1 \t b|1|+ \t B a x1 a B Q1 \t b
+B|a A Q1 + !( \t B x1|2|a A Q1|!( \t B x1
+S|a A Q1 +   !( \t B x1|1|a A Q1 +   !( \t B x1
+B|ABL_Position\p|1|ABL_Position\p
+S|ABL_Position|1|ABL_Position
+B|b !( c_d BL_Position A !|1|b !( c_d BL_Position A !
+S|b !( c_d BL_Position A !|1|b !( c_d BL_Position A !
+B|(!|1|(!
+S|!|1|!
+B|)( & x1|1|)( & x1
+S|)( & x1|1|)( & x1
+B| & b C a A !(|1| & b C a A !(
+S| & b C a A !(|1| & b C a A !(
+B|\p C a Zed|1|\p C a Zed
+S| \p C a Zed|2||C a Zed
+B| + x1 b|2||x1 b
+S|+ x1 b|1|+ x1 b
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|!Q1x1BL_PositionCZedb|1|!Q1x1BL_PositionCZedb
+S|!Q1x1BL_PositionCZedb|1|!Q1x1BL_PositionCZedb
+B|B\p)aBCc_d|1|B\p)aBCc_d
+S|)aBCc_d \p B|2|)aBCc_d|B
+B|(   C + Zed B C|2|(   C|Zed B C
+S|Zed B C + (   C|1|Zed B C + (   C
+B|c_d c_d a Zed b A x1 (|1|c_d c_d a Zed b A x1 (
+S|c_d c_d a Zed b A x1 (|1|c_d c_d a Zed b A x1 (
+B|\p   !|1|\p   !
+S| \p !|2||!
+B| + A & c_d Q1 BL_Position|2||A & c_d Q1 BL_Position
+S| & + A & c_d Q1 BL_Position|1| & + A & c_d Q1 BL_Position
+B|c_d B Q1 c_d|1|c_d B Q1 c_d
+S|c_d B Q1 c_d|1|c_d B Q1 c_d
+B|BQ1 (!a|1|BQ1 (!a
+S|BQ1 (!a|1|BQ1 (!a
+B| + Zed b|2||Zed b
+S|+ Zed b|1|+ Zed b
+B|BL_Position C A & x1 ! Q1 Zed !|1|BL_Position C A & x1 ! Q1 Zed !
+S|BL_Position C A & x1 ! Q1 Zed !|1|BL_Position C A & x1 ! Q1 Zed !
+B|Zed Zed|1|Zed Zed
+S|Zed Zed +|1|Zed Zed +
+B|x1|1|x1
+S|x1|1|x1
+B| +  + ( b + x1|4|||( b|x1
+S|x1 + + ( b +|1|x1 + + ( b +
+B|bbQ1 & Q1|1|bbQ1 & Q1
+S|Q1 & bbQ1|1|Q1 & bbQ1
+B| +  & a|2|| & a
+S|+ & a|1|+ & a
+B|c_d x1 C Zed b (|1|c_d x1 C Zed b (
+S|c_d x1 C Zed b (|1|c_d x1 C Zed b (
+B|\p x1 BL_Position A Zed|1|\p x1 BL_Position A Zed
+S| \p x1 BL_Position A Zed|2||x1 BL_Position A Zed
+B|x1|1|x1
+S|x1|1|x1
+B|( c_d BL_Position  x1 B Q1 ) Q1|1|( c_d BL_Position  x1 B Q1 ) Q1
+S|c_d BL_Position  x1 B Q1 ) Q1|1|c_d BL_Position  x1 B Q1 ) Q1
+B| + )) + B\p|3||))|B\p
+S| & ))+ & +\tB|1| & ))+ & +\tB
+B|B + C\p|2|B|C\p
+S| \p B+C|2||B+C
+B|A & A + Zed & Zed|2|A & A|Zed & Zed
+S|A & A + Zed & Zed|1|A & A + Zed & Zed
+B|b a C & b A ! !( x1|1|b a C & b A ! !( x1
+S|b A ! !( x1 & b a C|1|b A ! !( x1 & b a C
+B|!( )   a|1|!( )   a
+S|!( )   a|1|!( )   a
+B| + C\pC + \pZed|3||C\pC|\pZed
+S| \p C \p Zed++C|3||C|Zed++C
+B|Q1Cx1x1ZedCQ1|1|Q1Cx1x1ZedCQ1
+S|Q1Cx1x1ZedCQ1|1|Q1Cx1x1ZedCQ1
+B|c_d (  Zed !( a Q1 b !|1|c_d (  Zed !( a Q1 b !
+S|c_d (  Zed !( a Q1 b !|1|c_d (  Zed !( a Q1 b !
+B|\pZedQ1\p|1|\pZedQ1\p
+S| \p ZedQ1|2||ZedQ1
+B|Q1 C BL_Position \p BL_Position BL_Position B|1|Q1 C BL_Position \p BL_Position BL_Position B
+S|BL_Position BL_Position B \p Q1 C BL_Position|2|BL_Position BL_Position B|Q1 C BL_Position
+B|!(BL_Position|1|!(BL_Position
+S|!(BL_Position|1|!(BL_Position
+B|b \t x1 ) \p|1|b \t x1 ) \p
+S|b \t x1|1|b \t x1
+B|C b|1|C b
+S|C b|1|C b
+B|BBL_Position|1|BBL_Position
+S|BBL_Position|1|BBL_Position
+B|(x1A(x1\tQ1B|1|(x1A(x1\tQ1B
+S|x1A(x1\tQ1B|1|x1A(x1\tQ1B
+B|! b  x1 Q1 B|1|! b  x1 Q1 B
+S|! b  x1 Q1 B|1|! b  x1 Q1 B
+B|aC & AQ1CB(|1|aC & AQ1CB(
+S|AQ1CB( & aC|1|AQ1CB( & aC
+B| & C & !(\t)x1|1| & C & !(\t)x1
+S| & !(\t)x1 & C|1| & !(\t)x1 & C
+B|BL_Position \t BL_Position )  A !(|1|BL_Position \t BL_Position )  A !(
+S|BL_Position \t BL_Position )  A !(|1|BL_Position \t BL_Position )  A !(
+B|ABL_Positionc_dx1x1b|1|ABL_Positionc_dx1x1b
+S|ABL_Positionc_dx1x1b|1|ABL_Positionc_dx1x1b
+B|a !(|1|a !(
+S|a !(|1|a !(
+B|Ca|1|Ca
+S|Ca|1|Ca
+B|C!(BL_PositionZed|1|C!(BL_PositionZed
+S|C!(BL_PositionZed|1|C!(BL_PositionZed
+B|!( c_d Q1|1|!( c_d Q1
+S|!( c_d Q1|1|!( c_d Q1
+B|A & ba)|1|A & ba)
+S|A & ba)|1|A & ba)
+B|! + c_d a x1 BL_Position c_d|2|!|c_d a x1 BL_Position c_d
+S|! + c_d a x1 BL_Position c_d|1|! + c_d a x1 BL_Position c_d
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|a ( \t !( x1 c_d|1|a ( \t !( x1 c_d
+S|a ( \t !( x1 c_d|1|a ( \t !( x1 c_d
+B|) \p BL_Position|1|) \p BL_Position
+S| \p BL_Position|2||BL_Position
+B|BL_PositionC\pZed|1|BL_PositionC\pZed
+S|BL_PositionC \p Zed|2|BL_PositionC|Zed
+B|c_dx1Q1aQ1|1|c_dx1Q1aQ1
+S|c_dx1Q1aQ1|1|c_dx1Q1aQ1
+B|BL_PositionCbBL_Position\pBL_Positionc_d|1|BL_PositionCbBL_Position\pBL_Positionc_d
+S|BL_PositionCbBL_Position \p BL_Positionc_d|2|BL_PositionCbBL_Position|BL_Positionc_d
+B|(CBZedZed & x1)b|1|(CBZedZed & x1)b
+S|(CBZedZed & x1)b|1|(CBZedZed & x1)b
+B|x1A\p\t!c_daA|1|x1A\p\t!c_daA
+S|!c_daA \p x1A|2|!c_daA|x1A
+B|Bx1 + Q1\p|2|Bx1|Q1\p
+S| \p Bx1+Q1|2||Bx1+Q1
+B|( c_d x1  ) \p|1|( c_d x1  ) \p
+S|c_d x1|1|c_d x1
+B|Q1\pZedBBC!((|1|Q1\pZedBBC!((
+S|Q1 \p ZedBBC!((|2|Q1|ZedBBC!((
+B|) + A C B   A b|2|)|A C B   A b
+S|A C B   A b +|1|A C B   A b +
+B|! & Ac_d & b + C|2|! & Ac_d & b|C
+S|! & C+Ac_d & b|1|! & C+Ac_d & b
+B|\p ( c_d ( \t !( A BL_Position C|1|\p ( c_d ( \t !( A BL_Position C
+S| \p c_d ( \t !( A BL_Position C|2||c_d ( \t !( A BL_Position C
+B|!( BL_Position B C a|1|!( BL_Position B C a
+S|!( BL_Position B C a|1|!( BL_Position B C a
+B|Q1 Q1 !( c_d  C  Q1 b A|1|Q1 Q1 !( c_d  C  Q1 b A
+S|Q1 Q1 !( c_d  C  Q1 b A|1|Q1 Q1 !( c_d  C  Q1 b A
+B| & C !( a C ! C c_d|1| & C !( a C ! C c_d
+S| & C !( a C ! C c_d|1| & C !( a C ! C c_d
+B|CABL_Position|1|CABL_Position
+S|CABL_Position|1|CABL_Position
+B|!(!(aZedx1B|1|!(!(aZedx1B
+S|!(!(aZedx1B|1|!(!(aZedx1B
+B|c_d ! C|1|c_d ! C
+S|c_d ! C|1|c_d ! C
+B|b()Zed )|1|b()Zed )
+S|b()Zed|1|b()Zed
+B|!|1|!
+S|!|1|!
+B|x1x1Zed !(|1|x1x1Zed !(
+S|x1x1Zed !(|1|x1x1Zed !(
+B|b BL_Position B ) + x1 !(|2|b BL_Position B )|x1 !(
+S|b BL_Position B )     + x1 !(|1|b BL_Position B )     + x1 !(
+B|A a b !|1|A a b !
+S|A a b !|1|A a b !
+B|Q1 + Zed x1   Q1 \p BL_Position|2|Q1|Zed x1   Q1 \p BL_Position
+S|BL_Position + Q1 \p Zed x1   Q1|2|BL_Position + Q1|Zed x1   Q1
+B|a a A|1|a a A
+S|a a A|1|a a A
+B| & ZedCaa|1| & ZedCaa
+S| & ZedCaa|1| & ZedCaa
+B|c_d !( C \p  \t a|1|c_d !( C \p  \t a
+S|a \p c_d !( C|2|a|c_d !( C
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|A ! a  B & Q1 c_d|1|A ! a  B & Q1 c_d
+S|A ! a  B & Q1 c_d|1|A ! a  B & Q1 c_d
+B|b   b  c_d|1|b   b  c_d
+S|b   b  c_d|1|b   b  c_d
+B|A !( ( + A c_d|2|A !( (|A c_d
+S|A c_d + A !( (|1|A c_d + A !( (
+B|Zedc_d x1Zed|1|Zedc_d x1Zed
+S|Zedc_d x1Zed|1|Zedc_d x1Zed
+B| + |2||
+S|+|1|+
+B|aBL_Positionc_dC!aC!\p|1|aBL_Positionc_dC!aC!\p
+S|aBL_Positionc_dC!aC!|1|aBL_Positionc_dC!aC!
+B| + ZedBx1BL_PositionC|2||ZedBx1BL_PositionC
+S| & +ZedBx1BL_PositionC|1| & +ZedBx1BL_PositionC
+B|baZedAAB x1 a|1|baZedAAB x1 a
+S|baZedAAB x1 a|1|baZedAAB x1 a
+B|\p  BL_Position b B b !( !(|1|\p  BL_Position b B b !( !(
+S| \p BL_Position b B b !( !(|2||BL_Position b B b !( !(
+B|x1 Zed A \p ) x1|1|x1 Zed A \p ) x1
+S|) x1 \p x1 Zed A|2|) x1|x1 Zed A
+B| + b & B ( Zed (|2||b & B ( Zed (
+S|+ + & B ( Zed ( & b|1|+ + & B ( Zed ( & b
+B||0
+S||0
+B|b C Zed x1|1|b C Zed x1
+S|b C Zed x1|1|b C Zed x1
+B|\pBL_Position + CQ1!x1|2|\pBL_Position|CQ1!x1
+S|BL_Position \p CQ1!x1+|2|BL_Position|CQ1!x1+
+B||1|
+S||1|
+B|a + Zedb|2|a|Zedb
+S|a+Zedb|1|a+Zedb
+B|Zed|1|Zed
+S|Zed|1|Zed
+B|Zed|1|Zed
+S|Zed|1|Zed
+B|A !( c_d Q1 b b (|1|A !( c_d Q1 b b (
+S|A !( c_d Q1 b b (|1|A !( c_d Q1 b b (
+B| + )   b|2||)   b
+S| & + )   b|1| & + )   b
+B|CaQ1\pZedb)AAB|1|CaQ1\pZedb)AAB
+S|CaQ1 \p Zedb)AAB|2|CaQ1|Zedb)AAB
+B|C !( x1|1|C !( x1
+S|C !( x1|1|C !( x1
+B|b \p + b \p C !( x1 BL_Position|2|b \p|b \p C !( x1 BL_Position
+S| \p C !( x1 BL_Position + b \p b|3||C !( x1 BL_Position + b|b
+B|!( c_dZedCA|1|!( c_dZedCA
+S|!( c_dZedCA|1|!( c_dZedCA
+B|aBx1\p|1|aBx1\p
+S| & + \p aBx1|2| & +|aBx1
+B|(!BL_Positionx1\t\tBL_Positiona\p|1|(!BL_Positionx1\t\tBL_Positiona\p
+S|!BL_Positionx1\t\tBL_Positiona|1|!BL_Positionx1\t\tBL_Positiona
+B|Q1 C|1|Q1 C
+S|Q1 C|1|Q1 C
+B|Q1ZedZed|1|Q1ZedZed
+S|Q1ZedZed|1|Q1ZedZed
+B|ba(c_d!CA|1|ba(c_d!CA
+S|ba(c_d!CA|1|ba(c_d!CA
+B|Q1c_d + !x1|2|Q1c_d|!x1
+S|!x1+Q1c_d|1|!x1+Q1c_d
+B|( + A ( !( B|2|(|A ( !( B
+S|+ A ( !( B|1|+ A ( !( B
+B|BL_Positionb\tBL_PositionQ1BL_PositionA|1|BL_Positionb\tBL_PositionQ1BL_PositionA
+S|BL_Positionb\tBL_PositionQ1BL_PositionA|1|BL_Positionb\tBL_PositionQ1BL_PositionA
+B|CbZedBc_d|1|CbZedBc_d
+S|+ & CbZedBc_d|1|+ & CbZedBc_d
+B|C a (  BL_Position b + Q1 !( Zed|2|C a (  BL_Position b|Q1 !( Zed
+S|C a (  BL_Position b + Q1 !( Zed|1|C a (  BL_Position b + Q1 !( Zed
+B|!\paC|1|!\paC
+S|! \p aC|2|!|aC
+B|x1 \p !(   c_d|1|x1 \p !(   c_d
+S|!(   c_d \p x1|2|!(   c_d|x1
+B||0
+S||0
+B|B!\tB\pc_dc_d|1|B!\tB\pc_dc_d
+S|B!\tB \p c_dc_d|2|B!\tB|c_dc_d
+B|aQ1Cx1)!(|1|aQ1Cx1)!(
+S|aQ1Cx1)!(|1|aQ1Cx1)!(
+B|Zed !(bx1(x1bb)|1|Zed !(bx1(x1bb)
+S|Zed !(bx1(x1bb|1|Zed !(bx1(x1bb
+B|Q1 ba\px1|1|Q1 ba\px1
+S|Q1 ba \p x1|2|Q1 ba|x1
+B|!!(ABL_PositionA!()Ba|1|!!(ABL_PositionA!()Ba
+S|!!(ABL_PositionA!()Ba|1|!!(ABL_PositionA!()Ba
+B|\p A b b Zed|1|\p A b b Zed
+S| \p A b b Zed|2||A b b Zed
+B|x1 b|1|x1 b
+S|x1 b|1|x1 b
+B| + a  BL_Position Q1|2||a  BL_Position Q1
+S|+ \t a  BL_Position Q1|1|+ \t a  BL_Position Q1
+B|(aCx1a|1|(aCx1a
+S|aCx1a+|1|aCx1a+
+B|Zed B Zed \t !(|1|Zed B Zed \t !(
+S|Zed B Zed \t !(|1|Zed B Zed \t !(
+B| & c_d((BL_Position|1| & c_d((BL_Position
+S| & c_d((BL_Position|1| & c_d((BL_Position
+B|Zed|1|Zed
+S|Zed|1|Zed
+B|! a \p BL_Position Zed|1|! a \p BL_Position Zed
+S|! a \p BL_Position Zed|2|! a|BL_Position Zed
+B|BQ1\pBc_dBL_Position|1|BQ1\pBc_dBL_Position
+S|BQ1 \p Bc_dBL_Position|2|BQ1|Bc_dBL_Position
+B|!( Zed \p \p x1 C Zed \t c_d B|1|!( Zed \p \p x1 C Zed \t c_d B
+S| \p !( Zed \p x1 C Zed \t c_d B|3||!( Zed|x1 C Zed \t c_d B
+B|BL_Positionb|1|BL_Positionb
+S|BL_Positionb+|1|BL_Positionb+
+B|AQ1|1|AQ1
+S|AQ1|1|AQ1
+B|c_d & x1|1|c_d & x1
+S|c_d & x1|1|c_d & x1
+B|x1 b a ) b B|1|x1 b a ) b B
+S|x1 b a ) b B|1|x1 b a ) b B
+B||0
+S|+|1|+
+B|\p ! a|1|\p ! a
+S| \p ! a|2||! a
+B|! & \p C !   !(|1|! & \p C !   !(
+S|! \p C !   !(|2|!|C !   !(
+B|b (   ( b C       B|1|b (   ( b C       B
+S|b (   ( b C       B|1|b (   ( b C       B
+B|\p a a  Zed|1|\p a a  Zed
+S| \p a a  Zed|2||a a  Zed
+B| + \p|2||\p
+S|+|1|+
+B|BL_Position x1 Zed BL_Position ) B !(|1|BL_Position x1 Zed BL_Position ) B !(
+S|BL_Position x1 Zed BL_Position ) B !(|1|BL_Position x1 Zed BL_Position ) B !(
+B|B c_d b x1 )|1|B c_d b x1 )
+S|B c_d b x1|1|B c_d b x1
+B|! & BL_Position a A ! a C Zed Zed|1|! & BL_Position a A ! a C Zed Zed
+S|! & BL_Position a A ! a C Zed Zed|1|! & BL_Position a A ! a C Zed Zed
+B|\p c_d BL_Position \t B|1|\p c_d BL_Position \t B
+S| \p c_d BL_Position \t B|2||c_d BL_Position \t B
+B| + c_dZed!(\ta\p + Q1|3||c_dZed!(\ta\p|Q1
+S|Q1\t++c_dZed!(\ta|1|Q1\t++c_dZed!(\ta
+B|c_d Q1 C x1 Zed a|1|c_d Q1 C x1 Zed a
+S|c_d Q1 C x1 Zed a|1|c_d Q1 C x1 Zed a
+B|Cx1 c_d|1|Cx1 c_d
+S|Cx1 c_d|1|Cx1 c_d
+B|\pCB!|1|\pCB!
+S| \p CB!|2||CB!
+B| & Zed|1| & Zed
+S| & Zed|1| & Zed
+B|bb|1|bb
+S|bb|1|bb
+B|\p|1|\p
+S||0
+B|Q1x1CBL_PositionB)a|1|Q1x1CBL_PositionB)a
+S|Q1x1CBL_PositionB)a|1|Q1x1CBL_PositionB)a
+B|(c_d(x1Ac_d!((BL_Position|1|(c_d(x1Ac_d!((BL_Position
+S|c_d(x1Ac_d!((BL_Position+|1|c_d(x1Ac_d!((BL_Position+
+B|C c_d x1 \p  A|1|C c_d x1 \p  A
+S|A \p C c_d x1|2|A|C c_d x1
+B|\p|1|\p
+S||1|
+B|x1c_dc_dB)aBb(|1|x1c_dc_dB)aBb(
+S|x1c_dc_dB)aBb(|1|x1c_dc_dB)aBb(
+B|a ! b|1|a ! b
+S|a ! b|1|a ! b
+B|x1 C|1|x1 C
+S|x1 C|1|x1 C
+B|!Q1aaCQ1BL_Position!(|1|!Q1aaCQ1BL_Position!(
+S|!Q1aaCQ1BL_Position!(|1|!Q1aaCQ1BL_Position!(
+B|bc_d) & Q1!(|1|bc_d) & Q1!(
+S|Q1!( & bc_d)|1|Q1!( & bc_d)
+B|aa + !B!|2|aa|!B!
+S|aa+!B!|1|aa+!B!
+B|Bc_dx1BL_Position\tCQ1|1|Bc_dx1BL_Position\tCQ1
+S|Bc_dx1BL_Position\tCQ1|1|Bc_dx1BL_Position\tCQ1
+B|(C & x1a\p( (|1|(C & x1a\p( (
+S|( & (C \p x1a|2|( & (C|x1a
+B|Q1 & x1 a a + x1|2|Q1 & x1 a a|x1
+S|Q1 + x1 & x1 a a|1|Q1 + x1 & x1 a a
+B| + B + bB|3||B|bB
+S|+bB\t+B|1|+bB\t+B
+B|c_d Zed BL_Position b|1|c_d Zed BL_Position b
+S|c_d Zed BL_Position b|1|c_d Zed BL_Position b
+B|\p!(CBBL_Position|1|\p!(CBBL_Position
+S| \p !(CBBL_Position|2||!(CBBL_Position
+B|( A c_d|1|( A c_d
+S|A c_d|1|A c_d
+B|Ca\tZed !B|1|Ca\tZed !B
+S|Ca\tZed !B|1|Ca\tZed !B
+B|x1 )|1|x1 )
+S|x1|1|x1
+B|Bx1 & ZedC|1|Bx1 & ZedC
+S|Bx1 & ZedC|1|Bx1 & ZedC
+B|!( !(|1|!( !(
+S|!( !(|1|!( !(
+B|A   B   \p \p|1|A   B   \p \p
+S| \p A   B|2||A   B
+B|a!x1!(Ba|1|a!x1!(Ba
+S|a!x1!(Ba|1|a!x1!(Ba
+B|x1Zed|1|x1Zed
+S|x1Zed|1|x1Zed
+B|!BL_Position\t!bx1|1|!BL_Position\t!bx1
+S|!BL_Position\t!bx1|1|!BL_Position\t!bx1
+B|C !( c_d A Zed|1|C !( c_d A Zed
+S|C !( c_d A Zed|1|C !( c_d A Zed
+B|\p   BL_Position \t !|1|\p   BL_Position \t !
+S| \p BL_Position \t !|2||BL_Position \t !
+B|)\t!(x1 + Zedx1|2|)\t!(x1|Zedx1
+S|)\t!(x1+Zedx1|1|)\t!(x1+Zedx1
+B|b ( x1 BL_Position BL_Position Q1|1|b ( x1 BL_Position BL_Position Q1
+S|b ( x1 BL_Position BL_Position Q1|1|b ( x1 BL_Position BL_Position Q1
+B|A & b c_d Q1|1|A & b c_d Q1
+S|A & b c_d Q1|1|A & b c_d Q1
+B||0
+S|+|1|+
+B|(! & )\pb|1|(! & )\pb
+S|! \p b|2|!|b
+B|b a + BL_Position|2|b a|BL_Position
+S|b a + BL_Position|1|b a + BL_Position
+B|Zed A|1|Zed A
+S|Zed A|1|Zed A
+B|\p c_d !(|1|\p c_d !(
+S| \p c_d !(|2||c_d !(
+B|x1 C !(|1|x1 C !(
+S|x1 C !(|1|x1 C !(
+B|!( B Zed A B|1|!( B Zed A B
+S|!( B Zed A B|1|!( B Zed A B
+B|Zed b|1|Zed b
+S|Zed b|1|Zed b
+B|Zed \p \t A \p|1|Zed \p \t A \p
+S|A \p Zed|2|A|Zed
+B|c_d !|1|c_d !
+S|c_d !|1|c_d !
+B|x1 \p|1|x1 \p
+S|x1|1|x1
+B|B|1|B
+S|B|1|B
+B| + c_d !( B \p|2||c_d !( B \p
+S| \p + c_d !( B|2||+ c_d !( B
+B|( + x1Zed \p\p!|2|(|x1Zed \p\p!
+S| \p !+( \p x1Zed|3||!+(|x1Zed
+B|BC!(!(Q1|1|BC!(!(Q1
+S|BC!(!(Q1|1|BC!(!(Q1
+B|CQ1|1|CQ1
+S|CQ1+|1|CQ1+
+B|!AQ1|1|!AQ1
+S|!AQ1|1|!AQ1
+B|C + c_d|2|C|c_d
+S|+ c_d + & C|1|+ c_d + & C
+B|\p x1 Q1 x1 x1 Zed Q1|1|\p x1 Q1 x1 x1 Zed Q1
+S| \p x1 Q1 x1 x1 Zed Q1|2||x1 Q1 x1 x1 Zed Q1
+B|! & bBaA & !Q1)|1|! & bBaA & !Q1)
+S|! & !Q1) & bBaA|1|! & !Q1) & bBaA
+B|)|1|)
+S||1|
+B|aB & Q1!(!(|1|aB & Q1!(!(
+S|Q1!(!(+ & aB|1|Q1!(!(+ & aB
+B|\p \t b + BL_Position|2|\p \t b|BL_Position
+S|BL_Position    + \p b|2|BL_Position    +|b
+B|A(B!A\p)c_d!|1|A(B!A\p)c_d!
+S|)c_d! \p A(B!A|2|)c_d!|A(B!A
+B|c_d Zed b Zed BL_Position|1|c_d Zed b Zed BL_Position
+S|c_d Zed b Zed BL_Position|1|c_d Zed b Zed BL_Position
+B|c_d|1|c_d
+S|c_d|1|c_d
+B||0
+S||0
+B|Q1Zed|1|Q1Zed
+S|Q1Zed|1|Q1Zed
+B|C \p !(   ) a|1|C \p !(   ) a
+S|!(   ) a \p C|2|!(   ) a|C
+B|aQ1Ba Q1|1|aQ1Ba Q1
+S|aQ1Ba Q1|1|aQ1Ba Q1
+B|Aa( & c_dC\t!|1|Aa( & c_dC\t!
+S|Aa( & c_dC\t!|1|Aa( & c_dC\t!
+B|c_d C c_d ) c_d|1|c_d C c_d ) c_d
+S|c_d C c_d ) c_d|1|c_d C c_d ) c_d
+B|c_dBL_PositionbA!|1|c_dBL_PositionbA!
+S|c_dBL_PositionbA!|1|c_dBL_PositionbA!
+B|(\tZed|1|(\tZed
+S|Zed|1|Zed
+B|! & Bc_d|1|! & Bc_d
+S|! & Bc_d|1|! & Bc_d
+B|b BL_Position ) a + c_d|2|b BL_Position ) a|c_d
+S|b BL_Position ) a + c_d|1|b BL_Position ) a + c_d
+B|A & !x1!A|1|A & !x1!A
+S|A & !x1!A|1|A & !x1!A
+B|\p\tA|1|\p\tA
+S| \p A|2||A
+B|) A \p Q1|1|) A \p Q1
+S|) A \p Q1|2|) A|Q1
+B|!( x1 + x1 x1|2|!( x1|x1 x1
+S|!( x1 + x1 x1|1|!( x1 + x1 x1
+B||0
+S|+|1|+
+B|BL_PositionZed( & c_dc_dc_d|1|BL_PositionZed( & c_dc_dc_d
+S|BL_PositionZed( & c_dc_dc_d|1|BL_PositionZed( & c_dc_dc_d
+B| & a C + B Q1 \t BL_Position BL_Position )|2| & a C|B Q1 \t BL_Position BL_Position )
+S| & a C + B Q1 \t BL_Position BL_Position|1| & a C + B Q1 \t BL_Position BL_Position
+B| & )   ( Q1 ( !( )|1| & )   ( Q1 ( !( )
+S| & )   ( Q1 ( !(|1| & )   ( Q1 ( !(
+B|)b|1|)b
+S|)b+|1|)b+
+B|Zed(Zed!(CQ1|1|Zed(Zed!(CQ1
+S|Zed(Zed!(CQ1|1|Zed(Zed!(CQ1
+B|(x1Q1Q1Q1|1|(x1Q1Q1Q1
+S|x1Q1Q1Q1|1|x1Q1Q1Q1
+B|b & \pb\pZedQ1(|1|b & \pb\pZedQ1(
+S|ZedQ1( \p b|2|ZedQ1(|b
+B|Q1!bB)|1|Q1!bB)
+S|Q1!bB|1|Q1!bB
+B|)b & ZedaZed x1|1|)b & ZedaZed x1
+S|)b & ZedaZed x1|1|)b & ZedaZed x1
+B|B  Q1 & Q1 a BL_Position|1|B  Q1 & Q1 a BL_Position
+S|B  Q1 & Q1 a BL_Position|1|B  Q1 & Q1 a BL_Position
+B| & B c_d Zed c_d \t !|1| & B c_d Zed c_d \t !
+S| & B c_d Zed c_d \t !|1| & B c_d Zed c_d \t !
+B|BL_Position + x1(\pbc_dQ1|2|BL_Position|x1(\pbc_dQ1
+S|bc_dQ1+BL_Position \p x1(|2|bc_dQ1+BL_Position|x1(
+B|BL_PositionZedCb)c_dQ1C|1|BL_PositionZedCb)c_dQ1C
+S|BL_PositionZedCb)c_dQ1C|1|BL_PositionZedCb)c_dQ1C
+B|a C \p Q1 & \p \t ! Zed|1|a C \p Q1 & \p \t ! Zed
+S| \p ! Zed & a C \p Q1|3||! Zed & a C|Q1
+B|BL_PositionBL_Positionx1B\pQ1x1|1|BL_PositionBL_Positionx1B\pQ1x1
+S|BL_PositionBL_Positionx1B \p Q1x1|2|BL_PositionBL_Positionx1B|Q1x1
+B|ac_dQ1a & ZedQ1Q1|1|ac_dQ1a & ZedQ1Q1
+S|ZedQ1Q1 & ac_dQ1a|1|ZedQ1Q1 & ac_dQ1a
+B|BL_PositionZedb)x1!(\p|1|BL_PositionZedb)x1!(\p
+S|BL_PositionZedb)x1!(|1|BL_PositionZedb)x1!(
+B|x1x1|1|x1x1
+S|x1x1|1|x1x1
+B|C B b c_d x1 )|1|C B b c_d x1 )
+S|C B b c_d x1|1|C B b c_d x1
+B|\p b Zed Q1  Zed \t !( ( (|1|\p b Zed Q1  Zed \t !( ( (
+S| \p b Zed Q1  Zed \t !( ( (|2||b Zed Q1  Zed \t !( ( (
+B|x1 BL_Position \t BL_Position A BL_Position B|1|x1 BL_Position \t BL_Position A BL_Position B
+S|x1 BL_Position \t BL_Position A BL_Position B|1|x1 BL_Position \t BL_Position A BL_Position B
+B|! !( \p ( !(|1|! !( \p ( !(
+S|! !( \p !(|2|! !(|!(
+B|) a|1|) a
+S|) a|1|) a
+B|! a|1|! a
+S|! a|1|! a
+B|C !(   \p|1|C !(   \p
+S|C !(|1|C !(
+B|BL_PositionBL_Position|1|BL_PositionBL_Position
+S|BL_PositionBL_Position|1|BL_PositionBL_Position
+B|a \t A B A|1|a \t A B A
+S|a \t A B A|1|a \t A B A
+B|c_dx1C & C)x1 + Q1|2|c_dx1C & C)x1|Q1
+S|C)x1 & Q1+c_dx1C|1|C)x1 & Q1+c_dx1C
+B|c_dBZedBC|1|c_dBZedBC
+S|c_dBZedBC|1|c_dBZedBC
+B| + BL_Position ! \t B ( c_d A|2||BL_Position ! \t B ( c_d A
+S|+ BL_Position ! \t B ( c_d A|1|+ BL_Position ! \t B ( c_d A
+B|A ( B A + Zed|2|A ( B A|Zed
+S|A ( B A + Zed|1|A ( B A + Zed
+B|)BL_PositionQ1BBL_PositionC\pc_d|1|)BL_PositionQ1BBL_PositionC\pc_d
+S|)BL_PositionQ1BBL_PositionC \p c_d|2|)BL_PositionQ1BBL_PositionC|c_d
+B|!( a + !( ! b BL_Position Zed|2|!( a|!( ! b BL_Position Zed
+S|!( a + !( ! b BL_Position Zed|1|!( a + !( ! b BL_Position Zed
+B| & c_dx1x1|1| & c_dx1x1
+S| & c_dx1x1|1| & c_dx1x1
+B| + BL_Position Q1 BL_Position|2||BL_Position Q1 BL_Position
+S|+ \t BL_Position Q1 BL_Position|1|+ \t BL_Position Q1 BL_Position
+B|ZedAa\tZed(Q1ABL_Position!(|1|ZedAa\tZed(Q1ABL_Position!(
+S|ZedAa\tZed(Q1ABL_Position!(|1|ZedAa\tZed(Q1ABL_Position!(
+B|c_db!!A|1|c_db!!A
+S|c_db!!A|1|c_db!!A
+B|Cx1!(|1|Cx1!(
+S|Cx1!(|1|Cx1!(
+B|\p + \p)C|2|\p|\p)C
+S| \p )C \p +|3||)C|+
+B|b\t\p!bBL_Positionc_d|1|b\t\p!bBL_Positionc_d
+S|!bBL_Positionc_d \p b|2|!bBL_Positionc_d|b
+B|c_d Q1 a \t ) a|1|c_d Q1 a \t ) a
+S|c_d Q1 a \t ) a|1|c_d Q1 a \t ) a
+B|Q1ZedZed!(!((|1|Q1ZedZed!(!((
+S|Q1ZedZed!(!((|1|Q1ZedZed!(!((
+B|x1 \p|1|x1 \p
+S|+ \p x1|2|+|x1
+B|a!C\pC|1|a!C\pC
+S|C \p a!C|2|C|a!C
+B|Cb!(\ta )\p|1|Cb!(\ta )\p
+S|+ \p Cb!(\ta|2|+|Cb!(\ta
+B|C Q1 BL_Position Q1 !( a !( Q1 !|1|C Q1 BL_Position Q1 !( a !( Q1 !
+S|C Q1 BL_Position Q1 !( a !( Q1 !|1|C Q1 BL_Position Q1 !( a !( Q1 !
+B|Zed !(c_d|1|Zed !(c_d
+S|Zed !(c_d|1|Zed !(c_d
+B| +  & Q1 \p A c_d !( + Q1 B|3|| & Q1 \p A c_d !(|Q1 B
+S|A c_d !( \p Q1 & Q1 B + +|2|A c_d !(|Q1 & Q1 B + +
+B|B ) ( !( A|1|B ) ( !( A
+S|B ) ( !( A|1|B ) ( !( A
+B| & BL_Position|1| & BL_Position
+S| & BL_Position|1| & BL_Position
+B| & B  Q1  !( & C|1| & B  Q1  !( & C
+S| & B  Q1  !( & C|1| & B  Q1  !( & C
+B|Q1CBL_Position|1|Q1CBL_Position
+S|Q1CBL_Position|1|Q1CBL_Position
+B||0
+S||1|
+B|A Zed|1|A Zed
+S|A Zed|1|A Zed
+B|c_d A a|1|c_d A a
+S|c_d A a|1|c_d A a
+B|BL_Position)Q1B + BL_Position\p\pZed|2|BL_Position)Q1B|BL_Position\p\pZed
+S| \p BL_Position)Q1B+BL_Position \p Zed|3||BL_Position)Q1B+BL_Position|Zed
+B| & B|1| & B
+S| & B|1| & B
+B|)!aQ1bbc_dx1|1|)!aQ1bbc_dx1
+S|)!aQ1bbc_dx1|1|)!aQ1bbc_dx1
+B|c_d +  & Q1 A BL_Position !( A|2|c_d| & Q1 A BL_Position !( A
+S|Q1 A BL_Position !( A & c_d +|1|Q1 A BL_Position !( A & c_d +
+B|A|1|A
+S|A|1|A
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|B  b + BL_Position B c_d|2|B  b|BL_Position B c_d
+S|BL_Position B c_d  + B  b|1|BL_Position B c_d  + B  b
+B|a & ) b ! Zed c_d|1|a & ) b ! Zed c_d
+S|) b ! Zed c_d & a|1|) b ! Zed c_d & a
+B|Q1 !(  A|1|Q1 !(  A
+S|Q1 !(  A|1|Q1 !(  A
+B|a & bBC!x1\t(|1|a & bBC!x1\t(
+S|a & bBC!x1\t(|1|a & bBC!x1\t(
+B|\pBZed)x1!(|1|\pBZed)x1!(
+S| \p BZed)x1!(|2||BZed)x1!(
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|! + !(!)!a|2|!|!(!)!a
+S|!(!)!a+!+|1|!(!)!a+!+
+B|A & c_d \t \p !( !( )|1|A & c_d \t \p !( !( )
+S|!( !( \p A & c_d|2|!( !(|A & c_d
+B|!bx1 + Q1C|2|!bx1|Q1C
+S|Q1C+!bx1|1|Q1C+!bx1
+B|B|1|B
+S|B|1|B
+B|(|1|(
+S||1|
+B|\p +  & c_d B|2|\p| & c_d B
+S| & c_d B +|1| & c_d B +
+B|A C a|1|A C a
+S|A C a|1|A C a
+B|))aZedc_d|1|))aZedc_d
+S|))aZedc_d|1|))aZedc_d
+B|BL_Position Q1 \t \t B b C|1|BL_Position Q1 \t \t B b C
+S|BL_Position Q1 \t \t B b C|1|BL_Position Q1 \t \t B b C
+B|Zed Zed !( ! ( \t b )|1|Zed Zed !( ! ( \t b )
+S|Zed Zed !( ! ( \t b|1|Zed Zed !( ! ( \t b
+B| + !( B     ! + Zed|3||!( B     !|Zed
+S|+ !( B     ! +   Zed|1|+ !( B     ! +   Zed
+B|( + )|2|(|)
+S|+|1|+
+B|c_d C A A c_d ) A C|1|c_d C A A c_d ) A C
+S|c_d C A A c_d ) A C|1|c_d C A A c_d ) A C
+B| + BL_Position B Zed|2||BL_Position B Zed
+S|+ BL_Position B Zed|1|+ BL_Position B Zed
+B| & ) + (x1  BL_PositionZed\p|2| & )|(x1  BL_PositionZed\p
+S|+ \p x1  BL_PositionZed|2|+|x1  BL_PositionZed
+B|AAB\pB\t\p!b|1|AAB\pB\t\p!b
+S|!b \p AAB \p B|3|!b|AAB|B
+B|x1!B()(\p|1|x1!B()(\p
+S|x1!B()(|1|x1!B()(
+B| +  + Zed\ta!(BL_Positionc_d|3|||Zed\ta!(BL_Positionc_d
+S|+Zed\ta!(BL_Positionc_d+|1|+Zed\ta!(BL_Positionc_d+
+B|A \t b B|1|A \t b B
+S|A \t b B|1|A \t b B
+B|c_d)A!Ax1|1|c_d)A!Ax1
+S|c_d)A!Ax1|1|c_d)A!Ax1
+B| + B|2||B
+S|+B|1|+B
+B|A!()B + x1BL_Positionb & Zed|2|A!()B|x1BL_Positionb & Zed
+S|A!()B+Zed & x1BL_Positionb|1|A!()B+Zed & x1BL_Positionb
+B|! a|1|! a
+S|! a|1|! a
+B|BL_Positionx1C!(c_d(b !(!(|1|BL_Positionx1C!(c_d(b !(!(
+S|BL_Positionx1C!(c_d(b !(!(|1|BL_Positionx1C!(c_d(b !(!(
+B|Q1 c_d c_d + Zed B  )|2|Q1 c_d c_d|Zed B  )
+S|Q1 c_d c_d +   Zed B|1|Q1 c_d c_d +   Zed B
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|) \p a ( A (|1|) \p a ( A (
+S| \p a ( A (|2||a ( A (
+B|a(\p + Q1A|2|a(\p|Q1A
+S|+ Q1A \p a(|2|+ Q1A|a(
+B|!( + b \p (|2|!(|b \p (
+S| \p !( + b|2||!( + b
+B| + ( & a ) c_d|2||( & a ) c_d
+S|+ ( & a ) c_d|1|+ ( & a ) c_d
+B|A)\pA\p & Q1|1|A)\pA\p & Q1
+S| & Q1 \p A|2| & Q1|A
+B|c_dC\tBL_Positionc_dbBL_Position|1|c_dC\tBL_Positionc_dbBL_Position
+S|c_dC\tBL_Positionc_dbBL_Position|1|c_dC\tBL_Positionc_dbBL_Position
+B| & A & ! B|1| & A & ! B
+S| & ! B & A|1| & ! B & A
+B|c_dCZed BL_PositionZedb|1|c_dCZed BL_PositionZedb
+S|c_dCZed BL_PositionZedb|1|c_dCZed BL_PositionZedb
+B| & ! (|1| & ! (
+S| & ! (|1| & ! (
+B|!(c_d|1|!(c_d
+S|!(c_d|1|!(c_d
+B|B)Ba|1|B)Ba
+S|B)Ba|1|B)Ba
+B|B & BL_Position Q1 ! Zed ( ! x1|1|B & BL_Position Q1 ! Zed ( ! x1
+S|B & BL_Position Q1 ! Zed ( ! x1|1|B & BL_Position Q1 ! Zed ( ! x1
+B|(|1|(
+S||1|
+B| + a C    B b ( A|2||a C    B b ( A
+S|+ a C    B b ( A|1|+ a C    B b ( A
+B| & c_d c_d C|1| & c_d c_d C
+S| & c_d c_d C|1| & c_d c_d C
+B| & BbC)|1| & BbC)
+S| & BbC|1| & BbC
+B|)Cc_dQ1|1|)Cc_dQ1
+S|)Cc_dQ1|1|)Cc_dQ1
+B|Zed(x1c_dBL_PositionQ1c_d|1|Zed(x1c_dBL_PositionQ1c_d
+S|Zed(x1c_dBL_PositionQ1c_d|1|Zed(x1c_dBL_PositionQ1c_d
+B|BL_Position C|1|BL_Position C
+S|BL_Position C|1|BL_Position C
+B|Zed|1|Zed
+S|Zed|1|Zed
+B| + Bx1x1Zed|2||Bx1x1Zed
+S|+Bx1x1Zed|1|+Bx1x1Zed
+B|c_dBL_Position(|1|c_dBL_Position(
+S|c_dBL_Position(|1|c_dBL_Position(
+B|c_d  (|1|c_d  (
+S|c_d  (|1|c_d  (
+B|!)|1|!)
+S|!|1|!
+B|c_d A)|1|c_d A)
+S|c_d A|1|c_d A
+B|BL_Position     b|1|BL_Position     b
+S|BL_Position     b|1|BL_Position     b
+B|((c_d|1|((c_d
+S|(c_d|1|(c_d
+B|a C C & c_d Q1 ( a|1|a C C & c_d Q1 ( a
+S|a C C + & c_d Q1 ( a|1|a C C + & c_d Q1 ( a
+B|x1aba|1|x1aba
+S|x1aba|1|x1aba
+B|Zed Zed  \p ! ) b c_d A|1|Zed Zed  \p ! ) b c_d A
+S|! ) b c_d A \p Zed Zed|2|! ) b c_d A|Zed Zed
+B|BAc_d|1|BAc_d
+S|BAc_d|1|BAc_d
+B|b A   A x1|1|b A   A x1
+S|b A   A x1|1|b A   A x1
+B|a c_d|1|a c_d
+S|a c_d|1|a c_d
+B|!( C Q1 Zed A|1|!( C Q1 Zed A
+S|!( C Q1 Zed A|1|!( C Q1 Zed A
+B|ZedBL_PositionaQ1!(\pa\t)|1|ZedBL_PositionaQ1!(\pa\t)
+S|ZedBL_PositionaQ1!( \p a|2|ZedBL_PositionaQ1!(|a
+B|!BL_Position\tQ1|1|!BL_Position\tQ1
+S|!BL_Position\tQ1|1|!BL_Position\tQ1
+B|! C Q1 A \p B )|1|! C Q1 A \p B )
+S|! C Q1 A \p B|2|! C Q1 A|B
+B| & c_d c_d B   B|1| & c_d c_d B   B
+S| & c_d c_d B   B|1| & c_d c_d B   B
+B|( x1  Q1 c_d a c_d a a|1|( x1  Q1 c_d a c_d a a
+S|x1  Q1 c_d a c_d a a|1|x1  Q1 c_d a c_d a a
+B|Q1 C C|1|Q1 C C
+S|Q1 C C|1|Q1 C C
+B| + ) & Zed|2||) & Zed
+S| & + Zed|1| & + Zed
+B|b & Q1   c_d & x1|1|b & Q1   c_d & x1
+S|Q1   c_d & b & x1|1|Q1   c_d & b & x1
+B|! x1 !( c_d x1 a !|1|! x1 !( c_d x1 a !
+S|! x1 !( c_d x1 a !|1|! x1 !( c_d x1 a !
+B|bC|1|bC
+S|bC|1|bC
+B| & B ( ! \t B + Q1|2| & B ( ! \t B|Q1
+S| & B ( ! \t B +   Q1|1| & B ( ! \t B +   Q1
+B|BC + ) & (\tQ1|2|BC|) & (\tQ1
+S|) & BC+\t(\tQ1|1|) & BC+\t(\tQ1
+B|BBL_Position!(Q1(\paZedC!|1|BBL_Position!(Q1(\paZedC!
+S|BBL_Position!(Q1( \p aZedC!|2|BBL_Position!(Q1(|aZedC!
+B|\pbc_dBL_Position)c_d(x1|1|\pbc_dBL_Position)c_d(x1
+S| \p bc_dBL_Position)c_d(x1|2||bc_dBL_Position)c_d(x1
+B|! & A ! B c_d a|1|! & A ! B c_d a
+S|! & A ! B c_d a|1|! & A ! B c_d a
+B|( + (\pbZed|2|(|(\pbZed
+S|+( \p bZed|2|+(|bZed
+B|BL_PositionaBQ1CQ1a|1|BL_PositionaBQ1CQ1a
+S|BL_PositionaBQ1CQ1a|1|BL_PositionaBQ1CQ1a
+B|C b b  \t ( & Zed \t !|1|C b b  \t ( & Zed \t !
+S|C b b  \t ( & Zed \t !|1|C b b  \t ( & Zed \t !
+B|Q1 c_d Zed Zed Q1|1|Q1 c_d Zed Zed Q1
+S|Q1 c_d Zed Zed Q1|1|Q1 c_d Zed Zed Q1
+B|\p!A(bbQ1|1|\p!A(bbQ1
+S| \p !A(bbQ1|2||!A(bbQ1
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|( !(|1|( !(
+S|!(|1|!(
+B|Q1|1|Q1
+S|Q1+|1|Q1+
+B|Q1!Q1|1|Q1!Q1
+S|Q1!Q1|1|Q1!Q1
+B| + ) x1 B Q1 ( ) A|2||) x1 B Q1 ( ) A
+S| & + ) x1 B Q1 ( ) A|1| & + ) x1 B Q1 ( ) A
+B|x1|1|x1
+S|x1|1|x1
+B|(aBL_Position|1|(aBL_Position
+S|aBL_Position|1|aBL_Position
+B|! b b & b  Q1 b b|1|! b b & b  Q1 b b
+S|! b b & b  Q1 b b|1|! b b & b  Q1 b b
+B|B!|1|B!
+S|B!|1|B!
+B| + ( + \p BL_Position|3||(|\p BL_Position
+S|+ \p BL_Position \t + (|2|+|BL_Position \t + (
+B| + a!(ZedAC|2||a!(ZedAC
+S|+a!(ZedAC|1|+a!(ZedAC
+B|( & \p!C & Q1|1|( & \p!C & Q1
+S|!C \p ( & Q1|2|!C|( & Q1
+B|B)!A(AQ1BZedQ1|1|B)!A(AQ1BZedQ1
+S|B)!A(AQ1BZedQ1|1|B)!A(AQ1BZedQ1
+B|!(|1|!(
+S|!(|1|!(
+B|! + BL_Positionb(|2|!|BL_Positionb(
+S|BL_Positionb(+!|1|BL_Positionb(+!
+B|(B(|1|(B(
+S|B(|1|B(
+B|Q1 \p )|1|Q1 \p )
+S| \p Q1|2||Q1
+B|b)|1|b)
+S|b|1|b
+B|! & aC|1|! & aC
+S|! & aC|1|! & aC
+B|b A|1|b A
+S|b A|1|b A
+B| + B & !(Cb|2||B & !(Cb
+S|!(Cb & +B|1|!(Cb & +B
+B| + Q1Bc_dZedc_dZed|2||Q1Bc_dZedc_dZed
+S|+Q1Bc_dZedc_dZed|1|+Q1Bc_dZedc_dZed
+B|Cx1aBL_Position|1|Cx1aBL_Position
+S|Cx1aBL_Position|1|Cx1aBL_Position
+B|\p !( a|1|\p !( a
+S| \p !( a|2||!( a
+B| & Q1(b)x1|1| & Q1(b)x1
+S| & Q1(b)x1|1| & Q1(b)x1
+B|Zed|1|Zed
+S|Zed|1|Zed
+B|A Zed|1|A Zed
+S|A Zed|1|A Zed
+B|) BL_Position b A + ) ) C|2|) BL_Position b A|) ) C
+S|) ) C & + \t ) BL_Position b A|1|) ) C & + \t ) BL_Position b A
+B||0
+S||1|
+B|( b BL_Position C !( + c_d a|2|( b BL_Position C !(|c_d a
+S|b BL_Position C !( + c_d a|1|b BL_Position C !( + c_d a
+B|C!(Q1C!(bBL_Positionx1|1|C!(Q1C!(bBL_Positionx1
+S|C!(Q1C!(bBL_Positionx1|1|C!(Q1C!(bBL_Positionx1
+B|Zedx1BL_PositionC!BL_Position|1|Zedx1BL_PositionC!BL_Position
+S|Zedx1BL_PositionC!BL_Position|1|Zedx1BL_PositionC!BL_Position
+B|Zeda)a!(C|1|Zeda)a!(C
+S|Zeda)a!(C|1|Zeda)a!(C
+B|(|1|(
+S||1|
+B|BQ1|1|BQ1
+S|BQ1|1|BQ1
+B| +  & Q1 \t a a C|2|| & Q1 \t a a C
+S|+ & Q1 \t a a C|1|+ & Q1 \t a a C
+B|!( a A ! Q1|1|!( a A ! Q1
+S|!( a A ! Q1|1|!( a A ! Q1
+B|!  ) !|1|!  ) !
+S|!  ) !|1|!  ) !
+B|BL_Position ) a a ( ! C C \p )|1|BL_Position ) a a ( ! C C \p )
+S| \p BL_Position ) a a ( ! C C|2||BL_Position ) a a ( ! C C
+B| & x1|1| & x1
+S| & x1|1| & x1
+B|(\tZedBL_PositionBL_Position\t\tA|1|(\tZedBL_PositionBL_Position\t\tA
+S|ZedBL_PositionBL_Position\t\tA|1|ZedBL_PositionBL_Position\t\tA
+B|bc_da|1|bc_da
+S|bc_da|1|bc_da
+B|C a   \p  )|1|C a   \p  )
+S| \p C a|2||C a
+B|(\p|1|(\p
+S||1|
+B| & \p|1| & \p
+S||1|
+B|a C B|1|a C B
+S|a C B|1|a C B
+B|C   b ( Zed B c_d C x1|1|C   b ( Zed B c_d C x1
+S|C   b ( Zed B c_d C x1|1|C   b ( Zed B c_d C x1
+B|) BL_Position  !( BL_Position A A b|1|) BL_Position  !( BL_Position A A b
+S|) BL_Position  !( BL_Position A A b +|1|) BL_Position  !( BL_Position A A b +
+B| & BC(x1BL_Position|1| & BC(x1BL_Position
+S| & BC(x1BL_Position|1| & BC(x1BL_Position
+B|x1c_dB(Q1BL_PositionC!(|1|x1c_dB(Q1BL_PositionC!(
+S|x1c_dB(Q1BL_PositionC!(|1|x1c_dB(Q1BL_PositionC!(
+B|BL_Position!(c_dBL_Position & CZed|1|BL_Position!(c_dBL_Position & CZed
+S|BL_Position!(c_dBL_Position & CZed|1|BL_Position!(c_dBL_Position & CZed
+B|ac_d|1|ac_d
+S|ac_d|1|ac_d
+B| +  & !( ! !(|2|| & !( ! !(
+S| & + !( ! !(|1| & + !( ! !(
+B|b|1|b
+S|b|1|b
+B|aQ1 + C|2|aQ1|C
+S|C+aQ1+|1|C+aQ1+
+B|\pa & ((b\paBBL_Position|1|\pa & ((b\paBBL_Position
+S|(b \p a \p aBBL_Position|3|(b|a|aBBL_Position
+B|x1a\paac_d)a|1|x1a\paac_d)a
+S|aac_d)a \p x1a|2|aac_d)a|x1a
+B|a BL_Position BL_Position|1|a BL_Position BL_Position
+S|a BL_Position BL_Position|1|a BL_Position BL_Position
+B|Q1  C Q1 )|1|Q1  C Q1 )
+S|Q1  C Q1|1|Q1  C Q1
+B| & B a ) c_d x1 \p|1| & B a ) c_d x1 \p
+S| & B a ) c_d x1|1| & B a ) c_d x1
+B||1|
+S||1|
+B|A ( A C !(|1|A ( A C !(
+S|A ( A C !(|1|A ( A C !(
+B||0
+S||1|
+B|BL_Position ) \p \t   Q1 ) Q1 x1|1|BL_Position ) \p \t   Q1 ) Q1 x1
+S|BL_Position \p Q1 ) Q1 x1|2|BL_Position|Q1 ) Q1 x1
+B|A!(C!|1|A!(C!
+S|A!(C!|1|A!(C!
+B|c_dA)A x1(|1|c_dA)A x1(
+S|c_dA)A x1(|1|c_dA)A x1(
+B|C C & Q1 B Zed|1|C C & Q1 B Zed
+S|C C & Q1 B Zed|1|C C & Q1 B Zed
+B|Q1 B c_d  A BL_Position BL_Position !( a|1|Q1 B c_d  A BL_Position BL_Position !( a
+S|Q1 B c_d  A BL_Position BL_Position !( a|1|Q1 B c_d  A BL_Position BL_Position !( a
+B|B x1 !(|1|B x1 !(
+S|B x1 !(|1|B x1 !(
+B| & a   B  C B|1| & a   B  C B
+S| & a   B  C B|1| & a   B  C B
+B|BL_Position C Zed   A B|1|BL_Position C Zed   A B
+S|BL_Position C Zed   A B|1|BL_Position C Zed   A B
+B| + |2||
+S|+|1|+
+B|B|1|B
+S|B|1|B
+B|a!|1|a!
+S|a!|1|a!
+B| & C|1| & C
+S| & C|1| & C
+B|b a   Q1 a )|1|b a   Q1 a )
+S|b a   Q1 a )|1|b a   Q1 a )
+B|!|1|!
+S|!|1|!
+B|(c_db)|1|(c_db)
+S|c_db|1|c_db
+B|BL_Position ) B|1|BL_Position ) B
+S|BL_Position ) B|1|BL_Position ) B
+B|ax1x1)x1!|1|ax1x1)x1!
+S|ax1x1)x1!|1|ax1x1)x1!
+B|\p|1|\p
+S||1|
+B|BL_Position + x1|2|BL_Position|x1
+S|x1+BL_Position+|1|x1+BL_Position+
+B|! + ( Zed|2|!|( Zed
+S|! + ( Zed|1|! + ( Zed
+B|(Bc_dAZed|1|(Bc_dAZed
+S|Bc_dAZed|1|Bc_dAZed
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|!(a b)|1|!(a b)
+S|!( a b|1|!( a b
+B|ab|1|ab
+S|ab|1|ab
+B|c_d  ) c_d Zed \p|1|c_d  ) c_d Zed \p
+S|c_d  ) c_d Zed|1|c_d  ) c_d Zed
+B|A BL_Position !( \t \t ( +  & Q1|2|A BL_Position !( \t \t (| & Q1
+S| & Q1 + A BL_Position !( \t \t (|1| & Q1 + A BL_Position !( \t \t (
+B|\p! + \p!Q1a + Zed|3|\p!|\p!Q1a|Zed
+S| \p ! \p !Q1a+Zed+|3||!|!Q1a+Zed+
+B|!(b BL_Position A B b)|1|!(b BL_Position A B b)
+S|!(  b BL_Position A B b|1|!(  b BL_Position A B b
+B|B)(A) !( & Q1|1|B)(A) !( & Q1
+S|B)(A) !( & Q1|1|B)(A) !( & Q1
+B|(bAB + Q1|2|(bAB|Q1
+S|bAB+Q1|1|bAB+Q1
+B|\p|1|\p
+S||1|
+B| + b c_d c_d !( !(|2||b c_d c_d !( !(
+S|+ b c_d c_d !( !(|1|+ b c_d c_d !( !(
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|B c_d|1|B c_d
+S|B c_d|1|B c_d
+B|c_dZedQ1|1|c_dZedQ1
+S|c_dZedQ1|1|c_dZedQ1
+B|! B !( \t B|1|! B !( \t B
+S|! B !( \t B|1|! B !( \t B
+B|!!|1|!!
+S|!!|1|!!
+B|BL_Position BL_Position C )|1|BL_Position BL_Position C )
+S|BL_Position BL_Position C|1|BL_Position BL_Position C
+B|x1BL_PositionAB)BL_Position)|1|x1BL_PositionAB)BL_Position)
+S|x1BL_PositionAB)BL_Position|1|x1BL_PositionAB)BL_Position
+B|\p   a a  c_d \t BL_Position b \p|1|\p   a a  c_d \t BL_Position b \p
+S| \p a a  c_d \t BL_Position b|2||a a  c_d \t BL_Position b
+B|Zed ! Q1 A Q1  (|1|Zed ! Q1 A Q1  (
+S|Zed ! Q1 A Q1  (|1|Zed ! Q1 A Q1  (
+B|!( + B C c_d|2|!(|B C c_d
+S|B C c_d + !(|1|B C c_d + !(
+B|aQ1|1|aQ1
+S|aQ1|1|aQ1
+B|! b BL_Position Zed   x1|1|! b BL_Position Zed   x1
+S|! b BL_Position Zed   x1|1|! b BL_Position Zed   x1
+B|)|1|)
+S||1|
+B|Q1!aABL_Position|1|Q1!aABL_Position
+S|Q1!aABL_Position|1|Q1!aABL_Position
+B|)BL_Positionax1Q1|1|)BL_Positionax1Q1
+S|)BL_Positionax1Q1|1|)BL_Positionax1Q1
+B|b Zed x1 C Zed|1|b Zed x1 C Zed
+S|b Zed x1 C Zed +|1|b Zed x1 C Zed +
+B|) )|1|) )
+S|)|1|)
+B|!(Q1BL_PositionaZedb!(!(|1|!(Q1BL_PositionaZedb!(!(
+S|!(Q1BL_PositionaZedb!(!(|1|!(Q1BL_PositionaZedb!(!(
+B|aABa)|1|aABa)
+S|aABa|1|aABa
+B|\p & x1 \t a|1|\p & x1 \t a
+S| \p  & x1 \t a|2|| & x1 \t a
+B|BL_Position|1|BL_Position
+S|BL_Position +|1|BL_Position +
+B| & b|1| & b
+S| & b|1| & b
+B| + Q1 c_d + \p x1 Zed|3||Q1 c_d|\p x1 Zed
+S|+ \p + Q1 c_d & x1 Zed|2|+|+ Q1 c_d & x1 Zed
+B|\p a ) + B a + ! Q1 )|3|\p a )|B a|! Q1 )
+S|! Q1 ) + \p a ) + B a|2|! Q1 ) +|a ) + B a
+B|C B|1|C B
+S|C B|1|C B
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|A B ! a Q1|1|A B ! a Q1
+S|A B ! a Q1|1|A B ! a Q1
+B|(x1|1|(x1
+S|x1|1|x1
+B|x1|1|x1
+S|x1|1|x1
+B|A|1|A
+S|A +|1|A +
+B|) & x1|1|) & x1
+S|) & x1|1|) & x1
+B|(a|1|(a
+S|a|1|a
+B|Zed \t Q1 Q1 x1 !|1|Zed \t Q1 Q1 x1 !
+S|Zed \t Q1 Q1 x1 !|1|Zed \t Q1 Q1 x1 !
+B| + Zed Q1 )|2||Zed Q1 )
+S|+ \t Zed Q1|1|+ \t Zed Q1
+B|a !(\pZeda|1|a !(\pZeda
+S|Zeda \p a !(|2|Zeda|a !(
+B|C C Q1 \p !( ) BL_Position|1|C C Q1 \p !( ) BL_Position
+S|!( ) BL_Position \p C C Q1|2|!( ) BL_Position|C C Q1
+B|a(c_d + Q1BL_Position|2|a(c_d|Q1BL_Position
+S|a(c_d+ Q1BL_Position|1|a(c_d+ Q1BL_Position
+B| + x1|2||x1
+S|+ x1|1|+ x1
+B|Zed!BL_PositionCBL_Position|1|Zed!BL_PositionCBL_Position
+S|Zed!BL_PositionCBL_Position|1|Zed!BL_PositionCBL_Position
+B|( c_d|1|( c_d
+S|c_d|1|c_d
+B|(!(ac_d|1|(!(ac_d
+S|!(ac_d|1|!(ac_d
+B| & b\pA!)\pAB|1| & b\pA!)\pAB
+S| & b \p A! \p AB|3| & b|A!|AB
+B|BCQ1 + Zed|2|BCQ1|Zed
+S|BCQ1\t+Zed|1|BCQ1\t+Zed
+B|CbQ1Zed|1|CbQ1Zed
+S|CbQ1Zed|1|CbQ1Zed
+B|Q1 !( a b (|1|Q1 !( a b (
+S|Q1 !( a b (|1|Q1 !( a b (
+B|BL_Position b b|1|BL_Position b b
+S|BL_Position b b|1|BL_Position b b
+B|a & \p  C a ( C !|1|a & \p  C a ( C !
+S|C a ( C ! \p a|2|C a ( C !|a
+B|abx1 !)\pQ1Q1|1|abx1 !)\pQ1Q1
+S|Q1Q1 \p abx1 !|2|Q1Q1|abx1 !
+B|a b !(|1|a b !(
+S|a b !(|1|a b !(
+B|CaBL_PositionBL_Position\p!c_dQ1|1|CaBL_PositionBL_Position\p!c_dQ1
+S|!c_dQ1 \p CaBL_PositionBL_Position|2|!c_dQ1|CaBL_PositionBL_Position
+B|BL_Position ( + C Zed !   C A|2|BL_Position (|C Zed !   C A
+S|BL_Position ( + C Zed !   C A|1|BL_Position ( + C Zed !   C A
+B|b !(BL_Position\p|1|b !(BL_Position\p
+S|b !(BL_Position|1|b !(BL_Position
+B|Bx1Q1C(c_d|1|Bx1Q1C(c_d
+S|Bx1Q1C(c_d|1|Bx1Q1C(c_d
+B| & b c_d a|1| & b c_d a
+S| & b c_d a|1| & b c_d a
+B|aBL_Position Cx1) + BL_Position|2|aBL_Position Cx1)|BL_Position
+S|BL_Position+ aBL_Position Cx1|1|BL_Position+ aBL_Position Cx1
+B|c_d + Q1   c_d x1 A Zed|2|c_d|Q1   c_d x1 A Zed
+S|Q1   c_d x1 A Zed + c_d|1|Q1   c_d x1 A Zed + c_d
+B|BL_PositionC + c_d!|2|BL_PositionC|c_d!
+S|BL_PositionC+c_d!|1|BL_PositionC+c_d!
+B|b( (()B(\p!(|1|b( (()B(\p!(
+S|!( \p b( (()B(|2|!(|b( (()B(
+B|Zed \t x1|1|Zed \t x1
+S|Zed \t x1|1|Zed \t x1
+B| & b|1| & b
+S| & b|1| & b
+B| + B c_d Q1|2||B c_d Q1
+S|B c_d Q1 +|1|B c_d Q1 +
+B|Q1 BL_Position ( ( !(|1|Q1 BL_Position ( ( !(
+S|Q1 BL_Position ( ( !(|1|Q1 BL_Position ( ( !(
+B| + B Zed !( c_d C )|2||B Zed !( c_d C )
+S|+ B Zed !( c_d C|1|+ B Zed !( c_d C
+B|c_d   !|1|c_d   !
+S|c_d   !|1|c_d   !
+B|B|1|B
+S|B|1|B
+B|\pbQ1|1|\pbQ1
+S| \p bQ1|2||bQ1
+B|aBL_Positionc_d( + BL_Positionx1ba|2|aBL_Positionc_d(|BL_Positionx1ba
+S|aBL_Positionc_d(+BL_Positionx1ba|1|aBL_Positionc_d(+BL_Positionx1ba
+B|a Q1 A BL_Position Zed b & b|1|a Q1 A BL_Position Zed b & b
+S|a Q1 A BL_Position Zed b & b|1|a Q1 A BL_Position Zed b & b
+B|!|1|!
+S|!|1|!
+B|!(C!(Q1B!|1|!(C!(Q1B!
+S|!(C!(Q1B!|1|!(C!(Q1B!
+B|BL_Position !|1|BL_Position !
+S|BL_Position !|1|BL_Position !
+B|BL_Position & BL_Position BL_Position !( Q1 ! \t Q1|1|BL_Position & BL_Position BL_Position !( Q1 ! \t Q1
+S|BL_Position & BL_Position BL_Position !( Q1 ! \t Q1|1|BL_Position & BL_Position BL_Position !( Q1 ! \t Q1
+B| & b|1| & b
+S| & b|1| & b
+B| + x1B|2||x1B
+S|x1B+|1|x1B+
+B| & C!(c_d)|1| & C!(c_d)
+S| & C!(c_d|1| & C!(c_d
+B|bc_d|1|bc_d
+S|bc_d|1|bc_d
+B|Bx1Zed + Q1|2|Bx1Zed|Q1
+S|Bx1Zed+Q1|1|Bx1Zed+Q1
+B|Ab|1|Ab
+S|Ab|1|Ab
+B|Ca\pQ1(Cac_d)C|1|Ca\pQ1(Cac_d)C
+S|Ca \p Q1(Cac_d)C|2|Ca|Q1(Cac_d)C
+B|) BL_Position Zed A A|1|) BL_Position Zed A A
+S|) BL_Position Zed A A|1|) BL_Position Zed A A
+B||0
+S||1|
+B|Zed C x1 \t c_d x1|1|Zed C x1 \t c_d x1
+S|Zed C x1 \t c_d x1|1|Zed C x1 \t c_d x1
+B|\pBBL_PositionQ1 )a|1|\pBBL_PositionQ1 )a
+S| \p BBL_PositionQ1 )a|2||BBL_PositionQ1 )a
+B|B + \p!(Q1a)!(|2|B|\p!(Q1a)!(
+S|!(Q1a)!( \p B+|2|!(Q1a)!(|B+
+B|bAA + Q1)|2|bAA|Q1)
+S|Q1) +bAA|1|Q1) +bAA
+B|c_d)|1|c_d)
+S|c_d|1|c_d
+B|\p Zed + Zed ( c_d B Zed|2|\p Zed|Zed ( c_d B Zed
+S| \p Zed \t + Zed ( c_d B Zed|2||Zed \t + Zed ( c_d B Zed
+B|bx1x1!(bA\p\tx1)|1|bx1x1!(bA\p\tx1)
+S|bx1x1!(bA \p x1|2|bx1x1!(bA|x1
+B|B|1|B
+S|B|1|B
+B|a)Q1AC(!BBQ1|1|a)Q1AC(!BBQ1
+S|a)Q1AC(!BBQ1|1|a)Q1AC(!BBQ1
+B|BL_PositionZed\t( (x1c_d|1|BL_PositionZed\t( (x1c_d
+S|BL_PositionZed\t( (x1c_d|1|BL_PositionZed\t( (x1c_d
+B|x1 & x1   c_d c_d Q1   Q1|1|x1 & x1   c_d c_d Q1   Q1
+S|x1 & x1   c_d c_d Q1   Q1|1|x1 & x1   c_d c_d Q1   Q1
+B|b Q1 BL_Position A B & !( \p Q1|1|b Q1 BL_Position A B & !( \p Q1
+S|!( \p Q1 & b Q1 BL_Position A B|2|!(|Q1 & b Q1 BL_Position A B
+B|a + c_dAC|2|a|c_dAC
+S|a+c_dAC|1|a+c_dAC
+B|b\pCx1x1C!(AC|1|b\pCx1x1C!(AC
+S|Cx1x1C!(AC \p b|2|Cx1x1C!(AC|b
+B|\p a B !( ) \p|1|\p a B !( ) \p
+S| \p a B !(|2||a B !(
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|B!|1|B!
+S|B!|1|B!
+B|Q1!(ZedAAAB|1|Q1!(ZedAAAB
+S|Q1!(ZedAAAB|1|Q1!(ZedAAAB
+B|)Ca )|1|)Ca )
+S|)Ca|1|)Ca
+B|C a + x1 BL_Position & Zed|2|C a|x1 BL_Position & Zed
+S|Zed + C a & x1 BL_Position|1|Zed + C a & x1 BL_Position
+B| + ( Q1 C \p ! x1 B c_d|2||( Q1 C \p ! x1 B c_d
+S|! x1 B c_d \p + ( Q1 C|2|! x1 B c_d|+ ( Q1 C
+B|AAB)A!(B|1|AAB)A!(B
+S|AAB)A!(B+|1|AAB)A!(B+
+B| + A ( A ( + ! Zed x1 B|3||A ( A (|! Zed x1 B
+S|A ( A ( + + ! Zed x1 B|1|A ( A ( + + ! Zed x1 B
+B|C(\pBBL_Position|1|C(\pBBL_Position
+S|BBL_Position \p C(|2|BBL_Position|C(
+B|C Q1|1|C Q1
+S|C Q1|1|C Q1
+B|c_d(c_d!()C|1|c_d(c_d!()C
+S|c_d(c_d!()C|1|c_d(c_d!()C
+B|x1|1|x1
+S|x1|1|x1
+B|a!(!BBx1|1|a!(!BBx1
+S|a!(!BBx1|1|a!(!BBx1
+B||0
+S||1|
+B|b !|1|b !
+S|b !|1|b !
+B|A Q1 c_d b Q1 B b C BL_Position C|1|A Q1 c_d b Q1 B b C BL_Position C
+S|A Q1 c_d b Q1 B b C BL_Position C|1|A Q1 c_d b Q1 B b C BL_Position C
+B|b\tc_d + ZedaQ1b|2|b\tc_d|ZedaQ1b
+S|b\tc_d+ZedaQ1b|1|b\tc_d+ZedaQ1b
+B|BL_Position \p Zed ) a + Zed|2|BL_Position \p Zed ) a|Zed
+S|Zed ) a \p Zed + BL_Position|2|Zed ) a|Zed + BL_Position
+B| & Zed)A!Q1AQ1!|1| & Zed)A!Q1AQ1!
+S| & Zed)A!Q1AQ1!|1| & Zed)A!Q1AQ1!
+B| + Zed()|2||Zed()
+S|+Zed(|1|+Zed(
+B| + \p !|2||\p !
+S| \p ! +|2||! +
+B|!( & AaaC)|1|!( & AaaC)
+S|!(+ & AaaC)|1|!(+ & AaaC)
+B|!( + \p c_d C Q1 BL_Position|2|!(|\p c_d C Q1 BL_Position
+S| \p c_d C Q1 BL_Position + !(|2||c_d C Q1 BL_Position + !(
+B|b  Zed|1|b  Zed
+S|b  Zed|1|b  Zed
+B|C|1|C
+S|C    +|1|C    +
+B| + ))|2||))
+S|+)|1|+)
+B|A( + B)c_daa|2|A(|B)c_daa
+S|A(+B)c_daa|1|A(+B)c_daa
+B|BL_Position + C|2|BL_Position|C
+S|BL_Position+C|1|BL_Position+C
+B|Q1 B Zed \p A \p|1|Q1 B Zed \p A \p
+S|A \p Q1 B Zed|2|A|Q1 B Zed
+B|\pCb|1|\pCb
+S| \p Cb+|2||Cb+
+B|!( + B A C|2|!(|B A C
+S|B A C + !(|1|B A C + !(
+B|(B\p & C\pZedx1|1|(B\p & C\pZedx1
+S| & C \p B \p Zedx1|3| & C|B|Zedx1
+B|x1)!ZedZedZed(BCZed|1|x1)!ZedZedZed(BCZed
+S|x1)!ZedZedZed(BCZed|1|x1)!ZedZedZed(BCZed
+B|B b    c_d ! Q1 b a|1|B b    c_d ! Q1 b a
+S|B b    c_d ! Q1 b a|1|B b    c_d ! Q1 b a
+B|Zeda!(BZed!!|1|Zeda!(BZed!!
+S|Zeda!(BZed!!|1|Zeda!(BZed!!
+B|) & A C A c_d & c_d|1|) & A C A c_d & c_d
+S|) & A C A c_d & c_d|1|) & A C A c_d & c_d
+B|x1|1|x1
+S|x1|1|x1
+B|B!|1|B!
+S|B!|1|B!
+B|Zed BL_Position|1|Zed BL_Position
+S|Zed BL_Position|1|Zed BL_Position
+B| & Bba(Q1|1| & Bba(Q1
+S| & Bba(Q1|1| & Bba(Q1
+B| & Q1 \t C !( b x1 + x1|2| & Q1 \t C !( b x1|x1
+S| & Q1 \t C !( b x1 + x1|1| & Q1 \t C !( b x1 + x1
+B|\p|1|\p
+S||1|
+B|Q1 !   b a Zed B|1|Q1 !   b a Zed B
+S|Q1 !   b a Zed B|1|Q1 !   b a Zed B
+B|!A & )b\t(|1|!A & )b\t(
+S|)b\t( & !A|1|)b\t( & !A
+B|A x1 A BL_Position c_d  a b a|1|A x1 A BL_Position c_d  a b a
+S|A x1 A BL_Position c_d  a b a|1|A x1 A BL_Position c_d  a b a
+B|B|1|B
+S|B|1|B
+B|c_db(BL_PositionQ1\p)x1|1|c_db(BL_PositionQ1\p)x1
+S|)x1 \p c_db(BL_PositionQ1|2|)x1|c_db(BL_PositionQ1
+B|b!|1|b!
+S|b!|1|b!
+B|B ! a ) b|1|B ! a ) b
+S|B ! a ) b|1|B ! a ) b
+B|A ) + c_d Zed A C \p Zed Zed|2|A )|c_d Zed A C \p Zed Zed
+S|Zed Zed + A \p c_d Zed A C|2|Zed Zed + A|c_d Zed A C
+B|BL_Position + BL_Position A A|2|BL_Position|BL_Position A A
+S|BL_Position \t + BL_Position A A|1|BL_Position \t + BL_Position A A
+B|A\p|1|A\p
+S|A|1|A
+B|!|1|!
+S|!|1|!
+B|b x1 \t ( ( BL_Position|1|b x1 \t ( ( BL_Position
+S|b x1 \t ( ( BL_Position|1|b x1 \t ( ( BL_Position
+B|Zed !( b   !( Q1 a|1|Zed !( b   !( Q1 a
+S|Zed !( b   !( Q1 a|1|Zed !( b   !( Q1 a
+B|CaQ1 & Q1AA|1|CaQ1 & Q1AA
+S|CaQ1 & Q1AA|1|CaQ1 & Q1AA
+B| + BL_Position|2||BL_Position
+S|+BL_Position|1|+BL_Position
+B|BL_Position \p|1|BL_Position \p
+S| \p BL_Position|2||BL_Position
+B|c_d C ! Zed B      \p B|1|c_d C ! Zed B      \p B
+S|B \p c_d C ! Zed B|2|B|c_d C ! Zed B
+B|CZed|1|CZed
+S|CZed|1|CZed
+B|x1!|1|x1!
+S|x1!|1|x1!
+B|c_d \tB(\tBL_Positionb|1|c_d \tB(\tBL_Positionb
+S|c_d \tB(\tBL_Positionb|1|c_d \tB(\tBL_Positionb
+B|( \t \p|1|( \t \p
+S||1|
+B| +  + B & c_dB!(c_d|3|||B & c_dB!(c_d
+S|++B & c_dB!(c_d|1|++B & c_dB!(c_d
+B|x1x1BA(a(|1|x1x1BA(a(
+S|x1x1BA(a(|1|x1x1BA(a(
+B|c_d \p Q1|1|c_d \p Q1
+S|Q1 \p c_d|2|Q1|c_d
+B|c_d!(Q1 CZed|1|c_d!(Q1 CZed
+S|c_d!(Q1 CZed|1|c_d!(Q1 CZed
+B|Q1 C ! B|1|Q1 C ! B
+S|Q1 C ! B|1|Q1 C ! B
+B|C \t \p|1|C \t \p
+S| \p C|2||C
+B|\p ( Zed Q1 A Q1 c_d !|1|\p ( Zed Q1 A Q1 c_d !
+S| \p Zed Q1 A Q1 c_d !|2||Zed Q1 A Q1 c_d !
+B|b & B c_d  ) x1|1|b & B c_d  ) x1
+S|B c_d  ) x1 & b|1|B c_d  ) x1 & b
+B|BBB(BL_PositionaC|1|BBB(BL_PositionaC
+S|BBB(BL_PositionaC|1|BBB(BL_PositionaC
+B|C bx1|1|C bx1
+S|C bx1|1|C bx1
+B| & C Q1|1| & C Q1
+S| & C Q1|1| & C Q1
+B|c_d!(BBC(x1B|1|c_d!(BBC(x1B
+S|c_d!(BBC(x1B|1|c_d!(BBC(x1B
+B|( ( x1 \t BL_Position|1|( ( x1 \t BL_Position
+S|( x1 \t BL_Position|1|( x1 \t BL_Position
+B|x1|1|x1
+S|x1|1|x1
+B|bC|1|bC
+S|bC|1|bC
+B|Q1Ca\pA|1|Q1Ca\pA
+S|A \p Q1Ca|2|A|Q1Ca
+B|(\tbQ1\t!bC|1|(\tbQ1\t!bC
+S|bQ1\t!bC|1|bQ1\t!bC
+B|!( + c_dbC|2|!(|c_dbC
+S|c_dbC +!(|1|c_dbC +!(
+B| + A + c_dx1!(b|3||A|c_dx1!(b
+S|+\tc_dx1!(b & A+|1|+\tc_dx1!(b & A+
+B|!(b + bQ1BA|2|!(b|bQ1BA
+S|bQ1BA+!(b|1|bQ1BA+!(b
+B|C & c_d B ) C b ( Zed|1|C & c_d B ) C b ( Zed
+S|C & c_d B ) C b ( Zed|1|C & c_d B ) C b ( Zed
+B|Q1 BL_Position BL_Position|1|Q1 BL_Position BL_Position
+S|Q1 BL_Position BL_Position|1|Q1 BL_Position BL_Position
+B|AaQ1\pBL_Positionx1(Ac_d|1|AaQ1\pBL_Positionx1(Ac_d
+S|AaQ1 \p BL_Positionx1(Ac_d|2|AaQ1|BL_Positionx1(Ac_d
+B|x1|1|x1
+S|x1|1|x1
+B|c_d B ( Zed b BL_Position ! Zed (|1|c_d B ( Zed b BL_Position ! Zed (
+S|c_d B ( Zed b BL_Position ! Zed (|1|c_d B ( Zed b BL_Position ! Zed (
+B||0
+S|+|1|+
+B| & BBL_Position!(BL_Position \tQ1|1| & BBL_Position!(BL_Position \tQ1
+S| & BBL_Position!(BL_Position \tQ1|1| & BBL_Position!(BL_Position \tQ1
+B|a|1|a
+S|a|1|a
+B|(x1B|1|(x1B
+S|x1B|1|x1B
+B|Zedb|1|Zedb
+S|Zedb|1|Zedb
+B|)|1|)
+S||1|
+B|B!x1AABL_PositionBL_Positionx1|1|B!x1AABL_PositionBL_Positionx1
+S|B!x1AABL_PositionBL_Positionx1|1|B!x1AABL_PositionBL_Positionx1
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|( + x1!x1c_d|2|(|x1!x1c_d
+S|+x1!x1c_d|1|+x1!x1c_d
+B| & x1|1| & x1
+S| & x1|1| & x1
+B| + x1 Q1 a c_d Zed \t B a|2||x1 Q1 a c_d Zed \t B a
+S|+ x1 Q1 a c_d Zed \t B a|1|+ x1 Q1 a c_d Zed \t B a
+B|A|1|A
+S|A|1|A
+B|B\t\p\tBZed + x1|2|B\t\p\tBZed|x1
+S| & +x1 & BZed \p B|2| & +x1 & BZed|B
+B||0
+S|+|1|+
+B| + b & BL_Position ( c_d C !( !|2||b & BL_Position ( c_d C !( !
+S|+ BL_Position ( c_d C !( ! & b|1|+ BL_Position ( c_d C !( ! & b
+B|( a A + x1 B a B|2|( a A|x1 B a B
+S|+ x1 B a B + & a A|1|+ x1 B a B + & a A
+B|x1 A BL_Position|1|x1 A BL_Position
+S|x1 A BL_Position|1|x1 A BL_Position
+B|! + b & BL_Position Zed c_d !( (|2|!|b & BL_Position Zed c_d !( (
+S|! + BL_Position Zed c_d !( ( & b|1|! + BL_Position Zed c_d !( ( & b
+B| & !(A \t!|1| & !(A \t!
+S| & !(A \t!|1| & !(A \t!
+B|(BBx1c_d\p|1|(BBx1c_d\p
+S|BBx1c_d|1|BBx1c_d
+B|Q1 x1 C a b + Zed \p !( !|2|Q1 x1 C a b|Zed \p !( !
+S|!( ! \p Q1 x1 C a b + Zed|2|!( !|Q1 x1 C a b + Zed
+B| + b BL_Position B BL_Position|2||b BL_Position B BL_Position
+S|+ b BL_Position B BL_Position|1|+ b BL_Position B BL_Position
+B|a|1|a
+S|a|1|a
+B|Zedc_d)c_dc_d)\pC|1|Zedc_d)c_dc_d)\pC
+S|C \p Zedc_d)c_dc_d|2|C|Zedc_d)c_dc_d
+B|a ) B x1 & BL_Position a|1|a ) B x1 & BL_Position a
+S|BL_Position a & a ) B x1|1|BL_Position a & a ) B x1
+B|Q1 )   Q1 A b|1|Q1 )   Q1 A b
+S|Q1 )   Q1 A b|1|Q1 )   Q1 A b
+B|!ABL_Position|1|!ABL_Position
+S|!ABL_Position|1|!ABL_Position
+B| & x1    C|1| & x1    C
+S| & x1    C|1| & x1    C
+B| + b BL_Position b \t Q1 )|2||b BL_Position b \t Q1 )
+S|+ b BL_Position b \t Q1|1|+ b BL_Position b \t Q1
+B|B(BL_Position|1|B(BL_Position
+S|B(BL_Position|1|B(BL_Position
+B|(\p()|1|(\p()
+S||1|
+B|a \p Zed b + C !( BL_Position|2|a \p Zed b|C !( BL_Position
+S|C !( BL_Position  + a \p Zed b|2|C !( BL_Position  + a|Zed b
+B|B c_d|1|B c_d
+S|B c_d|1|B c_d
+B|\p & A!\pZedZed|1|\p & A!\pZedZed
+S| \p  & A! \p ZedZed|3|| & A!|ZedZed
+B|c_d b x1 ( a|1|c_d b x1 ( a
+S|c_d b x1 ( a|1|c_d b x1 ( a
+B|) a ) C a Q1 A|1|) a ) C a Q1 A
+S|) a ) C a Q1 A|1|) a ) C a Q1 A
+B|C !(|1|C !(
+S|C !(|1|C !(
+B|b x1 c_d Q1 b|1|b x1 c_d Q1 b
+S|b x1 c_d Q1 b|1|b x1 c_d Q1 b
+B| & Q1 c_d|1| & Q1 c_d
+S| & Q1 c_d|1| & Q1 c_d
+B|x1 b c_d \p ) b|1|x1 b c_d \p ) b
+S|) b \p x1 b c_d|2|) b|x1 b c_d
+B|(  b \p ) a|1|(  b \p ) a
+S|) a \p b|2|) a|b
+B|!(  ( b Zed ) Q1 b C|1|!(  ( b Zed ) Q1 b C
+S|!(  ( b Zed ) Q1 b C|1|!(  ( b Zed ) Q1 b C
+B|!(|1|!(
+S|!(|1|!(
+B|a|1|a
+S|a|1|a
+B|c_d b|1|c_d b
+S|c_d b|1|c_d b
+B|aC + a! & (Q1|2|aC|a! & (Q1
+S|a! & aC+(Q1|1|a! & aC+(Q1
+B|b!!(!( + !(CBL_PositionZed|2|b!!(!(|!(CBL_PositionZed
+S|b!!(!(+!(CBL_PositionZed|1|b!!(!(+!(CBL_PositionZed
+B|)aA + BQ1|2|)aA|BQ1
+S|BQ1+)aA|1|BQ1+)aA
+B|c_d & Q1C|1|c_d & Q1C
+S|Q1C & c_d|1|Q1C & c_d
+B|aaa|1|aaa
+S|aaa|1|aaa
+B|BL_Position A   (|1|BL_Position A   (
+S|BL_Position A   (|1|BL_Position A   (
+B|) c_d ! B \t ( \t a C BL_Position|1|) c_d ! B \t ( \t a C BL_Position
+S|) c_d ! B \t ( \t a C BL_Position|1|) c_d ! B \t ( \t a C BL_Position
+B|B!(x1BL_PositionA(|1|B!(x1BL_PositionA(
+S|B!(x1BL_PositionA(|1|B!(x1BL_PositionA(
+B|!( +  & !( ! x1 !( BL_Position|2|!(| & !( ! x1 !( BL_Position
+S|!( ! x1 !( BL_Position & !( +|1|!( ! x1 !( BL_Position & !( +
+B|\p!(Cx1|1|\p!(Cx1
+S| \p !(Cx1|2||!(Cx1
+B|)\tbBL_Position\t\tQ1|1|)\tbBL_Position\t\tQ1
+S|)\tbBL_Position\t\tQ1|1|)\tbBL_Position\t\tQ1
+B|C BL_Position a c_d ! B & c_d|1|C BL_Position a c_d ! B & c_d
+S|C BL_Position a c_d ! B & c_d +|1|C BL_Position a c_d ! B & c_d +
+B|C)C|1|C)C
+S|C)C|1|C)C
+B|b ( & Q1 a   BL_Position A|1|b ( & Q1 a   BL_Position A
+S|Q1 a   BL_Position A & b (|1|Q1 a   BL_Position A & b (
+B| + Q1 Q1 c_d c_d|2||Q1 Q1 c_d c_d
+S|+ Q1 Q1 c_d c_d|1|+ Q1 Q1 c_d c_d
+B| & !a!)|1| & !a!)
+S| & !a!|1| & !a!
+B|\pQ1(|1|\pQ1(
+S| \p Q1(\t+|2||Q1(\t+
+B| + c_d BL_Position )|2||c_d BL_Position )
+S|+ c_d BL_Position|1|+ c_d BL_Position
+B|) ( ! Zed|1|) ( ! Zed
+S|) ( ! Zed|1|) ( ! Zed
+B|Zed|1|Zed
+S|Zed|1|Zed
+B|C a & ) x1 (|1|C a & ) x1 (
+S|) x1 ( & C a|1|) x1 ( & C a
+B|( + Abx1C)!ba|2|(|Abx1C)!ba
+S|Abx1C)!ba+(|1|Abx1C)!ba+(
+B|A & !BBL_Position|1|A & !BBL_Position
+S|A & !BBL_Position|1|A & !BBL_Position
+B| + x1|2||x1
+S|+x1|1|+x1
+B|! & Zed B \p \p|1|! & Zed B \p \p
+S| \p  & ! \p Zed B|3|| & !|Zed B
+B||1|
+S||1|
+B|C \t   A C A|1|C \t   A C A
+S|C \t   A C A|1|C \t   A C A
+B|!|1|!
+S|!|1|!
+B|B b|1|B b
+S|B b|1|B b
+B|\p & x1 b A ! \t Q1 b|1|\p & x1 b A ! \t Q1 b
+S|x1 b A ! \t Q1 b|1|x1 b A ! \t Q1 b
+B|A ! b c_d Q1|1|A ! b c_d Q1
+S|A ! b c_d Q1|1|A ! b c_d Q1
+B|a|1|a
+S|a|1|a
+B|Bb|1|Bb
+S|Bb|1|Bb
+B|Q1( x1BL_Position(\pBABL_Position|1|Q1( x1BL_Position(\pBABL_Position
+S|BABL_Position \p Q1( x1BL_Position(|2|BABL_Position|Q1( x1BL_Position(
+B|BQ1!(!ZedBL_Positionc_dCa|1|BQ1!(!ZedBL_Positionc_dCa
+S|BQ1!(!ZedBL_Positionc_dCa|1|BQ1!(!ZedBL_Positionc_dCa
+B|!ZedCx1!(!(BA|1|!ZedCx1!(!(BA
+S|!ZedCx1!(!(BA|1|!ZedCx1!(!(BA
+B|aBa!\pbB!!(a|1|aBa!\pbB!!(a
+S|aBa! \p bB!!(a|2|aBa!|bB!!(a
+B|a \t x1 Zed|1|a \t x1 Zed
+S|a \t x1 Zed|1|a \t x1 Zed
+B|b|1|b
+S|b|1|b
+B| & B|1| & B
+S| & B|1| & B
+B|A & ( A    x1|1|A & ( A    x1
+S|( A    x1 & A|1|( A    x1 & A
+B|x1a|1|x1a
+S|x1a|1|x1a
+B| + c_daQ1|2||c_daQ1
+S|+c_daQ1|1|+c_daQ1
+B|CA!(bBL_PositionQ1|1|CA!(bBL_PositionQ1
+S|CA!(bBL_PositionQ1|1|CA!(bBL_PositionQ1
+B| & A b c_d C Zed|1| & A b c_d C Zed
+S| & A b c_d C Zed|1| & A b c_d C Zed
+B| + \p A Zed|2||\p A Zed
+S|+ \p A Zed|2|+|A Zed
+B|Ba!(BAc_d|1|Ba!(BAc_d
+S|Ba!(BAc_d|1|Ba!(BAc_d
+B|! B x1 BL_Position    Q1 !|1|! B x1 BL_Position    Q1 !
+S|! B x1 BL_Position    Q1 !|1|! B x1 BL_Position    Q1 !
+B|Zed|1|Zed
+S|Zed|1|Zed
+B|b!B|1|b!B
+S|b!B|1|b!B
+B|A!(! BL_Positionc_dx1!(a|1|A!(! BL_Positionc_dx1!(a
+S|A!(! BL_Positionc_dx1!(a|1|A!(! BL_Positionc_dx1!(a
+B|) \p ) a ! BL_Position|1|) \p ) a ! BL_Position
+S| \p ) a ! BL_Position|2||) a ! BL_Position
+B|AQ1|1|AQ1
+S|AQ1|1|AQ1
+B| + Q1 x1   B b|2||Q1 x1   B b
+S|+ Q1 x1   B b|1|+ Q1 x1   B b
+B|b(c_d & ZedC\t)|1|b(c_d & ZedC\t)
+S|ZedC & b(c_d|1|ZedC & b(c_d
+B|Zed x1 )|1|Zed x1 )
+S|Zed x1 ) +|1|Zed x1 ) +
+B|\p B B|1|\p B B
+S| \p B B|2||B B
+B|ABQ1|1|ABQ1
+S|ABQ1|1|ABQ1
+B|\p C ( \t a C   (|1|\p C ( \t a C   (
+S| \p C ( \t a C   (|2||C ( \t a C   (
+B| + (|2||(
+S|+ (|1|+ (
+B|B|1|B
+S|B|1|B
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|a a|1|a a
+S|a a|1|a a
+B|( A  !( C Q1 + B|2|( A  !( C Q1|B
+S|B + ( A  !( C Q1|1|B + ( A  !( C Q1
+B|a !( a a \t x1 B x1 \p|1|a !( a a \t x1 B x1 \p
+S|a !( a a \t x1 B x1|1|a !( a a \t x1 B x1
+B||0
+S||0
+B|!(( & BL_Positionx1b|1|!(( & BL_Positionx1b
+S|!(( & BL_Positionx1b|1|!(( & BL_Positionx1b
+B|! b a|1|! b a
+S|! b a|1|! b a
+B| +  & b ) \t Q1 Zed + Zed Zed|3|| & b ) \t Q1 Zed|Zed Zed
+S|+ & b ) \t Q1 Zed + Zed Zed|1|+ & b ) \t Q1 Zed + Zed Zed
+B|(|1|(
+S||1|
+B|CB)\ta\tB\pAB|1|CB)\ta\tB\pAB
+S|AB \p CB)\ta\tB|2|AB|CB)\ta\tB
+B||0
+S||1|
+B| & a ! b ( \t a A|1| & a ! b ( \t a A
+S| & a ! b ( \t a A|1| & a ! b ( \t a A
+B||0
+S||1|
+B|c_d(\pBL_PositionZed|1|c_d(\pBL_PositionZed
+S|BL_PositionZed \p c_d(|2|BL_PositionZed|c_d(
+B|)(Q1 & x1|1|)(Q1 & x1
+S|)(Q1 & x1|1|)(Q1 & x1
+B|!   ! B Q1 A|1|!   ! B Q1 A
+S|!   ! B Q1 A|1|!   ! B Q1 A
+B|AaBL_PositionQ1|1|AaBL_PositionQ1
+S|AaBL_PositionQ1|1|AaBL_PositionQ1
+B| & AA!(Zed|1| & AA!(Zed
+S| & AA!(Zed|1| & AA!(Zed
+B|B x1|1|B x1
+S|B x1|1|B x1
+B|c_d!(Zed()c_dC|1|c_d!(Zed()c_dC
+S|c_d!(Zed()c_dC|1|c_d!(Zed()c_dC
+B||1|
+S|+|1|+
+B|CZed\pc_dA\pB(|1|CZed\pc_dA\pB(
+S|B( \p CZed \p c_dA|3|B(|CZed|c_dA
+B| & (B((b|1| & (B((b
+S| & (B((b|1| & (B((b
+B|C a   Q1 \t b c_d )|1|C a   Q1 \t b c_d )
+S|C a   Q1 \t b c_d|1|C a   Q1 \t b c_d
+B|!|1|!
+S|!|1|!
+B|!BL_Position!(!(b|1|!BL_Position!(!(b
+S|!BL_Position!(!(b|1|!BL_Position!(!(b
+B| + B b ) & C b Zed BL_Position )|2||B b ) & C b Zed BL_Position )
+S|+ B b ) & C b Zed BL_Position|1|+ B b ) & C b Zed BL_Position
+B|Q1 B b BL_Position (|1|Q1 B b BL_Position (
+S|Q1 B b BL_Position (|1|Q1 B b BL_Position (
+B|Q1x1|1|Q1x1
+S|Q1x1|1|Q1x1
+B|( b C \t BL_Position|1|( b C \t BL_Position
+S|b C \t BL_Position +|1|b C \t BL_Position +
+B| + (ZedC(x1b|2||(ZedC(x1b
+S|+(ZedC(x1b+|1|+(ZedC(x1b+
+B|b|1|b
+S|b|1|b
+B|B & Q1x1 + c_dbQ1 & Q1|2|B & Q1x1|c_dbQ1 & Q1
+S|Q1 & Q1x1 & c_dbQ1+B|1|Q1 & Q1x1 & c_dbQ1+B
+B| & B + B + Ba|3| & B|B|Ba
+S|B+B & Ba+|1|B+B & Ba+
+B|!\t\t!|1|!\t\t!
+S|!\t\t!|1|!\t\t!
+B|Zed\p ba|1|Zed\p ba
+S|Zed \p ba|2|Zed|ba
+B|A x1 C x1 C BL_Position ! !( ) BL_Position|1|A x1 C x1 C BL_Position ! !( ) BL_Position
+S|A x1 C x1 C BL_Position ! !( ) BL_Position|1|A x1 C x1 C BL_Position ! !( ) BL_Position
+B|(Q1!((x1BL_PositionQ1BL_Position|1|(Q1!((x1BL_PositionQ1BL_Position
+S|Q1!((x1BL_PositionQ1BL_Position|1|Q1!((x1BL_PositionQ1BL_Position
+B|a A|1|a A
+S|a A|1|a A
+B|)c_dBL_Position BBb|1|)c_dBL_Position BBb
+S|)c_dBL_Position BBb|1|)c_dBL_Position BBb
+B|! BL_Position ! b|1|! BL_Position ! b
+S|! BL_Position ! b|1|! BL_Position ! b
+B|BL_Positionax1\p C + Bx1|2|BL_Positionax1\p C|Bx1
+S|BL_Positionax1 \p C+Bx1|2|BL_Positionax1|C+Bx1
+B|A B|1|A B
+S|A B +|1|A B +
+B|bB|1|bB
+S|bB|1|bB
+B|x1 a Zed \t ! Q1 BL_Position B|1|x1 a Zed \t ! Q1 BL_Position B
+S|x1 a Zed \t ! Q1 BL_Position B|1|x1 a Zed \t ! Q1 BL_Position B
+B|b|1|b
+S|b|1|b
+B|(|1|(
+S||1|
+B|) c_d C \p   a \p B BL_Position|1|) c_d C \p   a \p B BL_Position
+S|) c_d C \p B BL_Position \p a|3|) c_d C|B BL_Position|a
+B|x1\pA(Q1|1|x1\pA(Q1
+S|A(Q1 \p x1|2|A(Q1|x1
+B|(   A \t Zed Q1 B|1|(   A \t Zed Q1 B
+S|A \t Zed Q1 B|1|A \t Zed Q1 B
+B|BL_PositionA|1|BL_PositionA
+S|BL_PositionA|1|BL_PositionA
+B|b aab|1|b aab
+S|b aab|1|b aab
+B|A)c_daBL_Positionx1)aQ1|1|A)c_daBL_Positionx1)aQ1
+S|A)c_daBL_Positionx1)aQ1|1|A)c_daBL_Positionx1)aQ1
+B|\p|1|\p
+S||1|
+B|B  b x1 x1|1|B  b x1 x1
+S|B  b x1 x1|1|B  b x1 x1
+B|C B Zed|1|C B Zed
+S|C B Zed|1|C B Zed
+B|B ( a ( BL_Position & c_d|1|B ( a ( BL_Position & c_d
+S|B ( a ( BL_Position & c_d|1|B ( a ( BL_Position & c_d
+B|b((\tc_dZedQ1|1|b((\tc_dZedQ1
+S|b((\tc_dZedQ1|1|b((\tc_dZedQ1
+B|x1(b\pZed\p\p!|1|x1(b\pZed\p\p!
+S| \p ! \p Zed \p x1(b|4||!|Zed|x1(b
+B|CQ1 x1bC|1|CQ1 x1bC
+S|CQ1 x1bC|1|CQ1 x1bC
+B|x1CZedB!()bx1!|1|x1CZedB!()bx1!
+S|x1CZedB!()bx1!|1|x1CZedB!()bx1!
+B|A|1|A
+S|A|1|A
+B|b (c_dBL_PositionA\pZedBL_Positiona|1|b (c_dBL_PositionA\pZedBL_Positiona
+S|ZedBL_Positiona \p b (c_dBL_PositionA|2|ZedBL_Positiona|b (c_dBL_PositionA
+B|!(bCx1 a|1|!(bCx1 a
+S|!(bCx1 a|1|!(bCx1 a
+B|\p!b!Zed(|1|\p!b!Zed(
+S| \p !b!Zed(|2||!b!Zed(
+B|C + (c_dbb & Zed|2|C|(c_dbb & Zed
+S|(c_dbb+C & Zed|1|(c_dbb+C & Zed
+B|( c_d|1|( c_d
+S|c_d|1|c_d
+B|Zed\t(|1|Zed\t(
+S|Zed\t(|1|Zed\t(
+B| & CQ1x1|1| & CQ1x1
+S| & CQ1x1|1| & CQ1x1
+B|Q1ab|1|Q1ab
+S|Q1ab|1|Q1ab
+B|\p & c_db|1|\p & c_db
+S|c_db|1|c_db
+B|Zed A c_d B B ) Zed ! \p|1|Zed A c_d B B ) Zed ! \p
+S|Zed A c_d B B ) Zed !|1|Zed A c_d B B ) Zed !
+B|A|1|A
+S|A|1|A
+B|!C|1|!C
+S|!C|1|!C
+B| + c_dbx1ZedAQ1((|2||c_dbx1ZedAQ1((
+S|+c_dbx1ZedAQ1((|1|+c_dbx1ZedAQ1((
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|Zed\p\pC\pBCB|1|Zed\p\pC\pBCB
+S| \p BCB \p C \p Zed|4||BCB|C|Zed
+B|x1 b B B + Zed b x1 B|2|x1 b B B|Zed b x1 B
+S|Zed b x1 B + x1 b B B|1|Zed b x1 B + x1 b B B
+B|bx1\t ac_d + Zed + Zed|3|bx1\t ac_d|Zed|Zed
+S|bx1\t ac_d+Zed+Zed|1|bx1\t ac_d+Zed+Zed
+B|x1 BL_Position !( A \p|1|x1 BL_Position !( A \p
+S|x1 BL_Position !( A|1|x1 BL_Position !( A
+B|x1b!(|1|x1b!(
+S|x1b!(|1|x1b!(
+B|x1|1|x1
+S|x1|1|x1
+B|( + b + C|3|(|b|C
+S|C + b + (|1|C + b + (
+B|C + Zed A & ) Zed c_d C|2|C|Zed A & ) Zed c_d C
+S|) Zed c_d C + C & Zed A|1|) Zed c_d C + C & Zed A
+B|(Zed|1|(Zed
+S|Zed|1|Zed
+B|( + \pZedA!(!(c_d|2|(|\pZedA!(!(c_d
+S|+ \p ZedA!(!(c_d|2|+|ZedA!(!(c_d
+B|BL_Position + x1!( \p)|2|BL_Position|x1!( \p)
+S| \p BL_Position\t+x1!(|2||BL_Position\t+x1!(
+B|(x1Q1|1|(x1Q1
+S|x1Q1|1|x1Q1
+B|B\p|1|B\p
+S|B|1|B
+B||0
+S||1|
+B| + !(|2||!(
+S|!(+|1|!(+
+B|BL_Position !  C & x1 x1  !|1|BL_Position !  C & x1 x1  !
+S|BL_Position !  C & x1 x1  !|1|BL_Position !  C & x1 x1  !
+B|c_dZed Zed + Zed|2|c_dZed Zed|Zed
+S|c_dZed Zed+Zed|1|c_dZed Zed+Zed
+B|( b !( !( B   !(|1|( b !( !( B   !(
+S|b !( !( B   !(|1|b !( !( B   !(
+B|(A|1|(A
+S|A|1|A
+B|Q1a|1|Q1a
+S|Q1a|1|Q1a
+B| &  & )|1| &  & )
+S||1|
+B|BBL_PositionZeda )Q1Zed|1|BBL_PositionZeda )Q1Zed
+S|BBL_PositionZeda )Q1Zed|1|BBL_PositionZeda )Q1Zed
+B|BL_Position Q1 A ! BL_Position|1|BL_Position Q1 A ! BL_Position
+S|BL_Position Q1 A ! BL_Position|1|BL_Position Q1 A ! BL_Position
+B| + BL_Position Zed c_d|2||BL_Position Zed c_d
+S| & + BL_Position Zed c_d|1| & + BL_Position Zed c_d
+B|) & b\p\p & x1)|1|) & b\p\p & x1)
+S|) & b & x1)|1|) & b & x1)
+B||1|
+S||1|
+B|b ( B B|1|b ( B B
+S|b ( B B|1|b ( B B
+B|Zed x1 ) !(|1|Zed x1 ) !(
+S|Zed x1 ) !(|1|Zed x1 ) !(
+B|!(B)B!(b|1|!(B)B!(b
+S|!(B)B!(b|1|!(B)B!(b
+B|! \t   a & ! c_d a|1|! \t   a & ! c_d a
+S|! \t   a & ! c_d a|1|! \t   a & ! c_d a
+B|x1A\t!B)|1|x1A\t!B)
+S|x1A\t!B|1|x1A\t!B
+B|a|1|a
+S|a|1|a
+B| & B|1| & B
+S| & B|1| & B
+B|c_d B \t BL_Position|1|c_d B \t BL_Position
+S|c_d B \t BL_Position|1|c_d B \t BL_Position
+B|CB\t \px1Q1|1|CB\t \px1Q1
+S|CB \p x1Q1|2|CB|x1Q1
+B|BB|1|BB
+S|BB|1|BB
+B|A|1|A
+S|A|1|A
+B||1|
+S||1|
+B|A c_d \t   Q1 ( ( A|1|A c_d \t   Q1 ( ( A
+S|A c_d \t   Q1 ( ( A +|1|A c_d \t   Q1 ( ( A +
+B|\p & Q1|1|\p & Q1
+S| \p  & Q1|2|| & Q1
+B|\pc_dBb(c_dCc_d|1|\pc_dBb(c_dCc_d
+S| \p c_dBb(c_dCc_d|2||c_dBb(c_dCc_d
+B|b B \t a|1|b B \t a
+S|b B \t a|1|b B \t a
+B|b\p! & C!\t!|1|b\p! & C!\t!
+S|! \p C!\t! & b|2|!|C!\t! & b
+B||1|
+S||1|
+B|A Zed BL_Position Q1 c_d x1|1|A Zed BL_Position Q1 c_d x1
+S|A Zed BL_Position Q1 c_d x1|1|A Zed BL_Position Q1 c_d x1
+B|b b a A   c_d B|1|b b a A   c_d B
+S|b b a A   c_d B|1|b b a A   c_d B
+B|CBL_Position\p\tBL_PositionB|1|CBL_Position\p\tBL_PositionB
+S|BL_PositionB \p CBL_Position|2|BL_PositionB|CBL_Position
+B|\p !( !|1|\p !( !
+S| \p !( !|2||!( !
+B|ZedbC)|1|ZedbC)
+S|ZedbC)|1|ZedbC)
+B|b Q1 ( a B BL_Position|1|b Q1 ( a B BL_Position
+S|b Q1 ( a B BL_Position|1|b Q1 ( a B BL_Position
+B|x1|1|x1
+S|x1|1|x1
+B| & \p a b|1| & \p a b
+S| \p a b|2||a b
+B|c_d C !( ( (|1|c_d C !( ( (
+S|c_d C !( ( (|1|c_d C !( ( (
+B|bBA)\p|1|bBA)\p
+S|bBA|1|bBA
+B|B \p ) & C BL_Position ! x1 A|1|B \p ) & C BL_Position ! x1 A
+S|) \p B & C BL_Position ! x1 A|2|)|B & C BL_Position ! x1 A
+B|ABL_Position + Cc_d|2|ABL_Position|Cc_d
+S|ABL_Position+Cc_d|1|ABL_Position+Cc_d
+B|! BL_Position A c_d b   x1 + C|2|! BL_Position A c_d b   x1|C
+S|! BL_Position A c_d b   x1 + C|1|! BL_Position A c_d b   x1 + C
+B|Zedx1|1|Zedx1
+S|Zedx1|1|Zedx1
+B|BL_Position !( x1 A c_d c_d A Q1 x1|1|BL_Position !( x1 A c_d c_d A Q1 x1
+S|BL_Position !( x1 A c_d c_d A Q1 x1|1|BL_Position !( x1 A c_d c_d A Q1 x1
+B|A BL_Position C A a C BL_Position Zed c_d c_d|1|A BL_Position C A a C BL_Position Zed c_d c_d
+S|A BL_Position C A a C BL_Position Zed c_d c_d|1|A BL_Position C A a C BL_Position Zed c_d c_d
+B| + c_d a)|2||c_d a)
+S|+c_d a|1|+c_d a
+B|AA(A!( & BL_Position|1|AA(A!( & BL_Position
+S|AA(A!( & BL_Position+|1|AA(A!( & BL_Position+
+B|x1 \t b|1|x1 \t b
+S|x1 \t b|1|x1 \t b
+B|\p Q1|1|\p Q1
+S| \p Q1|2||Q1
+B|!( + (BL_Position|2|!(|(BL_Position
+S|!(+(BL_Position|1|!(+(BL_Position
+B|(a|1|(a
+S|a|1|a
+B| + )\p( + (\tc_dQ1|3||)\p(|(\tc_dQ1
+S|+ \p +(\tc_dQ1+|2|+|+(\tc_dQ1+
+B|(Q1A|1|(Q1A
+S|Q1A|1|Q1A
+B|B & x1|1|B & x1
+S|B & x1|1|B & x1
+B|CZed! aZed\t!aB|1|CZed! aZed\t!aB
+S|CZed! aZed\t!aB|1|CZed! aZed\t!aB
+B|! & b  )|1|! & b  )
+S|! & b  )|1|! & b  )
+B|CA Zed\pZedA|1|CA Zed\pZedA
+S|CA Zed \p ZedA+|2|CA Zed|ZedA+
+B|!( ) ! B|1|!( ) ! B
+S|!( ) ! B|1|!( ) ! B
+B|(|1|(
+S||1|
+B|C Zed ! Q1 a \p|1|C Zed ! Q1 a \p
+S|C Zed ! Q1 a|1|C Zed ! Q1 a
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|B)((c_d|1|B)((c_d
+S|B)((c_d|1|B)((c_d
+B|a b a Q1|1|a b a Q1
+S|a b a Q1|1|a b a Q1
+B|)B|1|)B
+S|)B|1|)B
+B|B b BL_Position & x1 ( b|1|B b BL_Position & x1 ( b
+S|B b BL_Position & x1 ( b|1|B b BL_Position & x1 ( b
+B|(  Zed|1|(  Zed
+S|Zed|1|Zed
+B|C\tBL_Position & Zedb|1|C\tBL_Position & Zedb
+S|C\tBL_Position & Zedb|1|C\tBL_Position & Zedb
+B|a B x1 BL_Position ) ) c_d c_d x1|1|a B x1 BL_Position ) ) c_d c_d x1
+S|a B x1 BL_Position ) ) c_d c_d x1|1|a B x1 BL_Position ) ) c_d c_d x1
+B|Q1  ) A|1|Q1  ) A
+S|Q1  ) A|1|Q1  ) A
+B|C \t x1 A|1|C \t x1 A
+S|C \t x1 A|1|C \t x1 A
+B|\pABL_Position\tb|1|\pABL_Position\tb
+S| \p ABL_Position\tb|2||ABL_Position\tb
+B|c_d + Zed\p!Zed|2|c_d|Zed\p!Zed
+S|!Zed+c_d \p Zed|2|!Zed+c_d|Zed
+B|BL_Positionx1!(B!!(x1x1\tc_d|1|BL_Positionx1!(B!!(x1x1\tc_d
+S|BL_Positionx1!(B!!(x1x1\tc_d|1|BL_Positionx1!(B!!(x1x1\tc_d
+B|!(!! & c_dx1\tZedx1!(|1|!(!! & c_dx1\tZedx1!(
+S|!(!! & c_dx1\tZedx1!(|1|!(!! & c_dx1\tZedx1!(
+B|c_d x1\t(c_d(a|1|c_d x1\t(c_d(a
+S|c_d x1\t(c_d(a|1|c_d x1\t(c_d(a
+B|BL_Position  a|1|BL_Position  a
+S|BL_Position  a|1|BL_Position  a
+B|) x1|1|) x1
+S|) x1|1|) x1
+B|B!(!c_d|1|B!(!c_d
+S|B!(!c_d|1|B!(!c_d
+B|c_d Q1 ! ! !( \p|1|c_d Q1 ! ! !( \p
+S|c_d Q1 ! ! !(|1|c_d Q1 ! ! !(
+B|( B + C|2|( B|C
+S|C + ( B|1|C + ( B
+B| & c_dc_d\t(bc_dab|1| & c_dc_d\t(bc_dab
+S| & c_dc_d\t(bc_dab|1| & c_dc_d\t(bc_dab
+B|!BQ1|1|!BQ1
+S|!BQ1|1|!BQ1
+B| + !bx1AC(|2||!bx1AC(
+S|+\t!bx1AC(|1|+\t!bx1AC(
+B|c_d|1|c_d
+S|c_d|1|c_d
+B| + C + C & x1 & x1 \p )|3||C|C & x1 & x1 \p )
+S|) & C & x1 \p + C + x1|2|) & C & x1|+ C + x1
+B|!( \p Q1 b + Q1  BL_Position x1|2|!( \p Q1 b|Q1  BL_Position x1
+S|!( \p + Q1  BL_Position x1 & Q1 b|2|!(|+ Q1  BL_Position x1 & Q1 b
+B|(ABL_PositionQ1x1A\p|1|(ABL_PositionQ1x1A\p
+S|ABL_PositionQ1x1A|1|ABL_PositionQ1x1A
+B|! + c_dZed!(Q1|2|!|c_dZed!(Q1
+S|!+\tc_dZed!(Q1|1|!+\tc_dZed!(Q1
+B|B!(|1|B!(
+S|B!(|1|B!(
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|) & (BL_Position\tA\p|1|) & (BL_Position\tA\p
+S| \p BL_Position\tA|2||BL_Position\tA
+B|!   Q1 !( ) B b|1|!   Q1 !( ) B b
+S|!   Q1 !( ) B b|1|!   Q1 !( ) B b
+B|( (|1|( (
+S|(|1|(
+B|c_d + Q1 !(|2|c_d|Q1 !(
+S|c_d + Q1 !(|1|c_d + Q1 !(
+B|(|1|(
+S||1|
+B|Zed BL_Position a C c_d|1|Zed BL_Position a C c_d
+S|Zed BL_Position a C c_d|1|Zed BL_Position a C c_d
+B|)\p!CBL_Position|1|)\p!CBL_Position
+S| \p !CBL_Position|2||!CBL_Position
+B|BBQ1\p + c_d|2|BBQ1\p|c_d
+S| \p c_d+\tBBQ1|2||c_d+\tBBQ1
+B|bZedx1Ca!|1|bZedx1Ca!
+S|bZedx1Ca!|1|bZedx1Ca!
+B|x1 Q1 a Zed  ! a|1|x1 Q1 a Zed  ! a
+S|x1 Q1 a Zed  ! a|1|x1 Q1 a Zed  ! a
+B|( + Zed|2|(|Zed
+S|Zed+(|1|Zed+(
+B|C \t Q1 Q1 \t !|1|C \t Q1 Q1 \t !
+S|C \t Q1 Q1 \t !|1|C \t Q1 Q1 \t !
+B|AZedZedb|1|AZedZedb
+S|AZedZedb|1|AZedZedb
+B|x1 \p ) \t Q1 B|1|x1 \p ) \t Q1 B
+S|) \t Q1 B \p x1|2|) \t Q1 B|x1
+B|Zed \p BL_Position !( Zed Q1|1|Zed \p BL_Position !( Zed Q1
+S|BL_Position !( Zed Q1 \p Zed|2|BL_Position !( Zed Q1|Zed
+B|!(\p aAZedB! + B|2|!(\p aAZedB!|B
+S|B+!( \p aAZedB!|2|B+!(|aAZedB!
+B|Q1 )   ( BL_Position Zed|1|Q1 )   ( BL_Position Zed
+S|Q1 )   ( BL_Position Zed|1|Q1 )   ( BL_Position Zed
+B|\p b b !( x1 ) ! (|1|\p b b !( x1 ) ! (
+S| \p b b !( x1 ) ! (|2||b b !( x1 ) ! (
+B|x1 \p b Zed a BL_Position|1|x1 \p b Zed a BL_Position
+S|b Zed a BL_Position \p x1|2|b Zed a BL_Position|x1
+B|x1Q1|1|x1Q1
+S|x1Q1|1|x1Q1
+B|bC()BL_Position|1|bC()BL_Position
+S|bC()BL_Position|1|bC()BL_Position
+B|BL_PositionQ1a|1|BL_PositionQ1a
+S|BL_PositionQ1a|1|BL_PositionQ1a
+B|B|1|B
+S|B|1|B
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|Zedc_d ZedQ1Q1\p!|1|Zedc_d ZedQ1Q1\p!
+S|! \p Zedc_d ZedQ1Q1|2|!|Zedc_d ZedQ1Q1
+B|x1 A x1 \p B   \p|1|x1 A x1 \p B   \p
+S|B \p x1 A x1|2|B|x1 A x1
+B|!(A)Zed!|1|!(A)Zed!
+S|!(A)Zed!|1|!(A)Zed!
+B|( \p !( ! b|1|( \p !( ! b
+S| \p !( ! b|2||!( ! b
+B|C \t   (|1|C \t   (
+S|C \t   (|1|C \t   (
+B|C Zed \p x1  B|1|C Zed \p x1  B
+S|C Zed \p x1  B|2|C Zed|x1  B
+B|c_dC|1|c_dC
+S|c_dC|1|c_dC
+B|CBc_d|1|CBc_d
+S|CBc_d|1|CBc_d
+B| + AB!(A)!B|2||AB!(A)!B
+S|+AB!(A)!B|1|+AB!(A)!B
+B|x1!(ZedBaQ1|1|x1!(ZedBaQ1
+S|x1!(ZedBaQ1|1|x1!(ZedBaQ1
+B|\p  \p B Q1 B|1|\p  \p B Q1 B
+S| \p B Q1 B|2||B Q1 B
+B| & x1!A\tA|1| & x1!A\tA
+S| & x1!A\tA|1| & x1!A\tA
+B|C ! ) B !  (|1|C ! ) B !  (
+S|C ! ) B !  (|1|C ! ) B !  (
+B|!( !(|1|!( !(
+S|!( !(+|1|!( !(+
+B|!(BL_PositionAAA & C|1|!(BL_PositionAAA & C
+S|!(BL_PositionAAA & C|1|!(BL_PositionAAA & C
+B|Cc_dc_dZed|1|Cc_dc_dZed
+S|Cc_dc_dZed|1|Cc_dc_dZed
+B|)c_db)|1|)c_db)
+S|)c_db|1|)c_db
+B|!( Q1 ! B \p \t A C|1|!( Q1 ! B \p \t A C
+S|!( Q1 ! B \p A C|2|!( Q1 ! B|A C
+B|A!(BL_Position(aZedA|1|A!(BL_Position(aZedA
+S|A!(BL_Position(aZedA|1|A!(BL_Position(aZedA
+B|!(ABL_Position|1|!(ABL_Position
+S|!(ABL_Position|1|!(ABL_Position
+B|A\p|1|A\p
+S|A|1|A
+B|BL_PositionbZedx1!|1|BL_PositionbZedx1!
+S|BL_PositionbZedx1!|1|BL_PositionbZedx1!
+B|))a & bc_da|1|))a & bc_da
+S|))a & bc_da|1|))a & bc_da
+B| & A|1| & A
+S| & A|1| & A
+B|b + !(Zed\tb|2|b|!(Zed\tb
+S|!(Zed\tb+b|1|!(Zed\tb+b
+B| +  + )))B|3|||)))B
+S|++)))B|1|++)))B
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|Q1 BL_Position|1|Q1 BL_Position
+S|Q1 BL_Position|1|Q1 BL_Position
+B|)(AaZedBZed + B(|2|)(AaZedBZed|B(
+S|B(+)(AaZedBZed|1|B(+)(AaZedBZed
+B|A \p|1|A \p
+S|A|1|A
+B|aaBL_PositionCB|1|aaBL_PositionCB
+S|aaBL_PositionCB|1|aaBL_PositionCB
+B|\p a x1|1|\p a x1
+S| \p a x1|2||a x1
+B|BL_Position)c_daBx1|1|BL_Position)c_daBx1
+S|BL_Position)c_daBx1|1|BL_Position)c_daBx1
+B|B()C!(\ta|1|B()C!(\ta
+S|B()C!(\ta|1|B()C!(\ta
+B|\p a a b \p|1|\p a a b \p
+S| \p a a b|2||a a b
+B|Q1BQ1Ac_d)Q1Q1B|1|Q1BQ1Ac_d)Q1Q1B
+S|Q1BQ1Ac_d)Q1Q1B|1|Q1BQ1Ac_d)Q1Q1B
+B|a C A ! B|1|a C A ! B
+S|a C A ! B|1|a C A ! B
+B|Zed   Zed   BL_Position Zed Q1|1|Zed   Zed   BL_Position Zed Q1
+S|Zed   Zed   BL_Position Zed Q1|1|Zed   Zed   BL_Position Zed Q1
+B|( c_d BL_Position b|1|( c_d BL_Position b
+S|c_d BL_Position b|1|c_d BL_Position b
+B|Zed B ! c_d \p|1|Zed B ! c_d \p
+S|Zed B ! c_d|1|Zed B ! c_d
+B|x1 B Zed x1 B|1|x1 B Zed x1 B
+S|x1 B Zed x1 B|1|x1 B Zed x1 B
+B|a|1|a
+S|a|1|a
+B|b Q1 ) BL_Position C Q1 c_d  B c_d|1|b Q1 ) BL_Position C Q1 c_d  B c_d
+S|b Q1 ) BL_Position C Q1 c_d  B c_d|1|b Q1 ) BL_Position C Q1 c_d  B c_d
+B|c_d Q1   Zed B ) BL_Position !( \t x1|1|c_d Q1   Zed B ) BL_Position !( \t x1
+S|c_d Q1   Zed B ) BL_Position !( \t x1|1|c_d Q1   Zed B ) BL_Position !( \t x1
+B|c_dc_dA!|1|c_dc_dA!
+S|c_dc_dA!|1|c_dc_dA!
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|a ( a ! a|1|a ( a ! a
+S|a ( a ! a|1|a ( a ! a
+B|!( Q1 (|1|!( Q1 (
+S|!( Q1 (|1|!( Q1 (
+B|A ! c_d & C \p BL_Position|1|A ! c_d & C \p BL_Position
+S|A ! c_d & C \p BL_Position|2|A ! c_d & C|BL_Position
+B|aC & Zed BL_Positionbx1a|1|aC & Zed BL_Positionbx1a
+S|Zed BL_Positionbx1a & aC|1|Zed BL_Positionbx1a & aC
+B| + Q1 BL_Position BL_Position c_d ) Zed (|2||Q1 BL_Position BL_Position c_d ) Zed (
+S|+ Q1 BL_Position BL_Position c_d ) Zed (|1|+ Q1 BL_Position BL_Position c_d ) Zed (
+B|x1!(c_d|1|x1!(c_d
+S|x1!(c_d|1|x1!(c_d
+B| + |2||
+S|+ +|1|+ +
+B|Abc_d!Q1Q1!(|1|Abc_d!Q1Q1!(
+S|Abc_d!Q1Q1!(|1|Abc_d!Q1Q1!(
+B|\pb\ta( c_d|1|\pb\ta( c_d
+S| \p b\ta( c_d|2||b\ta( c_d
+B|\p C  ) Q1 \p b|1|\p C  ) Q1 \p b
+S| \p C  ) Q1 \p b|3||C  ) Q1|b
+B|\p ! C (|1|\p ! C (
+S| \p ! C (|2||! C (
+B||1|
+S||1|
+B|)|1|)
+S||1|
+B|x1Zedc_d|1|x1Zedc_d
+S|x1Zedc_d|1|x1Zedc_d
+B|x1   Zed  )   \p !|1|x1   Zed  )   \p !
+S|! + \p x1   Zed|2|! +|x1   Zed
+B| + aZedc_dCBL_Position & !BL_Position|2||aZedc_dCBL_Position & !BL_Position
+S|+aZedc_dCBL_Position & !BL_Position|1|+aZedc_dCBL_Position & !BL_Position
+B|x1 Zed|1|x1 Zed
+S|x1 Zed|1|x1 Zed
+B|c_dC + Q1Cc_dBL_Position!|2|c_dC|Q1Cc_dBL_Position!
+S|c_dC+Q1Cc_dBL_Position!|1|c_dC+Q1Cc_dBL_Position!
+B|BL_Positionc_dB!(!(B)!(!|1|BL_Positionc_dB!(!(B)!(!
+S|BL_Positionc_dB!(!(B)!(!|1|BL_Positionc_dB!(!(B)!(!
+B| + ( A|2||( A
+S|+ & A|1|+ & A
+B|x1 Q1|1|x1 Q1
+S|x1 Q1|1|x1 Q1
+B|!()c_d\p|1|!()c_d\p
+S| \p !()c_d|2||!()c_d
+B|\p C c_d b x1 a|1|\p C c_d b x1 a
+S| \p C c_d b x1 a|2||C c_d b x1 a
+B|!|1|!
+S|!+|1|!+
+B| + \p|2||\p
+S|+|1|+
+B|Q1|1|Q1
+S|Q1|1|Q1
+B| & b\t) + BL_Position!|2| & b\t)|BL_Position!
+S| & b\t)+BL_Position!|1| & b\t)+BL_Position!
+B|B Zed \t A BL_Position B c_d a A BL_Position|1|B Zed \t A BL_Position B c_d a A BL_Position
+S|B Zed \t A BL_Position B c_d a A BL_Position|1|B Zed \t A BL_Position B c_d a A BL_Position
+B|!(!(B\p\tBL_Position|1|!(!(B\p\tBL_Position
+S|!(!(B \p BL_Position|2|!(!(B|BL_Position
+B|b & B BL_Position B ) ! C A A|1|b & B BL_Position B ) ! C A A
+S|B BL_Position B ) ! C A A & b|1|B BL_Position B ) ! C A A & b
+B|) + BL_Position b|2|)|BL_Position b
+S|BL_Position b +|1|BL_Position b +
+B|) C C C c_d x1 \t a A|1|) C C C c_d x1 \t a A
+S|) C C C c_d x1 \t a A|1|) C C C c_d x1 \t a A
+B|a BL_Position \t ) BL_Position Zed|1|a BL_Position \t ) BL_Position Zed
+S|a BL_Position \t ) BL_Position Zed|1|a BL_Position \t ) BL_Position Zed
+B|A & Q1 !(|1|A & Q1 !(
+S|A & Q1 !(|1|A & Q1 !(
+B||1|
+S||1|
+B|BL_Position B b + ! Q1 BL_Position ( C \p|2|BL_Position B b|! Q1 BL_Position ( C \p
+S|! Q1 BL_Position ( C \p + BL_Position B b|2|! Q1 BL_Position ( C|+ BL_Position B b
+B|C|1|C
+S|C|1|C
+B|x1|1|x1
+S|x1|1|x1
+B|!( & aBL_Position\pC(Zed|1|!( & aBL_Position\pC(Zed
+S|!(+ & C(Zed \p aBL_Position|2|!(+ & C(Zed|aBL_Position
+B|C a A x1|1|C a A x1
+S|C a A x1|1|C a A x1
+B|\p!(BL_Position|1|\p!(BL_Position
+S| \p !(BL_Position|2||!(BL_Position
+B|B & b!(|1|B & b!(
+S|B & b!(|1|B & b!(
+B|AAaBL_Position( & AB|1|AAaBL_Position( & AB
+S|AAaBL_Position( & AB|1|AAaBL_Position( & AB
+B|\p A|1|\p A
+S| \p A|2||A
+B|()!C|1|()!C
+S|)!C|1|)!C
+B|b x1 \p C Zed BL_Position BL_Position B (|1|b x1 \p C Zed BL_Position BL_Position B (
+S|C Zed BL_Position BL_Position B ( \p b x1|2|C Zed BL_Position BL_Position B (|b x1
+B|C ) x1 ! C|1|C ) x1 ! C
+S|C ) x1 ! C|1|C ) x1 ! C
+B|BL_Position\tZedCZed|1|BL_Position\tZedCZed
+S|BL_Position\tZedCZed|1|BL_Position\tZedCZed
+B|!( + Zed C A|2|!(|Zed C A
+S|!( + Zed C A|1|!( + Zed C A
+B|!( c_d x1 Q1 a   b B B|1|!( c_d x1 Q1 a   b B B
+S|!( c_d x1 Q1 a   b B B|1|!( c_d x1 Q1 a   b B B
+B|\p(A|1|\p(A
+S| \p A|2||A
+B|c_d!Q1B!(|1|c_d!Q1B!(
+S|c_d!Q1B!(|1|c_d!Q1B!(
+B|c_d\t\pc_dx1!\tBQ1|1|c_d\t\pc_dx1!\tBQ1
+S|c_d \p c_dx1!\tBQ1+|2|c_d|c_dx1!\tBQ1+
+B|A  b   BL_Position !|1|A  b   BL_Position !
+S|A  b   BL_Position !|1|A  b   BL_Position !
+B|c_dc_dZed|1|c_dc_dZed
+S|c_dc_dZed|1|c_dc_dZed
+B|((A + b\p(c_daA|2|((A|b\p(c_daA
+S|b \p c_daA+((A|2|b|c_daA+((A
+B|x1c_d)\tZed|1|x1c_d)\tZed
+S|x1c_d)\tZed|1|x1c_d)\tZed
+B| & BZedx1 & Q1|1| & BZedx1 & Q1
+S| & BZedx1 & Q1|1| & BZedx1 & Q1
+B| + A|2||A
+S| & + A|1| & + A
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|aa + c_d & Q1Zed|2|aa|c_d & Q1Zed
+S|Q1Zed & aa+c_d|1|Q1Zed & aa+c_d
+B|b!|1|b!
+S|b!|1|b!
+B|!( B b !|1|!( B b !
+S|!( B b !|1|!( B b !
+B|!(A|1|!(A
+S|!(A|1|!(A
+B|( & ) & Q1CQ1aB|1|( & ) & Q1CQ1aB
+S|( & ) & Q1CQ1aB|1|( & ) & Q1CQ1aB
+B|c_d + ( x1 a Q1|2|c_d|( x1 a Q1
+S|c_d +  ( x1 a Q1|1|c_d +  ( x1 a Q1
+B|!(bBCx1Zedx1c_daZed|1|!(bBCx1Zedx1c_daZed
+S|!(bBCx1Zedx1c_daZed|1|!(bBCx1Zedx1c_daZed
+B|)!(\p|1|)!(\p
+S|)!(|1|)!(
+B| + Q1 \p c_d + Zed|3||Q1 \p c_d|Zed
+S|+ Q1 \p c_d  +   Zed|2|+ Q1|c_d  +   Zed
+B|a a C|1|a a C
+S|a a C|1|a a C
+B|! \t Zed \p B|1|! \t Zed \p B
+S|! \t Zed \p B|2|! \t Zed|B
+B| + Q1B\t)b)|2||Q1B\t)b)
+S|+Q1B\t)b|1|+Q1B\t)b
+B|c_d A !( \t  ( BL_Position c_d Zed|1|c_d A !( \t  ( BL_Position c_d Zed
+S|c_d A !( \t  ( BL_Position c_d Zed|1|c_d A !( \t  ( BL_Position c_d Zed
+B|C C C|1|C C C
+S|C C C|1|C C C
+B|x1 BL_Position BL_Position|1|x1 BL_Position BL_Position
+S|x1 BL_Position BL_Position|1|x1 BL_Position BL_Position
+B|!(B\p!\tx1A(|1|!(B\p!\tx1A(
+S|!\tx1A( \p !(B|2|!\tx1A(|!(B
+B|C a + x1 A|2|C a|x1 A
+S|C a + x1 A|1|C a + x1 A
+B|a + c_db|2|a|c_db
+S|c_db+a|1|c_db+a
+B|B|1|B
+S|B|1|B
+B|\p|1|\p
+S||0
+B|( & !( a ! BL_Position b A \t b|1|( & !( a ! BL_Position b A \t b
+S|( & !( a ! BL_Position b A \t b|1|( & !( a ! BL_Position b A \t b
+B|Zedc_d|1|Zedc_d
+S|Zedc_d|1|Zedc_d
+B| + x1!|2||x1!
+S|+ x1!|1|+ x1!
+B|b (   \p|1|b (   \p
+S|b (|1|b (
+B|BQ1x1Q1|1|BQ1x1Q1
+S|BQ1x1Q1|1|BQ1x1Q1
+B|A|1|A
+S|A|1|A
+B|BBAc_d(Q1b|1|BBAc_d(Q1b
+S|BBAc_d(Q1b|1|BBAc_d(Q1b
+B|x1 (|1|x1 (
+S|x1 (|1|x1 (
+B|c_d Q1 B ! B  b !|1|c_d Q1 B ! B  b !
+S|c_d Q1 B ! B  b !|1|c_d Q1 B ! B  b !
+B|c_d Q1 B a BL_Position Q1|1|c_d Q1 B a BL_Position Q1
+S|c_d Q1 B a BL_Position Q1|1|c_d Q1 B a BL_Position Q1
+B|!!|1|!!
+S|!!|1|!!
+B|BL_PositionBL_PositionQ1b!(a !(|1|BL_PositionBL_PositionQ1b!(a !(
+S|BL_PositionBL_PositionQ1b!(a !(|1|BL_PositionBL_PositionQ1b!(a !(
+B|BL_Position Zed|1|BL_Position Zed
+S|BL_Position Zed|1|BL_Position Zed
+B| + c_d|2||c_d
+S|+c_d|1|+c_d
+B|B   !( & x1 !|1|B   !( & x1 !
+S|B   !( & x1 !|1|B   !( & x1 !
+B|! BL_Position x1 BL_Position b BL_Position|1|! BL_Position x1 BL_Position b BL_Position
+S|! BL_Position x1 BL_Position b BL_Position|1|! BL_Position x1 BL_Position b BL_Position
+B|(BBL_Positionb\t(|1|(BBL_Positionb\t(
+S|BBL_Positionb\t(|1|BBL_Positionb\t(
+B|C|1|C
+S|C|1|C
+B|) Q1   !( c_d + Zed Q1|2|) Q1   !( c_d|Zed Q1
+S|) Q1   !( c_d + Zed Q1|1|) Q1   !( c_d + Zed Q1
+B|A|1|A
+S|A|1|A
+B| & \p BL_Position|1| & \p BL_Position
+S| \p BL_Position|2||BL_Position
+B|b|1|b
+S|b|1|b
+B|c_d x1 ( ) B \t BL_Position c_d|1|c_d x1 ( ) B \t BL_Position c_d
+S|c_d x1 ( ) B \t BL_Position c_d|1|c_d x1 ( ) B \t BL_Position c_d
+B|BAZed|1|BAZed
+S|BAZed|1|BAZed
+B||0
+S||0
+B|a)BL_PositionA|1|a)BL_PositionA
+S|a)BL_PositionA|1|a)BL_PositionA
+B| & a|1| & a
+S| & a|1| & a
+B| + A Q1 Zed  \t \t BL_Position b|2||A Q1 Zed  \t \t BL_Position b
+S|A Q1 Zed  \t \t BL_Position b +|1|A Q1 Zed  \t \t BL_Position b +
+B|x1 ( Zed b x1 \p|1|x1 ( Zed b x1 \p
+S|x1 ( Zed b x1|1|x1 ( Zed b x1
+B|c_d\tx1a(AAC|1|c_d\tx1a(AAC
+S|c_d\tx1a(AAC|1|c_d\tx1a(AAC
+B|! ) & BL_Position BL_Position|1|! ) & BL_Position BL_Position
+S|! & BL_Position BL_Position|1|! & BL_Position BL_Position
+B| + B(c_d + ZedC(|3||B(c_d|ZedC(
+S|B(c_d++ZedC(|1|B(c_d++ZedC(
+B|bBL_Position|1|bBL_Position
+S|bBL_Position|1|bBL_Position
+B|C B BL_Position ) b & ) Q1 B C|1|C B BL_Position ) b & ) Q1 B C
+S|) Q1 B C & C B BL_Position ) b|1|) Q1 B C & C B BL_Position ) b
+B|a (    a b \p b b|1|a (    a b \p b b
+S|a (    a b \p b b|2|a (    a b|b b
+B|b|1|b
+S|b|1|b
+B|Ax1b! & C|1|Ax1b! & C
+S|Ax1b! & C|1|Ax1b! & C
+B|\px1)|1|\px1)
+S| \p x1|2||x1
+B|b(A|1|b(A
+S|b(A+|1|b(A+
+B|C BL_Position ) )|1|C BL_Position ) )
+S|C BL_Position )|1|C BL_Position )
+B|C & Q1|1|C & Q1
+S|C & Q1|1|C & Q1
+B|!(BL_PositionAx1BL_Positionx1A BL_Position|1|!(BL_PositionAx1BL_Positionx1A BL_Position
+S|!(BL_PositionAx1BL_Positionx1A BL_Position|1|!(BL_PositionAx1BL_Positionx1A BL_Position
+B| & BL_Position|1| & BL_Position
+S| & BL_Position|1| & BL_Position
+B|\p|1|\p
+S||0
+B|Zeda|1|Zeda
+S|Zeda|1|Zeda
+B|BL_Position \t c_d \t (|1|BL_Position \t c_d \t (
+S|BL_Position \t c_d \t (|1|BL_Position \t c_d \t (
+B|) & ( A (|1|) & ( A (
+S|( A ( & )|1|( A ( & )
+B|CB!)|1|CB!)
+S|CB!|1|CB!
+B|BL_Position ( c_d|1|BL_Position ( c_d
+S|BL_Position ( c_d|1|BL_Position ( c_d
+B|CBL_Positiona|1|CBL_Positiona
+S|CBL_Positiona|1|CBL_Positiona
+B|ZedBC\tbZed\pBL_Positionc_d!(|1|ZedBC\tbZed\pBL_Positionc_d!(
+S|BL_Positionc_d!( \p ZedBC\tbZed|2|BL_Positionc_d!(|ZedBC\tbZed
+B|BL_PositionCB(Q1c_dQ1|1|BL_PositionCB(Q1c_dQ1
+S|BL_PositionCB(Q1c_dQ1|1|BL_PositionCB(Q1c_dQ1
+B|( + BL_Position|2|(|BL_Position
+S|+BL_Position|1|+BL_Position
+B| & )|1| & )
+S||1|
+B| + A BL_Position|2||A BL_Position
+S|+ \t A BL_Position|1|+ \t A BL_Position
+B|a + B|2|a|B
+S|B+a|1|B+a
+B|A !( c_d !( BL_Position + a x1|2|A !( c_d !( BL_Position|a x1
+S|a x1 + A !( c_d !( BL_Position|1|a x1 + A !( c_d !( BL_Position
+B|!(Ac_dx1BCA\p|1|!(Ac_dx1BCA\p
+S|!(Ac_dx1BCA|1|!(Ac_dx1BCA
+B|)Zeda!B(x1b|1|)Zeda!B(x1b
+S|)Zeda!B(x1b|1|)Zeda!B(x1b
+B|A Zed C c_d & ( ( BL_Position|1|A Zed C c_d & ( ( BL_Position
+S|( ( BL_Position & A Zed C c_d|1|( ( BL_Position & A Zed C c_d
+B|bB & C BL_Positionc_dBL_Position|1|bB & C BL_Positionc_dBL_Position
+S|C BL_Positionc_dBL_Position & bB|1|C BL_Positionc_dBL_Position & bB
+B|CBCx1Zedc_d|1|CBCx1Zedc_d
+S|CBCx1Zedc_d|1|CBCx1Zedc_d
+B|(!(AQ1x1!()a|1|(!(AQ1x1!()a
+S|!(AQ1x1!()a|1|!(AQ1x1!()a
+B|(|1|(
+S||1|
+B|)!(|1|)!(
+S|)!(|1|)!(
+B|A b ! !( a A + ( Zed (|2|A b ! !( a A|( Zed (
+S|Zed ( + A b ! !( a A|1|Zed ( + A b ! !( a A
+B|c_d B Zed a  \t c_d|1|c_d B Zed a  \t c_d
+S|c_d B Zed a  \t c_d|1|c_d B Zed a  \t c_d
+B|( b ( BL_Position x1 x1   a|1|( b ( BL_Position x1 x1   a
+S|b ( BL_Position x1 x1   a|1|b ( BL_Position x1 x1   a
+B| + |2||
+S|+|1|+
+B|x1 + x1 Q1 Q1 \p|2|x1|x1 Q1 Q1 \p
+S|x1 +     x1 Q1 Q1|1|x1 +     x1 Q1 Q1
+B|BL_Position b b|1|BL_Position b b
+S|BL_Position b b|1|BL_Position b b
+B|\p + \p|2|\p|\p
+S| \p +|2||+
+B| + x1 ! x1|2||x1 ! x1
+S|+ x1 ! x1|1|+ x1 ! x1
+B|A (   C \p x1 Zed C \p|1|A (   C \p x1 Zed C \p
+S| \p A (   C \p x1 Zed C|3||A (   C|x1 Zed C
+B|Q1 )   x1 & Zed a x1|1|Q1 )   x1 & Zed a x1
+S|Q1 )   x1 & Zed a x1|1|Q1 )   x1 & Zed a x1
+B|!( b ! \p|1|!( b ! \p
+S| \p !( b !|2||!( b !
+B|( + Q1Zed|2|(|Q1Zed
+S|Q1Zed+(\t+|1|Q1Zed+(\t+
+B|a|1|a
+S|a|1|a
+B|A\pbc_db!|1|A\pbc_db!
+S|A \p bc_db!|2|A|bc_db!
+B|!(|1|!(
+S|!(|1|!(
+B|Q1BBL_Position|1|Q1BBL_Position
+S|Q1BBL_Position|1|Q1BBL_Position
+B|B b ) B \p ( x1 BL_Position b B|1|B b ) B \p ( x1 BL_Position b B
+S|B b ) B \p x1 BL_Position b B|2|B b ) B|x1 BL_Position b B
+B|!a\pBL_PositionBx1|1|!a\pBL_PositionBx1
+S|!a \p BL_PositionBx1|2|!a|BL_PositionBx1
+B|A Zed  x1|1|A Zed  x1
+S|A Zed  x1|1|A Zed  x1
+B|\p|1|\p
+S||0
+B|)a|1|)a
+S|)a|1|)a
+B|x1 \t BL_PositionQ1|1|x1 \t BL_PositionQ1
+S|x1 \t BL_PositionQ1|1|x1 \t BL_PositionQ1
+B|ZedQ1)|1|ZedQ1)
+S|ZedQ1|1|ZedQ1
+B| & !( & a & c_d c_d|1| & !( & a & c_d c_d
+S| & !( & a & c_d c_d|1| & !( & a & c_d c_d
+B|b Q1 B Q1 c_d ( x1|1|b Q1 B Q1 c_d ( x1
+S|b Q1 B Q1 c_d ( x1|1|b Q1 B Q1 c_d ( x1
+B|c_dZedBL_Positionaax1x1\p|1|c_dZedBL_Positionaax1x1\p
+S|c_dZedBL_Positionaax1x1|1|c_dZedBL_Positionaax1x1
+B| + Zed a|2||Zed a
+S|+ Zed a|1|+ Zed a
+B|!(!(A\t(C|1|!(!(A\t(C
+S|!(!(A\t(C|1|!(!(A\t(C
+B|Q1   b x1   x1|1|Q1   b x1   x1
+S|Q1   b x1   x1|1|Q1   b x1   x1
+B|BL_Position A   BL_Position   Q1  ) B|1|BL_Position A   BL_Position   Q1  ) B
+S|BL_Position A   BL_Position   Q1  ) B|1|BL_Position A   BL_Position   Q1  ) B
+B|BL_PositionCa|1|BL_PositionCa
+S|BL_PositionCa|1|BL_PositionCa
+B| + a C A|2||a C A
+S|+ a C A|1|+ a C A
+B|!(ba|1|!(ba
+S|!(ba|1|!(ba
+B|( b \p A \p Q1 \p a|1|( b \p A \p Q1 \p a
+S|A \p Q1 \p a \p b|4|A|Q1|a|b
+B|!(|1|!(
+S|!(|1|!(
+B|aQ1 & )!(c_d|1|aQ1 & )!(c_d
+S|)!(c_d & aQ1|1|)!(c_d & aQ1
+B|Aax1B + B + Bc_d|3|Aax1B|B|Bc_d
+S|B+Aax1B+Bc_d|1|B+Aax1B+Bc_d
+B|Q1 B C|1|Q1 B C
+S|Q1 B C|1|Q1 B C
+B|C  ( ( x1  Zed|1|C  ( ( x1  Zed
+S|C  ( ( x1  Zed|1|C  ( ( x1  Zed
+B|x1 (|1|x1 (
+S|x1 (|1|x1 (
+B|CBL_Position|1|CBL_Position
+S|CBL_Position|1|CBL_Position
+B|( ( + Q1 c_d c_d \t Q1|2|( (|Q1 c_d c_d \t Q1
+S|( + Q1 c_d c_d \t Q1|1|( + Q1 c_d c_d \t Q1
+B|)Zed + ZedZed\tBL_PositionQ1(|2|)Zed|ZedZed\tBL_PositionQ1(
+S|ZedZed\tBL_PositionQ1(\t+)Zed|1|ZedZed\tBL_PositionQ1(\t+)Zed
+B|A & a BL_Position & b BL_Position x1|1|A & a BL_Position & b BL_Position x1
+S|A & a BL_Position & b BL_Position x1|1|A & a BL_Position & b BL_Position x1
+B| + |2||
+S|+|1|+
+B|Ba & BQ1\p|1|Ba & BQ1\p
+S| & Ba \p BQ1|2| & Ba|BQ1
+B|! + ACA!AaBb|2|!|ACA!AaBb
+S|!+ACA!AaBb|1|!+ACA!AaBb
+B|a BL_Position x1|1|a BL_Position x1
+S|a BL_Position x1|1|a BL_Position x1
+B|))\p|1|))\p
+S|)|1|)
+B|(|1|(
+S||1|
+B|x1 (|1|x1 (
+S|x1 (|1|x1 (
+B|c_d (|1|c_d (
+S|c_d (|1|c_d (
+B|! BL_Position B B C Zed A c_d x1 (|1|! BL_Position B B C Zed A c_d x1 (
+S|! BL_Position B B C Zed A c_d x1 (|1|! BL_Position B B C Zed A c_d x1 (
+B|( a!aZedbZedc_d|1|( a!aZedbZedc_d
+S|a!aZedbZedc_d|1|a!aZedbZedc_d
+B|a & ( c_dc_dBL_Position|1|a & ( c_dc_dBL_Position
+S|a & c_dc_dBL_Position|1|a & c_dc_dBL_Position
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|c_d))x1 & Q1BC|1|c_d))x1 & Q1BC
+S|Q1BC & c_d))x1|1|Q1BC & c_d))x1
+B|c_d|1|c_d
+S|c_d +|1|c_d +
+B|c_d B c_d C Q1   ) a|1|c_d B c_d C Q1   ) a
+S|c_d B c_d C Q1   ) a|1|c_d B c_d C Q1   ) a
+B||0
+S||0
+B|CBL_PositionB!CBL_PositionABL_Position|1|CBL_PositionB!CBL_PositionABL_Position
+S|CBL_PositionB!CBL_PositionABL_Position|1|CBL_PositionB!CBL_PositionABL_Position
+B|)|1|)
+S||1|
+B|)|1|)
+S||1|
+B|Q1 ) B Q1|1|Q1 ) B Q1
+S|Q1 ) B Q1|1|Q1 ) B Q1
+B|Q1a\p x1BBL_PositionaQ1|1|Q1a\p x1BBL_PositionaQ1
+S|Q1a \p x1BBL_PositionaQ1|2|Q1a|x1BBL_PositionaQ1
+B|B Zed )  a|1|B Zed )  a
+S|B Zed )  a|1|B Zed )  a
+B|C a & Q1|1|C a & Q1
+S|C a & Q1|1|C a & Q1
+B|B!!Zed(aabZed\p|1|B!!Zed(aabZed\p
+S|B!!Zed(aabZed|1|B!!Zed(aabZed
+B|x1 C C ( x1   B BL_Position C|1|x1 C C ( x1   B BL_Position C
+S|x1 C C ( x1   B BL_Position C|1|x1 C C ( x1   B BL_Position C
+B|!(|1|!(
+S|!(|1|!(
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|CQ1Q1C)! & x1Q1|1|CQ1Q1C)! & x1Q1
+S|CQ1Q1C)! & x1Q1|1|CQ1Q1C)! & x1Q1
+B|b + Cx1Q1BL_Position|2|b|Cx1Q1BL_Position
+S|Cx1Q1BL_Position+b|1|Cx1Q1BL_Position+b
+B|x1 ! Zed C a )|1|x1 ! Zed C a )
+S|x1 ! Zed C a )|1|x1 ! Zed C a )
+B|a ) ) B + x1 + Zed|3|a ) ) B|x1|Zed
+S|a ) ) B + x1 + Zed|1|a ) ) B + x1 + Zed
+B|\pQ1x1\p\t !(|1|\pQ1x1\p\t !(
+S| \p !( \p Q1x1|3||!(|Q1x1
+B|a Q1 !(|1|a Q1 !(
+S|a Q1 !(|1|a Q1 !(
+B|(|1|(
+S||1|
+B|! x1 a C Q1 B a !( )|1|! x1 a C Q1 B a !( )
+S|! x1 a C Q1 B a !(|1|! x1 a C Q1 B a !(
+B|c_d(\t!((Zed|1|c_d(\t!((Zed
+S|c_d(\t!((Zed|1|c_d(\t!((Zed
+B| & )Zedb|1| & )Zedb
+S| & )Zedb|1| & )Zedb
+B|C(x1 !(Zed|1|C(x1 !(Zed
+S|C(x1 !(Zed|1|C(x1 !(Zed
+B|Zed \t )|1|Zed \t )
+S|Zed|1|Zed
+B|aA|1|aA
+S|aA|1|aA
+B|(|1|(
+S||1|
+B| + \pA\p\pb & C|2||\pA\p\pb & C
+S| \p +C \p A \p b|4||+C|A|b
+B|)B\tBL_PositionbCQ1\p!()|1|)B\tBL_PositionbCQ1\p!()
+S|!( \p )B\tBL_PositionbCQ1|2|!(|)B\tBL_PositionbCQ1
+B|A ! & \p b|1|A ! & \p b
+S| \p A ! & b|2||A ! & b
+B|a Zed ) x1 Zed|1|a Zed ) x1 Zed
+S|a Zed ) x1 Zed|1|a Zed ) x1 Zed
+B|a! (|1|a! (
+S|a! (|1|a! (
+B| & BL_Position c_d & \p Q1 \p BL_Position|1| & BL_Position c_d & \p Q1 \p BL_Position
+S| & BL_Position c_d \p BL_Position \p Q1|3| & BL_Position c_d|BL_Position|Q1
+B||0
+S||1|
+B|x1!Zed(x1|1|x1!Zed(x1
+S|x1!Zed(x1|1|x1!Zed(x1
+B||1|
+S||1|
+B|(|1|(
+S||1|
+B|Zed((c_d\tBL_PositionbBL_Position|1|Zed((c_d\tBL_PositionbBL_Position
+S|Zed((c_d\tBL_PositionbBL_Position|1|Zed((c_d\tBL_PositionbBL_Position
+B|x1Cc_d\tAQ1B|1|x1Cc_d\tAQ1B
+S|x1Cc_d\tAQ1B|1|x1Cc_d\tAQ1B
+B|Q1Q1bZed!b|1|Q1Q1bZed!b
+S|Q1Q1bZed!b|1|Q1Q1bZed!b
+B|ZedQ1!(BL_Position(!(ZedBB|1|ZedQ1!(BL_Position(!(ZedBB
+S|ZedQ1!(BL_Position(!(ZedBB|1|ZedQ1!(BL_Position(!(ZedBB
+B|A Zed(|1|A Zed(
+S|A Zed(|1|A Zed(
+B|a!(Zeda!(|1|a!(Zeda!(
+S|a!(Zeda!(|1|a!(Zeda!(
+B|\p + A))|2|\p|A))
+S|A))+|1|A))+
+B|b & c_d b \t \t Zed BL_Position \t A|1|b & c_d b \t \t Zed BL_Position \t A
+S|b & c_d b \t \t Zed BL_Position \t A|1|b & c_d b \t \t Zed BL_Position \t A
+B|x1Bx1 x1\tC|1|x1Bx1 x1\tC
+S|x1Bx1 x1\tC|1|x1Bx1 x1\tC
+B|BL_Position B|1|BL_Position B
+S|BL_Position B|1|BL_Position B
+B|Zed b A !( a|1|Zed b A !( a
+S|Zed b A !( a|1|Zed b A !( a
+B|!  \t Zed B|1|!  \t Zed B
+S|!  \t Zed B|1|!  \t Zed B
+B|x1baaBL_PositionQ1Zedx1A|1|x1baaBL_PositionQ1Zedx1A
+S|x1baaBL_PositionQ1Zedx1A|1|x1baaBL_PositionQ1Zedx1A
+B|(!( & )BBb!(B|1|(!( & )BBb!(B
+S|(!( & )BBb!(B|1|(!( & )BBb!(B
+B| & x1 x1   !|1| & x1 x1   !
+S| & x1 x1   !|1| & x1 x1   !
+B| & a & Zed|1| & a & Zed
+S| & Zed & a|1| & Zed & a
+B| +  & ) & BCx1|2|| & ) & BCx1
+S| & +BCx1|1| & +BCx1
+B|\p)(BL_Position!(A|1|\p)(BL_Position!(A
+S| \p )(BL_Position!(A|2||)(BL_Position!(A
+B|BBL_Position|1|BBL_Position
+S|BBL_Position|1|BBL_Position
+B|BL_Position!\p + BL_Position!c_d & x1|2|BL_Position!\p|BL_Position!c_d & x1
+S|+x1 & BL_Position!c_d \p BL_Position!|2|+x1 & BL_Position!c_d|BL_Position!
+B| + \pBL_Position & Zed + (Q1|3||\pBL_Position & Zed|(Q1
+S|+(Q1\t+ \p BL_Position & Zed|2|+(Q1\t+|BL_Position & Zed
+B||0
+S||1|
+B|Zed B|1|Zed B
+S|Zed B +|1|Zed B +
+B|b a & Zed Zed|1|b a & Zed Zed
+S|Zed Zed & b a|1|Zed Zed & b a
+B|)|1|)
+S|)|1|)
+B|B \px1a|1|B \px1a
+S|B \p x1a|2|B|x1a
+B|( ) ! Zed b Q1 !|1|( ) ! Zed b Q1 !
+S|) ! Zed b Q1 !|1|) ! Zed b Q1 !
+B|Q1 B c_d|1|Q1 B c_d
+S|Q1 B c_d|1|Q1 B c_d
+B| & !(|1| & !(
+S| & !(|1| & !(
+B|( \t B + BL_Position|2|( \t B|BL_Position
+S|BL_Position + ( \t B|1|BL_Position + ( \t B
+B|!(b!\pa|1|!(b!\pa
+S|!(b! \p a|2|!(b!|a
+B|Q1C!Q1c_dC!(CBL_Position|1|Q1C!Q1c_dC!(CBL_Position
+S|Q1C!Q1c_dC!(CBL_Position|1|Q1C!Q1c_dC!(CBL_Position
+B|BL_Position)|1|BL_Position)
+S|BL_Position|1|BL_Position
+B|Q1 b BL_Position a BL_Position|1|Q1 b BL_Position a BL_Position
+S|Q1 b BL_Position a BL_Position|1|Q1 b BL_Position a BL_Position
+B|a)x1A|1|a)x1A
+S|a)x1A|1|a)x1A
+B|x1 !( Zed c_d Zed C C|1|x1 !( Zed c_d Zed C C
+S|x1 !( Zed c_d Zed C C|1|x1 !( Zed c_d Zed C C
+B||0
+S||1|
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|( B \p & Zed|1|( B \p & Zed
+S| & Zed \p B|2| & Zed|B
+B| & )a)Q1c_d|1| & )a)Q1c_d
+S| & )a)Q1c_d|1| & )a)Q1c_d
+B|!c_db !(|1|!c_db !(
+S|!c_db !(|1|!c_db !(
+B|!( + B|2|!(|B
+S|!( & +B|1|!( & +B
+B|ac_d ))BL_Position|1|ac_d ))BL_Position
+S|ac_d ))BL_Position|1|ac_d ))BL_Position
+B|c_d C|1|c_d C
+S|c_d C|1|c_d C
+B|B|1|B
+S|B|1|B
+B|(|1|(
+S||1|
+B|c_d x1|1|c_d x1
+S|c_d x1|1|c_d x1
+B|B(!Cc_dx1|1|B(!Cc_dx1
+S|B(!Cc_dx1|1|B(!Cc_dx1
+B|c_d|1|c_d
+S|c_d|1|c_d
+B|! ! !(|1|! ! !(
+S|! ! !(|1|! ! !(
+B|x1|1|x1
+S|x1|1|x1
+B||1|
+S||1|
+B|!|1|!
+S|!|1|!
+B|BL_Position ( \p +  & x1|2|BL_Position ( \p| & x1
+S| & x1 + BL_Position (|1| & x1 + BL_Position (
+B|BL_PositionCaZed!(BQ1Zeda|1|BL_PositionCaZed!(BQ1Zeda
+S|BL_PositionCaZed!(BQ1Zeda|1|BL_PositionCaZed!(BQ1Zeda
+B| + \pZed|2||\pZed
+S|+ \p Zed|2|+|Zed
+B|) Zed C ) x1 Zed ( BL_Position C|1|) Zed C ) x1 Zed ( BL_Position C
+S|) Zed C ) x1 Zed ( BL_Position C|1|) Zed C ) x1 Zed ( BL_Position C
+B|a|1|a
+S|a|1|a
+B|Cb\p|1|Cb\p
+S|Cb|1|Cb
+B|BZedZedA\pQ1|1|BZedZedA\pQ1
+S|BZedZedA \p Q1|2|BZedZedA|Q1
+B|)B\p|1|)B\p
+S|)B|1|)B
+B|ABAx1 + \p(Q1\p|2|ABAx1|\p(Q1\p
+S| \p +ABAx1 \p Q1|3||+ABAx1|Q1
+B|! C BL_Position   Zed ) b x1 !(|1|! C BL_Position   Zed ) b x1 !(
+S|! C BL_Position   Zed ) b x1 !(|1|! C BL_Position   Zed ) b x1 !(
+B| & a|1| & a
+S| & a|1| & a
+B|\p ! !( x1|1|\p ! !( x1
+S| \p ! !( x1|2||! !( x1
+B|x1 + \p & Zed   BL_Position b|2|x1|\p & Zed   BL_Position b
+S| \p  & Zed   BL_Position b + x1|2|| & Zed   BL_Position b + x1
+B|( + !( & Q1b\tBL_Position|2|(|!( & Q1b\tBL_Position
+S|!(+( & Q1b\tBL_Position|1|!(+( & Q1b\tBL_Position
+B|( + x1 + ZedBL_Position)|3|(|x1|ZedBL_Position)
+S|x1+ZedBL_Position)+(|1|x1+ZedBL_Position)+(
+B|c_d   Q1 Zed Q1 \p !( Zed C|1|c_d   Q1 Zed Q1 \p !( Zed C
+S|!( Zed C \p c_d   Q1 Zed Q1|2|!( Zed C|c_d   Q1 Zed Q1
+B| +  & ( & Q1 B|2|| & ( & Q1 B
+S|( & + & Q1 B|1|( & + & Q1 B
+B| + x1 & !ZedZedC|2||x1 & !ZedZedC
+S|+!ZedZedC & x1|1|+!ZedZedC & x1
+B|(|1|(
+S||1|
+B|)|1|)
+S|) +|1|) +
+B|BL_Positionac_d BL_Position! + ZedC|2|BL_Positionac_d BL_Position!|ZedC
+S|+ZedC & BL_Positionac_d BL_Position!|1|+ZedC & BL_Positionac_d BL_Position!
+B|C\pc_d|1|C\pc_d
+S|C \p c_d|2|C|c_d
+B|a + BL_Position|2|a|BL_Position
+S|a+BL_Position|1|a+BL_Position
+B| + ! + C Q1 )|3||!|C Q1 )
+S|+ C Q1 ) + !|1|+ C Q1 ) + !
+B|)|1|)
+S||1|
+B|Q1 a ) ) \p x1 \p|1|Q1 a ) ) \p x1 \p
+S| \p Q1 a ) \p x1|3||Q1 a )|x1
+B|b C c_d|1|b C c_d
+S|b C c_d|1|b C c_d
+B|b Q1 b Q1|1|b Q1 b Q1
+S|b Q1 b Q1|1|b Q1 b Q1
+B|B((aZedC!(\px1|1|B((aZedC!(\px1
+S|B((aZedC!( \p x1|2|B((aZedC!(|x1
+B|a b !( b \p !( BL_Position Zed|1|a b !( b \p !( BL_Position Zed
+S|!( BL_Position Zed \p a b !( b|2|!( BL_Position Zed|a b !( b
+B|B\t\t!(a|1|B\t\t!(a
+S|B\t\t!(a|1|B\t\t!(a
+B|!( Q1  C b B|1|!( Q1  C b B
+S|!( Q1  C b B|1|!( Q1  C b B
+B|) )  C BL_Position !(|1|) )  C BL_Position !(
+S|) )  C BL_Position !(|1|) )  C BL_Position !(
+B|B|1|B
+S|B|1|B
+B|CQ1bBb|1|CQ1bBb
+S|CQ1bBb|1|CQ1bBb
+B|\p\pBQ1Bx1|1|\p\pBQ1Bx1
+S| \p BQ1Bx1|2||BQ1Bx1
+B|A B|1|A B
+S|A B|1|A B
+B|BL_Position A c_d BL_Position ( C + c_d ! !|2|BL_Position A c_d BL_Position ( C|c_d ! !
+S|BL_Position A c_d BL_Position ( C + c_d ! !|1|BL_Position A c_d BL_Position ( C + c_d ! !
+B|(|1|(
+S||1|
+B| & (|1| & (
+S| & (|1| & (
+B|b +  & c_d|2|b| & c_d
+S| & c_d +b|1| & c_d +b
+B|Aax1Q1 + C b|2|Aax1Q1|C b
+S|C b+Aax1Q1|1|C b+Aax1Q1
+B|\p BL_Position|1|\p BL_Position
+S| \p BL_Position|2||BL_Position
+B||1|
+S||1|
+B|aQ1ab(|1|aQ1ab(
+S|aQ1ab(|1|aQ1ab(
+B|\pCQ1BL_Position)B|1|\pCQ1BL_Position)B
+S| \p CQ1BL_Position)B|2||CQ1BL_Position)B
+B| & x1|1| & x1
+S| & x1|1| & x1
+B|Q1 Q1 Zed \t Zed a c_d C|1|Q1 Q1 Zed \t Zed a c_d C
+S|Q1 Q1 Zed \t Zed a c_d C|1|Q1 Q1 Zed \t Zed a c_d C
+B|\p + a BL_Position \t B A \t \t a|2|\p|a BL_Position \t B A \t \t a
+S| \p + a BL_Position \t B A \t \t a|2||+ a BL_Position \t B A \t \t a
+B| + (x1C|2||(x1C
+S|+(x1C|1|+(x1C
+B|A c_d Q1   ! \p|1|A c_d Q1   ! \p
+S|A c_d Q1   !|1|A c_d Q1   !
+B|A ( C x1 \p ) BL_Position c_d|1|A ( C x1 \p ) BL_Position c_d
+S|) BL_Position c_d \p A ( C x1|2|) BL_Position c_d|A ( C x1
+B|C|1|C
+S|C +|1|C +
+B|!x1a)|1|!x1a)
+S|!x1a|1|!x1a
+B| & \p   b & c_d !|1| & \p   b & c_d !
+S| \p b & c_d !|2||b & c_d !
+B|) + ) BL_Position   A c_d BL_Position c_d Q1|2|)|) BL_Position   A c_d BL_Position c_d Q1
+S|) + ) BL_Position   A c_d BL_Position c_d Q1|1|) + ) BL_Position   A c_d BL_Position c_d Q1
+B|( ((aaBL_PositionAA|1|( ((aaBL_PositionAA
+S|((aaBL_PositionAA|1|((aaBL_PositionAA
+B|aQ1!(|1|aQ1!(
+S|aQ1!(|1|aQ1!(
+B|BL_Position + Cx1)Q1ab|2|BL_Position|Cx1)Q1ab
+S|BL_Position +Cx1)Q1ab|1|BL_Position +Cx1)Q1ab
+B|Q1A + Zedx1|2|Q1A|Zedx1
+S|Q1A+Zedx1|1|Q1A+Zedx1
+B| + A()Q1C|2||A()Q1C
+S|A()Q1C+|1|A()Q1C+
+B|x1x1\p|1|x1x1\p
+S|x1x1|1|x1x1
+B|C ) \p|1|C ) \p
+S|C|1|C
+B|b & bA|1|b & bA
+S|b & bA|1|b & bA
+B|B \p A ) x1|1|B \p A ) x1
+S|A ) x1 \p B|2|A ) x1|B
+B|Q1 Zed )|1|Q1 Zed )
+S|Q1 Zed|1|Q1 Zed
+B|BAAA c_dQ1 & (BL_Position|1|BAAA c_dQ1 & (BL_Position
+S|BAAA c_dQ1 & BL_Position|1|BAAA c_dQ1 & BL_Position
+B|Q1c_dBL_Position + (x1x1A|2|Q1c_dBL_Position|(x1x1A
+S|Q1c_dBL_Position+(x1x1A|1|Q1c_dBL_Position+(x1x1A
+B|BZed|1|BZed
+S|BZed|1|BZed
+B||0
+S||1|
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|C A & C  C A Zed|1|C A & C  C A Zed
+S|C  C A Zed & C A|1|C  C A Zed & C A
+B|A & C + c_d x1|2|A & C|c_d x1
+S|A & C + c_d x1|1|A & C + c_d x1
+B|!CAZed|1|!CAZed
+S|!CAZed|1|!CAZed
+B|B ( a|1|B ( a
+S|B ( a|1|B ( a
+B|\p|1|\p
+S||0
+B|Zed c_d x1 Q1 C \t ) ( x1 a|1|Zed c_d x1 Q1 C \t ) ( x1 a
+S|Zed c_d x1 Q1 C \t ) ( x1 a|1|Zed c_d x1 Q1 C \t ) ( x1 a
+B|Q1\tBL_PositionQ1|1|Q1\tBL_PositionQ1
+S|Q1\tBL_PositionQ1|1|Q1\tBL_PositionQ1
+B|c_d BL_Position b c_d Q1 Q1 \p|1|c_d BL_Position b c_d Q1 Q1 \p
+S|c_d BL_Position b c_d Q1 Q1|1|c_d BL_Position b c_d Q1 Q1
+B|Zed AZedBL_Position|1|Zed AZedBL_Position
+S|Zed AZedBL_Position|1|Zed AZedBL_Position
+B|b A BL_Position|1|b A BL_Position
+S|b A BL_Position|1|b A BL_Position
+B|aB +  & ((\pQ1C|2|aB| & ((\pQ1C
+S| & (( \p Q1C +aB|2| & ((|Q1C +aB
+B|)|1|)
+S||1|
+B|ax1 c_d!(Q1|1|ax1 c_d!(Q1
+S|ax1 c_d!(Q1|1|ax1 c_d!(Q1
+B|\pBZed|1|\pBZed
+S| \p BZed|2||BZed
+B|!(Q1|1|!(Q1
+S|!(Q1|1|!(Q1
+B|C +  & x1|2|C| & x1
+S| & x1 + C|1| & x1 + C
+B|c_d!(CBL_Position(!x1\pc_d|1|c_d!(CBL_Position(!x1\pc_d
+S|c_d \p c_d!(CBL_Position(!x1|2|c_d|c_d!(CBL_Position(!x1
+B|) \p|1|) \p
+S||1|
+B|! \t ( & BL_Position ) C a C|1|! \t ( & BL_Position ) C a C
+S|! \t ( & BL_Position ) C a C|1|! \t ( & BL_Position ) C a C
+B|BL_Position c_d B Q1 Q1 BL_Position & BL_Position c_d C|1|BL_Position c_d B Q1 Q1 BL_Position & BL_Position c_d C
+S|BL_Position c_d B Q1 Q1 BL_Position & BL_Position c_d C|1|BL_Position c_d B Q1 Q1 BL_Position & BL_Position c_d C
+B|b + BB + Zed|3|b|BB|Zed
+S|BB+b+Zed|1|BB+b+Zed
+B|A !( c_d x1 !( !(  BL_Position ) )|1|A !( c_d x1 !( !(  BL_Position ) )
+S|A !( c_d x1 !( !(  BL_Position )|1|A !( c_d x1 !( !(  BL_Position )
+B|Ac_dc_d!(\tax1 c_d|1|Ac_dc_d!(\tax1 c_d
+S|Ac_dc_d!(\tax1 c_d|1|Ac_dc_d!(\tax1 c_d
+B|A|1|A
+S|A|1|A
+B|! C|1|! C
+S|! C|1|! C
+B|) c_d a BL_Position|1|) c_d a BL_Position
+S|) c_d a BL_Position|1|) c_d a BL_Position
+B|!( B \p Zed B  !|1|!( B \p Zed B  !
+S|!( B \p Zed B  !|2|!( B|Zed B  !
+B|b( + c_dx1|2|b(|c_dx1
+S|c_dx1+  b(|1|c_dx1+  b(
+B|A|1|A
+S|A|1|A
+B|b B A A   B !( C !(|1|b B A A   B !( C !(
+S|b B A A   B !( C !(|1|b B A A   B !( C !(
+B|c_d Zed|1|c_d Zed
+S|c_d Zed|1|c_d Zed
+B|BL_PositionBa + BL_PositionZed!(|2|BL_PositionBa|BL_PositionZed!(
+S|BL_PositionZed!(+BL_PositionBa|1|BL_PositionZed!(+BL_PositionBa
+B|a B \p c_d !|1|a B \p c_d !
+S|a B \p c_d !|2|a B|c_d !
+B| + |2||
+S|+|1|+
+B|BL_Position  (|1|BL_Position  (
+S|BL_Position  (|1|BL_Position  (
+B|Zed(!(!BL_PositionBL_Positiona|1|Zed(!(!BL_PositionBL_Positiona
+S|Zed(!(!BL_PositionBL_Positiona|1|Zed(!(!BL_PositionBL_Positiona
+B| & aQ1 & Zedb\p|1| & aQ1 & Zedb\p
+S| &  & aQ1 \p Zedb|2| &  & aQ1|Zedb
+B|( ) BL_Position + BL_Position )|2|( ) BL_Position|BL_Position )
+S|BL_Position ) + ( ) BL_Position|1|BL_Position ) + ( ) BL_Position
+B|BZedAab)|1|BZedAab)
+S|BZedAab|1|BZedAab
+B|(x1|1|(x1
+S|x1|1|x1
+B|b & BAx1|1|b & BAx1
+S|BAx1 & b|1|BAx1 & b
+B|!bBL_Positionc_dBL_Positionx1|1|!bBL_Positionc_dBL_Positionx1
+S|!bBL_Positionc_dBL_Positionx1|1|!bBL_Positionc_dBL_Positionx1
+B|Q1 A|1|Q1 A
+S|Q1 A|1|Q1 A
+B||0
+S||0
+B|x1|1|x1
+S|x1|1|x1
+B|!!BL_Position!(!BL_PositionBL_Positiona|1|!!BL_Position!(!BL_PositionBL_Positiona
+S|!!BL_Position!(!BL_PositionBL_Positiona|1|!!BL_Position!(!BL_PositionBL_Positiona
+B|) + a|2|)|a
+S|a+|1|a+
+B|!(   ( BL_Position c_d|1|!(   ( BL_Position c_d
+S|!(   ( BL_Position c_d +|1|!(   ( BL_Position c_d +
+B|CQ1AZedC!(A|1|CQ1AZedC!(A
+S|CQ1AZedC!(A|1|CQ1AZedC!(A
+B|c_d!(c_dbA\p|1|c_d!(c_dbA\p
+S| \p c_d!(c_dbA|2||c_d!(c_dbA
+B|(BZed|1|(BZed
+S|BZed|1|BZed
+B|Q1BL_Position|1|Q1BL_Position
+S|Q1BL_Position|1|Q1BL_Position
+B|Zed BL_Position C c_d B \t a|1|Zed BL_Position C c_d B \t a
+S|Zed BL_Position C c_d B \t a|1|Zed BL_Position C c_d B \t a
+B|ABL_PositionBb!a!(BL_Position|1|ABL_PositionBb!a!(BL_Position
+S|ABL_PositionBb!a!(BL_Position|1|ABL_PositionBb!a!(BL_Position
+B|Zed a a a Zed|1|Zed a a a Zed
+S|Zed a a a Zed|1|Zed a a a Zed
+B|b)|1|b)
+S|b|1|b
+B|c_d c_d Q1 b|1|c_d c_d Q1 b
+S|c_d c_d Q1 b|1|c_d c_d Q1 b
+B|))aA|1|))aA
+S|))aA|1|))aA
+B||0
+S||1|
+B|\p Zed x1 a Q1|1|\p Zed x1 a Q1
+S| \p Zed x1 a Q1|2||Zed x1 a Q1
+B|A & Zed ) !|1|A & Zed ) !
+S|A & Zed ) !|1|A & Zed ) !
+B|) & c_d)|1|) & c_d)
+S| & c_d)|1| & c_d)
+B|Q1C(|1|Q1C(
+S|Q1C(|1|Q1C(
+B|aCx1|1|aCx1
+S|aCx1|1|aCx1
+B|Zed|1|Zed
+S|Zed|1|Zed
+B|B!(!(\tB|1|B!(!(\tB
+S|B!(!(\tB|1|B!(!(\tB
+B|BL_Position \t Q1 Q1 & ) C BL_Position \p !|1|BL_Position \t Q1 Q1 & ) C BL_Position \p !
+S|! & BL_Position \t Q1 Q1 \p ) C BL_Position|2|! & BL_Position \t Q1 Q1|) C BL_Position
+B|)|1|)
+S||1|
+B|!( a \t BL_Position Zed B x1 !( \t B|1|!( a \t BL_Position Zed B x1 !( \t B
+S|!( a \t BL_Position Zed B x1 !( \t B|1|!( a \t BL_Position Zed B x1 !( \t B
+B|Zed BL_Position \p !( \p B Zed|1|Zed BL_Position \p !( \p B Zed
+S|!( \p B Zed \p Zed BL_Position|3|!(|B Zed|Zed BL_Position
+B|!!aQ1aZed(Zed|1|!!aQ1aZed(Zed
+S|!!aQ1aZed(Zed+|1|!!aQ1aZed(Zed+
+B|\p Zed   )|1|\p Zed   )
+S| \p Zed|2||Zed
+B|\p b \p c_d & x1 \t ! Zed|1|\p b \p c_d & x1 \t ! Zed
+S| \p b \p c_d & x1 \t ! Zed|3||b|c_d & x1 \t ! Zed
+B|AbQ1\p|1|AbQ1\p
+S|AbQ1|1|AbQ1
+B|( \p ( a ! Zed b x1|1|( \p ( a ! Zed b x1
+S| \p a ! Zed b x1|2||a ! Zed b x1
+B|C Q1   !(|1|C Q1   !(
+S|C Q1   !(|1|C Q1   !(
+B|x1|1|x1
+S|x1|1|x1
+B|!( + c_d A c_d B|2|!(|c_d A c_d B
+S|c_d A c_d B + !(|1|c_d A c_d B + !(
+B|)!(B\tBL_Position & Zedb|1|)!(B\tBL_Position & Zedb
+S|)!(B\tBL_Position+ & Zedb|1|)!(B\tBL_Position+ & Zedb
+B|! (|1|! (
+S|! (|1|! (
+B|A a C C c_d )|1|A a C C c_d )
+S|A a C C c_d|1|A a C C c_d
+B|A ) ( \p Zed BL_Position ! Zed c_d|1|A ) ( \p Zed BL_Position ! Zed c_d
+S|A ) ( \p Zed BL_Position ! Zed c_d|2|A ) (|Zed BL_Position ! Zed c_d
+B|Q1(c_d|1|Q1(c_d
+S|Q1(c_d|1|Q1(c_d
+B|a !( a x1 BL_Position !( B|1|a !( a x1 BL_Position !( B
+S|a !( a x1 BL_Position !( B|1|a !( a x1 BL_Position !( B
+B|ZedQ1Zed B|1|ZedQ1Zed B
+S|ZedQ1Zed B|1|ZedQ1Zed B
+B|C|1|C
+S|C|1|C
+B|aBL_Positionc_dc_dA)AZed|1|aBL_Positionc_dc_dA)AZed
+S|aBL_Positionc_dc_dA)AZed|1|aBL_Positionc_dc_dA)AZed
+B| + BL_Position Zed C a & Q1 \t x1|2||BL_Position Zed C a & Q1 \t x1
+S|+ BL_Position Zed C a & Q1 \t x1|1|+ BL_Position Zed C a & Q1 \t x1
+B|x1a|1|x1a
+S|x1a|1|x1a
+B|a|1|a
+S|a|1|a
+B|(AZedB Q1|1|(AZedB Q1
+S|AZedB Q1|1|AZedB Q1
+B|BZed|1|BZed
+S|BZed|1|BZed
+B|x1c_dBx1!(bABL_Position|1|x1c_dBx1!(bABL_Position
+S|x1c_dBx1!(bABL_Position|1|x1c_dBx1!(bABL_Position
+B|\p & A|1|\p & A
+S|A|1|A
+B|CBL_Positiona|1|CBL_Positiona
+S|CBL_Positiona|1|CBL_Positiona
+B|c_d Zed BL_Position c_d \t x1 !(|1|c_d Zed BL_Position c_d \t x1 !(
+S|c_d Zed BL_Position c_d \t x1 !(|1|c_d Zed BL_Position c_d \t x1 !(
+B|Zed + ( Zed Zed b|2|Zed|( Zed Zed b
+S|Zed + ( Zed Zed b|1|Zed + ( Zed Zed b
+B|Q1 + Zed|2|Q1|Zed
+S|Q1+Zed|1|Q1+Zed
+B| & BL_Position ! A C|1| & BL_Position ! A C
+S| & BL_Position ! A C|1| & BL_Position ! A C
+B|B Q1 + Q1   Q1|2|B Q1|Q1   Q1
+S|B Q1 + Q1   Q1|1|B Q1 + Q1   Q1
+B|!   a & x1 ) a A A|1|!   a & x1 ) a A A
+S|!   a & x1 ) a A A|1|!   a & x1 ) a A A
+B|B \p Q1 ! !( b & Q1|1|B \p Q1 ! !( b & Q1
+S|B & Q1 \p Q1 ! !( b|2|B & Q1|Q1 ! !( b
+B|x1 a \p x1|1|x1 a \p x1
+S|x1 \p x1 a|2|x1|x1 a
+B|CZed! )AA|1|CZed! )AA
+S|CZed! )AA|1|CZed! )AA
+B|!( + a C B Zed|2|!(|a C B Zed
+S|a C B Zed   + !(|1|a C B Zed   + !(
+B|!B + x1!(x1a|2|!B|x1!(x1a
+S|x1!(x1a+!B|1|x1!(x1a+!B
+B|a A a C \p|1|a A a C \p
+S|+ \p a A a C|2|+|a A a C
+B|x1)aQ1!()B(|1|x1)aQ1!()B(
+S|x1)aQ1!()B(|1|x1)aQ1!()B(
+B|Q1!Q1|1|Q1!Q1
+S|Q1!Q1|1|Q1!Q1
+B|B Zed )|1|B Zed )
+S|B Zed|1|B Zed
+B|!(   !|1|!(   !
+S|!(   !|1|!(   !
+B|) Zed x1 A|1|) Zed x1 A
+S|) Zed x1 A|1|) Zed x1 A
+B|C BL_Position|1|C BL_Position
+S|C BL_Position|1|C BL_Position
+B|!  Q1 + x1  Zed (|2|!  Q1|x1  Zed (
+S|x1  Zed ( + !  Q1|1|x1  Zed ( + !  Q1
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|Cc_d|1|Cc_d
+S|Cc_d|1|Cc_d
+B| + !BL_PositionZedb|2||!BL_PositionZedb
+S|+!BL_PositionZedb|1|+!BL_PositionZedb
+B|ZedZed!B|1|ZedZed!B
+S|ZedZed!B|1|ZedZed!B
+B| & A)(b!(|1| & A)(b!(
+S| & A)(b!(|1| & A)(b!(
+B|!( + C Zed \p|2|!(|C Zed \p
+S|!(   + C Zed|1|!(   + C Zed
+B|( A|1|( A
+S|A|1|A
+B|a b x1 \t  A C a|1|a b x1 \t  A C a
+S|a b x1 \t  A C a|1|a b x1 \t  A C a
+B|BL_Position|1|BL_Position
+S|BL_Position|1|BL_Position
+B|AB(\t\p|1|AB(\t\p
+S| \p AB(|2||AB(
+B|! x1|1|! x1
+S|! x1|1|! x1
+B|! + a!(( + BL_Position!BL_Position|3|!|a!((|BL_Position!BL_Position
+S|a!((+!+BL_Position!BL_Position|1|a!((+!+BL_Position!BL_Position
+B|b C + b c_d   !( BL_Position b|2|b C|b c_d   !( BL_Position b
+S|b C   + b c_d   !( BL_Position b|1|b C   + b c_d   !( BL_Position b
+B|C|1|C
+S|C|1|C
+B|!(B!!BL_Position\p|1|!(B!!BL_Position\p
+S|!(B!!BL_Position|1|!(B!!BL_Position
+B|Abc_dBL_Positionb + Q1x1|2|Abc_dBL_Positionb|Q1x1
+S|Q1x1+Abc_dBL_Positionb|1|Q1x1+Abc_dBL_Positionb
+B|(Zed|1|(Zed
+S|Zed|1|Zed
+B|BL_PositionBa + ZedAC|2|BL_PositionBa|ZedAC
+S|BL_PositionBa+ZedAC|1|BL_PositionBa+ZedAC
+B||0
+S||1|
+B|!(! & BL_Position !BB|1|!(! & BL_Position !BB
+S|!(! & BL_Position !BB|1|!(! & BL_Position !BB
+B|c_d x1 ) \t !( x1|1|c_d x1 ) \t !( x1
+S|c_d x1 ) \t !( x1|1|c_d x1 ) \t !( x1
+B|Q1 \t ! B c_d x1 \p C|1|Q1 \t ! B c_d x1 \p C
+S|C \p Q1 \t ! B c_d x1|2|C|Q1 \t ! B c_d x1
+B|a|1|a
+S|a|1|a
+B|\pB!!\pb & x1\p!(|1|\pB!!\pb & x1\p!(
+S|!( \p B!! \p b \p x1|4|!(|B!!|b|x1
+B|(aax1a)c_dBL_PositionZed\p|1|(aax1a)c_dBL_PositionZed\p
+S|aax1a)c_dBL_PositionZed|1|aax1a)c_dBL_PositionZed
+B| &  & ) & Q1 & x1 b C|1| &  & ) & Q1 & x1 b C
+S| &  & ) & Q1 & x1 b C|1| &  & ) & Q1 & x1 b C
+B|\p!\p\p|1|\p!\p\p
+S| \p !|2||!
+B|Q1 Q1|1|Q1 Q1
+S|Q1 Q1|1|Q1 Q1
+B|BBL_Position b(|1|BBL_Position b(
+S|BBL_Position b(|1|BBL_Position b(
+B|!(|1|!(
+S|!(|1|!(
+B|! ) B|1|! ) B
+S|! ) B|1|! ) B
+B|B + Q1)\p|2|B|Q1)\p
+S|B+Q1|1|B+Q1
+B|BL_Position c_d \p  Zed b C A|1|BL_Position c_d \p  Zed b C A
+S|BL_Position c_d \p Zed b C A|2|BL_Position c_d|Zed b C A
+B|!|1|!
+S|!|1|!
+B|c_d|1|c_d
+S|c_d|1|c_d
+B| +  & B\t!(Ca + C|3|| & B\t!(Ca|C
+S| & B\t!(Ca+\t+C|1| & B\t!(Ca+\t+C
+B|( ) x1 B BL_Position|1|( ) x1 B BL_Position
+S|) x1 B BL_Position|1|) x1 B BL_Position
+B|Q1x1ZedBx1 & Zed|1|Q1x1ZedBx1 & Zed
+S|Q1x1ZedBx1 & Zed|1|Q1x1ZedBx1 & Zed
+B|BL_PositionCbabax1)!((|1|BL_PositionCbabax1)!((
+S|BL_PositionCbabax1)!((|1|BL_PositionCbabax1)!((
+B|bb|1|bb
+S|bb|1|bb
+B|a c_d BL_Position a ) b|1|a c_d BL_Position a ) b
+S|a c_d BL_Position a ) b +|1|a c_d BL_Position a ) b +
+B|!()a b)|1|!()a b)
+S|!( )a b|1|!( )a b
+B|) \p Zed   A b|1|) \p Zed   A b
+S| \p Zed   A b|2||Zed   A b
+B|(Q1 + (x1bb|2|(Q1|(x1bb
+S|Q1+(x1bb|1|Q1+(x1bb
+B|A!(!(BL_Position)AC)|1|A!(!(BL_Position)AC)
+S|A!(!(BL_Position)AC|1|A!(!(BL_Position)AC
+B|aQ1!ABL_Position|1|aQ1!ABL_Position
+S|aQ1!ABL_Position|1|aQ1!ABL_Position
+B| & BL_PositionBL_Position|1| & BL_PositionBL_Position
+S| & BL_PositionBL_Position|1| & BL_PositionBL_Position
+B|\p a ! x1 Q1|1|\p a ! x1 Q1
+S| \p a ! x1 Q1|2||a ! x1 Q1
+B|A|1|A
+S|A|1|A
+B|Q1|1|Q1
+S|Q1|1|Q1
+B|\p ) + B    c_d a|2|\p )|B    c_d a
+S| \p )   + B    c_d a|2||)   + B    c_d a
+B|Bc_d|1|Bc_d
+S|Bc_d|1|Bc_d
+B|Q1!)a\p|1|Q1!)a\p
+S| \p Q1!)a|2||Q1!)a
+B|BL_Position \p x1|1|BL_Position \p x1
+S|BL_Position \p x1|2|BL_Position|x1
+B|a \t B b|1|a \t B b
+S|a \t B b|1|a \t B b
+B|!B)|1|!B)
+S|!B|1|!B
+B|!( ( A \t ( x1 \p + Q1|2|!( ( A \t ( x1 \p|Q1
+S|!( ( A \t ( x1 \p + Q1|2|!( ( A \t ( x1|+ Q1
+B|bb\tA & !(x1|1|bb\tA & !(x1
+S|!(x1 & bb\tA|1|!(x1 & bb\tA

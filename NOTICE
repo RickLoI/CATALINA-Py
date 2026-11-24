@@ -1,0 +1,10 @@
+CATALINA (Python port)
+Copyright 2026 Guido Averna, Massimo Cossentino, Giovanni Pilato, ICAR-CNR
+
+This product is a Python port of CATALINA_Model (Java, branch V0.3, "Case Study
+Journal 001"), https://github.com/CATALINA-Architecture/catalina_model,
+distributed under the Apache License, Version 2.0.
+This port changes the language (Java to Python), replaces the Swing GUI with a
+browser GUI and a simulated clock, adds scenarios and an experiment harness, and
+uses the updated Beliefs.xml and an empty Critical_Beliefs.xml supplied by the
+author of the Java code.

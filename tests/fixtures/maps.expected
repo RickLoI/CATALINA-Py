@@ -1,0 +1,3 @@
+@@ SAL BLTS_Stimulus_Danger_on_the_Route = 0.9
+@@ MAP NewEmail | TMapped_Epistemic_Desire{Type_Stimulus='NewEmail', Saliency=0.5, Reward=0.3, Relax_Preference=0.7, Green_Desires=[CheckInbox], Quality_Desires=[]} | formula= | trig=[] | beliefs=[] | regions=[]
+@@ MAP UrgentCall | TMapped_Epistemic_Desire{Type_Stimulus='UrgentCall', Saliency=0.9, Reward=0.8, Relax_Preference=0.1, Green_Desires=[RespondQuickly, Prioritize], Quality_Desires=[EnsureAccuracy]} | formula=A & B | trig=[A, B] | beliefs=[BL_X] | regions=[]

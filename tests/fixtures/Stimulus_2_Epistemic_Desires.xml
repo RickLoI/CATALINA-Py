@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<EpistemicDesires>
+    <MappedDesire>
+        <StimulusType>UrgentCall</StimulusType>
+        <Saliency>0.9</Saliency>
+        <Reward>0.8</Reward>
+        <RelaxPreference>0.1</RelaxPreference>
+        <TriggerConditionFormula>A &amp; B</TriggerConditionFormula>
+        <TriggerConditionNames>
+            <DesireName>A</DesireName>
+            <DesireName>B</DesireName>
+        </TriggerConditionNames>
+        <GreenDesires>
+            <DesireName>RespondQuickly</DesireName>
+            <DesireName>Prioritize</DesireName>
+        </GreenDesires>
+        <QualityDesires>
+            <DesireName>EnsureAccuracy</DesireName>
+        </QualityDesires>
+        <Beliefs_for_Reasoner>
+            <DesireName>BL_X</DesireName>
+        </Beliefs_for_Reasoner>
+    </MappedDesire>
+    <MappedDesire>
+        <StimulusType>NewEmail</StimulusType>
+        <Saliency>0.5</Saliency>
+        <Reward>0.3</Reward>
+        <RelaxPreference>0.7</RelaxPreference>
+        <GreenDesires>
+            <DesireName>CheckInbox</DesireName>
+        </GreenDesires>
+    </MappedDesire>
+    <MappedDesire>
+        <StimulusType>Broken</StimulusType>
+        <Saliency>oops</Saliency>
+    </MappedDesire>
+    <MappedDesire>
+        <StimulusType>NeverLoaded</StimulusType>
+        <Saliency>0.1</Saliency>
+        <Reward>0.1</Reward>
+        <RelaxPreference>0.1</RelaxPreference>
+    </MappedDesire>
+</EpistemicDesires>

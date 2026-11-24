@@ -1,0 +1,400 @@
+PLAN	A & B		Q3=D:1.0	P1=S:x;P3=S:x;P2=B:true	3	0	t0
+PLAN	A	G1=N:;G2=D:1.0	Q1=N:		1	0	t1
+PLAN			Q1=B:true;Q2=S:		0	-1	t2
+PLAN	B + A	G2=N:		P3=B:true;P1=I:2	1	0	t3
+PLAN	A & B	G2=S:;G1=B:false	Q1=I:1	P1=I:1;P3=I:2;P2=B:true	3	0	t4
+PLAN	A		Q1=B:true;Q2=S:x	P2=D:1.0;P3=S:x	3	-1	t5
+GET	B + A	G2=N:		P3=B:true;P1=I:2
+GET	A & B	G2=S:;G1=B:false	Q1=I:1	P1=I:1;P3=I:2;P2=B:true
+PLAN	b + A	G2=I:1	Q1=N:;Q3=B:true		0	-1	t8
+GET	b + A	G2=I:1	Q1=N:;Q3=B:true	
+PLAN	C		Q2=B:false	P2=S:x;P1=I:2	0	-1	t10
+GET	A & B	G2=S:;G1=B:false	Q1=I:1	P1=I:1;P3=I:2;P2=B:true
+PLAN	!(A & B)	G1=B:true	Q1=B:true;Q3=D:1.0	P2=B:false;P1=S:	1	0	t12
+GET	A & B	G2=N:;G1=B:true		P2=I:1;P1=S:x;P3=B:false
+GET	B + A	G2=N:		P3=B:true;P1=I:2
+GET	b + A		Q3=I:1	P3=B:false
+PLAN	A			P2=I:1;P3=B:true	3	0	t16
+PLAN		G1=B:false;G2=B:false	Q3=S:;Q1=N:		3	0	t17
+PLAN	A&C+B			P1=D:1.0;P2=B:true	1	0	t18
+GET	B & A	G1=N:;G2=I:2	Q1=S:x;Q3=N:	P2=I:2
+PLAN	A&C+B	G1=N:;G2=I:1			1	0	t20
+PLAN	A+		Q3=I:2;Q1=I:1	P2=S:x;P3=N:	3	0	t21
+GET	C	G1=S:x	Q3=B:false	P2=B:false;P1=B:true
+GET	A & B		Q3=D:1.0	P1=S:x;P3=S:x;P2=B:true
+GET	A & B	G2=S:;G1=B:false	Q1=I:1	P1=I:1;P3=I:2;P2=B:true
+PLAN	A+	G2=S:	Q1=S:;Q3=S:x		0	-1	t25
+GET	b + A	G2=I:1	Q1=N:;Q3=B:true	
+PLAN	A&C+B				3	0	t27
+PLAN	A + B	G1=I:1;G2=I:1	Q2=S:	P1=I:2	1	0	t28
+GET	A			P2=I:1;P1=S:x
+PLAN		G1=S:x	Q3=B:false	P1=N:	1	0	t30
+PLAN	A & B	G2=D:1.0	Q1=I:2		1	0	t31
+GET	A + B	G1=I:1;G2=I:1	Q2=S:	P1=I:2
+PLAN	A + B	G1=B:false		P2=B:false;P3=S:	3	0	t33
+PLAN	b + A		Q2=S:;Q3=B:true	P3=I:2	1	-1	t34
+PLAN	B + A	G2=I:2	Q1=I:2		1	0	t35
+PLAN	A + B	G1=D:1.0	Q1=B:true;Q2=N:	P1=B:false;P3=B:true	1	0	t36
+PLAN	A + B	G1=I:1	Q1=D:1.0	P2=N:;P1=I:2;P3=B:true	2	0	t37
+PLAN	A & B	G2=S:	Q2=I:2;Q1=B:true		1	0	t38
+GET	A		Q1=B:true;Q2=S:x	P2=D:1.0;P3=S:x
+PLAN	B + A	G1=B:false		P1=B:false	1	0	t40
+PLAN	B & A	G1=N:;G2=I:1	Q1=B:true	P3=S:;P2=S:	3	0	t41
+GET		G1=S:x	Q3=B:false	P1=N:
+PLAN	!(A & B)		Q1=S:	P2=D:1.0	0	0	t43
+GET	B + A	G2=N:		P3=B:true;P1=I:2
+PLAN	B & A	G2=S:			0	-1	t45
+GET	A&C+B			
+GET	C	G1=B:false	Q2=I:2;Q1=I:2	P1=D:1.0
+PLAN	A	G1=I:2;G2=I:2	Q1=I:1;Q3=D:1.0	P3=S:;P1=D:1.0;P2=B:true	1	-1	t48
+GET	A&C+B	G1=N:;G2=I:1		
+GET	B & A	G2=I:2	Q3=B:true;Q2=I:1	
+GET	B & A	G1=N:;G2=I:1	Q1=B:true	P3=S:;P2=S:
+GET	A&C+B	G1=N:;G2=I:1		
+PLAN	!(A & B)	G1=I:2;G2=S:x	Q2=I:1;Q3=S:	P2=D:1.0	3	0	t53
+PLAN	A	G2=B:false	Q3=N:;Q1=I:2	P2=D:1.0	1	0	t54
+PLAN	!(A & B)	G1=S:;G2=D:1.0		P2=D:1.0	3	0	t55
+GET		G1=B:false;G2=B:false	Q3=S:;Q1=N:	
+PLAN	C	G2=B:true	Q2=N:;Q3=I:2	P1=D:1.0;P3=B:true;P2=I:2	2	0	t57
+GET	C	G2=B:true	Q2=N:;Q3=I:2	P1=D:1.0;P3=B:true;P2=I:2
+PLAN	B + A	G2=B:true;G1=S:	Q2=B:true		0	0	t59
+GET	A+	G2=S:	Q1=S:;Q3=S:x	
+PLAN	A & B	G2=B:true			3	0	t61
+PLAN			Q1=I:2	P1=B:false;P3=I:1	3	0	t62
+GET	B + A	G2=B:true;G1=S:	Q2=B:true	
+GET	A+		Q3=I:2;Q1=I:1	P2=S:x;P3=N:
+PLAN	!(A & B)		Q1=S:	P3=S:;P2=D:1.0	1	0	t65
+GET	A+	G2=S:	Q1=S:;Q3=S:x	
+GET	A + B	G1=B:false		P2=B:false;P3=S:
+GET	B + A			
+GET		G1=B:false;G2=B:false	Q3=S:;Q1=N:	
+PLAN	A & B	G1=S:	Q1=S:	P1=I:1;P2=B:false	1	-1	t70
+PLAN	A	G2=D:1.0;G1=B:false	Q2=B:true	P1=B:true;P2=S:	3	0	t71
+PLAN	A&C+B	G1=B:false	Q3=B:false;Q1=I:2	P3=B:false	2	0	t72
+PLAN	A		Q2=B:false;Q1=I:1	P2=B:false;P3=S:x	2	0	t73
+GET	A & B	G2=B:true		
+PLAN	A + B + C	G1=I:1	Q1=S:x;Q2=I:1	P2=B:false;P1=S:	0	0	t75
+PLAN	A+			P1=D:1.0;P2=B:false;P3=I:2	0	0	t76
+PLAN	A+	G1=I:1	Q2=S:	P2=N:;P1=B:false	1	0	t77
+PLAN	A & B	G1=D:1.0;G2=B:true	Q3=B:true	P3=N:	1	0	t78
+GET	A & B	G1=S:x;G2=D:1.0		P3=B:true;P2=B:true
+PLAN	A + B + C			P3=I:1;P2=D:1.0;P1=I:2	2	0	t80
+GET	b + A	G2=S:;G1=D:1.0	Q2=B:false	P1=I:2
+GET	A+			P1=D:1.0;P2=B:false;P3=I:2
+GET	A&C+B	G1=N:;G2=I:1		
+GET	A & B	G1=D:1.0;G2=B:true	Q3=B:true	P3=N:
+GET	!(A & B)	G1=B:true	Q1=B:true;Q3=D:1.0	P2=B:false;P1=S:
+PLAN	A + B + C		Q2=D:1.0;Q1=D:1.0	P2=D:1.0	1	0	t86
+PLAN	A+		Q3=D:1.0;Q1=N:	P1=S:x;P2=S:	1	0	t87
+GET	A + B + C		Q1=N:	P1=B:true;P2=I:1
+GET	B + A	G1=B:false		P1=B:false
+GET	B & A	G1=N:;G2=I:1	Q1=B:true	P3=S:;P2=S:
+PLAN	A+				1	-1	t91
+PLAN	B & A	G1=I:1			1	0	t92
+PLAN	A + B + C	G1=S:	Q2=N:;Q1=I:1	P2=S:x	0	0	t93
+PLAN	A + B	G1=I:2	Q1=D:1.0	P3=D:1.0;P2=I:1;P1=B:true	1	0	t94
+GET	A	G1=I:2;G2=S:x	Q2=S:x	P3=S:;P1=I:2;P2=I:2
+PLAN	A&C+B		Q3=B:false;Q2=D:1.0	P1=B:false;P3=I:1;P2=I:2	1	0	t96
+PLAN	A	G1=N:	Q1=N:	P2=S:	0	0	t97
+GET	C			P2=S:x;P3=S:x;P1=B:false
+PLAN					2	0	t99
+PLAN	C	G1=I:2	Q3=I:1;Q2=D:1.0	P2=N:;P3=N:	1	0	t100
+PLAN	!(A & B)			P3=S:;P1=D:1.0;P2=S:x	3	-1	t101
+GET	C	G2=B:true	Q2=N:;Q3=I:2	P1=D:1.0;P3=B:true;P2=I:2
+PLAN	A+	G1=D:1.0		P2=S:	1	0	t103
+GET	A&C+B		Q3=B:false;Q2=D:1.0	P1=B:false;P3=I:1;P2=I:2
+PLAN		G2=D:1.0		P1=N:	1	0	t105
+PLAN	A				1	0	t106
+GET	A & B	G2=D:1.0	Q1=I:2	
+PLAN	A&C+B				3	0	t108
+GET	A & B	G2=S:	Q2=I:2;Q1=B:true	
+GET	A&C+B		Q2=B:false	P3=S:x
+GET	B + A	G2=I:2	Q1=I:2	
+PLAN	b + A		Q1=S:x;Q3=S:x	P2=I:1;P1=S:x	1	0	t112
+PLAN	A&C+B			P2=S:x;P3=B:false;P1=D:1.0	3	0	t113
+GET			Q1=D:1.0	
+GET	A & B	G1=S:	Q1=S:	P1=I:1;P2=B:false
+GET	A + B + C		Q1=S:	P1=N:
+PLAN		G1=I:2	Q2=D:1.0;Q3=I:2	P1=D:1.0;P3=D:1.0;P2=B:true	3	0	t117
+GET	!(A & B)	G1=B:true	Q1=B:true;Q3=D:1.0	P2=B:false;P1=S:
+GET	B + A	G1=B:false		P1=B:false
+GET	C		Q2=B:false	P2=S:x;P1=I:2
+GET	A&C+B	G1=B:false	Q3=B:false;Q1=I:2	P3=B:false
+PLAN		G2=I:2;G1=B:false	Q2=S:x		3	0	t122
+GET	A+		Q3=D:1.0;Q1=N:	P1=S:x;P2=S:
+PLAN	A + B + C		Q1=I:1;Q2=D:1.0	P3=I:2	1	0	t124
+PLAN	A & B	G2=N:	Q1=I:2;Q3=I:2	P2=B:true;P3=I:2	1	0	t125
+GET	A & B		Q3=D:1.0;Q1=B:true	P1=I:2
+GET	A & B	G2=S:;G1=B:false	Q1=I:1	P1=I:1;P3=I:2;P2=B:true
+GET	A+		Q3=I:2;Q1=I:1	P2=S:x;P3=N:
+GET	B + A	G2=I:2	Q1=I:2	
+GET	A&C+B			
+PLAN	A + B	G2=I:1		P3=B:false;P1=B:true;P2=B:false	3	0	t131
+GET		G2=I:2;G1=B:false	Q2=S:x	
+GET	A & B	G2=D:1.0	Q1=I:2	
+GET	A			
+GET			Q1=B:true;Q2=S:	
+GET	B & A	G2=S:x		P2=N:;P1=I:2;P3=I:1
+PLAN	B + A			P1=B:true	0	0	t137
+GET	b + A	G2=I:1	Q3=I:2;Q1=B:true	P1=D:1.0;P3=S:x
+GET	C		Q3=N:	P2=I:2;P1=S:
+PLAN	A + B	G2=I:2			3	0	t140
+PLAN	B + A		Q3=B:true;Q1=I:1		2	0	t141
+GET	A	G1=N:;G2=D:1.0	Q1=N:	
+PLAN	C		Q3=B:true;Q1=B:false	P1=N:;P3=B:true;P2=I:1	1	-1	t143
+GET	A+		Q3=D:1.0;Q1=N:	P1=S:x;P2=S:
+GET	A & B	G2=D:1.0	Q1=I:2	
+GET	B + A		Q2=I:2;Q3=I:1	P2=I:2
+PLAN	B + A	G2=S:x;G1=I:1		P1=I:2;P3=N:;P2=B:true	2	0	t147
+PLAN	A & B	G2=B:false;G1=I:2			3	0	t148
+GET	A		Q2=B:false;Q1=I:1	P2=B:false;P3=S:x
+GET	A+		Q3=D:1.0;Q1=N:	P1=S:x;P2=S:
+GET	A	G2=D:1.0;G1=B:false	Q2=B:true	P1=B:true;P2=S:
+GET	A+			P1=D:1.0;P2=B:false;P3=I:2
+GET	A + B	G1=B:false		P2=B:false;P3=S:
+PLAN	A + B + C	G2=S:;G1=N:	Q1=I:2	P2=N:;P1=S:;P3=I:1	1	0	t154
+PLAN	B & A	G2=I:1	Q1=I:1;Q2=S:	P3=S:x;P1=B:false	3	0	t155
+PLAN	b + A	G1=N:;G2=I:1	Q2=I:2;Q1=N:	P3=I:2	1	0	t156
+PLAN	C		Q1=D:1.0	P1=S:x;P3=I:2	1	0	t157
+GET	A + B	G1=I:1	Q1=D:1.0	P2=N:;P1=I:2;P3=B:true
+GET	A + B	G1=N:	Q3=B:false;Q2=I:2	P1=S:;P2=B:false;P3=D:1.0
+PLAN	C	G1=I:1;G2=N:	Q3=N:;Q1=S:x		2	0	t160
+GET	A&C+B	G1=I:1		P1=I:2;P3=I:2
+GET	A&C+B	G1=N:;G2=I:1		
+PLAN	A&C+B	G1=D:1.0		P3=I:2;P2=D:1.0	3	-1	t163
+PLAN	C				0	-1	t164
+GET	!(A & B)		Q1=S:	P3=S:;P2=D:1.0
+GET	A + B	G2=B:true;G1=I:2		
+PLAN	B + A	G1=S:	Q3=D:1.0	P2=D:1.0	0	0	t167
+PLAN	B & A	G1=D:1.0	Q2=S:		3	-1	t168
+PLAN	A & B	G2=S:x	Q1=N:	P1=B:false	2	-1	t169
+GET	A & B	G2=N:	Q1=I:2;Q3=I:2	P2=B:true;P3=I:2
+PLAN	B & A		Q3=N:;Q1=D:1.0	P2=B:true;P3=B:false;P1=N:	0	0	t171
+GET	C	G2=B:true	Q2=N:;Q3=I:2	P1=D:1.0;P3=B:true;P2=I:2
+PLAN	A	G2=B:false;G1=I:1		P3=N:	1	0	t173
+PLAN	!(A & B)	G2=D:1.0	Q2=B:true	P2=I:2;P1=I:2;P3=D:1.0	0	-1	t174
+PLAN	C	G1=N:	Q3=I:1;Q2=D:1.0		3	0	t175
+GET	b + A		Q2=S:;Q3=B:true	P3=I:2
+GET	A	G1=I:2;G2=I:2	Q1=I:1;Q3=D:1.0	P3=S:;P1=D:1.0;P2=B:true
+PLAN	A+	G1=I:2	Q2=N:	P3=B:true;P2=B:false	3	-1	t178
+GET	B + A			P1=B:true
+PLAN	!(A & B)	G2=S:x		P2=S:x;P1=I:2;P3=S:x	1	0	t180
+PLAN	A		Q2=B:true;Q3=I:2	P3=S:;P2=S:	1	0	t181
+PLAN	A+		Q1=B:false	P2=S:	1	0	t182
+GET	C	G2=S:x;G1=D:1.0		
+GET	A&C+B	G2=S:;G1=N:		P3=I:2
+PLAN	B + A	G1=I:1	Q3=N:		0	0	t185
+GET	b + A		Q1=S:x;Q3=S:x	P2=I:1;P1=S:x
+PLAN	A + B	G1=N:;G2=I:1	Q2=S:x;Q1=I:2		0	0	t187
+GET	A&C+B		Q3=B:false;Q2=D:1.0	P1=B:false;P3=I:1;P2=I:2
+GET	A&C+B	G1=I:2;G2=B:false	Q3=N:	
+GET	b + A	G2=I:1	Q1=N:;Q3=B:true	
+PLAN	A+	G2=I:2;G1=B:true	Q3=I:2;Q1=B:true	P1=B:true;P2=B:false;P3=N:	1	-1	t191
+PLAN	C	G1=S:		P3=D:1.0;P2=S:x;P1=B:false	2	0	t192
+PLAN	A&C+B	G1=S:;G2=N:		P2=I:2;P1=I:1	0	0	t193
+PLAN	A + B + C	G1=B:true;G2=I:1	Q3=B:false	P1=S:x	3	0	t194
+PLAN	!(A & B)	G1=B:true	Q3=N:;Q2=N:	P2=B:true;P1=I:2;P3=B:false	1	0	t195
+GET	C	G1=I:2	Q3=I:1;Q2=D:1.0	P2=N:;P3=N:
+GET	A+		Q3=I:2;Q1=I:1	P2=S:x;P3=N:
+GET	A		Q2=I:1	P3=S:x;P1=B:false
+PLAN	C			P3=B:true;P1=S:	3	0	t199
+PLAN	A	G2=B:true		P2=I:1;P1=B:true;P3=B:false	3	0	t200
+GET	A+	G1=I:1;G2=S:x	Q2=S:	P1=S:
+GET	A+	G2=S:;G1=B:false		P1=D:1.0;P2=I:1;P3=B:false
+GET	A + B	G2=I:1		P3=B:false;P1=B:true;P2=B:false
+GET			Q3=D:1.0	
+GET	!(A & B)			P3=S:;P1=D:1.0;P2=S:x
+GET	A		Q1=B:true;Q2=S:x	P2=D:1.0;P3=S:x
+PLAN	A + B + C		Q3=N:;Q2=N:		1	-1	t207
+GET	A+		Q3=D:1.0;Q1=N:	P1=S:x;P2=S:
+PLAN	A+	G1=S:	Q2=S:	P3=B:false	1	0	t209
+PLAN	A&C+B	G2=D:1.0;G1=S:		P2=N:	1	0	t210
+GET	A + B + C		Q1=I:1;Q2=D:1.0	P3=I:2
+GET	B + A	G1=I:1	Q3=N:	
+GET	C	G1=S:		P3=D:1.0;P2=S:x;P1=B:false
+PLAN	B & A	G2=I:1		P2=B:false;P1=I:1	3	-1	t214
+PLAN	A+		Q1=I:1;Q3=S:	P2=I:2	3	0	t215
+GET	B + A	G1=I:1	Q3=N:	
+PLAN	A & B	G1=N:;G2=S:x	Q1=B:false;Q3=N:	P2=B:false;P3=B:false	2	-1	t217
+PLAN	B + A			P1=B:true	1	-1	t218
+PLAN	A + B	G1=I:2		P2=I:2	1	0	t219
+PLAN	B + A		Q3=D:1.0;Q1=B:false		1	-1	t220
+PLAN	b + A		Q1=I:2;Q3=S:x	P2=B:false;P3=I:2	0	0	t221
+GET	A + B + C		Q3=N:;Q2=N:	
+GET	B & A			
+GET	A + B + C		Q1=I:1;Q2=D:1.0	P3=I:2
+GET	B + A	G2=B:true;G1=I:1		
+GET	C			P2=I:1;P3=N:
+PLAN	A + B	G2=B:false;G1=B:false		P3=I:1;P1=B:false	0	0	t227
+GET	!(A & B)	G2=B:false;G1=N:		
+GET	A & B	G2=S:x	Q1=N:	P1=B:false
+GET	A	G2=D:1.0;G1=S:	Q2=N:	P2=B:true
+GET	A & B	G2=B:true		
+GET	!(A & B)	G2=S:x		P2=S:x;P1=I:2;P3=S:x
+PLAN	B + A	G1=I:1;G2=I:1		P2=B:false	1	0	t233
+GET	A + B + C	G2=I:2;G1=S:		P2=I:2;P1=S:x
+PLAN	A	G2=S:x;G1=B:false	Q2=I:1;Q3=S:x		1	0	t235
+GET	A + B + C		Q1=I:1;Q2=D:1.0	P3=I:2
+GET			Q1=I:2	P1=B:false;P3=I:1
+PLAN	C	G1=I:2;G2=N:		P2=D:1.0	0	0	t238
+PLAN	B & A	G2=N:	Q2=I:2	P3=D:1.0;P1=B:false;P2=B:false	1	0	t239
+GET	!(A & B)	G2=I:1;G1=S:x		P3=D:1.0;P2=S:
+PLAN	B & A			P3=I:2	3	0	t241
+PLAN	A	G2=D:1.0	Q3=S:x		2	0	t242
+PLAN	A + B + C	G1=I:1	Q2=N:	P2=I:1;P3=B:true	2	0	t243
+PLAN	A + B + C	G1=I:1;G2=D:1.0		P1=B:true;P3=D:1.0	1	0	t244
+PLAN	!(A & B)			P3=N:;P1=S:x	3	-1	t245
+PLAN	B & A		Q1=I:2;Q2=D:1.0		1	0	t246
+PLAN	B & A	G1=N:;G2=I:1	Q2=I:1	P1=S:x;P2=D:1.0;P3=S:	1	0	t247
+GET	A	G2=S:x;G1=B:false	Q2=I:1;Q3=S:x	
+PLAN	C	G2=I:2			1	0	t249
+GET	A+	G1=I:1;G2=D:1.0	Q3=I:1	P3=B:true;P2=S:
+GET	A	G2=B:false;G1=B:false	Q1=I:2	P2=S:;P1=B:false;P3=I:2
+GET	A&C+B	G1=S:x;G2=S:x		P1=B:false;P2=D:1.0;P3=D:1.0
+GET	A+	G1=I:2	Q2=N:	P3=B:true;P2=B:false
+PLAN	B + A		Q2=B:true;Q1=S:x	P3=I:1;P1=S:	3	-1	t254
+GET	b + A	G1=S:x;G2=S:x	Q3=S:	
+GET	A	G2=D:1.0		
+PLAN	B + A	G2=S:x		P3=B:true;P2=N:	1	0	t257
+GET	C	G2=S:x;G1=I:1	Q2=I:1;Q3=N:	P1=I:2;P3=N:;P2=S:
+PLAN	b + A		Q1=I:1	P3=S:;P2=N:	3	0	t259
+PLAN	!(A & B)	G1=N:		P3=S:;P1=B:true	3	0	t260
+PLAN	b + A			P2=S:;P3=B:false;P1=I:2	2	0	t261
+PLAN	!(A & B)		Q1=S:x;Q3=I:1	P2=I:2;P1=I:2	0	0	t262
+PLAN	b + A		Q2=B:true;Q1=S:x	P2=D:1.0	3	0	t263
+PLAN		G2=S:x;G1=B:false	Q3=B:false		3	0	t264
+PLAN	A&C+B	G2=S:;G1=B:true	Q1=B:false;Q3=I:1		3	0	t265
+PLAN	!(A & B)	G2=D:1.0	Q3=B:false	P1=S:x	3	-1	t266
+PLAN	B & A	G2=S:x;G1=I:2		P3=B:true;P2=N:	0	0	t267
+GET	B + A	G2=I:2;G1=N:	Q2=I:2;Q3=I:1	
+GET	B & A	G1=I:2;G2=I:2	Q1=D:1.0	
+PLAN	B & A	G1=S:	Q3=B:true;Q1=N:	P1=D:1.0;P2=S:x	1	-1	t270
+PLAN	C	G2=D:1.0;G1=S:x	Q1=S:x	P2=S:x;P1=B:false;P3=S:	3	-1	t271
+PLAN	b + A	G2=N:		P2=D:1.0;P1=N:	3	0	t272
+GET	B & A	G2=N:	Q2=I:2	P3=D:1.0;P1=B:false;P2=B:false
+PLAN	A & B	G2=D:1.0	Q1=N:	P2=S:;P1=S:x;P3=S:	0	-1	t274
+PLAN	A+	G1=I:2;G2=N:	Q1=B:false	P3=B:true	0	0	t275
+GET	B & A	G2=I:2		P3=I:1
+GET	A + B	G2=I:1		P3=S:
+PLAN		G1=B:true	Q1=N:	P3=S:	0	0	t278
+PLAN	b + A	G2=B:false;G1=B:false		P3=S:x	0	0	t279
+PLAN	A	G2=I:1		P3=I:2;P1=B:true;P2=S:	3	0	t280
+PLAN	!(A & B)	G1=S:	Q1=B:false;Q3=S:x	P2=I:1;P3=B:true	1	0	t281
+GET	A & B		Q3=D:1.0	P1=S:x;P3=S:x;P2=B:true
+PLAN	A+	G1=I:2		P1=S:;P2=B:false	3	0	t283
+PLAN	A & B		Q1=D:1.0		0	0	t284
+PLAN	A&C+B			P3=S:x;P1=S:x	2	0	t285
+PLAN	b + A	G2=S:x	Q3=I:2;Q2=S:	P3=B:true	1	0	t286
+PLAN		G1=I:2	Q2=S:x	P1=I:1;P2=I:2;P3=I:2	2	0	t287
+PLAN	b + A	G2=S:x;G1=B:false		P3=B:false;P2=B:true	1	0	t288
+GET	A&C+B	G1=B:true	Q3=N:;Q2=S:x	P1=B:false;P3=B:true;P2=I:1
+GET	A+	G1=S:;G2=B:true		P3=B:true;P1=B:false
+PLAN	A	G2=I:1	Q1=N:		0	0	t291
+GET	A+	G2=I:2;G1=B:true	Q3=I:2;Q1=B:true	P1=B:true;P2=B:false;P3=N:
+GET	A&C+B	G1=N:;G2=S:	Q2=B:false	
+PLAN	A			P1=S:;P2=I:1	1	0	t294
+GET	b + A	G2=I:1	Q1=N:;Q3=B:true	
+GET	b + A	G2=S:x	Q3=I:2;Q2=S:	P3=B:true
+GET	B + A	G2=S:x;G1=I:1		P1=I:2;P3=N:;P2=B:true
+PLAN	A&C+B	G2=B:true	Q3=B:true	P1=I:2	1	0	t298
+PLAN	b + A	G1=I:2;G2=I:2	Q1=N:		0	-1	t299
+GET	A&C+B		Q2=B:false	P1=D:1.0;P3=B:false;P2=B:true
+PLAN	B + A	G1=I:2			2	0	t301
+PLAN	A + B	G2=D:1.0;G1=I:2	Q2=I:1	P1=N:;P2=I:1;P3=I:1	3	0	t302
+GET	B & A	G1=I:1		
+GET	b + A	G2=B:false;G1=B:false		P3=S:x
+GET		G2=D:1.0		P1=N:
+GET	B + A	G2=I:2	Q1=I:2	
+PLAN	B & A		Q2=N:;Q3=I:1	P2=B:true	3	0	t307
+GET	B & A	G1=N:;G2=I:1	Q2=I:1	P1=S:x;P2=D:1.0;P3=S:
+PLAN	A + B	G1=B:false;G2=I:2	Q2=S:x;Q3=B:true	P3=B:true;P2=B:true	1	-1	t309
+PLAN	A+		Q1=S:		2	0	t310
+PLAN	A	G2=S:x	Q2=I:1	P3=S:x	0	0	t311
+GET	A&C+B	G1=I:2;G2=S:x	Q1=S:;Q3=I:2	P2=D:1.0;P1=S:x
+GET	A + B	G2=S:;G1=S:		P2=N:;P3=B:false;P1=B:true
+GET	A&C+B	G2=B:false;G1=B:true	Q3=B:true;Q2=S:x	P2=B:false
+PLAN	A + B + C	G1=N:;G2=N:		P1=B:false;P2=B:true;P3=I:2	0	0	t315
+PLAN	A	G1=B:true;G2=D:1.0	Q2=B:true	P2=S:	1	0	t316
+GET	A&C+B	G2=I:1;G1=S:x	Q1=I:1	P3=S:;P2=S:x
+GET	!(A & B)	G1=B:false;G2=B:true	Q3=N:;Q2=B:true	
+PLAN		G2=B:true;G1=D:1.0	Q2=S:	P1=N:;P2=S:x;P3=S:x	0	-1	t319
+PLAN	A	G1=I:1;G2=B:false			0	0	t320
+PLAN	A & B	G2=S:	Q3=N:		3	0	t321
+GET		G2=B:true;G1=D:1.0	Q2=S:	P1=N:;P2=S:x;P3=S:x
+PLAN	b + A	G1=N:;G2=S:x	Q3=D:1.0;Q2=I:1		1	0	t323
+GET	A	G2=D:1.0	Q3=S:x	
+PLAN	b + A	G2=N:;G1=B:false	Q2=B:false		3	-1	t325
+PLAN	A & B		Q2=N:;Q3=I:2	P2=D:1.0;P1=D:1.0	0	0	t326
+PLAN	A + B + C	G1=I:2;G2=B:true	Q2=D:1.0;Q3=B:false	P3=S:x;P1=I:1;P2=I:2	1	0	t327
+GET	A + B + C	G1=D:1.0	Q3=B:false;Q2=I:2	P1=B:false
+GET	b + A	G1=I:2;G2=I:2	Q1=N:	
+GET	A & B		Q1=D:1.0	
+GET	A	G1=N:;G2=D:1.0	Q1=N:	
+GET	A & B	G2=B:true		
+PLAN	A&C+B				1	0	t333
+PLAN	B + A	G2=B:false	Q1=I:1;Q3=I:2	P3=S:;P2=N:	0	0	t334
+GET	A			P1=N:;P3=S:x;P2=B:true
+PLAN	C	G1=S:	Q3=S:	P3=I:1;P1=B:true;P2=B:true	3	0	t336
+GET	A & B	G1=D:1.0;G2=S:	Q1=N:;Q2=N:	P2=N:
+PLAN	C		Q1=I:1	P3=I:2;P2=S:	2	0	t338
+PLAN	C		Q1=S:x;Q2=I:1		1	-1	t339
+GET	A & B	G1=D:1.0	Q3=B:false;Q2=B:true	
+PLAN	!(A & B)	G1=B:true;G2=S:x		P3=I:2;P2=B:false	2	0	t341
+GET	A + B + C		Q3=N:;Q2=N:	
+PLAN	B + A	G2=S:x	Q1=N:	P2=B:false;P1=D:1.0	1	0	t343
+GET	A&C+B	G1=D:1.0		P3=I:2;P2=D:1.0
+PLAN	A	G1=N:;G2=S:		P2=I:2;P3=I:2;P1=B:true	2	-1	t345
+GET	B + A	G2=S:	Q3=I:1;Q1=S:	P3=I:1;P1=B:true
+PLAN	b + A	G2=S:x	Q1=I:2	P3=I:1;P2=D:1.0	3	0	t347
+PLAN	!(A & B)			P3=I:2;P1=S:x;P2=N:	0	0	t348
+PLAN	A & B	G2=B:true;G1=N:		P2=I:1	2	0	t349
+GET	A&C+B		Q2=I:1;Q3=I:2	P3=I:1;P2=B:false
+GET	A + B + C		Q3=N:;Q2=N:	
+PLAN	A&C+B	G1=I:1;G2=B:true	Q1=I:2;Q3=B:false	P2=I:1;P1=B:true	0	0	t352
+GET	A&C+B			P3=S:x;P1=S:x
+PLAN	A&C+B	G2=I:2	Q2=I:1	P2=B:false;P1=B:true	1	0	t354
+PLAN	A			P1=B:false;P2=N:	3	-1	t355
+PLAN	A	G1=I:1;G2=I:2	Q1=B:true;Q3=B:false		2	0	t356
+GET	A	G2=I:1;G1=N:	Q2=N:	P2=D:1.0
+PLAN	!(A & B)	G1=B:false	Q3=S:x	P3=I:1;P1=I:2	0	0	t358
+GET	A	G1=S:;G2=S:	Q2=B:false	P3=I:1;P2=B:false
+GET	A&C+B		Q1=I:1;Q3=N:	P2=N:;P1=I:2
+PLAN	A		Q3=S:x	P2=N:;P1=S:x	3	0	t361
+GET	A & B	G2=B:false;G1=I:2		
+GET	C	G1=N:	Q3=I:1;Q2=D:1.0	
+GET	B + A	G2=S:x		P3=B:true;P2=N:
+PLAN	A & B	G2=S:x;G1=N:	Q3=I:1	P3=S:	2	-1	t365
+GET	A + B + C	G1=S:	Q2=N:;Q1=I:1	P2=S:x
+GET	A & B	G2=B:false;G1=I:2		
+GET	A + B + C	G1=B:true;G2=I:1	Q3=B:false	P1=S:x
+GET	A&C+B			P3=S:x;P1=S:x
+PLAN				P1=I:2	1	0	t370
+GET	A + B	G2=S:x;G1=N:	Q2=B:false	P2=S:x;P3=N:;P1=I:1
+GET	B + A	G1=B:true	Q2=D:1.0;Q3=S:x	P1=I:2;P2=N:;P3=S:
+GET	A&C+B	G1=I:2;G2=I:2	Q3=B:false;Q1=N:	P3=S:x;P1=I:1
+PLAN	A&C+B	G1=S:x	Q2=B:true	P3=I:1;P1=S:x;P2=I:2	1	0	t374
+GET	B & A	G1=N:;G2=S:	Q2=I:2;Q1=B:true	
+PLAN		G1=I:2	Q1=B:false	P3=D:1.0;P2=I:1	1	-1	t376
+GET	A & B	G2=S:	Q2=I:2;Q1=B:true	
+GET	A & B	G2=S:	Q2=I:2;Q1=B:true	
+GET	B & A	G1=D:1.0	Q2=S:	
+GET	B & A	G1=N:;G2=I:1	Q1=B:true	P3=S:;P2=S:
+PLAN	!(A & B)		Q1=N:;Q3=I:1	P2=I:2	1	0	t381
+GET	C	G1=N:	Q3=I:1;Q2=D:1.0	
+PLAN	A & B	G1=B:false	Q1=D:1.0	P1=S:x;P3=D:1.0;P2=D:1.0	0	0	t383
+PLAN	C	G2=S:;G1=S:	Q3=N:;Q2=B:false	P1=S:x	1	0	t384
+GET	!(A & B)			P3=N:;P1=S:x
+PLAN	A&C+B				1	-1	t386
+GET	A+	G2=B:false		
+PLAN	A		Q1=I:2;Q3=I:2	P2=I:1;P1=I:2	1	-1	t388
+PLAN	A & B		Q3=S:;Q2=S:	P3=I:2	1	0	t389
+PLAN	C	G1=S:;G2=B:false		P3=S:;P2=I:2	0	0	t390
+GET	A&C+B			
+GET	A+			P1=B:true
+PLAN	A&C+B	G1=B:true	Q2=I:2;Q1=S:	P1=S:	0	0	t393
+PLAN	A & B	G1=B:true	Q2=I:1;Q1=I:2	P2=B:true	2	-1	t394
+PLAN	A & B	G2=B:true	Q3=N:	P3=S:	1	0	t395
+GET	B & A	G1=B:true		
+GET	b + A	G2=I:1	Q1=N:;Q3=B:true	
+GET	A+	G2=S:	Q1=S:;Q3=S:x	
+PLAN	A & B	G1=S:x;G2=S:x	Q3=S:;Q2=D:1.0	P2=N:;P3=I:2	3	0	t399

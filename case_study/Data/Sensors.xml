@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sensors>
+  <Sensor>
+    <Sensor_Name>Front_Virtual_Camera</Sensor_Name>
+    <Description>The Virtual Camera positioned in front to the AV
+</Description>
+  </Sensor>
+  <Sensor>
+    <Sensor_Name>Fuel_Sensor</Sensor_Name>
+    <Description>The Virtual Camera positioned in front to the AV
+</Description>
+  </Sensor>
+  <Sensor>
+    <Sensor_Name>GPS</Sensor_Name>
+    <Description>A Virtual GPS that tells the AV the position it has moved to
+</Description>
+  </Sensor>
+  <Sensor>
+    <Sensor_Name>Me</Sensor_Name>
+    <Description>the Agent itself
+</Description>
+  </Sensor>
+  <Sensor>
+    <Sensor_Name>Traffic_Control_Service</Sensor_Name>
+    <Description>The Traffic Control Service which informs the type and duration of danger that is in the route
+</Description>
+  </Sensor>
+</Sensors>

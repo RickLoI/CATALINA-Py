@@ -1,0 +1,306 @@
+SUB	S1	Updated_Active_Desires,Updated_Selected_Intentions,Updated_Stimuli,Updated_Satisfied_Desires,Updated_Critical_Beliefs,Updated_Executed_Action,Internal_Signals,Updated_Thresholds,Updated_Filtered_Stimuli,Updated_Preconditions,Updated_Perceptions,Internal_Signals_Delete_Intention,Updated_Action_to_Execute,Internal_Signals_Satisfied_Intention,Updated_Standing_Desires,Internal_Signals_Abort_Option,All_Updates,Updated_Active_Desires_with_Options
+SUB	S2	Updated_Thresholds,Updated_Critical_Beliefs,Updated_Satisfied_Desires,Updated_Predicates,Internal_Signals_Satisfied_Intention,Updated_Stimuli,Updated_Perceptions,Updated_Active_Desires,Updated_Filtered_Stimuli,Internal_Signals,Updated_Beliefs,Updated_Preconditions,All_Updates
+SUB	S3	Updated_Thresholds,Updated_Active_Desires_with_Options,Updated_Standing_Desires,Internal_Signals_Abort_Option,Updated_Beliefs,Internal_Signals,Internal_Signals_Delete_Intention,Updated_Critical_Beliefs,Updated_Stimuli,Updated_Uninhibited_Data
+SUB	S4	All_Updates,Internal_Signals_Abort_Option,Updated_Critical_Beliefs,Updated_Thresholds,Internal_Signals_Delete_Intention,Updated_Filtered_Stimuli,Updated_Standing_Desires,Internal_Signals,Updated_Predicates,Updated_Executed_Action
+DUMP
+SIGNAL	Updated_Executed_Action
+INTERNAL	Internal_Signals_Abort_Option	sender1	
+SIGNAL	Internal_Signals
+SIGNAL	Internal_Signals_Satisfied_Intention
+SIGNAL	Updated_Active_Desires_with_Options
+DUMP
+INTERNAL	Internal_Signals_Satisfied_Intention	sender2	d5,d9,d8
+INTERNAL	Internal_Signals_Abort_Option	sender2	
+SIGNAL	Internal_Signals_Abort_Option
+SIGNAL	Updated_Selected_Intentions
+SIGNAL	Updated_Preconditions
+INTERNAL	Internal_Signals_Satisfied_Intention	sender3	d7
+INTERNAL	Internal_Signals_Abort_Option	sender2	d7,d4
+CLEAR
+SIGNAL	Updated_Satisfied_Desires
+DUMP
+CLEAR
+SIGNAL	All_Updates
+INTERNAL	Internal_Signals_Delete_Intention	sender1	d1
+DUMP
+SIGNAL	Updated_Thresholds
+DUMP
+SIGNAL	Internal_Signals_Abort_Option
+DUMP
+SIGNAL	Internal_Signals
+CLEAR
+DUMP
+INTERNAL	Internal_Signals_Satisfied_Intention	sender3	
+INTERNAL	Internal_Signals_Abort_Option	sender1	d1,d4,d9
+INTERNAL	Internal_Signals_Abort_Option	sender1	d9
+SIGNAL	All_Updates
+INTERNAL	Internal_Signals_Abort_Option	sender1	
+SIGNAL	Updated_Standing_Desires
+DUMP
+SIGNAL	Updated_Predicates
+INTERNAL	Internal_Signals_Abort_Option	sender2	d1
+SIGNAL	Updated_Satisfied_Desires
+DUMP
+CLEAR
+INTERNAL	Internal_Signals_Abort_Option	sender2	
+DUMP
+INTERNAL	Internal_Signals_Abort_Option	sender2	d1,d5
+SIGNAL	Updated_Perceptions
+SIGNAL	Updated_Standing_Desires
+SIGNAL	Updated_Uninhibited_Data
+SIGNAL	Updated_Active_Desires
+SIGNAL	Updated_Uninhibited_Data
+SIGNAL	Updated_Satisfied_Desires
+SIGNAL	Updated_Perceptions
+SIGNAL	Updated_Selected_Intentions
+SIGNAL	All_Updates
+SIGNAL	Internal_Signals
+SIGNAL	Updated_Stimuli
+SIGNAL	Updated_Action_to_Execute
+DUMP
+SIGNAL	Updated_Perceptions
+INTERNAL	Internal_Signals_Satisfied_Intention	sender2	d3,d0
+SIGNAL	All_Updates
+SIGNAL	Updated_Beliefs
+DUMP
+SIGNAL	Internal_Signals_Delete_Intention
+SIGNAL	Internal_Signals_Delete_Intention
+SIGNAL	Updated_Selected_Intentions
+INTERNAL	Internal_Signals_Abort_Option	sender2	d9,d1,d9
+SIGNAL	Updated_Active_Desires_with_Options
+DUMP
+DUMP
+DUMP
+INTERNAL	Internal_Signals_Delete_Intention	sender3	d6,d3
+INTERNAL	Updated_Perceptions	sender2	d6,d1,d5
+SIGNAL	Updated_Active_Desires_with_Options
+DUMP
+SIGNAL	Updated_Active_Desires
+SIGNAL	Updated_Satisfied_Desires
+DUMP
+DUMP
+SIGNAL	Updated_Selected_Intentions
+SIGNAL	Updated_Uninhibited_Data
+CLEAR
+SIGNAL	Updated_Uninhibited_Data
+DUMP
+INTERNAL	Internal_Signals_Delete_Intention	sender3	
+SIGNAL	Internal_Signals_Delete_Intention
+SIGNAL	Updated_Beliefs
+INTERNAL	Updated_Satisfied_Desires	sender2	d8
+SIGNAL	Updated_Preconditions
+SIGNAL	Updated_Action_to_Execute
+SIGNAL	Updated_Selected_Intentions
+SIGNAL	All_Updates
+SIGNAL	Updated_Satisfied_Desires
+SIGNAL	All_Updates
+CLEAR
+DUMP
+DUMP
+SIGNAL	Updated_Perceptions
+SIGNAL	Updated_Selected_Intentions
+SIGNAL	Internal_Signals_Satisfied_Intention
+DUMP
+CLEAR
+SIGNAL	Updated_Beliefs
+SIGNAL	Internal_Signals_Satisfied_Intention
+SIGNAL	Updated_Preconditions
+INTERNAL	Internal_Signals_Satisfied_Intention	sender1	d4,d5
+SIGNAL	Updated_Beliefs
+SIGNAL	Updated_Critical_Beliefs
+DUMP
+SIGNAL	Updated_Thresholds
+SIGNAL	Internal_Signals_Satisfied_Intention
+SIGNAL	Internal_Signals
+DUMP
+SIGNAL	Updated_Critical_Beliefs
+INTERNAL	Internal_Signals_Delete_Intention	sender3	d0
+SIGNAL	Updated_Preconditions
+SIGNAL	Updated_Standing_Desires
+SIGNAL	Updated_Thresholds
+SIGNAL	Internal_Signals_Satisfied_Intention
+INTERNAL	Internal_Signals_Delete_Intention	sender1	d4
+INTERNAL	Internal_Signals_Delete_Intention	sender2	d4,d4
+SIGNAL	Updated_Filtered_Stimuli
+SIGNAL	Updated_Active_Desires
+INTERNAL	Internal_Signals_Satisfied_Intention	sender2	d2,d2
+INTERNAL	Internal_Signals_Abort_Option	sender2	d9,d2
+SIGNAL	Updated_Active_Desires_with_Options
+INTERNAL	Internal_Signals_Abort_Option	sender3	
+INTERNAL	Internal_Signals_Delete_Intention	sender2	d9,d5
+INTERNAL	Internal_Signals_Delete_Intention	sender1	d1
+INTERNAL	Internal_Signals_Abort_Option	sender3	d8
+SIGNAL	Updated_Executed_Action
+SIGNAL	Updated_Satisfied_Desires
+INTERNAL	Internal_Signals_Satisfied_Intention	sender2	d6,d0,d8
+SIGNAL	Updated_Perceptions
+DUMP
+DUMP
+DUMP
+INTERNAL	Internal_Signals_Delete_Intention	sender3	d5,d3
+INTERNAL	Updated_Active_Desires_with_Options	sender1	d3
+SIGNAL	Updated_Selected_Intentions
+CLEAR
+SIGNAL	Updated_Beliefs
+SIGNAL	Updated_Preconditions
+SIGNAL	Updated_Perceptions
+SIGNAL	Updated_Filtered_Stimuli
+SIGNAL	Internal_Signals_Delete_Intention
+SIGNAL	Updated_Critical_Beliefs
+SIGNAL	Updated_Active_Desires_with_Options
+DUMP
+SIGNAL	Updated_Stimuli
+SIGNAL	Updated_Selected_Intentions
+SIGNAL	Updated_Beliefs
+INTERNAL	Internal_Signals_Satisfied_Intention	sender3	
+INTERNAL	Internal_Signals_Abort_Option	sender2	d8,d6,d5
+DUMP
+SIGNAL	Internal_Signals_Abort_Option
+SIGNAL	Updated_Beliefs
+SIGNAL	Internal_Signals_Delete_Intention
+SIGNAL	All_Updates
+INTERNAL	Internal_Signals_Delete_Intention	sender3	
+SIGNAL	Updated_Active_Desires
+INTERNAL	Internal_Signals_Delete_Intention	sender1	d4,d7,d1
+SIGNAL	Updated_Action_to_Execute
+INTERNAL	Internal_Signals_Delete_Intention	sender3	d2,d5,d0
+DUMP
+DUMP
+SIGNAL	Internal_Signals_Delete_Intention
+SIGNAL	Updated_Thresholds
+SIGNAL	Updated_Thresholds
+SIGNAL	Updated_Active_Desires_with_Options
+DUMP
+INTERNAL	Updated_Filtered_Stimuli	sender2	
+INTERNAL	Updated_Selected_Intentions	sender1	
+SIGNAL	Updated_Executed_Action
+SIGNAL	Updated_Critical_Beliefs
+DUMP
+INTERNAL	Internal_Signals_Satisfied_Intention	sender1	d2
+DUMP
+INTERNAL	Internal_Signals_Abort_Option	sender2	d9,d2,d9
+DUMP
+DUMP
+SIGNAL	All_Updates
+CLEAR
+CLEAR
+INTERNAL	Internal_Signals_Delete_Intention	sender2	
+SIGNAL	Updated_Active_Desires
+SIGNAL	Internal_Signals
+SIGNAL	Updated_Action_to_Execute
+SIGNAL	Updated_Satisfied_Desires
+DUMP
+SIGNAL	Updated_Stimuli
+DUMP
+SIGNAL	Updated_Preconditions
+SIGNAL	Updated_Uninhibited_Data
+SIGNAL	Updated_Active_Desires
+SIGNAL	Updated_Satisfied_Desires
+INTERNAL	Internal_Signals_Abort_Option	sender1	d1,d7
+SIGNAL	Updated_Filtered_Stimuli
+SIGNAL	Updated_Active_Desires
+SIGNAL	Updated_Satisfied_Desires
+INTERNAL	Internal_Signals_Delete_Intention	sender1	d5
+SIGNAL	Updated_Perceptions
+INTERNAL	Internal_Signals_Abort_Option	sender1	
+INTERNAL	Internal_Signals_Satisfied_Intention	sender1	d9,d2,d9
+SIGNAL	Updated_Critical_Beliefs
+SIGNAL	Updated_Perceptions
+SIGNAL	Internal_Signals_Satisfied_Intention
+CLEAR
+INTERNAL	Internal_Signals_Delete_Intention	sender3	
+SIGNAL	Updated_Filtered_Stimuli
+INTERNAL	Internal_Signals_Delete_Intention	sender3	d4,d8
+DUMP
+SIGNAL	Updated_Active_Desires
+SIGNAL	Updated_Executed_Action
+SIGNAL	Internal_Signals_Delete_Intention
+SIGNAL	All_Updates
+SIGNAL	Internal_Signals
+SIGNAL	Updated_Uninhibited_Data
+DUMP
+SIGNAL	Updated_Satisfied_Desires
+SIGNAL	Internal_Signals_Abort_Option
+SIGNAL	Updated_Predicates
+DUMP
+CLEAR
+SIGNAL	Updated_Standing_Desires
+SIGNAL	Internal_Signals_Delete_Intention
+SIGNAL	Updated_Beliefs
+SIGNAL	Internal_Signals_Abort_Option
+SIGNAL	Updated_Thresholds
+INTERNAL	Internal_Signals_Abort_Option	sender2	
+INTERNAL	Updated_Thresholds	sender3	d2
+SIGNAL	Updated_Filtered_Stimuli
+SIGNAL	Updated_Predicates
+CLEAR
+SIGNAL	Updated_Satisfied_Desires
+INTERNAL	Internal_Signals_Abort_Option	sender1	d4,d6
+SIGNAL	Updated_Action_to_Execute
+SIGNAL	All_Updates
+SIGNAL	Internal_Signals_Abort_Option
+CLEAR
+SIGNAL	Updated_Active_Desires_with_Options
+SIGNAL	Updated_Filtered_Stimuli
+SIGNAL	Updated_Selected_Intentions
+SIGNAL	Updated_Thresholds
+SIGNAL	Updated_Stimuli
+SIGNAL	Internal_Signals_Delete_Intention
+SIGNAL	Updated_Selected_Intentions
+SIGNAL	Updated_Selected_Intentions
+SIGNAL	Updated_Stimuli
+SIGNAL	Updated_Standing_Desires
+DUMP
+SIGNAL	Updated_Active_Desires
+DUMP
+CLEAR
+SIGNAL	Updated_Preconditions
+SIGNAL	Updated_Executed_Action
+INTERNAL	Internal_Signals_Satisfied_Intention	sender3	d1,d3
+SIGNAL	Internal_Signals
+SIGNAL	Updated_Filtered_Stimuli
+SIGNAL	Internal_Signals_Delete_Intention
+INTERNAL	Internal_Signals_Abort_Option	sender3	d0
+SIGNAL	Updated_Predicates
+SIGNAL	Updated_Executed_Action
+SIGNAL	Updated_Executed_Action
+SIGNAL	Updated_Perceptions
+SIGNAL	Updated_Predicates
+SIGNAL	Updated_Selected_Intentions
+SIGNAL	All_Updates
+SIGNAL	Internal_Signals_Delete_Intention
+SIGNAL	Updated_Perceptions
+SIGNAL	Updated_Selected_Intentions
+SIGNAL	Updated_Predicates
+SIGNAL	Updated_Preconditions
+SIGNAL	Updated_Active_Desires_with_Options
+CLEAR
+INTERNAL	Updated_Standing_Desires	sender2	
+INTERNAL	Internal_Signals_Satisfied_Intention	sender1	d6
+INTERNAL	Internal_Signals_Abort_Option	sender2	
+SIGNAL	Updated_Filtered_Stimuli
+SIGNAL	Updated_Thresholds
+INTERNAL	Internal_Signals_Satisfied_Intention	sender3	d2,d6,d3
+SIGNAL	Updated_Filtered_Stimuli
+SIGNAL	Updated_Stimuli
+SIGNAL	Updated_Thresholds
+SIGNAL	Updated_Uninhibited_Data
+INTERNAL	Internal_Signals_Abort_Option	sender3	
+CLEAR
+DUMP
+INTERNAL	Internal_Signals_Delete_Intention	sender1	
+INTERNAL	Internal_Signals_Abort_Option	sender3	d5
+DUMP
+DUMP
+SIGNAL	Updated_Uninhibited_Data
+DUMP
+SIGNAL	Updated_Thresholds
+INTERNAL	Internal_Signals_Abort_Option	sender3	
+DUMP
+SIGNAL	Updated_Satisfied_Desires
+INTERNAL	Internal_Signals_Abort_Option	sender2	d5,d5,d7
+INTERNAL	Internal_Signals_Satisfied_Intention	sender3	
+INTERNAL	Internal_Signals_Delete_Intention	sender1	d4,d7,d1
+SIGNAL	Internal_Signals_Abort_Option
+SIGNAL	Updated_Thresholds
+DUMP

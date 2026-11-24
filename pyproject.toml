@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "catalina-py"
+version = "0.1.0"
+description = "Python port of the CATALINA cognitive agent architecture (BDI + Global Workspace + executive functions) and its autonomous-vehicle case study"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = []
+
+[tool.setuptools]
+packages = ["catalina", "case_study"]
+
+[tool.setuptools.package-data]
+case_study = ["Data/*.xml", "gui_page.html", "img/*"]

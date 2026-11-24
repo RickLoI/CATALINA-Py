@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CATALINA - Autonomous Vehicle</title>
+<style>
+:root{--bg:#f4f5f7;--fg:#1d2430;--card:#fff;--line:#d5d9e0;--acc:#2a6df4;--mut:#667085}
+@media (prefers-color-scheme:dark){:root{--bg:#14171c;--fg:#e6e9ee;--card:#1d222a;--line:#323a46;--acc:#6b9bff;--mut:#98a2b3}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px system-ui,sans-serif}
+header{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;padding:8px 16px;background:var(--card);border-bottom:1px solid var(--line)}
+h1{font-size:16px;margin:0 8px 0 0}button{font:inherit;padding:5px 11px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--fg);cursor:pointer}
+button:hover{border-color:var(--acc)}button.primary{background:var(--acc);color:#fff;border-color:var(--acc)}button:disabled{opacity:.45;cursor:default}
+.grp{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.sep{width:1px;height:24px;background:var(--line)}
+main{display:grid;grid-template-columns:minmax(0,3fr) minmax(300px,1.2fr);gap:12px;padding:12px 16px}
+@media (max-width:1000px){main{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.card h2{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);margin:0;padding:8px 12px;border-bottom:1px solid var(--line)}
+#mapwrap{overflow:hidden}canvas{display:block;width:100%;height:auto}
+#log,#gw{margin:0;padding:8px 12px;font:12px ui-monospace,Menlo,monospace;white-space:pre-wrap;overflow:auto}
+#log{height:300px}#gw{height:230px;color:var(--mut)}.side{display:flex;flex-direction:column;gap:12px}
+input[type=range]{width:160px}input[type=text]{font:inherit;padding:5px 8px;border:1px solid var(--line);border-radius:6px;width:90px;background:var(--card);color:var(--fg)}
+#clock{font-variant-numeric:tabular-nums;font-weight:600}.mut{color:var(--mut)}
+</style></head><body>
+<header>
+ <h1>CATALINA &middot; Autonomous Vehicle</h1>
+ <div class="grp"><button id="bStart" class="primary">Start AVA</button><button id="bSuspend">Suspend AVA</button><button id="bResume">Resume AVA</button><button id="bReset">Reset</button></div><div class="sep"></div>
+ <div class="grp"><button id="bDanger">Send a danger</button><button id="bFuel">Low fuel</button></div><div class="sep"></div>
+ <div class="grp"><span>TCS:</span><input id="tcs" type="text" placeholder="answer"><button id="bTcs">Send</button></div><div class="sep"></div>
+ <div class="grp"><span>Speed</span><input id="speed" type="range" min="0" max="100" value="33"><b id="speedLbl">1x</b><button id="bPause">Pause clock</button>
+ <span class="mut">t=</span><span id="clock">0.0</span><span class="mut">s sim</span></div>
+</header>
+<main>
+ <div class="card"><h2>Map <span id="where" class="mut"></span></h2><div id="mapwrap"><canvas id="map"></canvas></div></div>
+ <div class="side"><div class="card"><h2>Agent log</h2><pre id="log"></pre></div>
+ <div class="card"><h2>Global Workspace</h2><pre id="gw"></pre></div></div>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+const post=(c,b)=>fetch('/api/cmd/'+c,{method:'POST',body:JSON.stringify(b||{})}).then(r=>r.json());
+let S=null,since=0,moves=[],routeTrail=[],now=0,speed=1,paused=false,stamp=performance.now(),carPos=null,showRoutes=true;
+const mapImg=new Image(),carImg=new Image();let ready=0;
+mapImg.onload=carImg.onload=()=>{ready++};mapImg.src='/img/map';carImg.src='/img/car';
+const cv=$('map'),cx=cv.getContext('2d');
+// speed slider: logarithmic 0.1x .. 100x
+const sp=v=>Math.round(Math.pow(10,(v/100)*3-1)*100)/100;
+$('speed').oninput=e=>{const s=sp(+e.target.value);$('speedLbl').textContent=s+'x';post('speed',{speed:s})};
+$('bStart').onclick=()=>post('start');$('bSuspend').onclick=()=>post('suspend');$('bResume').onclick=()=>post('resume');
+$('bDanger').onclick=()=>post('danger');$('bFuel').onclick=()=>post('low_fuel');
+$('bReset').onclick=async()=>{await post('reset');await post('speed',{speed:sp(+$('speed').value)});since=0;$('log').textContent='';$('gw').textContent='';moves=[];routeTrail=[]};
+$('bTcs').onclick=()=>{post('tcs',{text:$('tcs').value});$('tcs').value=''};
+$('bPause').onclick=()=>post(paused?'unpause':'pause');
+function curSim(){return paused?now:now+(performance.now()-stamp)/1000*speed}
+function carAt(){ // linear interpolation of the active car_move on simulated time
+  const t=curSim();let pos=S.car_pos;
+  for(const m of moves){const f=m.duration>0?Math.min(1,Math.max(0,(t-m.sim)/m.duration)):1;
+    if(f>0){pos=[m.frm[0]+(m.to[0]-m.frm[0])*f,m.frm[1]+(m.to[1]-m.frm[1])*f]}}
+  return pos}
+function draw(){
+  requestAnimationFrame(draw);if(!S||ready<2)return;
+  if(cv.width!==mapImg.naturalWidth*1.2){cv.width=Math.round(mapImg.naturalWidth*1.2);cv.height=Math.round(mapImg.naturalHeight*1.2)}
+  cx.drawImage(mapImg,0,0,cv.width,cv.height);
+  cx.lineWidth=3;cx.strokeStyle='rgba(42,109,244,.9)';cx.beginPath();
+  for(const r of routeTrail){r.forEach((p,i)=>i?cx.lineTo(p[0],p[1]):cx.moveTo(p[0],p[1]))}cx.stroke();
+  const p=carAt();S.car_pos=p;const w=S.car_size[0],h=S.car_size[1];
+  cx.drawImage(carImg,p[0]-w/2,p[1]-h/2,w,h);
+  $('clock').textContent=curSim().toFixed(1)}
+async function poll(){
+  try{const st=await (await fetch('/api/state?since='+since)).json();
+    now=st.now;speed=st.speed;paused=st.paused;stamp=performance.now();since=st.next;
+    $('bPause').textContent=paused?'Resume clock':'Pause clock';$('bStart').disabled=st.started;
+    if(!S.car_pos||!moves.length)S.car_pos=st.car;
+    $('where').textContent=st.route>=0?'Route '+st.route:'';
+    if(speed>0)$('speedLbl').textContent=Math.round(speed*100)/100+'x';
+    for(const e of st.events){
+      if(e.kind==='log'){const L=$('log');L.textContent+=e.data.text+'\n';L.scrollTop=L.scrollHeight}
+      else if(e.kind==='car_move'){moves.push({sim:e.sim,duration:e.data.duration,frm:e.data.frm,to:e.data.to});if(moves.length>3)moves.shift();
+        if(e.data.route!=null&&S.routes[e.data.route]&&!routeTrail.includes(S.routes[e.data.route]))routeTrail.push(S.routes[e.data.route]);if(routeTrail.length>2)routeTrail.shift()}
+      else if(e.kind==='gw_update'||e.kind==='gw_signal'||e.kind==='stimulus'||e.kind==='scenario'){const G=$('gw');G.textContent+='['+e.sim.toFixed(1)+'s] '+e.kind+' '+JSON.stringify(e.data)+'\n';G.scrollTop=G.scrollHeight}
+    }}catch(err){}
+  setTimeout(poll,150)}
+fetch('/api/static').then(r=>r.json()).then(s=>{S=s;S.car_pos=s.car_start;poll();draw()});
+</script></body></html>

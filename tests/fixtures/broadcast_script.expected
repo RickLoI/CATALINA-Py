@@ -1,0 +1,245 @@
+-- counter=0
+S1: flags= abort=[] delete=[] satisfied=[]
+S2: flags= abort=[] delete=[] satisfied=[]
+S3: flags= abort=[] delete=[] satisfied=[]
+S4: flags= abort=[] delete=[] satisfied=[]
+-- counter=5
+S1: flags=active_desires_with_options,internal_signals,executed_action, abort=[] delete=[] satisfied=[]
+S2: flags=internal_signals, abort=[] delete=[] satisfied=[]
+S3: flags=active_desires_with_options,internal_signals, abort=[] delete=[] satisfied=[]
+S4: flags=internal_signals,executed_action, abort=[] delete=[] satisfied=[]
+-- counter=13
+S1: flags=perceptions, abort=[] delete=[] satisfied=[]
+S2: flags=perceptions, abort=[] delete=[] satisfied=[]
+S3: flags= abort=[] delete=[] satisfied=[]
+S4: flags= abort=[] delete=[] satisfied=[]
+-- counter=15
+S1: flags= abort=[] delete=[(true,,,[])] satisfied=[]
+S2: flags= abort=[] delete=[] satisfied=[]
+S3: flags= abort=[] delete=[(true,,,[])] satisfied=[]
+S4: flags= abort=[] delete=[(true,sender1,sender1,[d1])] satisfied=[]
+-- counter=16
+S1: flags=thresholds, abort=[] delete=[(true,,,[])] satisfied=[]
+S2: flags=thresholds, abort=[] delete=[] satisfied=[]
+S3: flags=thresholds, abort=[] delete=[(true,,,[])] satisfied=[]
+S4: flags=thresholds, abort=[] delete=[(true,sender1,sender1,[d1])] satisfied=[]
+-- counter=17
+S1: flags=thresholds, abort=[] delete=[(true,,,[])] satisfied=[]
+S2: flags=thresholds, abort=[] delete=[] satisfied=[]
+S3: flags=thresholds, abort=[] delete=[(true,,,[])] satisfied=[]
+S4: flags=thresholds, abort=[] delete=[(true,sender1,sender1,[d1])] satisfied=[]
+-- counter=18
+S1: flags= abort=[] delete=[] satisfied=[]
+S2: flags= abort=[] delete=[] satisfied=[]
+S3: flags= abort=[] delete=[] satisfied=[]
+S4: flags= abort=[] delete=[] satisfied=[]
+-- counter=24
+S1: flags=standing_desires, abort=[] delete=[] satisfied=[(true,,,[])]
+S2: flags= abort=[] delete=[] satisfied=[(true,sender3,sender3,[])]
+S3: flags=standing_desires, abort=[] delete=[] satisfied=[]
+S4: flags=standing_desires, abort=[] delete=[] satisfied=[]
+-- counter=27
+S1: flags=standing_desires,perceptions, abort=[] delete=[] satisfied=[(true,,,[])]
+S2: flags=predicates,perceptions, abort=[] delete=[] satisfied=[(true,sender3,sender3,[])]
+S3: flags=standing_desires, abort=[] delete=[] satisfied=[]
+S4: flags=predicates,standing_desires, abort=[] delete=[] satisfied=[]
+-- counter=28
+S1: flags= abort=[] delete=[] satisfied=[]
+S2: flags= abort=[] delete=[] satisfied=[]
+S3: flags= abort=[] delete=[] satisfied=[]
+S4: flags= abort=[] delete=[] satisfied=[]
+-- counter=41
+S1: flags=standing_desires,active_desires,stimuli,selected_intentions,internal_signals,perceptions,action_to_execute, abort=[] delete=[] satisfied=[]
+S2: flags=active_desires,stimuli,internal_signals,perceptions, abort=[] delete=[] satisfied=[]
+S3: flags=uninhibited_data,standing_desires,stimuli,internal_signals, abort=[] delete=[] satisfied=[]
+S4: flags=standing_desires,internal_signals, abort=[] delete=[] satisfied=[]
+-- counter=45
+S1: flags=standing_desires,active_desires,stimuli,selected_intentions,internal_signals,perceptions,action_to_execute, abort=[] delete=[] satisfied=[(true,,,[])]
+S2: flags=beliefs,active_desires,stimuli,internal_signals,perceptions, abort=[] delete=[] satisfied=[(true,sender2,sender2,[d3, d0])]
+S3: flags=beliefs,uninhibited_data,standing_desires,stimuli,internal_signals, abort=[] delete=[] satisfied=[]
+S4: flags=standing_desires,internal_signals, abort=[] delete=[] satisfied=[]
+-- counter=50
+S1: flags=standing_desires,active_desires,active_desires_with_options,stimuli,selected_intentions,internal_signals,perceptions,action_to_execute, abort=[] delete=[] satisfied=[(true,,,[])]
+S2: flags=beliefs,active_desires,stimuli,internal_signals,perceptions, abort=[] delete=[] satisfied=[(true,sender2,sender2,[d3, d0])]
+S3: flags=beliefs,uninhibited_data,standing_desires,active_desires_with_options,stimuli,internal_signals, abort=[] delete=[] satisfied=[]
+S4: flags=standing_desires,internal_signals, abort=[] delete=[] satisfied=[]
+-- counter=50
+S1: flags=standing_desires,active_desires,active_desires_with_options,stimuli,selected_intentions,internal_signals,perceptions,action_to_execute, abort=[] delete=[] satisfied=[(true,,,[])]
+S2: flags=beliefs,active_desires,stimuli,internal_signals,perceptions, abort=[] delete=[] satisfied=[(true,sender2,sender2,[d3, d0])]
+S3: flags=beliefs,uninhibited_data,standing_desires,active_desires_with_options,stimuli,internal_signals, abort=[] delete=[] satisfied=[]
+S4: flags=standing_desires,internal_signals, abort=[] delete=[] satisfied=[]
+-- counter=50
+S1: flags=standing_desires,active_desires,active_desires_with_options,stimuli,selected_intentions,internal_signals,perceptions,action_to_execute, abort=[] delete=[] satisfied=[(true,,,[])]
+S2: flags=beliefs,active_desires,stimuli,internal_signals,perceptions, abort=[] delete=[] satisfied=[(true,sender2,sender2,[d3, d0])]
+S3: flags=beliefs,uninhibited_data,standing_desires,active_desires_with_options,stimuli,internal_signals, abort=[] delete=[] satisfied=[]
+S4: flags=standing_desires,internal_signals, abort=[] delete=[] satisfied=[]
+-- counter=53
+S1: flags=standing_desires,active_desires,active_desires_with_options,stimuli,selected_intentions,internal_signals,perceptions,action_to_execute, abort=[] delete=[(true,,,[])] satisfied=[(true,,,[])]
+S2: flags=beliefs,active_desires,stimuli,internal_signals,perceptions, abort=[] delete=[] satisfied=[(true,sender2,sender2,[d3, d0])]
+S3: flags=beliefs,uninhibited_data,standing_desires,active_desires_with_options,stimuli,internal_signals, abort=[] delete=[(true,,,[])] satisfied=[]
+S4: flags=standing_desires,internal_signals, abort=[] delete=[(true,sender3,sender3,[d6, d3])] satisfied=[]
+-- counter=55
+S1: flags=standing_desires,active_desires,active_desires_with_options,stimuli,selected_intentions,internal_signals,perceptions,action_to_execute, abort=[] delete=[(true,,,[])] satisfied=[(true,,,[])]
+S2: flags=beliefs,active_desires,stimuli,internal_signals,perceptions, abort=[] delete=[] satisfied=[(true,sender2,sender2,[d3, d0])]
+S3: flags=beliefs,uninhibited_data,standing_desires,active_desires_with_options,stimuli,internal_signals, abort=[] delete=[(true,,,[])] satisfied=[]
+S4: flags=standing_desires,internal_signals, abort=[] delete=[(true,sender3,sender3,[d6, d3])] satisfied=[]
+-- counter=55
+S1: flags=standing_desires,active_desires,active_desires_with_options,stimuli,selected_intentions,internal_signals,perceptions,action_to_execute, abort=[] delete=[(true,,,[])] satisfied=[(true,,,[])]
+S2: flags=beliefs,active_desires,stimuli,internal_signals,perceptions, abort=[] delete=[] satisfied=[(true,sender2,sender2,[d3, d0])]
+S3: flags=beliefs,uninhibited_data,standing_desires,active_desires_with_options,stimuli,internal_signals, abort=[] delete=[(true,,,[])] satisfied=[]
+S4: flags=standing_desires,internal_signals, abort=[] delete=[(true,sender3,sender3,[d6, d3])] satisfied=[]
+-- counter=58
+S1: flags= abort=[] delete=[] satisfied=[]
+S2: flags= abort=[] delete=[] satisfied=[]
+S3: flags=uninhibited_data, abort=[] delete=[] satisfied=[]
+S4: flags= abort=[] delete=[] satisfied=[]
+-- counter=68
+S1: flags= abort=[] delete=[] satisfied=[]
+S2: flags= abort=[] delete=[] satisfied=[]
+S3: flags= abort=[] delete=[] satisfied=[]
+S4: flags= abort=[] delete=[] satisfied=[]
+-- counter=68
+S1: flags= abort=[] delete=[] satisfied=[]
+S2: flags= abort=[] delete=[] satisfied=[]
+S3: flags= abort=[] delete=[] satisfied=[]
+S4: flags= abort=[] delete=[] satisfied=[]
+-- counter=71
+S1: flags=selected_intentions,perceptions, abort=[] delete=[] satisfied=[]
+S2: flags=perceptions, abort=[] delete=[] satisfied=[]
+S3: flags= abort=[] delete=[] satisfied=[]
+S4: flags= abort=[] delete=[] satisfied=[]
+-- counter=77
+S1: flags=important_beliefs, abort=[] delete=[] satisfied=[(true,,,[])]
+S2: flags=beliefs,important_beliefs, abort=[] delete=[] satisfied=[(true,sender1,sender1,[d4, d5])]
+S3: flags=beliefs,important_beliefs, abort=[] delete=[] satisfied=[]
+S4: flags=important_beliefs, abort=[] delete=[] satisfied=[]
+-- counter=80
+S1: flags=thresholds,internal_signals,important_beliefs, abort=[] delete=[] satisfied=[(true,,,[])]
+S2: flags=beliefs,thresholds,internal_signals,important_beliefs, abort=[] delete=[] satisfied=[(true,sender1,sender1,[d4, d5])]
+S3: flags=beliefs,thresholds,internal_signals,important_beliefs, abort=[] delete=[] satisfied=[]
+S4: flags=thresholds,internal_signals,important_beliefs, abort=[] delete=[] satisfied=[]
+-- counter=101
+S1: flags=standing_desires,active_desires,active_desires_with_options,thresholds,internal_signals,perceptions,important_beliefs,filtered_stimuli,executed_action, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])(true,,,[])(true,,,[])] satisfied=[(true,,,[])(true,,,[])(true,,,[])]
+S2: flags=beliefs,active_desires,thresholds,internal_signals,perceptions,important_beliefs,filtered_stimuli, abort=[] delete=[] satisfied=[(true,sender1,sender1,[d4, d5])(true,sender2,sender2,[d2, d2])(true,sender2,sender2,[d6, d0, d8])]
+S3: flags=beliefs,standing_desires,active_desires_with_options,thresholds,internal_signals,important_beliefs, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])(true,,,[])(true,,,[])] satisfied=[]
+S4: flags=standing_desires,thresholds,internal_signals,important_beliefs,filtered_stimuli,executed_action, abort=[] delete=[(true,sender3,sender3,[d0])(true,sender1,sender1,[d4])(true,sender2,sender2,[d4, d4])(true,sender2,sender2,[d9, d5])(true,sender1,sender1,[d1])] satisfied=[]
+-- counter=101
+S1: flags=standing_desires,active_desires,active_desires_with_options,thresholds,internal_signals,perceptions,important_beliefs,filtered_stimuli,executed_action, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])(true,,,[])(true,,,[])] satisfied=[(true,,,[])(true,,,[])(true,,,[])]
+S2: flags=beliefs,active_desires,thresholds,internal_signals,perceptions,important_beliefs,filtered_stimuli, abort=[] delete=[] satisfied=[(true,sender1,sender1,[d4, d5])(true,sender2,sender2,[d2, d2])(true,sender2,sender2,[d6, d0, d8])]
+S3: flags=beliefs,standing_desires,active_desires_with_options,thresholds,internal_signals,important_beliefs, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])(true,,,[])(true,,,[])] satisfied=[]
+S4: flags=standing_desires,thresholds,internal_signals,important_beliefs,filtered_stimuli,executed_action, abort=[] delete=[(true,sender3,sender3,[d0])(true,sender1,sender1,[d4])(true,sender2,sender2,[d4, d4])(true,sender2,sender2,[d9, d5])(true,sender1,sender1,[d1])] satisfied=[]
+-- counter=101
+S1: flags=standing_desires,active_desires,active_desires_with_options,thresholds,internal_signals,perceptions,important_beliefs,filtered_stimuli,executed_action, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])(true,,,[])(true,,,[])] satisfied=[(true,,,[])(true,,,[])(true,,,[])]
+S2: flags=beliefs,active_desires,thresholds,internal_signals,perceptions,important_beliefs,filtered_stimuli, abort=[] delete=[] satisfied=[(true,sender1,sender1,[d4, d5])(true,sender2,sender2,[d2, d2])(true,sender2,sender2,[d6, d0, d8])]
+S3: flags=beliefs,standing_desires,active_desires_with_options,thresholds,internal_signals,important_beliefs, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])(true,,,[])(true,,,[])] satisfied=[]
+S4: flags=standing_desires,thresholds,internal_signals,important_beliefs,filtered_stimuli,executed_action, abort=[] delete=[(true,sender3,sender3,[d0])(true,sender1,sender1,[d4])(true,sender2,sender2,[d4, d4])(true,sender2,sender2,[d9, d5])(true,sender1,sender1,[d1])] satisfied=[]
+-- counter=111
+S1: flags=active_desires_with_options,perceptions,important_beliefs,filtered_stimuli, abort=[] delete=[] satisfied=[]
+S2: flags=beliefs,perceptions,important_beliefs,filtered_stimuli, abort=[] delete=[] satisfied=[]
+S3: flags=beliefs,active_desires_with_options,important_beliefs, abort=[] delete=[] satisfied=[]
+S4: flags=important_beliefs,filtered_stimuli, abort=[] delete=[] satisfied=[]
+-- counter=116
+S1: flags=active_desires_with_options,stimuli,selected_intentions,perceptions,important_beliefs,filtered_stimuli, abort=[] delete=[] satisfied=[(true,,,[])]
+S2: flags=beliefs,stimuli,perceptions,important_beliefs,filtered_stimuli, abort=[] delete=[] satisfied=[(true,sender3,sender3,[])]
+S3: flags=beliefs,active_desires_with_options,stimuli,important_beliefs, abort=[] delete=[] satisfied=[]
+S4: flags=important_beliefs,filtered_stimuli, abort=[] delete=[] satisfied=[]
+-- counter=125
+S1: flags=active_desires,active_desires_with_options,stimuli,selected_intentions,perceptions,important_beliefs,filtered_stimuli,action_to_execute, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])] satisfied=[(true,,,[])]
+S2: flags=beliefs,active_desires,stimuli,perceptions,important_beliefs,filtered_stimuli, abort=[] delete=[] satisfied=[(true,sender3,sender3,[])]
+S3: flags=beliefs,active_desires_with_options,stimuli,important_beliefs, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])] satisfied=[]
+S4: flags=important_beliefs,filtered_stimuli, abort=[] delete=[(true,sender3,sender3,[])(true,sender1,sender1,[d4, d7, d1])(true,sender3,sender3,[d2, d5, d0])] satisfied=[]
+-- counter=125
+S1: flags=active_desires,active_desires_with_options,stimuli,selected_intentions,perceptions,important_beliefs,filtered_stimuli,action_to_execute, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])] satisfied=[(true,,,[])]
+S2: flags=beliefs,active_desires,stimuli,perceptions,important_beliefs,filtered_stimuli, abort=[] delete=[] satisfied=[(true,sender3,sender3,[])]
+S3: flags=beliefs,active_desires_with_options,stimuli,important_beliefs, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])] satisfied=[]
+S4: flags=important_beliefs,filtered_stimuli, abort=[] delete=[(true,sender3,sender3,[])(true,sender1,sender1,[d4, d7, d1])(true,sender3,sender3,[d2, d5, d0])] satisfied=[]
+-- counter=129
+S1: flags=active_desires,active_desires_with_options,stimuli,selected_intentions,thresholds,perceptions,important_beliefs,filtered_stimuli,action_to_execute, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])] satisfied=[(true,,,[])]
+S2: flags=beliefs,active_desires,stimuli,thresholds,perceptions,important_beliefs,filtered_stimuli, abort=[] delete=[] satisfied=[(true,sender3,sender3,[])]
+S3: flags=beliefs,active_desires_with_options,stimuli,thresholds,important_beliefs, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])] satisfied=[]
+S4: flags=thresholds,important_beliefs,filtered_stimuli, abort=[] delete=[(true,sender3,sender3,[])(true,sender1,sender1,[d4, d7, d1])(true,sender3,sender3,[d2, d5, d0])] satisfied=[]
+-- counter=133
+S1: flags=active_desires,active_desires_with_options,stimuli,selected_intentions,thresholds,perceptions,important_beliefs,filtered_stimuli,action_to_execute,executed_action, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])] satisfied=[(true,,,[])]
+S2: flags=beliefs,active_desires,stimuli,thresholds,perceptions,important_beliefs,filtered_stimuli, abort=[] delete=[] satisfied=[(true,sender3,sender3,[])]
+S3: flags=beliefs,active_desires_with_options,stimuli,thresholds,important_beliefs, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])] satisfied=[]
+S4: flags=thresholds,important_beliefs,filtered_stimuli,executed_action, abort=[] delete=[(true,sender3,sender3,[])(true,sender1,sender1,[d4, d7, d1])(true,sender3,sender3,[d2, d5, d0])] satisfied=[]
+-- counter=134
+S1: flags=active_desires,active_desires_with_options,stimuli,selected_intentions,thresholds,perceptions,important_beliefs,filtered_stimuli,action_to_execute,executed_action, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])] satisfied=[(true,,,[])(true,,,[])]
+S2: flags=beliefs,active_desires,stimuli,thresholds,perceptions,important_beliefs,filtered_stimuli, abort=[] delete=[] satisfied=[(true,sender3,sender3,[])(true,sender1,sender1,[d2])]
+S3: flags=beliefs,active_desires_with_options,stimuli,thresholds,important_beliefs, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])] satisfied=[]
+S4: flags=thresholds,important_beliefs,filtered_stimuli,executed_action, abort=[] delete=[(true,sender3,sender3,[])(true,sender1,sender1,[d4, d7, d1])(true,sender3,sender3,[d2, d5, d0])] satisfied=[]
+-- counter=135
+S1: flags=active_desires,active_desires_with_options,stimuli,selected_intentions,thresholds,perceptions,important_beliefs,filtered_stimuli,action_to_execute,executed_action, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])] satisfied=[(true,,,[])(true,,,[])]
+S2: flags=beliefs,active_desires,stimuli,thresholds,perceptions,important_beliefs,filtered_stimuli, abort=[] delete=[] satisfied=[(true,sender3,sender3,[])(true,sender1,sender1,[d2])]
+S3: flags=beliefs,active_desires_with_options,stimuli,thresholds,important_beliefs, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])] satisfied=[]
+S4: flags=thresholds,important_beliefs,filtered_stimuli,executed_action, abort=[] delete=[(true,sender3,sender3,[])(true,sender1,sender1,[d4, d7, d1])(true,sender3,sender3,[d2, d5, d0])] satisfied=[]
+-- counter=135
+S1: flags=active_desires,active_desires_with_options,stimuli,selected_intentions,thresholds,perceptions,important_beliefs,filtered_stimuli,action_to_execute,executed_action, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])] satisfied=[(true,,,[])(true,,,[])]
+S2: flags=beliefs,active_desires,stimuli,thresholds,perceptions,important_beliefs,filtered_stimuli, abort=[] delete=[] satisfied=[(true,sender3,sender3,[])(true,sender1,sender1,[d2])]
+S3: flags=beliefs,active_desires_with_options,stimuli,thresholds,important_beliefs, abort=[] delete=[(true,,,[])(true,,,[])(true,,,[])] satisfied=[]
+S4: flags=thresholds,important_beliefs,filtered_stimuli,executed_action, abort=[] delete=[(true,sender3,sender3,[])(true,sender1,sender1,[d4, d7, d1])(true,sender3,sender3,[d2, d5, d0])] satisfied=[]
+-- counter=141
+S1: flags=active_desires,internal_signals,perceptions,action_to_execute, abort=[] delete=[(true,,,[])] satisfied=[]
+S2: flags=active_desires,internal_signals,perceptions, abort=[] delete=[] satisfied=[]
+S3: flags=internal_signals, abort=[] delete=[(true,,,[])] satisfied=[]
+S4: flags=internal_signals, abort=[] delete=[(true,sender2,sender2,[])] satisfied=[]
+-- counter=142
+S1: flags=active_desires,stimuli,internal_signals,perceptions,action_to_execute, abort=[] delete=[(true,,,[])] satisfied=[]
+S2: flags=active_desires,stimuli,internal_signals,perceptions, abort=[] delete=[] satisfied=[]
+S3: flags=stimuli,internal_signals, abort=[] delete=[(true,,,[])] satisfied=[]
+S4: flags=internal_signals, abort=[] delete=[(true,sender2,sender2,[])] satisfied=[]
+-- counter=160
+S1: flags=filtered_stimuli, abort=[] delete=[(true,,,[])(true,,,[])] satisfied=[]
+S2: flags=filtered_stimuli, abort=[] delete=[] satisfied=[]
+S3: flags= abort=[] delete=[(true,,,[])(true,,,[])] satisfied=[]
+S4: flags=filtered_stimuli, abort=[] delete=[(true,sender3,sender3,[])(true,sender3,sender3,[d4, d8])] satisfied=[]
+-- counter=166
+S1: flags=active_desires,internal_signals,filtered_stimuli,executed_action, abort=[] delete=[(true,,,[])(true,,,[])] satisfied=[]
+S2: flags=active_desires,internal_signals,filtered_stimuli, abort=[] delete=[] satisfied=[]
+S3: flags=uninhibited_data,internal_signals, abort=[] delete=[(true,,,[])(true,,,[])] satisfied=[]
+S4: flags=internal_signals,filtered_stimuli,executed_action, abort=[] delete=[(true,sender3,sender3,[])(true,sender3,sender3,[d4, d8])] satisfied=[]
+-- counter=169
+S1: flags=active_desires,internal_signals,perceptions,filtered_stimuli,executed_action, abort=[] delete=[(true,,,[])(true,,,[])] satisfied=[]
+S2: flags=predicates,active_desires,internal_signals,perceptions,filtered_stimuli, abort=[] delete=[] satisfied=[]
+S3: flags=uninhibited_data,internal_signals, abort=[] delete=[(true,,,[])(true,,,[])] satisfied=[]
+S4: flags=predicates,internal_signals,filtered_stimuli,executed_action, abort=[] delete=[(true,sender3,sender3,[])(true,sender3,sender3,[d4, d8])] satisfied=[]
+-- counter=193
+S1: flags=standing_desires,active_desires_with_options,stimuli,selected_intentions,thresholds,filtered_stimuli, abort=[] delete=[] satisfied=[]
+S2: flags=stimuli,thresholds,filtered_stimuli, abort=[] delete=[] satisfied=[]
+S3: flags=standing_desires,active_desires_with_options,stimuli,thresholds, abort=[] delete=[] satisfied=[]
+S4: flags=standing_desires,thresholds,filtered_stimuli, abort=[] delete=[] satisfied=[]
+-- counter=194
+S1: flags=standing_desires,active_desires,active_desires_with_options,stimuli,selected_intentions,thresholds,filtered_stimuli, abort=[] delete=[] satisfied=[]
+S2: flags=active_desires,stimuli,thresholds,filtered_stimuli, abort=[] delete=[] satisfied=[]
+S3: flags=standing_desires,active_desires_with_options,stimuli,thresholds, abort=[] delete=[] satisfied=[]
+S4: flags=standing_desires,thresholds,filtered_stimuli, abort=[] delete=[] satisfied=[]
+-- counter=225
+S1: flags= abort=[] delete=[] satisfied=[]
+S2: flags= abort=[] delete=[] satisfied=[]
+S3: flags= abort=[] delete=[] satisfied=[]
+S4: flags= abort=[] delete=[] satisfied=[]
+-- counter=227
+S1: flags= abort=[] delete=[(true,,,[])] satisfied=[]
+S2: flags= abort=[] delete=[] satisfied=[]
+S3: flags= abort=[] delete=[(true,,,[])] satisfied=[]
+S4: flags= abort=[] delete=[(true,sender1,sender1,[])] satisfied=[]
+-- counter=227
+S1: flags= abort=[] delete=[(true,,,[])] satisfied=[]
+S2: flags= abort=[] delete=[] satisfied=[]
+S3: flags= abort=[] delete=[(true,,,[])] satisfied=[]
+S4: flags= abort=[] delete=[(true,sender1,sender1,[])] satisfied=[]
+-- counter=228
+S1: flags= abort=[] delete=[(true,,,[])] satisfied=[]
+S2: flags= abort=[] delete=[] satisfied=[]
+S3: flags=uninhibited_data, abort=[] delete=[(true,,,[])] satisfied=[]
+S4: flags= abort=[] delete=[(true,sender1,sender1,[])] satisfied=[]
+-- counter=230
+S1: flags=thresholds, abort=[] delete=[(true,,,[])] satisfied=[]
+S2: flags=thresholds, abort=[] delete=[] satisfied=[]
+S3: flags=uninhibited_data,thresholds, abort=[] delete=[(true,,,[])] satisfied=[]
+S4: flags=thresholds, abort=[] delete=[(true,sender1,sender1,[])] satisfied=[]
+-- counter=236
+S1: flags=thresholds,perceptions, abort=[] delete=[(true,,,[])(true,,,[])] satisfied=[(true,,,[])]
+S2: flags=thresholds,perceptions, abort=[] delete=[] satisfied=[(true,sender3,sender3,[])]
+S3: flags=uninhibited_data,thresholds, abort=[] delete=[(true,,,[])(true,,,[])] satisfied=[]
+S4: flags=thresholds, abort=[] delete=[(true,sender1,sender1,[])(true,sender1,sender1,[d4, d7, d1])] satisfied=[]

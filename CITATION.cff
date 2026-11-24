@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the CATALINA papers listed below."
+title: "CATALINA (Python port)"
+type: software
+license: Apache-2.0
+authors:
+  - family-names: Averna
+    given-names: Guido
+    affiliation: "ICAR-CNR"
+  - family-names: Cossentino
+    given-names: Massimo
+    affiliation: "ICAR-CNR"
+  - family-names: Pilato
+    given-names: Giovanni
+    affiliation: "ICAR-CNR"
+references:
+  - type: conference-paper
+    title: "The agent working cycle in CATALINA"
+    authors:
+      - {family-names: Cossentino, given-names: Massimo}
+      - {family-names: Averna, given-names: Guido}
+      - {family-names: Pilato, given-names: Giovanni}
+      - {family-names: Mylopoulos, given-names: Myrto}
+      - {family-names: Mylopoulos, given-names: John}
+    collection-title: "Proceedings of WOA 2025, the 26th Workshop \"From Objects to Agents\""
+    volume: 4028
+    start: 2
+    end: 18
+    year: 2025
+    location: {name: "Trento, Italy"}
+    publisher: {name: "CEUR-WS.org"}
+    url: "https://ceur-ws.org/Vol-4028/paper11.pdf"
+  - type: conference-paper
+    title: "The agent metamodel in CATALINA (Cognitive Agent prActical reasoning archItecture)"
+    authors:
+      - {family-names: Cossentino, given-names: Massimo}
+      - {family-names: Pilato, given-names: Giovanni}
+      - {family-names: Averna, given-names: Guido}
+      - {family-names: Mylopoulos, given-names: Myrto}
+      - {family-names: Mylopoulos, given-names: John}
+    collection-title: "Multi-Agent Systems: 22nd European Conference, EUMAS 2025, Bucharest, Romania, September 3-5, 2025, Proceedings, Part I"
+    start: 163
+    end: 178
+    year: 2025
+    publisher: {name: "Springer"}
+  - type: conference-paper
+    title: "Practical reasoning with attention mechanisms"
+    authors:
+      - {family-names: Cossentino, given-names: Massimo}
+      - {family-names: Pilato, given-names: Giovanni}
+      - {family-names: Averna, given-names: Guido}
+      - {family-names: Mylopoulos, given-names: Myrto}
+      - {family-names: Mylopoulos, given-names: John}
+    collection-title: "2025 International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR)"
+    start: 1
+    end: 6
+    year: 2025
+    publisher: {name: "IEEE"}
+    doi: "10.1109/SIMPAR62925.2025.10979194"
